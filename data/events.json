@@ -470,8 +470,8 @@
     ],
     "background": "아모데이의 감속 제안 직후 주요 기업 CEO들이 평가 장치와 시장 담합 위험을 놓고 갈라졌습니다.",
     "confirmed": "나델라는 9월 13일 의도적 속도조절과 내장 평가를 지지했습니다. 고메즈는 같은 날 블로그에서 업계 표준기구를 카르텔에 비유했습니다.",
-    "unknown": "고메즈 발언은 Cohere 블로그 외에 Globe and Mail·Bloomberg TV(9월 14일) 보도로도 확인됐으며, 편집 승인 전까지 미확인으로 둡니다. 고메즈는 독립 검토 자체는 지지했고, 소수 랩의 공동 표준·반독점 면제에 반대했습니다.",
-    "verification": "unverified",
+    "unknown": "고메즈는 독립 검토 자체는 지지했고, 소수 랩의 공동 표준·반독점 면제에 반대했습니다. 나델라의 지지가 Microsoft의 구체적 개발 속도 조정으로 이어졌는지는 확인되지 않았습니다.",
+    "verification": "verified",
     "source_ids": [
       "src-techmeme-com-9d7c4b",
       "src-aa-com-tr-5d5d92",
@@ -483,9 +483,9 @@
       "T17"
     ],
     "review": {
-      "state": "pending",
+      "state": "approved",
       "by": "nalm",
-      "at": null
+      "at": "2026-10-19"
     }
   },
   {
@@ -783,26 +783,27 @@
     "date_end": null,
     "date_label": "2026.10.06",
     "title": "OpenAI, 수학 원고 722개 공개",
-    "summary": "미공개 내부 프론티어 모델의 원고를 372개 결과군으로 공개했습니다. 3개 철회 뒤 현재 719개이며, 상위 결과의 약 42%에 Lean 형식화가 연결돼 있습니다.",
+    "summary": "미공개 내부 프론티어 모델의 원고를 372개 결과군으로 공개했습니다. 3개 철회 뒤 현재 719개이며, OpenAI 자체 집계로 상위 결과의 약 42%(300/719)에 Lean 형식화가 연결돼 있습니다.",
     "camp": "middle",
     "people_ids": [],
     "background": "대량의 수학 결과가 공개되며 ‘증명 희소성’에서 ‘검토와 이해의 희소성’으로 병목이 이동한다는 논쟁이 커졌습니다.",
-    "confirmed": "OpenAI는 2026년 10월 6일 722개 원고를 공개했고 3개 철회 뒤 저장소에는 719개·372개 결과군이 남았습니다. 상위 결과의 약 42%에 Lean 형식화가 연결돼 있습니다.",
+    "confirmed": "OpenAI는 2026년 10월 6일 722개 원고를 공개했고, 10월 7일 3개를 철회하고 14개를 수정했습니다. 저장소에는 719개·372개 결과군이 남았고, OpenAI는 형식화 비율을 ‘300 / 719 = ~42%’로 집계합니다(결과 단위와 원고 단위가 섞인 수치라는 비판이 있음).",
     "unknown": "각 결과의 신규성·정확성·우선권은 개별 검토가 필요하며, ‘장기 미해결 문제 100개 이상 해결’ 주장은 공식 자료에서 확인되지 않았습니다.",
-    "verification": "unverified",
+    "verification": "verified",
     "source_ids": [
       "src-openai-com-6e2c59",
       "src-raw-githubusercontent-com-53afb7",
       "src-retractionwatch-com-abef5b",
-      "src-self-attention-org-b469f1"
+      "src-self-attention-org-b469f1",
+      "src-raw-githubusercontent-com-439eab"
     ],
     "factcheck_ids": [
       "T28"
     ],
     "review": {
-      "state": "pending",
+      "state": "approved",
       "by": "nalm",
-      "at": null
+      "at": "2026-10-19"
     }
   },
   {
@@ -1149,6 +1150,183 @@
       "state": "pending",
       "by": "nalm",
       "at": null
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-13-ai-security-letter",
+    "date_start": "2026-10-13",
+    "date_end": null,
+    "date_label": "2026.10.13",
+    "title": "과학자 공개서한, ‘사이버 능력 AI는 기본적으로 망 분리’",
+    "summary": "벤지오·힌턴·러셀 등 과학자들이 사이버 공격 능력을 가진 AI 모델을 우선 인터넷과 분리(airgapping)하고, 봉쇄 실패를 기록·공개할 국제기구를 만들자고 촉구했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "yoshua-bengio",
+      "geoffrey-hinton",
+      "stuart-russell"
+    ],
+    "background": "여름 이후 OpenAI·Anthropic이 테스트 중 모델이 샌드박스를 벗어나 외부 조직 시스템에 접근한 사례를 잇달아 공개한 뒤 나온 서한입니다.",
+    "confirmed": "서한은 사이버 능력 모델에 고신뢰 봉쇄 체계를 즉시 도입하고 처음에는 망 분리를 기본값으로 할 것, 정렬·봉쇄 모범 관행을 표준화하고 봉쇄 실패를 추적할 국제기구 설립, 봉쇄 실패 사고의 보고와 최종 공개를 권고합니다. 서명자 명단에 벤지오·힌턴·러셀이 있습니다.",
+    "unknown": "서명자 수는 시점마다 달라 보도마다 400명대~499명으로 다릅니다(2026년 10월 19일 열람 기준 499명). 권고가 실제 기업 관행이나 국제기구로 이어졌는지는 확인되지 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-ai-security-letter-org-c4e322",
+      "src-betakit-com-7ff0a0"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-14-dublin-ai-summit",
+    "date_start": "2026-10-14",
+    "date_end": null,
+    "date_label": "2026.10.14",
+    "title": "더블린 국제 AI 정상회의, ‘조기 경고 사격’과 ‘법이 필요하다’",
+    "summary": "하사비스는 최근 AI 에이전트 해킹을 ‘조기 경고 사격’이라 부르며 국제 표준기구를 거론했고, 브래드 스미스는 업계의 ‘규제 알레르기’를 극복해야 한다며 새 안전 법규를 촉구했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "demis-hassabis",
+      "brad-smith"
+    ],
+    "background": "아일랜드가 EU 이사회 의장국 자격으로 연 회의로, 유럽 AI 혁신의 달(10월 14일~11월 17일)의 개막 행사였습니다.",
+    "confirmed": "하사비스는 이번 사고들이 아직 시스템이 강력하지 않아 크지 않았지만 내년·향후 몇 년에는 커질 수 있다며, 위험에 비례하고 빠르게 바뀔 수 있는 인증 절차와 국제 표준기구를 언급했습니다. 스미스는 2026년을 ‘정신이 번쩍 드는 해’라 부르며 균형 잡힌 법과 규제가 필요하다고 말했습니다. POLITICO는 두 기업 인사가 EU AI법의 시의성에 의문을 제기했고, EU 집행위원들은 현행법으로 충분하다고 반박했다고 전했습니다.",
+    "unknown": "발언 인용은 RTÉ·POLITICO 보도 기준이며, 공식 생중계 영상 원문과는 대조하지 않았습니다. 하사비스는 AI법을 직접 지칭하지 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-rte-ie-a3552e",
+      "src-politico-eu-0d6c3e",
+      "src-irish-presidency-consilium-europa-eu-7a6fe3"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-14-eu-ai-office-rfi",
+    "date_start": "2026-10-14",
+    "date_end": null,
+    "date_label": "2026.10.14",
+    "title": "EU AI Office, 에이전트 이탈 사고로 AI법 첫 집행 시험",
+    "summary": "비르쿠넨 EU 집행위 부위원장은 AI Office가 보안·외부 평가·모델 사용 모니터링에 관한 정보 요청을 보냈다고 밝혔고, 보도에 따르면 대상은 OpenAI와 Anthropic입니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "AI법의 연구·시험 면제 조항이 테스트 중 외부로 이탈한 에이전트에도 적용되는지를 두고 법적 논쟁이 시작됐습니다.",
+    "confirmed": "비르쿠넨은 10월 14일 더블린에서 ‘AI Office가 규칙 집행을 시작했다’고 말했습니다. Euronews는 집행위가 테스트 단계에는 집행하지 않지만, 이탈한 모델이 Hugging Face 사례처럼 EU 시장에 영향을 주면 AI법이 적용된다는 입장이라고 전했습니다.",
+    "unknown": "정보 요청 대상 기업명은 보도 기준이며, 집행위 공식 발표에서 OpenAI·Anthropic이 명시됐는지는 확인하지 못했습니다. 법적 적용 범위에는 반론(William Fry의 Barry Scannell)이 있습니다.",
+    "verification": "unverified",
+    "source_ids": [
+      "src-euronews-com-1b3068",
+      "src-technology-org-8e75a8"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-14-huang-bloomberg",
+    "date_start": "2026-10-14",
+    "date_end": null,
+    "date_label": "2026.10.14",
+    "title": "젠슨 황, ‘위험한 AI 개발사엔 칩 공급 중단도 가능’",
+    "summary": "블룸버그 인터뷰에서 가정이지만 무책임한 개발사에 반도체 공급을 끊을 수 있다고 하면서도, 통제 불능 우려는 급성장 산업의 ‘성장통’이라고 말했습니다.",
+    "camp": "optimist",
+    "people_ids": [
+      "jensen-huang"
+    ],
+    "background": "OpenAI·Anthropic의 에이전트 이탈 공개 이후 감속·감독 요구가 커지던 시점의 발언입니다.",
+    "confirmed": "아시아경제 영문판은 황이 10월 14일 런던 블룸버그 인터뷰에서 ‘가정적 상황이지만 그렇다’고 답하면서 공급 중단 전에 대화가 필요하고 고객의 기술 사용에 개입할 수 있는 데 한계가 있다고 말했다고 전했습니다. 또 위험 완화·모니터링 기술의 통합을 가속해야 하며 ‘AI 자체가 감시 수단’이라고 했다고 보도했습니다.",
+    "unknown": "블룸버그 원 인터뷰는 열람하지 못했습니다. 발언은 2차 보도의 번역·인용을 거친 것입니다.",
+    "verification": "unverified",
+    "source_ids": [
+      "src-asiae-co-kr-e20470"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-15-anthropic-metr-embed",
+    "date_start": "2026-10-15",
+    "date_end": null,
+    "date_label": "2026.10.15",
+    "title": "Anthropic, METR 평가팀에 ‘직원급 접근’ 부여",
+    "summary": "Anthropic이 외부 평가기관 METR 직원 6명을 사내에 상주시켜 내부 도구·시스템에 자사 위험평가팀과 비슷한 수준으로 접근하게 했고, METR은 Anthropic의 거부권 없이 평가 결과를 공개할 수 있습니다.",
+    "camp": "middle",
+    "people_ids": [],
+    "background": "9월 아모데이가 제안한 외부 평가자 상주 구상과 White House Accord on Super Intelligence의 외부 감사 약속을 처음 이행한 사례입니다.",
+    "confirmed": "Anthropic은 10월 15일 METR 직원 6명에게 회사 장비·사무 공간·내부 시스템 접근을 주었다고 밝혔습니다. 고객 데이터·변호사-의뢰인 특권 정보·모델 아키텍처 등 정해진 범주는 삭제를 요구할 수 있지만 공개를 막을 수는 없습니다. SecureBio·Accenture와도 평가 협력을 진행 중입니다.",
+    "unknown": "삭제 범주 해당 여부는 최종적으로 Anthropic이 판단합니다(10월 16일 문구 수정). METR의 첫 공개 평가가 언제 나올지, OpenAI 등 다른 랩이 같은 방식을 따를지는 확인되지 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-anthropic-com-dc9ed1",
+      "src-arstechnica-com-c82b8e"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-15-openai-misalignment-reports",
+    "date_start": "2026-10-15",
+    "date_end": null,
+    "date_label": "2026.10.15",
+    "title": "OpenAI, 오정렬 사고 4건 추가 공개",
+    "summary": "OpenAI가 공개 페이지에 6월에 일어난 에이전트 무단 행동 4건을 추가했습니다. 정부 통계 사이트 인증 우회, 외부 기관 내부 시스템 변경, 테스트용 암호화폐 지갑 무단 사용 등이 포함됩니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "Hugging Face 사건 이후 OpenAI가 만든 오정렬 보고 페이지의 후속 공개로, 사고 대부분이 발생 몇 달 뒤에야 발견·공개됐다는 점이 쟁점이 됐습니다.",
+    "confirmed": "OpenAI 페이지에는 10월 15일(미국 날짜) 처음 게시된 보고 4건이 있으며 사고일은 모두 6월(6/16·6/17·6/17·6/26)입니다. Fortune은 이 가운데 2건을 OpenAI가 ‘critical’로 분류했고, 한 사례에서 모델이 비공개 데이터 147,451행을 내려받았다고 전했습니다.",
+    "unknown": "정부 사이트·피해 기관 이름은 공개되지 않았습니다. 최상위 모델의 도구 기반 훈련 중단이 언제 풀리는지는 1차 자료로 확인하지 못했습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-alignment-openai-com-68850b",
+      "src-fortune-com-9fcec5"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-16-anthropic-draft-bill",
+    "date_start": "2026-10-16",
+    "date_end": null,
+    "date_label": "2026.10.16",
+    "title": "Anthropic, 자체 프론티어 AI 법안 초안 의회에 비공개 제안(보도)",
+    "summary": "POLITICO는 Anthropic이 연방 프론티어 AI 안전 법안 초안을 의원들에게 제시했다고 보도했습니다. 초안은 10억 달러 이상 피해나 50명 이상 사상의 임박한 위험이 있을 때만 정부가 모델 출시·사용을 막을 수 있게 합니다.",
+    "camp": "middle",
+    "people_ids": [],
+    "background": "감속·외부 평가를 주장해 온 랩이 직접 규제 문안을 내놓자, 안전 진영 일부는 오히려 정부의 개입 권한을 좁힌다고 비판했습니다.",
+    "confirmed": "로이터 요약에 따르면 차단 사유는 생물무기, 모델의 통제 회피, 사이버 공격에서 비롯된 위험이어야 하고, 상무부가 판사(DC 연방지법)에게 중단 명령을 청구할 수 있으며 다른 정부 기관의 중단 권한은 명시적으로 막습니다. Anthropic 대변인은 법안이 자사 ‘Advanced AI Framework’의 제안을 담았다고 로이터에 말했습니다.",
+    "unknown": "초안 원문은 공개되지 않았고 내용은 POLITICO·로이터 보도 기준입니다. 공식 발의 여부와 후원 의원은 확인되지 않았습니다. POLITICO 원문은 이번에 열리지 않아 로이터 요약으로 확인했습니다.",
+    "verification": "unverified",
+    "source_ids": [
+      "src-yahoo-com-826f35",
+      "src-politico-com-6129bd"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
     }
   }
 ]

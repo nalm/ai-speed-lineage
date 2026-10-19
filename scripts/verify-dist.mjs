@@ -66,9 +66,12 @@ if (missing.length) problems.push("정정표에 없는 '수정 필요' 항목: "
 const unv = fc.records.filter(r => r.status === "확인 불가").map(r => r.id);
 const unvRows = unv.map(id => {
   const p = D.people.find(x => x.factcheck_ids.includes(id)), e = D.lineage.edges.find(x => x.factcheck_ids.includes(id));
-  const o = p || e; return { id, target: p ? `people.json#${p.id}` : `lineage.json#${e.id}`, verification: o.verification, ok: o.verification === "unverified" };
+  const o = p || e;
+  // 이후 회차에서 출처를 확보해 nalm이 승인한 경우(review.state=approved, 출처 1개 이상)는 '해소'로 인정
+  const resolved = o.verification === "verified" && o.review?.state === "approved" && (o.source_ids || []).length > 0;
+  return { id, target: p ? `people.json#${p.id}` : `lineage.json#${e.id}`, verification: o.verification, resolved, resolved_at: resolved ? o.review.at : null, ok: o.verification === "unverified" || resolved };
 });
-for (const r of unvRows) if (!r.ok) problems.push(`확인 불가 ${r.id}가 미확인으로 표시되지 않음`);
+for (const r of unvRows) if (!r.ok) problems.push(`확인 불가 ${r.id}가 미확인으로 표시되지 않음(또는 승인·출처 없이 검증됨으로 바뀜)`);
 const applied = rows.filter(r => r.applied).length;
 if (applied !== rows.length) problems.push(`정정 미반영 ${rows.length - applied}건`);
 
@@ -76,7 +79,7 @@ const md = [
   `# 팩트체크 정정 반영표 (2026-10-19 재검증)`, ``,
   `- 빌드: \`app/dist/index.html\` · 데이터 기준일 ${D.meta.data_as_of}`,
   `- '수정 필요' ${needed.length}건 중 **${applied}건 반영 확인** (검사: 빌드된 HTML에 정정 문구가 있고 틀린 문구가 없는지 + 데이터 조건)`,
-  `- '확인 불가' ${unv.length}건: ${unvRows.map(r => `${r.id} → ${r.target} = ${r.verification === "unverified" ? "미확인" : r.verification}`).join(" / ")}`, ``,
+  `- '확인 불가' ${unv.length}건: ${unvRows.map(r => `${r.id} → ${r.target} = ${r.verification === "unverified" ? "미확인" : r.resolved ? `검증됨(${r.resolved_at} 승인으로 해소)` : r.verification}`).join(" / ")}`, ``,
   `| ID | 반영 | 반영 위치 | 정정 내용 | 데이터상 위치(자동 탐지) |`, `|---|---|---|---|---|`,
   ...rows.map(r => `| ${r.id} | ${r.applied ? "✅" : "❌ " + r.fails.join("; ")} | ${r.where} | ${r.summary.replace(/\|/g, "/")} | ${r.located_in.join("<br>") || "(삭제·구조 변경 — 데이터 조건으로 검사)"} |`),
   ``, `## 빌드 결과 수치`, ``,

@@ -254,16 +254,18 @@
       "to": "n-ea-community",
       "type": "flow",
       "label": "",
-      "note": "널리 언급되는 관계(FHI와 옥스퍼드 EA의 근접성)이지만, 이번 재검증에서 이를 직접 서술한 출처를 확보하지 못해 미확인으로 표시합니다.",
-      "verification": "unverified",
-      "source_ids": [],
+      "note": "보스트롬이 창립한 옥스퍼드 인류미래연구소(FHI)의 최종 보고서(2024)는 효과적 이타주의(EA)가 FHI의 거시전략·존재위험 개념의 영향을 받았고, 반대로 EA도 FHI의 연구 주제 선택에 영향을 주었다고 적습니다. 영향은 보스트롬 개인이 아니라 연구소 차원의 상호 교류로 서술됩니다.",
+      "verification": "verified",
+      "source_ids": [
+        "src-ora-ox-ac-uk-7c51c6"
+      ],
       "factcheck_ids": [
         "L02"
       ],
       "review": {
-        "state": "pending",
+        "state": "approved",
         "by": "nalm",
-        "at": null
+        "at": "2026-10-19"
       }
     },
     {

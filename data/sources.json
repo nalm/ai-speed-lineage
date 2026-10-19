@@ -2076,5 +2076,313 @@
     "kind": "secondary",
     "accessed_at": "2026-10-19",
     "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-raw-githubusercontent-com-439eab",
+    "url": "https://raw.githubusercontent.com/openai/math/main/history.md",
+    "publisher": "OpenAI (GitHub)",
+    "title": "history.md",
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-ora-ox-ac-uk-7c51c6",
+    "url": "https://ora.ox.ac.uk/objects/uuid:8c1ab46a-061c-479d-b587-8909989e4f51/files/s707959314",
+    "publisher": "Oxford University Research Archive",
+    "title": "Future of Humanity Institute 2005-2024: Final Report (Anders Sandberg)",
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-nickbostrom-com-6e9167",
+    "url": "https://nickbostrom.com/optimal.pdf",
+    "publisher": "Nick Bostrom",
+    "title": "Optimal Timing for Superintelligence (working paper v1.0, 2026)",
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-efi-ed-ac-uk-2bc3cd",
+    "url": "https://efi.ed.ac.uk/people/shannon-vallor/",
+    "publisher": "Edinburgh Futures Institute",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-academic-oup-com-3b69ba",
+    "url": "https://academic.oup.com/book/56292",
+    "publisher": "Oxford Academic (OUP)",
+    "title": "The AI Mirror",
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-annenberg-usc-edu-04d17b",
+    "url": "https://annenberg.usc.edu/faculty/kate-crawford",
+    "publisher": "USC Annenberg",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-yalebooks-yale-edu-152298",
+    "url": "https://yalebooks.yale.edu/book/9780300264630/atlas-of-ai/",
+    "publisher": "Yale University Press",
+    "title": "Atlas of AI",
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-news1-kr-0333bf",
+    "url": "https://www.news1.kr/finance/general-finance/6322373",
+    "publisher": "뉴스1",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-ai-security-letter-org-c4e322",
+    "url": "https://ai-security-letter.org/",
+    "publisher": "AI and Cybersecurity Open Letter",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-betakit-com-7ff0a0",
+    "url": "https://betakit.com/geoffrey-hinton-yoshua-bengio-join-400-scientists-calling-for-international-ai-regulator/",
+    "publisher": "BetaKit",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-rte-ie-a3552e",
+    "url": "https://www.rte.ie/news/2026/1014/1595263-ai-summit-dublin/",
+    "publisher": "RTÉ",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-politico-eu-0d6c3e",
+    "url": "https://www.politico.eu/article/ai-eu-pressure-law-microsoft-brad-smith-google-deepmind-tech/",
+    "publisher": "POLITICO Europe",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-irish-presidency-consilium-europa-eu-7a6fe3",
+    "url": "https://irish-presidency.consilium.europa.eu/en/events/international-ai-summit/",
+    "publisher": "Irish Presidency of the Council of the EU",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-euronews-com-1b3068",
+    "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+    "publisher": "Euronews",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-technology-org-8e75a8",
+    "url": "https://www.technology.org/2026/10/15/eu-ai-act-first-enforcement-openai-anthropic-ai-office/",
+    "publisher": "Technology.org",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-asiae-co-kr-e20470",
+    "url": "https://www.asiae.co.kr/en/article/2026101509124376433",
+    "publisher": "The Asia Business Daily",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-anthropic-com-dc9ed1",
+    "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+    "publisher": "Anthropic",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-arstechnica-com-c82b8e",
+    "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+    "publisher": "Ars Technica (Financial Times)",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-alignment-openai-com-68850b",
+    "url": "https://alignment.openai.com/misalignment-reports/",
+    "publisher": "OpenAI",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-fortune-com-9fcec5",
+    "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+    "publisher": "Fortune",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-yahoo-com-826f35",
+    "url": "https://www.yahoo.com/news/articles/anthropic-quietly-pitches-own-ai-223755665.html",
+    "publisher": "Reuters (Yahoo News)",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
+  },
+  {
+    "id": "src-politico-com-6129bd",
+    "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
+    "publisher": "POLITICO",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "collect-2026-10-19",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-19"
+    }
   }
 ]

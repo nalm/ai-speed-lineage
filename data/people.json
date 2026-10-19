@@ -257,9 +257,9 @@
     "country": null,
     "role": "Cohere 공동창업자·CEO",
     "stance": "업계 주도 감속 표준이 혁신을 막는 담합으로 굳을 수 있다고 비판",
-    "moment": "2026년 9월 13일 블로그에서 아모데이식 표준기구를 ‘다른 이름의 카르텔’로 규정",
+    "moment": "2026년 9월 13일 Cohere 블로그에서 소수 랩의 공동 표준·반독점 면제 구상을 ‘다른 이름의 카르텔’(원문 a cartel by any other name)로 규정 · 독립 검토 자체는 지지",
     "portrait": null,
-    "verification": "unverified",
+    "verification": "verified",
     "source_ids": [
       "src-cohere-com-ea4e0e",
       "src-theglobeandmail-com-2aedfa",
@@ -269,11 +269,11 @@
       "P09"
     ],
     "review": {
-      "state": "pending",
+      "state": "approved",
       "by": "nalm",
-      "at": null
+      "at": "2026-10-19"
     },
-    "unverified_note": "Cohere 블로그 외에 Globe and Mail·Bloomberg TV(9월 14일) 보도로 교차 확인했으며, 편집 승인 전까지 미확인으로 둡니다."
+    "unverified_note": null
   },
   {
     "id": "eliezer-yudkowsky",
@@ -312,24 +312,25 @@
     "field": null,
     "country": null,
     "role": "Macrostrategy Research Initiative 창립자·수석연구원",
-    "stance": "초지능 존재위험을 주류화했으나 최근에는 ‘해결된 세계’의 의미도 탐구",
-    "moment": "2024년 『Deep Utopia』의 논조 변화는 연구진의 해석",
+    "stance": "초지능 존재위험을 주류화했으나, 2026년에는 개발 지연의 비용(현존 인류의 사망)도 함께 따지며 ‘빠르게 역량에 도달한 뒤 배치 전 짧게 멈추는’ 경로를 제시",
+    "moment": "2026년 워킹페이퍼 「Optimal Timing for Superintelligence」에서 ‘swift to harbor, slow to berth’를 제안하고, 잘못 설계된 일시정지는 득보다 해가 클 수 있다고 경고",
     "portrait": null,
-    "verification": "unverified",
+    "verification": "verified",
     "source_ids": [
       "src-nickbostrom-com-6d66be",
       "src-nickbostrom-com-e395c4",
-      "src-find-and-update-company-information-service-gov-uk-f8e054"
+      "src-find-and-update-company-information-service-gov-uk-f8e054",
+      "src-nickbostrom-com-6e9167"
     ],
     "factcheck_ids": [
       "P11"
     ],
     "review": {
-      "state": "pending",
+      "state": "approved",
       "by": "nalm",
-      "at": null
+      "at": "2026-10-19"
     },
-    "unverified_note": "『Deep Utopia』(2024) 이후의 ‘논조 변화’는 편집진의 해석입니다."
+    "unverified_note": null
   },
   {
     "id": "geoffrey-hinton",
@@ -1194,20 +1195,23 @@
     "field": "법·역사·철학·사회",
     "country": null,
     "role": "에든버러대학교 데이터·AI 윤리 석좌교수",
-    "stance": "초지능 반란보다 인간이 기계적 사고에 판단을 넘겨 인간다움을 잃는 것이 더 현실적인 실존 위험이라고 경고",
+    "stance": "오늘의 AI를 과거 데이터의 오류·편향을 비추는 ‘뒤를 향한 거울’로 보고, 파멸 예언을 거부하면서 인간의 도덕적·지적 성장을 되살리는 기술을 요구",
     "moment": "2024년 『The AI Mirror』 출간",
     "portrait": null,
-    "verification": "unverified",
-    "source_ids": [],
+    "verification": "verified",
+    "source_ids": [
+      "src-efi-ed-ac-uk-2bc3cd",
+      "src-academic-oup-com-3b69ba"
+    ],
     "factcheck_ids": [
       "P42"
     ],
     "review": {
-      "state": "pending",
+      "state": "approved",
       "by": "nalm",
-      "at": null
+      "at": "2026-10-19"
     },
-    "unverified_note": "약력·저서를 확인할 수 있는 출처를 이번 재검증에서 확보하지 못했습니다. 출처를 확인할 때까지 미확인으로 둡니다."
+    "unverified_note": null
   },
   {
     "id": "zeynep-tufekci",
@@ -1412,17 +1416,20 @@
     "stance": "AI를 환경·노동·데이터에서 가치를 추출해 권력을 집중하는 산업 시스템으로 분석",
     "moment": "2021년 『Atlas of AI』에서 AI의 물질적·환경적 비용을 체계화",
     "portrait": null,
-    "verification": "unverified",
-    "source_ids": [],
+    "verification": "verified",
+    "source_ids": [
+      "src-annenberg-usc-edu-04d17b",
+      "src-yalebooks-yale-edu-152298"
+    ],
     "factcheck_ids": [
       "P50"
     ],
     "review": {
-      "state": "pending",
+      "state": "approved",
       "by": "nalm",
-      "at": null
+      "at": "2026-10-19"
     },
-    "unverified_note": "약력·저서를 확인할 수 있는 출처를 이번 재검증에서 확보하지 못했습니다. 출처를 확인할 때까지 미확인으로 둡니다."
+    "unverified_note": null
   },
   {
     "id": "kim-dae-shik",
@@ -1435,7 +1442,7 @@
     "country": "한국",
     "role": "KAIST 전기및전자공학부 교수 · 뇌과학자",
     "stance": "AI의 자율성·무기화를 경고하면서 도구로서의 실용론도 병행",
-    "moment": "초기 신중론에서 2026년 위험 경고 수위를 높임",
+    "moment": "2026년 10월 13일 강연에서 ‘지금부터 2027년까지 가장 중요한 이슈는 보안’이라며 재귀적 자기개선·자율 해킹을 경고하면서도, 기업이 AI 도입을 늦춰서는 안 된다고 조언",
     "portrait": null,
     "verification": "verified",
     "source_ids": [
@@ -1448,9 +1455,9 @@
       "P51"
     ],
     "review": {
-      "state": "pending",
+      "state": "approved",
       "by": "nalm",
-      "at": null
+      "at": "2026-10-19"
     }
   },
   {
@@ -1462,7 +1469,7 @@
     "camp": "optimist",
     "field": null,
     "country": "한국",
-    "role": "국가AI전략위원회 부위원장",
+    "role": "국가AI전략위원회 상근부위원장",
     "stance": "한국의 G3 도약을 위한 대규모 투자 가속과 규제·혁신 균형을 주장",
     "moment": "2026년 8월 30일 국가AI전략위 부위원장 지명",
     "portrait": null,
@@ -1470,15 +1477,16 @@
     "source_ids": [
       "src-yna-co-kr-a31da6",
       "src-aikorea-go-kr-d5545e",
-      "src-yna-co-kr-083646"
+      "src-yna-co-kr-083646",
+      "src-news1-kr-0333bf"
     ],
     "factcheck_ids": [
       "P52"
     ],
     "review": {
-      "state": "pending",
+      "state": "approved",
       "by": "nalm",
-      "at": null
+      "at": "2026-10-19"
     }
   }
 ]
