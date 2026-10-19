@@ -1,0 +1,17 @@
+# Render Blueprint — 정적 사이트(무료). Render가 저장소에서 직접 빌드합니다.
+services:
+  - type: web
+    runtime: static
+    name: ai-speed-lineage
+    branch: main
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    autoDeploy: true
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin

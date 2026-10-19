@@ -1,0 +1,440 @@
+{
+  "lanes": [
+    {
+      "id": "intellectual-origins",
+      "order": 1,
+      "title": "지적 원조"
+    },
+    {
+      "id": "openai-split",
+      "order": 2,
+      "title": "OpenAI 분파"
+    },
+    {
+      "id": "deep-learning",
+      "order": 3,
+      "title": "딥러닝 학맥"
+    },
+    {
+      "id": "ai-consciousness",
+      "order": 4,
+      "title": "AI 의식 논쟁"
+    },
+    {
+      "id": "evaluation-critique",
+      "order": 5,
+      "title": "평가·구조 비판"
+    },
+    {
+      "id": "acceleration",
+      "order": 6,
+      "title": "가속 인프라"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "n-eliezer-yudkowsky",
+      "lane": "intellectual-origins",
+      "order": 1,
+      "person_id": "eliezer-yudkowsky",
+      "label": "유드코우스키",
+      "sub": "정렬 개념"
+    },
+    {
+      "id": "n-nick-bostrom",
+      "lane": "intellectual-origins",
+      "order": 2,
+      "person_id": "nick-bostrom",
+      "label": "보스트롬",
+      "sub": "학계 정식화"
+    },
+    {
+      "id": "n-ea-community",
+      "lane": "intellectual-origins",
+      "order": 3,
+      "person_id": null,
+      "label": "EA 커뮤니티",
+      "sub": "사상 전파",
+      "camp": "middle"
+    },
+    {
+      "id": "n-frontier-founders",
+      "lane": "intellectual-origins",
+      "order": 4,
+      "person_id": null,
+      "label": "OpenAI · Anthropic 창업자 계열",
+      "sub": "프론티어 랩으로 확산",
+      "camp": "middle"
+    },
+    {
+      "id": "n-sam-altman",
+      "lane": "openai-split",
+      "order": 1,
+      "person_id": "sam-altman",
+      "label": "알트만",
+      "sub": "사실상 가속"
+    },
+    {
+      "id": "n-dario-amodei",
+      "lane": "openai-split",
+      "order": 2,
+      "person_id": "dario-amodei",
+      "label": "아모데이",
+      "sub": "Anthropic · 감속"
+    },
+    {
+      "id": "n-ilya-sutskever",
+      "lane": "openai-split",
+      "order": 3,
+      "person_id": "ilya-sutskever",
+      "label": "수츠케버",
+      "sub": "SSI · 안전 우선"
+    },
+    {
+      "id": "n-david-robinson",
+      "lane": "openai-split",
+      "order": 4,
+      "person_id": "david-robinson",
+      "label": "로빈슨",
+      "sub": "사임 · 외부 비판"
+    },
+    {
+      "id": "n-paul-christiano",
+      "lane": "openai-split",
+      "order": 5,
+      "person_id": "paul-christiano",
+      "label": "크리스티아노",
+      "sub": "이사회 · 내부 개혁"
+    },
+    {
+      "id": "n-geoffrey-hinton",
+      "lane": "deep-learning",
+      "order": 1,
+      "person_id": "geoffrey-hinton",
+      "label": "힌턴",
+      "sub": "안전으로 선회"
+    },
+    {
+      "id": "n-ilya-sutskever-deep-learning",
+      "lane": "deep-learning",
+      "order": 2,
+      "person_id": "ilya-sutskever",
+      "label": "수츠케버",
+      "sub": "제자 · SSI"
+    },
+    {
+      "id": "n-yoshua-bengio",
+      "lane": "deep-learning",
+      "order": 3,
+      "person_id": "yoshua-bengio",
+      "label": "벤지오",
+      "sub": "안전으로 선회"
+    },
+    {
+      "id": "n-yann-lecun",
+      "lane": "deep-learning",
+      "order": 4,
+      "person_id": "yann-lecun",
+      "label": "르쿤",
+      "sub": "낙관 유지"
+    },
+    {
+      "id": "n-chris-olah",
+      "lane": "ai-consciousness",
+      "order": 1,
+      "person_id": "chris-olah",
+      "label": "크리스토퍼 올라",
+      "sub": "도덕적 지위 논의"
+    },
+    {
+      "id": "n-pope-leo-xiv",
+      "lane": "ai-consciousness",
+      "order": 2,
+      "person_id": "pope-leo-xiv",
+      "label": "교황 레오 14세",
+      "sub": "AI 의식 부정"
+    },
+    {
+      "id": "n-mustafa-suleyman",
+      "lane": "ai-consciousness",
+      "order": 3,
+      "person_id": "mustafa-suleyman",
+      "label": "술레이만",
+      "sub": "“AI는 의식이 없다”"
+    },
+    {
+      "id": "n-andrej-karpathy",
+      "lane": "evaluation-critique",
+      "order": 1,
+      "person_id": "andrej-karpathy",
+      "label": "안드레이 카파시",
+      "sub": "과대예측 경계·현장 검증"
+    },
+    {
+      "id": "n-terence-tao",
+      "lane": "evaluation-critique",
+      "order": 2,
+      "person_id": "terence-tao",
+      "label": "테렌스 타오",
+      "sub": "이해·설명 중심 재정렬"
+    },
+    {
+      "id": "n-amba-kak",
+      "lane": "evaluation-critique",
+      "order": 3,
+      "person_id": "amba-kak",
+      "label": "암바 칵",
+      "sub": "독점·권력 집중 비판"
+    },
+    {
+      "id": "n-rumman-chowdhury",
+      "lane": "evaluation-critique",
+      "order": 4,
+      "person_id": "rumman-chowdhury",
+      "label": "루만 초우더리",
+      "sub": "독립 평가 인프라"
+    },
+    {
+      "id": "n-marc-andreessen",
+      "lane": "acceleration",
+      "order": 2,
+      "person_id": "marc-andreessen",
+      "label": "앤드리슨",
+      "sub": "테크노 낙관 이념"
+    },
+    {
+      "id": "n-guillaume-verdon",
+      "lane": "acceleration",
+      "order": 1,
+      "person_id": "guillaume-verdon",
+      "label": "Beff Jezos",
+      "sub": "e/acc 창시"
+    },
+    {
+      "id": "n-jensen-huang",
+      "lane": "acceleration",
+      "order": 3,
+      "person_id": "jensen-huang",
+      "label": "젠슨 황",
+      "sub": "AI 팩토리"
+    },
+    {
+      "id": "n-liu-shengyu",
+      "lane": "acceleration",
+      "order": 4,
+      "person_id": "liu-shengyu",
+      "label": "류성위",
+      "sub": "중국 오픈소스 가속"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-l01",
+      "from": "n-eliezer-yudkowsky",
+      "to": "n-nick-bostrom",
+      "type": "flow",
+      "label": "",
+      "note": "『Superintelligence』(2014) 감사의 글에서 유드코우스키와의 토론에 감사하고 ‘seed AI’ 용어를 그에게 귀속했습니다. 보스트롬의 실존위험 연구(2002~)는 독자적 출발점도 있어 영향이 일방적이지는 않습니다.",
+      "verification": "verified",
+      "source_ids": [
+        "src-publicism-info-83b273"
+      ],
+      "factcheck_ids": [
+        "L01"
+      ],
+      "review": {
+        "state": "pending",
+        "by": "nalm",
+        "at": null
+      }
+    },
+    {
+      "id": "e-l02",
+      "from": "n-nick-bostrom",
+      "to": "n-ea-community",
+      "type": "flow",
+      "label": "",
+      "note": "널리 언급되는 관계(FHI와 옥스퍼드 EA의 근접성)이지만, 이번 재검증에서 이를 직접 서술한 출처를 확보하지 못해 미확인으로 표시합니다.",
+      "verification": "unverified",
+      "source_ids": [],
+      "factcheck_ids": [
+        "L02"
+      ],
+      "review": {
+        "state": "pending",
+        "by": "nalm",
+        "at": null
+      }
+    },
+    {
+      "id": "e-l03",
+      "from": "n-ea-community",
+      "to": "n-frontier-founders",
+      "type": "flow",
+      "label": "",
+      "note": "2017년 Open Philanthropy의 OpenAI 3천만 달러 지원·이사직과 Anthropic 창업자들과의 관계가 보도됐습니다. ‘창업자 계열’ 전체가 EA의 영향을 받았다는 뜻은 아닙니다.",
+      "verification": "verified",
+      "source_ids": [
+        "src-news-ycombinator-com-639668",
+        "src-forum-effectivealtruism-org-cc94f9"
+      ],
+      "factcheck_ids": [
+        "L03"
+      ],
+      "review": {
+        "state": "pending",
+        "by": "nalm",
+        "at": null
+      }
+    },
+    {
+      "id": "e-l04",
+      "from": "n-sam-altman",
+      "to": "n-dario-amodei",
+      "type": "opposition",
+      "label": "",
+      "note": "Axios는 2026년 10월 3일 알트만의 발언을 Anthropic(아모데이)에 대한 간접 비판으로 보도했습니다.",
+      "verification": "verified",
+      "source_ids": [
+        "src-axios-com-86cc59"
+      ],
+      "factcheck_ids": [
+        "L04"
+      ],
+      "review": {
+        "state": "pending",
+        "by": "nalm",
+        "at": null
+      }
+    },
+    {
+      "id": "e-l06",
+      "from": "n-david-robinson",
+      "to": "n-paul-christiano",
+      "type": "agreement",
+      "label": "경고 인용",
+      "note": "로빈슨은 사임 글에서 크리스티아노의 ‘비가역적 통제 상실’ 경고를 자기 주장의 근거로 인용했습니다. 두 사람은 대립 관계가 아니며, 외부 비판(로빈슨)과 이사회 안의 내부 개혁(크리스티아노)으로 경로만 다릅니다.",
+      "verification": "verified",
+      "source_ids": [
+        "src-theatlantic-com-1b88c4",
+        "src-nytimes-com-e832d2",
+        "src-techcrunch-com-a17db2"
+      ],
+      "factcheck_ids": [
+        "L06"
+      ],
+      "review": {
+        "state": "pending",
+        "by": "nalm",
+        "at": null
+      }
+    },
+    {
+      "id": "e-l07",
+      "from": "n-geoffrey-hinton",
+      "to": "n-ilya-sutskever-deep-learning",
+      "type": "flow",
+      "label": "제자",
+      "note": "수츠케버는 토론토대에서 힌턴의 지도로 박사학위(2013)를 받았습니다.",
+      "verification": "verified",
+      "source_ids": [
+        "src-sgs-utoronto-ca-de8a4c",
+        "src-cs-toronto-edu-a13758",
+        "src-utoronto-ca-42305d"
+      ],
+      "factcheck_ids": [
+        "L07"
+      ],
+      "review": {
+        "state": "pending",
+        "by": "nalm",
+        "at": null
+      }
+    },
+    {
+      "id": "e-l08",
+      "from": "n-yoshua-bengio",
+      "to": "n-yann-lecun",
+      "type": "opposition",
+      "label": "",
+      "note": "두 사람은 2023년 Munk 토론과 온라인 공개 논쟁에서 반대편에 섰습니다.",
+      "verification": "verified",
+      "source_ids": [
+        "src-venturebeat-com-87a38f",
+        "src-munkdebates-com-a760be"
+      ],
+      "factcheck_ids": [
+        "L08"
+      ],
+      "review": {
+        "state": "pending",
+        "by": "nalm",
+        "at": null
+      }
+    },
+    {
+      "id": "e-l09",
+      "from": "n-chris-olah",
+      "to": "n-pope-leo-xiv",
+      "type": "opposition",
+      "label": "",
+      "note": "Anthropic(올라)은 불확실성을 전제로 모델 복지를 검토하고, 교황 회칙 『Magnifica Humanitas』는 AI의 경험·양심을 부정합니다. 두 사람의 직접 공방이 아니라 구조적 입장 차이입니다.",
+      "verification": "verified",
+      "source_ids": [
+        "src-nytimes-com-c83b56",
+        "src-ascensionpress-com-fd84eb"
+      ],
+      "factcheck_ids": [
+        "L09"
+      ],
+      "review": {
+        "state": "pending",
+        "by": "nalm",
+        "at": null
+      }
+    },
+    {
+      "id": "e-l10",
+      "from": "n-pope-leo-xiv",
+      "to": "n-mustafa-suleyman",
+      "type": "agreement",
+      "label": "입장 일치",
+      "note": "AI 의식 문제에서 두 사람은 같은 편입니다. 교황 회칙과 술레이만 모두 AI의 의식·도덕적 지위를 부정합니다. 이 쟁점의 실제 대립은 술레이만과 Anthropic 사이에 있습니다.",
+      "verification": "verified",
+      "source_ids": [
+        "src-ascensionpress-com-fd84eb",
+        "src-mustafa-suleyman-ai-faf270",
+        "src-channelnewsasia-com-5b9547"
+      ],
+      "factcheck_ids": [
+        "L10"
+      ],
+      "review": {
+        "state": "pending",
+        "by": "nalm",
+        "at": null
+      }
+    },
+    {
+      "id": "e-l11",
+      "from": "n-guillaume-verdon",
+      "to": "n-marc-andreessen",
+      "type": "flow",
+      "label": "선언에 수용",
+      "note": "e/acc는 2022년 베르돈(@BasedBeffJezos) 등이 시작했고, 앤드리슨의 2023년 10월 16일 ‘The Techno-Optimist Manifesto’가 @BasedBeffJezos를 ‘Patron Saints’ 첫머리에 올렸습니다.",
+      "verification": "verified",
+      "source_ids": [
+        "src-a16z-com-455a30",
+        "src-forbes-com-106e9d"
+      ],
+      "factcheck_ids": [
+        "L11"
+      ],
+      "review": {
+        "state": "pending",
+        "by": "nalm",
+        "at": null
+      }
+    }
+  ]
+}

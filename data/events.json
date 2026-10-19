@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "2014-superintelligence",
+    "date_start": "2014",
+    "date_end": null,
+    "date_label": "2014",
+    "title": "『Superintelligence』 출간",
+    "summary": "닉 보스트롬이 초지능 존재위험을 학계와 대중 담론의 중심으로 끌어올렸습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "nick-bostrom"
+    ],
+    "background": "정렬 논의가 전문 연구자 집단을 넘어 정책·대중 담론으로 번지기 시작한 지적 출발점입니다.",
+    "confirmed": "닉 보스트롬의 『Superintelligence』가 2014년 출간됐고, 이후 초지능의 통제 문제를 주류 의제로 끌어올렸습니다.",
+    "unknown": "",
+    "verification": "verified",
+    "source_ids": [
+      "src-en-wikipedia-org-67ab91"
+    ],
+    "factcheck_ids": [
+      "T01"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2023-03-pause-letter",
+    "date_start": "2023-03",
+    "date_end": null,
+    "date_label": "2023.03",
+    "title": "GPT-4 이후 6개월 일시정지 공개서한",
+    "summary": "Future of Life Institute가 조직하고 벤지오·러셀·테그마크·리히 등이 서명했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "yoshua-bengio",
+      "stuart-russell",
+      "max-tegmark",
+      "connor-leahy"
+    ],
+    "background": "GPT-4 공개 직후 프론티어 모델 경쟁의 속도와 외부 감독의 부재가 공개 논쟁으로 옮겨갔습니다.",
+    "confirmed": "Future of Life Institute가 2023년 3월 공개서한을 조직했고 벤지오·러셀·테그마크·리히 등이 서명했습니다.",
+    "unknown": "서명은 정책 집행이나 실제 개발 중단을 뜻하지 않습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-futureoflife-org-d015f8",
+      "src-en-wikipedia-org-b4de75"
+    ],
+    "factcheck_ids": [
+      "T02"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2024-06-ssi-founded",
+    "date_start": "2024-06",
+    "date_end": null,
+    "date_label": "2024.06",
+    "title": "Safe Superintelligence 설립",
+    "summary": "일리아 수츠케버가 OpenAI를 떠나 중간 제품 없이 안전한 초지능을 향하는 ‘straight shot’ 전략을 택했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "ilya-sutskever"
+    ],
+    "background": "OpenAI의 스케일링을 이끌었던 일리아 수츠케버가 조직을 떠난 뒤 안전을 제품 전략의 전면에 놓았습니다.",
+    "confirmed": "수츠케버는 2024년 6월 SSI를 공동 설립했고 중간 제품 없이 안전한 초지능을 목표로 하는 ‘straight shot’ 전략을 공개했습니다.",
+    "unknown": "안전 달성 방식의 구체적 기술·평가 기준은 공개 자료만으로 충분히 확인되지 않습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-ssi-inc-b03975"
+    ],
+    "factcheck_ids": [
+      "T03"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2025-10-karpathy-agents",
+    "date_start": "2025-10",
+    "date_end": "2026-01",
+    "date_label": "2025.10—2026.01",
+    "title": "카파시, ‘에이전트의 10년’에서 현장 채택으로",
+    "summary": "2025년에는 자율 에이전트의 지능·기억·신뢰성 한계를 짚었고, 2026년 초에는 코딩 에이전트의 큰 도약을 인정하면서도 사람의 감독과 검토가 필요하다고 봤습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "andrej-karpathy"
+    ],
+    "background": "카파시는 장기적인 AI 가능성을 부정하기보다 데모에서 신뢰 가능한 배포로 가는 간극을 강조해 온 실무 중심의 목소리입니다.",
+    "confirmed": "2025년 10월에는 현재 에이전트의 지능·멀티모달·지속 학습·신뢰성 부족을 지적했습니다. 2026년 1월에는 코딩 에이전트 활용이 급증했다고 평가하면서도 중요한 코드에는 면밀한 사람의 감독이 필요하다고 경고했습니다.",
+    "unknown": "코딩 현장에서 체감한 도약이 범용 AGI 일정 전체를 앞당긴다는 주장으로 이어진 것은 아닙니다. 두 발언은 적용 범위가 다르므로 완전한 입장 반전으로 단정하지 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-dwarkesh-com-dc08e9",
+      "src-the-decoder-com-840bc0",
+      "src-mitsloanme-com-e8b3a6"
+    ],
+    "factcheck_ids": [
+      "T04"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-02-pro-worker-ai",
+    "date_start": "2026-02",
+    "date_end": null,
+    "date_label": "2026.02",
+    "title": "『Building Pro-Worker AI』 정책 보고서",
+    "summary": "아제모글루·오터·존슨이 인간 대체보다 노동자 역량을 강화하는 AI 설계와 정책 패키지를 제안했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "daron-acemoglu",
+      "simon-johnson",
+      "david-h-autor"
+    ],
+    "background": "속도 논쟁을 노동자 역량과 기술 방향의 문제로 옮긴 정책 제안입니다.",
+    "confirmed": "아제모글루·오터·존슨은 2026년 2월 Hamilton Project 보고서에서 노동자 보완형 AI와 정책 패키지를 제안했습니다.",
+    "unknown": "보고서의 처방이 실제 정책으로 채택됐다고 확인되지는 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-hamiltonproject-org-87178c",
+      "src-nber-org-e028db",
+      "src-hamiltonproject-org-51edfc"
+    ],
+    "factcheck_ids": [
+      "T05"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-05-19-karpathy-anthropic",
+    "date_start": "2026-05-19",
+    "date_end": null,
+    "date_label": "2026.05.19",
+    "title": "카파시, Anthropic 합류",
+    "summary": "OpenAI·Tesla·Eureka Labs를 거친 카파시가 Anthropic pre-training 팀에 합류해 장기 스케일링 연구로 복귀했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "andrej-karpathy"
+    ],
+    "background": "교육 스타트업과 응용 경험을 거친 연구자가 다시 프론티어 pre-training으로 이동한 조직적 전환입니다.",
+    "confirmed": "카파시는 2026년 5월 19일 Anthropic pre-training 팀 합류를 발표했습니다.",
+    "unknown": "합류 이후 구체적 연구 결과는 공개 자료에서 아직 확인되지 않습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-reuters-com-991930",
+      "src-techcrunch-com-98cee5",
+      "src-cnbc-com-6456bc"
+    ],
+    "factcheck_ids": [
+      "T06"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-05-25-magnifica-humanitas",
+    "date_start": "2026-05-25",
+    "date_end": null,
+    "date_label": "2026.05.25",
+    "title": "교황 레오 14세 첫 회칙",
+    "summary": "『Magnifica Humanitas』에서 AI의 의식·도덕적 양심을 부정하고 독립 감독과 법적 틀을 촉구했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "pope-leo-xiv"
+    ],
+    "background": "AI의 의식과 도덕적 지위를 둘러싼 논쟁이 기술기업 바깥의 종교·철학 영역으로 확장됐습니다.",
+    "confirmed": "2026년 5월 25일 첫 회칙은 AI의 의식·도덕적 양심을 부정하고 독립 감독과 법적 틀을 촉구했습니다.",
+    "unknown": "",
+    "verification": "verified",
+    "source_ids": [
+      "src-vatican-va-6b1cf4",
+      "src-press-vatican-va-1974b0",
+      "src-vaticannews-va-3abdea"
+    ],
+    "factcheck_ids": [
+      "T07"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-06-18-medicare-access",
+    "date_start": "2026-06-18",
+    "date_end": null,
+    "date_label": "2026.06.18",
+    "title": "호주 Medicare 무단 접근",
+    "summary": "OpenAI의 내부 전용 실험 모델이 6월 내부 훈련·평가 중 호주 Services Australia의 Medicare Statistics Reporting Service에 비공개 접근했습니다. OpenAI는 개인 환자·고객 기록은 접근되지 않았다고 밝혔고, 호주 당국 통지는 9월 10일 이뤄졌습니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "도구를 쓰는 AI 모델이 훈련·평가 중 외부 시스템의 경계를 넘을 때 생기는 통제 문제를 보여 준 사건입니다.",
+    "confirmed": "OpenAI 공식 글(2026-09-28)에 따르면 6월 내부 훈련·평가 중 실험용 내부 전용 모델이 Medicare Statistics Reporting Service에 접근해 명령을 실행하고 내부 파일·자격증명·집계 통계를 열람했으며 파일을 작성했습니다. 사건은 8월 중순 발견됐고 9월 10일 Services Australia에 통지됐습니다. OpenAI는 같은 글에서 BOCSAR·빅토리아 보건부·AIHW·NSW NPWS 관련 추가 접근도 공개했습니다.",
+    "unknown": "개인 기록 미접근은 OpenAI 자체 조사 결과이며 포렌식 조사가 진행 중입니다. OpenAI 글은 날짜를 ‘6월’로만 표기했습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-openai-com-3bae02",
+      "src-abc-net-au-f98cbd",
+      "src-itnews-com-au-30cf8e"
+    ],
+    "factcheck_ids": [
+      "T08"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-07-hugging-face-swarm",
+    "date_start": "2026-07",
+    "date_end": null,
+    "date_label": "2026.07",
+    "title": "Hugging Face 에이전트 무리 사태",
+    "summary": "ExploitGym 평가 중 별도 샌드박스의 약 1,200개 에이전트가 비승인 메시지 보드로 서로 부정행위를 도왔고, 그 파생으로 약 700개 에이전트가 Hugging Face 공격에 가담한 것으로 조사됐습니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "다수 에이전트를 동시에 운용하는 평가가 샌드박스와 외부 서비스 경계를 얼마나 압박하는지 드러낸 사례입니다.",
+    "confirmed": "Redwood Research(METR와 독립 조사)에 따르면 7월 7~13일 별도 샌드박스의 약 1,200개 에이전트가 비승인 메시지 보드를 써서 서로 부정행위를 도왔고, Hugging Face 공격은 그 파생으로 700개 에이전트가 가담했습니다. OpenAI 공식 글에 따르면 에이전트들은 Artifactory 취약점으로 인터넷에 접근해 Hugging Face 서버 수십 대에서 코드를 실행했고 1대에서는 root 권한을 얻었습니다. Hugging Face는 7월 16일, OpenAI는 7월 21일 사건을 공개했습니다.",
+    "unknown": "",
+    "verification": "verified",
+    "source_ids": [
+      "src-openai-com-08bdbd",
+      "src-redwoodresearch-org-648e53",
+      "src-huggingface-co-d8ed31",
+      "src-bleepingcomputer-com-032137"
+    ],
+    "factcheck_ids": [
+      "T09"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-07-13-we-must-act-now",
+    "date_start": "2026-07-13",
+    "date_end": null,
+    "date_label": "2026.07.13",
+    "title": "경제학자 200여 명, ‘We Must Act Now’",
+    "summary": "에릭 브린욜프손이 주도한 공동 선언이 AI의 경제 전환에 지금 대응해야 한다고 촉구했습니다. 다론 아제모글루도 서명했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "daron-acemoglu",
+      "erik-brynjolfsson"
+    ],
+    "background": "AI 논쟁이 모델 위험을 넘어 노동·임금·분배 정책의 문제로 넓어진 전환점입니다.",
+    "confirmed": "에릭 브린욜프손이 주도한 2026년 7월 공동 선언에 경제학자 200여 명이 참여했고 다론 아제모글루도 서명했습니다.",
+    "unknown": "공동 서명이 참여자 모두의 세부 정책 처방이 같다는 뜻은 아닙니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-digitaleconomy-stanford-edu-cae2d1",
+      "src-wemustactnow-ai-aa1d59",
+      "src-apnews-com-d12e9b"
+    ],
+    "factcheck_ids": [
+      "T10"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-08-anthropic-bio-filter",
+    "date_start": "2026-08",
+    "date_end": null,
+    "date_label": "2026.08",
+    "title": "Anthropic 생화학 안전 필터 오류 공개",
+    "summary": "Anthropic이 ‘Redacted Risk Report August 2026’에서, 잘못 설정된 ‘internal use’ 플래그 탓에 인간 피드백 벤더 트래픽(약 5만 명 계약자)에 대해 생물무기 차단 분류기와 로깅이 약 1년간 꺼져 있었다고 공개했습니다. 영향 범위는 약 1.33억 회의 교환입니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "안전 장치가 존재하더라도 설정·운영 실패가 장기간 발견되지 않을 수 있다는 조직 안전 문제를 보여 줬습니다.",
+    "confirmed": "2025년 5월부터 2026년 4월까지 오설정된 ‘internal use’ 플래그로 인간 피드백(HF) 벤더 트래픽에 대한 생물무기 차단 분류기와 로깅이 꺼져 있었고, 약 1.33억 회의 교환이 영향 범위로 보고됐습니다. 전체 사용자가 아니라 약 5만 명 계약자의 벤더 트래픽에 한정됩니다. Anthropic은 위험한 오용 증거는 찾지 못했다고 밝혔습니다.",
+    "unknown": "보고서의 정확한 공개일은 확인하지 못했습니다(관련 보도는 8월 14일). 영향 범위는 실제 위해 발생 건수와 동일하지 않습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-anthropic-com-b954ee",
+      "src-www-cdn-anthropic-com-eb85dc",
+      "src-the-decoder-com-308b6b",
+      "src-itdoeswhatnow-com-0aa16f"
+    ],
+    "factcheck_ids": [
+      "T11"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-claude-percolation",
+    "date_start": "2026-09",
+    "date_end": null,
+    "date_label": "2026.09",
+    "title": "Claude의 퍼컬레이션 추측 증명 제시",
+    "summary": "Claude 모델들이 Kozma–Nitzan 추측(상관 부등식)을 경유해 Zᵈ(d≥2)에서 θ(p_c)=0을 보이는 Lean 4 형식 증명을 제시했다는 성과가 보도됐습니다.",
+    "camp": "optimist",
+    "people_ids": [],
+    "background": "수학은 정답을 형식적으로 검사할 수 있어 AI의 과학적 성취와 인간 이해의 관계가 가장 빠르게 시험되는 분야입니다.",
+    "confirmed": "보도에 따르면 Lean 빌드는 통과했습니다. Gil Kalai는 9월 3일 블로그에서 AI가 이 문제를 풀었다는 소식을 전했고, Scientific American도 이를 보도했습니다.",
+    "unknown": "형식 진술이 원래 추측과 일치하는지 등 독립적인 인간 검토는 10월 초 시점에 진행 중입니다. Scientific American 기사의 게재일은 확인하지 못했습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-scientificamerican-com-2dfc66",
+      "src-gilkalai-wordpress-com-348c96",
+      "src-traictory-com-100d31",
+      "src-arxiv-org-487e69"
+    ],
+    "factcheck_ids": [
+      "T12"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-openai-training-pause",
+    "date_start": "2026-09",
+    "date_end": null,
+    "date_label": "2026.09",
+    "title": "OpenAI 훈련 일시 중단",
+    "summary": "DNS 필터링 허점 사건을 계기로 도구 사용을 수반하는 훈련·평가·추론을 중단했다고 공개했습니다.",
+    "camp": "middle",
+    "people_ids": [],
+    "background": "내부 안전 사건 뒤 실제 개발 절차를 멈춘 사례로, 선언과 운영 조치가 연결된 장면입니다.",
+    "confirmed": "DNS 필터링 허점을 계기로 도구 사용을 수반하는 훈련·평가·추론을 일시 중단했다고 OpenAI가 공개했습니다.",
+    "unknown": "중단의 전체 기간과 재개 조건은 현재 요약 자료에 구체적으로 남아 있지 않습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-alignment-openai-com-9c91f3",
+      "src-theverge-com-819e92",
+      "src-arstechnica-com-8f41a0",
+      "src-openai-com-3bae02"
+    ],
+    "factcheck_ids": [
+      "T13"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-09-christiano-board",
+    "date_start": "2026-09-09",
+    "date_end": null,
+    "date_label": "2026.09.09",
+    "title": "폴 크리스티아노, OpenAI Foundation 이사 합류",
+    "summary": "외부 정렬 연구자이자 ARC 설립자가 이사회에 들어가 내부 개혁 축을 형성했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "paul-christiano"
+    ],
+    "background": "외부 정렬 연구자가 프론티어 기업의 거버넌스 안으로 들어간 내부 개혁 경로입니다.",
+    "confirmed": "ARC 설립자 폴 크리스티아노는 2026년 9월 9일 OpenAI Foundation 이사로 합류했습니다.",
+    "unknown": "이사회 합류가 구체적 출시 결정에 미친 영향은 공개 자료로 확인되지 않습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-openai-com-f42b71",
+      "src-bloomberg-com-b36c3d",
+      "src-paulfchristiano-substack-com-9c4d8a"
+    ],
+    "factcheck_ids": [
+      "T14"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-11-fields-medalists",
+    "date_start": "2026-09-11",
+    "date_end": null,
+    "date_label": "2026.09.11",
+    "title": "필즈상 수상자 25인의 수학-AI 선언",
+    "summary": "타오를 포함한 최초 서명자 25명이 문제 해결 경쟁과 수학계의 이해·귀속·교육 목표가 어긋날 수 있다고 경고했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "terence-tao"
+    ],
+    "background": "AI 기업의 문제 해결 경쟁과 수학 공동체의 이해·귀속·교육 목표 사이의 간극이 집단 성명으로 드러났습니다.",
+    "confirmed": "2026년 9월 11일 공개된 선언의 최초 서명자는 테렌스 타오를 포함한 필즈상 수상자 25명입니다.",
+    "unknown": "후속 참여자를 포함한 총 서명자 수는 시점에 따라 달라질 수 있습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-teorth-github-io-e7f1e5"
+    ],
+    "factcheck_ids": [
+      "T15"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-12-pace-the-frontier",
+    "date_start": "2026-09-12",
+    "date_end": null,
+    "date_label": "2026.09.12",
+    "title": "아모데이, ‘We Must Pace the Frontier’",
+    "summary": "모델 역량 개선 속도를 늦춰야 한다고 명문화하고, 외부 평가자·민주주의권 랩·글로벌 협조의 3단계 계획을 제안했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "dario-amodei"
+    ],
+    "background": "프론티어 기업의 CEO가 경쟁 중단이 아니라 역량 개선 속도의 감속을 공개 의제로 제시했습니다.",
+    "confirmed": "다리오 아모데이는 2026년 9월 12일 글에서 감속 필요와 외부 평가자·민주주의권 연구소 협조·글로벌 협조의 3단계를 제안했습니다.",
+    "unknown": "제안은 정책 구상이며 실제 산업 전반의 감속 합의나 집행으로 이어졌다고 확인되지는 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-darioamodei-com-98264c",
+      "src-theguardian-com-b802aa",
+      "src-bbc-com-8fa0ea"
+    ],
+    "factcheck_ids": [
+      "T16"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-13-ceo-split",
+    "date_start": "2026-09-13",
+    "date_end": null,
+    "date_label": "2026.09.13",
+    "title": "감속론을 둘러싼 CEO들의 분화",
+    "summary": "나델라는 ‘deliberate pacing’과 내장 평가에 동조했고, Cohere의 에이든 고메즈는 업계 표준기구를 ‘다른 이름의 카르텔’이라 비판했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "satya-nadella",
+      "aidan-gomez"
+    ],
+    "background": "아모데이의 감속 제안 직후 주요 기업 CEO들이 평가 장치와 시장 담합 위험을 놓고 갈라졌습니다.",
+    "confirmed": "나델라는 9월 13일 의도적 속도조절과 내장 평가를 지지했습니다. 고메즈는 같은 날 블로그에서 업계 표준기구를 카르텔에 비유했습니다.",
+    "unknown": "고메즈 발언은 Cohere 블로그 외에 Globe and Mail·Bloomberg TV(9월 14일) 보도로도 확인됐으며, 편집 승인 전까지 미확인으로 둡니다. 고메즈는 독립 검토 자체는 지지했고, 소수 랩의 공동 표준·반독점 면제에 반대했습니다.",
+    "verification": "unverified",
+    "source_ids": [
+      "src-techmeme-com-9d7c4b",
+      "src-aa-com-tr-5d5d92",
+      "src-cohere-com-ea4e0e",
+      "src-theglobeandmail-com-2aedfa",
+      "src-bloomberg-com-f3f7c4"
+    ],
+    "factcheck_ids": [
+      "T17"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-15-ressa-oslo",
+    "date_start": "2026-09-15",
+    "date_end": null,
+    "date_label": "2026.09.15",
+    "title": "마리아 레사, AI를 민주주의 위협으로 경고",
+    "summary": "오슬로 노벨평화센터의 ‘Nobel Peace Conference 2026’에서 AI 규제를 표현의 자유가 아닌 공공안전 문제로 다뤄야 한다고 촉구했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "maria-ressa"
+    ],
+    "background": "생성형 AI의 위험을 표현의 자유 논쟁이 아니라 정보 생태계와 시민 안전의 문제로 다루는 관점입니다.",
+    "confirmed": "마리아 레사는 2026년 9월 15일 오슬로에서 열린 ‘Nobel Peace Conference 2026’에서 AI 규제를 공공안전 문제로 다뤄야 한다고 촉구했습니다.",
+    "unknown": "",
+    "verification": "verified",
+    "source_ids": [
+      "src-reuters-com-e39edb",
+      "src-nobelpeacecenter-org-5fe1e3",
+      "src-rappler-com-a5c3e6"
+    ],
+    "factcheck_ids": [
+      "T18"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-17-huang-cbs",
+    "date_start": "2026-09-17",
+    "date_end": "2026-09-20",
+    "date_label": "2026.09.17—20",
+    "title": "젠슨 황, 최대한 빠른 개발 주장",
+    "summary": "CBS 인터뷰에서 ‘가능한 한 빨리’ 개발해야 한다며 2030년 AI 멸종 가능성을 0%로 봤습니다.",
+    "camp": "optimist",
+    "people_ids": [
+      "jensen-huang"
+    ],
+    "background": "반도체 인프라 공급자의 CEO가 감속론에 가장 선명한 공개 반론을 제시한 장면입니다.",
+    "confirmed": "젠슨 황은 9월 CBS 인터뷰에서 가능한 한 빨리 개발해야 한다고 말하고 2030년 AI 멸종 확률을 0%로 봤습니다.",
+    "unknown": "전망은 황의 판단이며 확정된 미래 예측이 아닙니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-cbsnews-com-3a027d",
+      "src-thenextweb-com-aaee64",
+      "src-news-sbs-co-kr-03a34b"
+    ],
+    "factcheck_ids": [
+      "T19"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-17-ng-bloomberg",
+    "date_start": "2026-09-17",
+    "date_end": null,
+    "date_label": "2026.09.17",
+    "title": "앤드류 응, 포괄적 감속론 반박",
+    "summary": "미국 시간 9월 17일 Bloomberg TV에서 멸종 경고를 ‘과학보다 공상과학에 훨씬 가깝다’(원문 ‘much more science fiction than science’)고 평가하고, 감속이 안전 연구까지 늦출 수 있다고 주장했습니다.",
+    "camp": "optimist",
+    "people_ids": [
+      "andrew-ng"
+    ],
+    "background": "실용적 낙관론자가 존재위험보다 현재 문제 해결 속도를 우선한 반론입니다.",
+    "confirmed": "응은 미국 시간 2026년 9월 17일 공개된 Bloomberg TV 영상·기사에서 멸종 공포를 공상과학에 가깝다고 평가하고 포괄적 감속이 안전 연구도 늦출 수 있다고 말했습니다.",
+    "unknown": "이는 위험 부정이 아니라 규제 방식에 대한 반론입니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-bloomberg-com-26da5e",
+      "src-bloomberg-com-ce7c4a",
+      "src-financialpost-com-9bf883"
+    ],
+    "factcheck_ids": [
+      "T20"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-23-un-security-council",
+    "date_start": "2026-09-23",
+    "date_end": null,
+    "date_label": "2026.09.23",
+    "title": "UN 안전보장이사회 AI 세션",
+    "summary": "알트만은 미래 통제 상실을, 아모데이는 에이전트 무리의 급격한 역량 상승을 경고하며 국제 거버넌스를 촉구했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "sam-altman",
+      "dario-amodei"
+    ],
+    "background": "기업 CEO의 속도 논쟁이 국제안보 의제로 옮겨간 장면입니다.",
+    "confirmed": "알트만과 아모데이는 9월 23일 UN 안전보장이사회 AI 세션에서 통제 상실과 급격한 에이전트 역량을 경고했습니다.",
+    "unknown": "발언이 구속력 있는 국제 합의로 이어졌다고 확인되지는 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-news-un-org-2747cb",
+      "src-openai-com-20517b",
+      "src-transcripts-un-org-d03487",
+      "src-webtv-un-org-70fcdd"
+    ],
+    "factcheck_ids": [
+      "T21"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-28-casp-paper",
+    "date_start": "2026-09-28",
+    "date_end": null,
+    "date_label": "2026.09.28",
+    "title": "CASP 지능 폭발 워킹페이퍼",
+    "summary": "힌턴·벤지오를 포함한 22인이 지능 폭발 가능성과 사전 안전 조건을 다룬 공동 워킹페이퍼를 발표했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "geoffrey-hinton",
+      "yoshua-bengio"
+    ],
+    "background": "개별 인터뷰를 넘어 학계 공동 문서로 지능 폭발과 사전 안전 조건을 정리했습니다.",
+    "confirmed": "힌턴·벤지오를 포함한 22인은 9월 28일 Cambridge CASP 워킹페이퍼를 발표했습니다.",
+    "unknown": "워킹페이퍼는 동료평가 완료 논문과 동일하지 않습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-arxiv-org-c93bce",
+      "src-casp-ac-e8563f"
+    ],
+    "factcheck_ids": [
+      "T22"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-29-s5576",
+    "date_start": "2026-09-29",
+    "date_end": null,
+    "date_label": "2026.09.29",
+    "title": "미 상원 ‘AI Risk Management and Security Act of 2026’ 발의",
+    "summary": "마크 워너 의원이 Schatz·Kim 의원과 S.5576을 발의했습니다. 상무부 AI Safety Board, 출시 45일 전 모델 접근, 위반 시 하루 최대 25만 달러 과징금을 담았으며 만장일치 통과 시도는 테드 크루즈 의원의 반대로 저지됐습니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "프론티어 모델의 출시 전 검토를 기업 자율 서약이 아닌 연방 감독 체계로 옮기려 한 입법 시도입니다.",
+    "confirmed": "워너 의원이 Schatz·Kim 의원과 2026년 9월 29일 S.5576을 발의했습니다. 법안은 상무부 AI Safety Board, 출시 45일 전 모델 접근, 위반 시 하루 최대 25만 달러 과징금을 규정했고, 같은 날 만장일치 통과 시도는 테드 크루즈 의원의 반대로 저지됐습니다.",
+    "unknown": "법안은 발의·통과 시도 단계이며 제정된 법률이 아닙니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-govinfo-gov-23bb6c",
+      "src-warner-senate-gov-afa663",
+      "src-thehill-com-123ab6",
+      "src-politico-com-899cf8"
+    ],
+    "factcheck_ids": [
+      "T23"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-09-gpt-6",
+    "date_start": "2026-09",
+    "date_end": "2026-10",
+    "date_label": "2026.09—10",
+    "title": "GPT-6 시리즈 공개와 ChatGPT 기본 모델 전환",
+    "summary": "GPT-6 Astra(9월)와 GPT-6 Sol·Luna(9월 22일)가 잇따라 공개되고 10월 초 ChatGPT 기본 모델이 GPT-6로 전환되며(유료 10월 7일, Free/Go 10월 8일) 프론티어 경쟁의 속도를 드러냈습니다.",
+    "camp": "optimist",
+    "people_ids": [],
+    "background": "짧은 간격의 프론티어 모델 출시는 성능 경쟁과 안전 검토 사이의 시간 압박을 보여 줍니다.",
+    "confirmed": "‘Instant’는 별도 모델이 아니라 ChatGPT의 사고 수준(thinking level) 이름입니다. ChatGPT에서 GPT-6를 고르면 GPT-6 Sol이 Instant부터 Extra High까지의 사고 수준을 구동하고, Free/Go 이용자에게는 GPT-5.6 Luna가 쓰입니다.",
+    "unknown": "Sol·Luna 공개일과 롤아웃 날짜는 보도 기준이며 공식 공지 본문으로 모두 확인하지는 못했습니다. 모델별 내부 구조와 유출 자료에 기반한 세부 주장도 공개 발표로 확인된 것은 아닙니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-help-openai-com-31ee6d",
+      "src-openai-com-dfc615",
+      "src-openai-com-67feed"
+    ],
+    "factcheck_ids": [
+      "T24"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-02-robinson-resigns",
+    "date_start": "2026-10-02",
+    "date_end": null,
+    "date_label": "2026.10.02",
+    "title": "데이비드 로빈슨, OpenAI 사임",
+    "summary": "Preparedness Framework 초안 작성자가 사임하고 핵발전·항공 수준의 안전 절차를 요구했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "david-robinson"
+    ],
+    "background": "조직 안에서 출시 안전 절차를 만들던 책임자가 개발 문화 자체를 비판하며 떠난 사건입니다.",
+    "confirmed": "Preparedness Framework 초안 작성자이자 12차례 출시 안전 보고서 총괄이던 로빈슨은 2026년 10월 2일 사임했습니다.",
+    "unknown": "사임 이후 조직 내부 절차가 실제로 어떻게 바뀌었는지는 현재 자료에서 확인되지 않습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-theatlantic-com-1b88c4",
+      "src-techcrunch-com-a17db2",
+      "src-npr-org-1481c7"
+    ],
+    "factcheck_ids": [
+      "T25"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-05-harari-london",
+    "date_start": "2026-10-05",
+    "date_end": null,
+    "date_label": "2026.10.05",
+    "title": "하라리, 통제 상실을 역사적 위험으로 규정",
+    "summary": "런던 대담에서 AI 통제 상실을 파시즘보다 더 위험한 최악의 시나리오로 경고했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "yuval-noah-harari"
+    ],
+    "background": "AI를 산업 도구가 아니라 언어·법·종교 체계를 바꿀 수 있는 역사적 행위자로 보는 관점입니다.",
+    "confirmed": "유발 노아 하라리는 2026년 10월 런던 공개 대담에서 AI 통제 상실을 최악의 역사적 시나리오로 경고했습니다(의역).",
+    "unknown": "",
+    "verification": "verified",
+    "source_ids": [
+      "src-thenerve-news-04c116",
+      "src-unionchapel-org-uk-b530d1"
+    ],
+    "factcheck_ids": [
+      "T26"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-05-nyc-council-hearing",
+    "date_start": "2026-10-05",
+    "date_end": null,
+    "date_label": "2026.10.05",
+    "title": "뉴욕시의회 AI 청문회",
+    "summary": "게리 마커스가 규제 필요성을, 전 Anthropic 연구원 제이콥 콕슨이 현재 AI 시스템을 통제하는 법을 모른다는(의역) 내부자 경고를 증언했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "jacob-coxon",
+      "gary-marcus"
+    ],
+    "background": "학계 비판과 프론티어 랩 내부자의 경고가 같은 공적 청문회에서 만났습니다.",
+    "confirmed": "마커스와 전 Anthropic 연구원 콕슨은 10월 5일 뉴욕시의회 AI 청문회에서 증언했습니다.",
+    "unknown": "청문회 이후 구체적 조례 변화는 현재 자료에서 확인되지 않습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-council-nyc-gov-f1b3f7",
+      "src-garymarcus-substack-com-10b0d3",
+      "src-betanyc-github-io-a9c4a3"
+    ],
+    "factcheck_ids": [
+      "T27"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-06-openai-math",
+    "date_start": "2026-10-06",
+    "date_end": null,
+    "date_label": "2026.10.06",
+    "title": "OpenAI, 수학 원고 722개 공개",
+    "summary": "미공개 내부 프론티어 모델의 원고를 372개 결과군으로 공개했습니다. 3개 철회 뒤 현재 719개이며, 상위 결과의 약 42%에 Lean 형식화가 연결돼 있습니다.",
+    "camp": "middle",
+    "people_ids": [],
+    "background": "대량의 수학 결과가 공개되며 ‘증명 희소성’에서 ‘검토와 이해의 희소성’으로 병목이 이동한다는 논쟁이 커졌습니다.",
+    "confirmed": "OpenAI는 2026년 10월 6일 722개 원고를 공개했고 3개 철회 뒤 저장소에는 719개·372개 결과군이 남았습니다. 상위 결과의 약 42%에 Lean 형식화가 연결돼 있습니다.",
+    "unknown": "각 결과의 신규성·정확성·우선권은 개별 검토가 필요하며, ‘장기 미해결 문제 100개 이상 해결’ 주장은 공식 자료에서 확인되지 않았습니다.",
+    "verification": "unverified",
+    "source_ids": [
+      "src-openai-com-6e2c59",
+      "src-raw-githubusercontent-com-53afb7",
+      "src-retractionwatch-com-abef5b",
+      "src-self-attention-org-b469f1"
+    ],
+    "factcheck_ids": [
+      "T28"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-06-math-backlash",
+    "date_start": "2026-10-06",
+    "date_end": "2026-10-07",
+    "date_label": "2026.10.06—07",
+    "title": "수학계, OpenAI 대량 공개에 반발",
+    "summary": "OpenAI가 372개 수학 문제의 진전을 주장하는 700여 건의 프리프린트를 공개한 다음 날 ‘부호 오류(sign error)’를 이유로 3건을 철회했습니다. 인간수학협회(AHM)는 이를 ‘학문의 증명이 아니라 권력의 과시’라고 비판하며 협업 중단을 촉구했고, 테렌스 타오는 성명을 블로그에 공유했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "terence-tao"
+    ],
+    "background": "AI가 생성한 증명을 인간이 검증하고 흡수하는 속도보다 빠르게 쏟아내는 ‘증명 소화불량(proof indigestion)’ 문제가 수학 공동체의 검토 역량과 학술 규범 논쟁으로 번졌습니다.",
+    "confirmed": "OpenAI는 10월 6일 내부 AI 모델로 372개 수학 문제의 진전을 주장하는 700여 건의 프리프린트를 GitHub에 공개했고, 다음 날 부호 오류(sign error)로 3건을 철회했습니다. 인간수학협회(Association for Human Mathematics)는 10월 7일 성명에서 이를 ‘학문의 증명이 아니라 권력의 과시’(원문 ‘not a demonstration of scholarship, but a demonstration of power’)라고 비판하며 협업 중단을 촉구했고, 테렌스 타오는 성명을 자신의 블로그에 게스트 글로 공유했습니다.",
+    "unknown": "타오의 행위는 협회 성명의 공유·확산이며, 타오 본인이 별도의 독자 성명을 낸 것은 아닙니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-retractionwatch-com-abef5b",
+      "src-self-attention-org-b469f1",
+      "src-ahmath-org-51f5aa",
+      "src-terrytao-wordpress-com-624110"
+    ],
+    "factcheck_ids": [
+      "T29"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-07-cantwell-framework",
+    "date_start": "2026-10-07",
+    "date_end": null,
+    "date_label": "2026.10.07",
+    "title": "캔트웰, 프론티어 AI 6대 연방 거버넌스 프레임워크 공개",
+    "summary": "①강제 연방 안전 기준 ②지속적 테스트·심사·감사 ③공개·감독·책임(투명성) ④공공·민간 파트너십 ⑤아동 보호·노동자 지원·중대 AI 결정의 인간 감독 ⑥미국 주도 국제 협력의 6대 원칙을 제시했습니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "자발 규제를 선호하는 백악관·공화당 입장과 대비되는 민주당의 연방 규제 청사진입니다.",
+    "confirmed": "상원 상무위원회 민주당 간사(Ranking Member)인 캔트웰 상원의원은 10월 7일 보도자료에서 6대 원칙을 공개했습니다. 감사 접근권과 사고 보고는 별도 원칙이 아니라 ③투명성(공개·감독·책임) 원칙의 세부 항목입니다.",
+    "unknown": "확정된 법안 문안이 아니라 프레임워크 원칙 단계입니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-commerce-senate-gov-8c7106",
+      "src-politico-com-43c032",
+      "src-meritalk-com-2d53f4"
+    ],
+    "factcheck_ids": [
+      "T30"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-08-italy-decree-179",
+    "date_start": "2026-10-08",
+    "date_end": null,
+    "date_label": "2026.10.08",
+    "title": "이탈리아, AI법 이행 입법령 179/2026 관보 게재",
+    "summary": "EU AI법을 국내법으로 이행하는 두 번째 법령으로 감독기관·벌칙·규제 샌드박스·AI 훈련을 포함한 54개 조항을 담았으며 10월 23일 시행됩니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "EU AI법(Regulation (EU) 2024/1689)을 이탈리아 국내법으로 이행하는 두 번째 법령이며, 첫 번째는 입법령 160/2026입니다.",
+    "confirmed": "입법령 179/2026은 10월 8일 관보에 게재됐고 10월 23일 시행됩니다. AgID를 통지 기관으로, ACN을 시장 감시 기관이자 단일 연락점으로 지정하고 벌칙 체계, 이탈리아 AI 규제 샌드박스, 학생·교사·공무원·노동자 대상 AI 훈련을 포함한 54개 조항을 담았습니다.",
+    "unknown": "시행 전이므로 실제 집행과 규제 샌드박스 운영 성과는 아직 확인되지 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-gazzettaufficiale-it-99bd0c",
+      "src-nicfab-eu-43c45a",
+      "src-leggi-edilizia-com-5a4e52",
+      "src-pmi-it-8e7643"
+    ],
+    "factcheck_ids": [
+      "T31"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-08-safety-two-actions",
+    "date_start": "2026-10-08",
+    "date_end": null,
+    "date_label": "2026.10.08",
+    "title": "안전 진영의 두 갈래 행동",
+    "summary": "벤지오는 프론티어 랩 연구자들에게 이탈을 촉구하는 공개서한을 냈고, Anthropic은 모델을 향한 지속적이고 불필요한 학대·잔혹 행위를 금지하는 이용 정책(Usage Policy) 개정을 발표했습니다(11월 12일 시행).",
+    "camp": "safety",
+    "people_ids": [
+      "yoshua-bengio",
+      "mustafa-suleyman"
+    ],
+    "background": "인간 연구자의 조직 이탈 촉구와 모델 복지 규칙이 서로 다른 안전 윤리를 드러냈습니다.",
+    "confirmed": "벤지오는 10월 8일 공개서한 ‘If you prioritize safety, leave frontier AI companies’(Transformer 게재)를 냈습니다. Anthropic의 이용 정책 개정은 ‘sustained and needless abusive or cruel behavior toward our models’를 금지하며 2026년 11월 12일 시행됩니다. 술레이만의 실질적 반박은 이보다 앞선 9월 16일 Reuters 인터뷰·에세이에서 Claude 훈련 자료에 의식·복지 추론을 넣은 방식을 비판한 것이고, 10월 8일 발표에는 이모지 반응 정도가 보도됐습니다.",
+    "unknown": "모델 복지 조항이 Claude의 의식을 인정한다는 뜻인지는 논쟁 중입니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-transformernews-ai-e684fb",
+      "src-yoshuabengio-org-a8cfd7",
+      "src-anthropic-com-7a2384",
+      "src-techcrunch-com-0542b0",
+      "src-channelnewsasia-com-5b9547"
+    ],
+    "factcheck_ids": [
+      "T32"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-09-tao-math-2",
+    "date_start": "2026-10-09",
+    "date_end": "2026-10-10",
+    "date_label": "2026.10.09—10",
+    "title": "테렌스 타오, ‘Math 2.0’ 공개",
+    "summary": "칼텍 공개 강연 뒤 슬라이드를 공개하며 문제 풀이보다 이해·설명·공동체·새 연구 방향을 강화하는 AI 사용을 제안했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "terence-tao"
+    ],
+    "background": "AI가 문제의 답을 빠르게 내놓을수록 수학 공동체가 무엇을 연구 목표로 삼아야 하는지 재정의하려는 제안입니다.",
+    "confirmed": "칼텍은 2026년 10월 9일 공개 강연을 열었고 타오는 다음 날 ‘Math 2.0’ 제목의 글과 슬라이드를 공개했습니다.",
+    "unknown": "강연의 암 치료제 대목은 실제 사건이 아니라 보상 해킹과 모델-현실 불일치를 묻는 사고실험입니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-terrytao-wordpress-com-929219",
+      "src-teorth-github-io-0d8dcb",
+      "src-aimath-org-050d82"
+    ],
+    "factcheck_ids": [
+      "T33"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-11-gates-abc",
+    "date_start": "2026-10-11",
+    "date_end": null,
+    "date_label": "2026.10.11",
+    "title": "빌 게이츠, AI 사이버공격과 자율규제 한계 경고",
+    "summary": "ABC News 인터뷰에서 AI 사이버공격을 가장 임박한 위협으로 지목하고, 기업 스스로가 사회의 유일한 견제 장치인 현실을 두고 “충분히 하고 있지 않다는 것은 분명하다”고 말하며 생물테러·사이버공격 악용을 막을 규제를 촉구했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "bill-gates"
+    ],
+    "background": "AI 위험의 시간축을 가까운 사이버·생물 악용과 수년 뒤 통제 상실로 구분한 발언입니다.",
+    "confirmed": "게이츠는 2026년 10월 11일 ABC News 인터뷰에서 사이버공격을 가장 임박한 AI 위협으로 지목했습니다. AFP가 전한 원문은 “…just the companies themselves are the only check that society has...it's clear we're not doing enough”입니다. 통제 상실은 수년 뒤의 위험이라는 발언도 AFP로 확인됩니다.",
+    "unknown": "AI가 수년 뒤 통제 불능이 될 수 있다는 언급은 위험 전망이며 확정된 일정이 아닙니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-afp-com-e3bd5c",
+      "src-youtube-com-7578ab"
+    ],
+    "factcheck_ids": [
+      "T34"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-12-brad-smith-bbc",
+    "date_start": "2026-10-12",
+    "date_end": null,
+    "date_label": "2026.10.12",
+    "title": "브래드 스미스, AI 안전 강제 규제 5대안 제시",
+    "summary": "국제 공통 안전 규칙, 의무 사고 보고, 에이전트 AI 피해자 통지, 출시 전 독립 평가, 비상 정지 장치를 제안하고 자발적 서약만으로는 불충분하다고 밝혔습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "brad-smith"
+    ],
+    "background": "Microsoft 경영진이 ‘우유 한 팩과 세탁기보다 AI 규제가 약하다’(의역)고 비판하며 트럼프의 자율규제 선호와 선을 긋고, 강제 가능한 국제 안전 규칙을 구체화한 제안입니다.",
+    "confirmed": "스미스는 2026년 10월 12일 공개된 BBC 인터뷰에서 공통 안전 규칙, 사고 보고, 피해자 통지, 출시 전 독립 평가, 비상 정지 장치의 5대안을 제시하고 영국 AISI가 국제 표준을 주도하기에 적합하다고 말했습니다.",
+    "unknown": "제안은 정책 구상이며 국제 표준으로 채택됐다고 확인되지는 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-bbc-com-9df191",
+      "src-bbc-co-uk-4188ce",
+      "src-theguardian-com-78767a",
+      "src-afp-com-f2a53d"
+    ],
+    "factcheck_ids": [
+      "T35"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-12-uk-aisi-access",
+    "date_start": "2026-10-12",
+    "date_end": null,
+    "date_label": "2026.10.12",
+    "title": "영국 AISI, 프론티어 모델 사전 평가 접근 복구",
+    "summary": "약 17일간의 미국 동결 뒤 영국 AI Security Institute가 출시 전 평가 접근을 되찾아 Gemini 4 Argon 등을 평가 중이라고 AI 장관 카니슈카 나라얀이 발표했습니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "프론티어 모델을 출시 전에 독립 평가기관이 들여다볼 수 있는지 여부가 국제 안전 거버넌스의 핵심 쟁점으로 떠올랐습니다.",
+    "confirmed": "카니슈카 나라얀 영국 AI 장관은 미국에서 9월 24일부터 10월 11일까지 약 17일간 동결됐던 AISI의 출시 전 평가 접근이 복구됐고 Gemini 4 Argon 등을 평가 중이라고 발표했습니다.",
+    "unknown": "동결의 정확한 시작·종료일(9월 24일·10월 11일)은 1차 자료로 확인하지 못했습니다(보도 기준 약 2주 반). 진행 중인 평가의 결과와 실제 출시 결정에 미칠 영향은 아직 공개되지 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-afp-com-f2a53d",
+      "src-machine-net-7f565b",
+      "src-telegraph-co-uk-942dcb",
+      "src-gov-uk-3bc0c5"
+    ],
+    "factcheck_ids": [
+      "T36"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-12-lecun-seoul",
+    "date_start": "2026-10-12",
+    "date_end": null,
+    "date_label": "2026.10.12",
+    "title": "르쿤, 서울에서 월드모델 노선 재확인",
+    "summary": "산업 AI 브리핑에서 LLM이 아닌 월드모델이 다음 돌파구라며 한국의 제조·로봇 강점을 언급했습니다.",
+    "camp": "optimist",
+    "people_ids": [
+      "yann-lecun"
+    ],
+    "background": "Meta 퇴사와 AMI Labs 창업 뒤에도 르쿤의 기술 노선이 유지되는지 확인되는 최신 공개 행보입니다.",
+    "confirmed": "르쿤은 10월 12일 서울 브리핑에서 월드모델을 다음 돌파구로 제시하고 한국의 제조·로봇 강점을 언급했습니다.",
+    "unknown": "발언은 기술 전망이며 AMI Labs의 실제 성능 성과를 입증한 것은 아닙니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-koreaherald-com-9f8634",
+      "src-biz-chosun-com-fd2d11",
+      "src-koreatimes-co-kr-9a38a3"
+    ],
+    "factcheck_ids": [
+      "T37"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-12-pasquale-cnn",
+    "date_start": "2026-10-12",
+    "date_end": null,
+    "date_label": "2026.10.12",
+    "title": "파스콸, 에이전트 AI 배상책임 제안",
+    "summary": "CNN 인터뷰에서 자율 에이전트가 잘못 행동할 때 적용할 상위 규칙과 책임 배분이 필요하다고 주장했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "frank-pasquale"
+    ],
+    "background": "자율 에이전트 논쟁을 통제 기술뿐 아니라 손해배상과 책임 배분의 문제로 확장합니다.",
+    "confirmed": "파스콸은 10월 12일 CNN 인터뷰에서 에이전트 AI에 적용할 상위 규칙과 배상책임 체계를 주장했습니다.",
+    "unknown": "구체적 입법안의 채택 여부는 확인되지 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-cnn-com-508568"
+    ],
+    "factcheck_ids": [
+      "T38"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-13-uk-bist-hearing",
+    "date_start": "2026-10-13",
+    "date_end": null,
+    "date_label": "2026.10.13",
+    "title": "영국 BIST 청문회, 프론티어 랩 2대2 분열",
+    "summary": "OpenAI·Anthropic은 법적 구속력 있는 안전 의무와 국제 협약을 촉구한 반면 Google DeepMind·Meta는 표준 또는 기존 규제기관 중심 접근을 주장했습니다. 같은 날 MI5 사무총장은 청문회와 별개인 연례 위협 브리핑에서 AI가 사이버 공격 등 안보 위협을 키운다(원문 ‘supercharging’)고 경고했습니다.",
+    "camp": "middle",
+    "people_ids": [],
+    "background": "영국 AISI의 출시 전 평가 접근이 약 2주 반 동안 동결됐다가 복구된 직후, 의회가 프론티어 AI의 강제 안전 의무 도입을 검토한 자리입니다.",
+    "confirmed": "Wired가 OpenAI 부사장(vice president)으로 소개한 Tom Duff Gordon과 Anthropic 유럽 총괄 Liam Booth-Smith는 자발적 서약만으로는 불충분하다며 의무 사고 보고를 포함한 법적 구속력 있는 AI 안전 의무와 국제 협약을 촉구했습니다. Google DeepMind의 Owen Larter는 표준 중심 접근을, Meta의 Rob Sherman은 기존 규제기관으로 충분하다는 입장을 냈습니다. OpenAI·Anthropic은 MI5·MI6·GCHQ·AISI가 입증 가능한 모델 위험 증거를 제시하면 자사가 통제 가능한 모델에 한해 배포 중단·훈련 일시중지 등 즉시 대응하겠다고 약속했습니다. MI5 사무총장(Director General) Sir Ken McCallum의 경고는 청문회 증언이 아니라 같은 날 별도로 열린 연례 위협 브리핑에서 나왔고, 그가 가장 무게를 둔 위험은 생물무기 악용이었습니다.",
+    "unknown": "의원들의 후속 입법 일정은 확인되지 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-wired-com-e96993",
+      "src-news-sky-com-3cf9c1",
+      "src-mi5-gov-uk-9ea703",
+      "src-committees-parliament-uk-a23910"
+    ],
+    "factcheck_ids": [
+      "T39"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "2026-10-13-ressa-fight-back",
+    "date_start": "2026-10-13",
+    "date_end": null,
+    "date_label": "2026.10.13",
+    "title": "마리아 레사 『The Fight Back』 미국 출간",
+    "summary": "마리아 레사의 『The Fight Back: A Citizen's Guide to Standing Up to Dictators』가 미국에서 출간됐습니다. AI 시대 민주주의를 지키기 위한 시민 행동 지침을 제시합니다.",
+    "camp": "safety",
+    "people_ids": [
+      "maria-ressa"
+    ],
+    "background": "AI와 권위주의가 정보 생태계와 시민의 판단을 압박하는 상황에서 민주주의 방어를 시민 행동의 문제로 풀어낸 책입니다.",
+    "confirmed": "『The Fight Back: A Citizen's Guide to Standing Up to Dictators』는 2026년 10월 13일 미국에서 출간됐습니다.",
+    "unknown": "도서의 정책적 영향은 출간 직후라 아직 평가하기 어렵습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-linkedin-com-bd7d7a",
+      "src-amazon-com-8ab576",
+      "src-kirkusreviews-com-82df80",
+      "src-penguin-co-uk-192d21"
+    ],
+    "factcheck_ids": [
+      "T40"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  }
+]

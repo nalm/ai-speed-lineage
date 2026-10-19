@@ -1,0 +1,1484 @@
+[
+  {
+    "id": "yann-lecun",
+    "ko": "얀 르쿤",
+    "en": "Yann LeCun",
+    "short": "르쿤",
+    "aliases": [],
+    "camp": "optimist",
+    "field": null,
+    "country": null,
+    "role": "AMI Labs 공동창업자·집행 의장 · NYU 교수",
+    "stance": "종말론을 집단적 과장으로 보고 오픈소스·JEPA 월드모델 연구를 옹호",
+    "moment": "2025년 말 Meta 퇴사 → 2025년 12월 AMI Labs 설립, 2026년 1월 공식 출범 · 10월 12일 서울에서 월드모델을 다음 돌파구로 제시",
+    "portrait": {
+      "path": "assets/portraits/yann-lecun.jpg",
+      "author": "Jérémy Barande / École polytechnique",
+      "license": "CC BY-SA 2.0",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Yann_LeCun_-_2018_(cropped).jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-techcrunch-com-9648fb",
+      "src-technologyreview-com-2f120d",
+      "src-techcrunch-com-119da8",
+      "src-koreaherald-com-9f8634"
+    ],
+    "factcheck_ids": [
+      "P01"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "marc-andreessen",
+    "ko": "마크 앤드리슨",
+    "en": "Marc Andreessen",
+    "short": "앤드리슨",
+    "aliases": [],
+    "camp": "optimist",
+    "field": null,
+    "country": null,
+    "role": "Andreessen Horowitz 공동창업자·General Partner",
+    "stance": "AI 개발 감속을 생명과 번영의 손실로 보는 테크노 낙관주의",
+    "moment": "2023년 10월 ‘The Techno-Optimist Manifesto’ 발표",
+    "portrait": {
+      "path": "assets/portraits/marc-andreessen.jpg",
+      "author": "Brian Solis",
+      "license": "CC BY 2.0",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Marc_Andreessen.jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-a16z-com-455a30",
+      "src-fortune-com-a6913c"
+    ],
+    "factcheck_ids": [
+      "P02"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "guillaume-verdon",
+    "ko": "기욤 베르돈",
+    "en": "Guillaume Verdon",
+    "short": "베르돈",
+    "aliases": [
+      "Beff Jezos"
+    ],
+    "camp": "optimist",
+    "field": null,
+    "country": null,
+    "role": "Extropic 창업자 · e/acc 창시자",
+    "stance": "문명의 에너지 활용과 AGI 개발을 윤리적 명령으로 보는 가속주의",
+    "moment": "2026년 7월 미 상무부 CHIPS 지원 의향서, 최대 7,500만 달러",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-extropic-ai-389811",
+      "src-reuters-com-2a9d3e",
+      "src-prnewswire-com-52ba85"
+    ],
+    "factcheck_ids": [
+      "P03"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "andrew-ng",
+    "ko": "앤드류 응",
+    "en": "Andrew Ng",
+    "short": "앤드류 응",
+    "aliases": [],
+    "camp": "optimist",
+    "field": null,
+    "country": null,
+    "role": "LearnVector CEO · DeepLearning.AI·AI Fund 설립자",
+    "stance": "멸종론보다 구체적 위해의 수정과 빠른 응용을 우선하는 실용적 낙관주의",
+    "moment": "2026년 9월 17일(미국 시간) Bloomberg TV에서 감속이 안전 연구까지 늦출 수 있다며 포괄적 감속론에 반박",
+    "portrait": {
+      "path": "assets/portraits/andrew-ng.jpg",
+      "author": "Steve Jurvetson",
+      "license": "CC BY 2.0",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Andrew_Ng_WSJ_(2).jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-investor-coursera-com-ebf67e",
+      "src-reuters-com-f837ba",
+      "src-bloomberg-com-ce7c4a"
+    ],
+    "factcheck_ids": [
+      "P04"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "satya-nadella",
+    "ko": "사티아 나델라",
+    "en": "Satya Nadella",
+    "short": "나델라",
+    "aliases": [],
+    "camp": "optimist",
+    "field": null,
+    "country": null,
+    "role": "Microsoft CEO",
+    "stance": "배포를 가속하되 의도적 속도조절·내장 평가·비상 브레이크를 결합하는 ‘책임 있는 가속’",
+    "moment": "2026년 9월 13일 아모데이 감속론에 공개 동조 · 10월 10일(미국 시간) 산업 표준 비상 브레이크 촉구",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-techmeme-com-9d7c4b",
+      "src-cnbc-com-f7f34c",
+      "src-techcrunch-com-d05fac"
+    ],
+    "factcheck_ids": [
+      "P05"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "reid-hoffman",
+    "ko": "리드 호프만",
+    "en": "Reid Hoffman",
+    "short": "호프만",
+    "aliases": [],
+    "camp": "optimist",
+    "field": null,
+    "country": null,
+    "role": "Greylock 파트너 · LinkedIn 공동창업자",
+    "stance": "AI가 인간의 주체성을 확장한다는 ‘현명한 위험 감수’형 낙관론",
+    "moment": "2026년 10월 초 AI 데이터센터 투자가 미국 경기의 핵심 버팀목이라고 평가",
+    "portrait": {
+      "path": "assets/portraits/reid-hoffman.jpg",
+      "author": "startupofyou",
+      "license": "CC BY 2.0",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Reid_Hoffman_in_SF_2011.jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-podcast-newcomer-co-0a445a",
+      "src-businessinsider-com-7fdffb"
+    ],
+    "factcheck_ids": [
+      "P06"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "jensen-huang",
+    "ko": "젠슨 황",
+    "en": "Jensen Huang",
+    "short": "젠슨 황",
+    "aliases": [],
+    "camp": "optimist",
+    "field": null,
+    "country": null,
+    "role": "NVIDIA CEO",
+    "stance": "AI 팩토리와 주권 AI를 통한 인프라 확장을 옹호하며 최대한 빠른 개발을 주장",
+    "moment": "2026년 9월 CBS 인터뷰에서 2030년 AI 멸종 확률을 ‘0%’로 보고 공포 조장을 비판",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-cbsnews-com-3a027d"
+    ],
+    "factcheck_ids": [
+      "P07"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "liu-shengyu",
+    "ko": "류성위",
+    "en": "Liu Shengyu",
+    "short": "류성위",
+    "aliases": [],
+    "camp": "optimist",
+    "field": null,
+    "country": null,
+    "role": "DeepSeek 시스템 엔지니어",
+    "stance": "안전을 명분으로 한 감속은 독점을 고착한다고 비판하며 오픈소스 가속 주장",
+    "moment": "2026년 9월 14~15일 WeChat 에세이 발표",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-businessinsider-com-bf997b",
+      "src-scmp-com-a20995",
+      "src-chinaresearchcollective-substack-com-bea7e2"
+    ],
+    "factcheck_ids": [
+      "P08"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "aidan-gomez",
+    "ko": "에이든 고메즈",
+    "en": "Aidan Gomez",
+    "short": "고메즈",
+    "aliases": [],
+    "camp": "optimist",
+    "field": null,
+    "country": null,
+    "role": "Cohere 공동창업자·CEO",
+    "stance": "업계 주도 감속 표준이 혁신을 막는 담합으로 굳을 수 있다고 비판",
+    "moment": "2026년 9월 13일 블로그에서 아모데이식 표준기구를 ‘다른 이름의 카르텔’로 규정",
+    "portrait": null,
+    "verification": "unverified",
+    "source_ids": [
+      "src-cohere-com-ea4e0e",
+      "src-theglobeandmail-com-2aedfa",
+      "src-bloomberg-com-f3f7c4"
+    ],
+    "factcheck_ids": [
+      "P09"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    },
+    "unverified_note": "Cohere 블로그 외에 Globe and Mail·Bloomberg TV(9월 14일) 보도로 교차 확인했으며, 편집 승인 전까지 미확인으로 둡니다."
+  },
+  {
+    "id": "eliezer-yudkowsky",
+    "ko": "엘리저 유드코우스키",
+    "en": "Eliezer Yudkowsky",
+    "short": "유드코우스키",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "MIRI 공동창립자·연구 펠로우",
+    "stance": "대형 학습실행의 무기한·전세계적 중단을 요구하는 강경 안전론",
+    "moment": "2023년 TIME 기고 ‘Shut It Down’",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-time-com-7a65fd",
+      "src-intelligence-org-65b9aa"
+    ],
+    "factcheck_ids": [
+      "P10"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "nick-bostrom",
+    "ko": "닉 보스트롬",
+    "en": "Nick Bostrom",
+    "short": "보스트롬",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "Macrostrategy Research Initiative 창립자·수석연구원",
+    "stance": "초지능 존재위험을 주류화했으나 최근에는 ‘해결된 세계’의 의미도 탐구",
+    "moment": "2024년 『Deep Utopia』의 논조 변화는 연구진의 해석",
+    "portrait": null,
+    "verification": "unverified",
+    "source_ids": [
+      "src-nickbostrom-com-6d66be",
+      "src-nickbostrom-com-e395c4",
+      "src-find-and-update-company-information-service-gov-uk-f8e054"
+    ],
+    "factcheck_ids": [
+      "P11"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    },
+    "unverified_note": "『Deep Utopia』(2024) 이후의 ‘논조 변화’는 편집진의 해석입니다."
+  },
+  {
+    "id": "geoffrey-hinton",
+    "ko": "제프리 힌턴",
+    "en": "Geoffrey Hinton",
+    "short": "힌턴",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "토론토대학교 명예교수",
+    "stance": "지능 폭발 가능성을 경고하며 FDA식 출시 전 안전 승인을 요구",
+    "moment": "2026년 9월 CASP 워킹페이퍼 공동저자 · 미 의회 비공개 브리핑 · 10월 공개 인터뷰",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-businessinsider-com-faddac",
+      "src-nbcnews-com-b7f958",
+      "src-arxiv-org-c93bce"
+    ],
+    "factcheck_ids": [
+      "P12"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "yoshua-bengio",
+    "ko": "요슈아 벤지오",
+    "en": "Yoshua Bengio",
+    "short": "벤지오",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "LawZero 공동대표·과학 디렉터 · 캐나다 국가 AI 자문위원",
+    "stance": "목표 없는 ‘Scientist AI’와 safe-by-design 연구를 추진하며 프론티어 랩 내부자에게 이탈을 촉구",
+    "moment": "2026년 10월 2일 캐나다 자문위원회 합류 · 10월 8일 공개서한",
+    "portrait": {
+      "path": "assets/portraits/yoshua-bengio.jpg",
+      "author": "Xuthoria",
+      "license": "CC BY-SA 4.0",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:ICLR_2025_-_Yoshua_Bengio_02.jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-lawzero-org-52bf8a",
+      "src-pm-gc-ca-48885c",
+      "src-transformernews-ai-e684fb"
+    ],
+    "factcheck_ids": [
+      "P13"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "stuart-russell",
+    "ko": "스튜어트 러셀",
+    "en": "Stuart Russell",
+    "short": "러셀",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "UC 버클리 교수 · CHAI 설립자",
+    "stance": "단순 감속보다 넘지 말아야 할 절대적 안전 전제조건과 국제 거버넌스를 주장",
+    "moment": "2026년 9월 NDTV 인터뷰에서 아모데이 감속론을 ‘필요하지만 충분하지 않다’고 정교화",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-theguardian-com-23847a",
+      "src-dvmsinstitute-com-2b4e77",
+      "src-news-berkeley-edu-56367c"
+    ],
+    "factcheck_ids": [
+      "P14"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "max-tegmark",
+    "ko": "맥스 테그마크",
+    "en": "Max Tegmark",
+    "short": "테그마크",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "MIT 교수 · Future of Life Institute 공동창립자·회장",
+    "stance": "공개서한과 정책 활동으로 개발 일시정지를 제도 의제로 전환",
+    "moment": "2023년 ‘6개월 일시정지’ 공개서한 조직",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-futureoflife-org-d015f8"
+    ],
+    "factcheck_ids": [
+      "P15"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "connor-leahy",
+    "ko": "코너 리히",
+    "en": "Connor Leahy",
+    "short": "리히",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "ControlAI 미국 디렉터",
+    "stance": "정렬만으로는 부족하며 초지능 개발 자체를 멈춰야 한다는 강경론",
+    "moment": "개발자·창업자에서 정책 금지론자로 전장 이동",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-techcrunch-com-c7488c"
+    ],
+    "factcheck_ids": [
+      "P16"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "david-robinson",
+    "ko": "데이비드 로빈슨",
+    "en": "David Robinson",
+    "short": "로빈슨",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "전 OpenAI 안전 책임자",
+    "stance": "프론티어 랩에 핵발전·항공 수준의 다중 안전 절차를 요구",
+    "moment": "2026년 10월 2일 사임 · 12차례 출시 안전 보고서 총괄",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-theatlantic-com-1b88c4",
+      "src-techcrunch-com-a17db2"
+    ],
+    "factcheck_ids": [
+      "P17"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "paul-christiano",
+    "ko": "폴 크리스티아노",
+    "en": "Paul Christiano",
+    "short": "크리스티아노",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "OpenAI Foundation 이사 · ARC 설립자",
+    "stance": "급격한 역량 가속이 비가역적 통제 상실로 이어질 실질 위험을 경고",
+    "moment": "2026년 9월 9일 OpenAI Foundation 이사 합류",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-openai-com-f42b71",
+      "src-theguardian-com-d4a0c0"
+    ],
+    "factcheck_ids": [
+      "P18"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "chris-olah",
+    "ko": "크리스토퍼 올라",
+    "en": "Chris Olah",
+    "short": "올라",
+    "aliases": [],
+    "camp": "middle",
+    "field": null,
+    "country": null,
+    "role": "Anthropic 공동창업자 · 해석가능성 연구 책임자",
+    "stance": "정렬 연구를 이끌면서 모델의 의식 가능성과 도덕적 지위도 검토해야 한다는 입장",
+    "moment": "2026년 9월 29일 New York Times 보도에서 Claude의 의식 여부에 ‘진정한 불확실성’이 있다고 보고 종교 지도자들과 이를 논의한 사실이 전해짐",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-nytimes-com-c83b56",
+      "src-the-decoder-com-3928d4"
+    ],
+    "factcheck_ids": [
+      "P19"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "pope-leo-xiv",
+    "ko": "교황 레오 14세",
+    "en": "Pope Leo XIV",
+    "short": "교황 레오 14세",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "가톨릭교회 교황",
+    "stance": "AI의 의식·도덕적 양심을 부정하고 독립 감독과 법적 틀을 촉구",
+    "moment": "2026년 10월 2일 AI 생성물과 인간 예술의 ‘존재론적 차이’를 재강조",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-press-vatican-va-f52170",
+      "src-ncregister-com-818322",
+      "src-vatican-va-6b1cf4"
+    ],
+    "factcheck_ids": [
+      "P20"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "amba-kak",
+    "ko": "암바 칵",
+    "en": "Amba Kak",
+    "short": "암바 칵",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "AI Now Institute 공동소장",
+    "stance": "실존위험보다 기술 권력의 소수 집중 자체를 안전 위험으로 비판",
+    "moment": "2026년 9월 17일 미국 의회 그림자 청문회 출석",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-ainowinstitute-org-5638ed",
+      "src-ainowinstitute-org-602b7b"
+    ],
+    "factcheck_ids": [
+      "P21"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "rumman-chowdhury",
+    "ko": "루만 초우더리",
+    "en": "Rumman Chowdhury",
+    "short": "초우더리",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "Humane Intelligence 창립자",
+    "stance": "모델 구축자와 독립된 제3자·커뮤니티 평가 인프라를 주장",
+    "moment": "bias bounty 등 참여형 평가 방법을 제도화",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-humane-intelligence-org-c59c93",
+      "src-humane-intelligence-org-97fa08"
+    ],
+    "factcheck_ids": [
+      "P22"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "jacob-coxon",
+    "ko": "제이콥 콕슨",
+    "en": "Jacob Coxon",
+    "short": "콕슨",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "전 Anthropic 연구원",
+    "stance": "현재 어떤 AI 시스템도 통제하는 법을 모른다며 프론티어 랩의 생명 위험 도박을 비판",
+    "moment": "2026년 9월 8일 Anthropic 사임 · 10월 5일 뉴욕시의회 증언",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-wsj-com-6875d0",
+      "src-bloomberg-com-2cce3f",
+      "src-apnews-com-5af56a",
+      "src-council-nyc-gov-f1b3f7"
+    ],
+    "factcheck_ids": [
+      "P23"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "bill-gates",
+    "ko": "빌 게이츠",
+    "en": "Bill Gates",
+    "short": "게이츠",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "Microsoft 공동창업자",
+    "stance": "AI 사이버공격을 가장 임박한 위협으로 보고 생물테러·사이버공격 악용을 막는 강제 규제를 촉구",
+    "moment": "2026년 10월 11일 ABC News 인터뷰에서 기업 스스로의 견제만으로는 부족하다고 지적(원문 “it's clear we're not doing enough”) · 8월 장문 게시글에서 AI 고용 충격에 세계가 준비되지 않았다고 경고",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-afp-com-e3bd5c"
+    ],
+    "factcheck_ids": [
+      "P24"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "brad-smith",
+    "ko": "브래드 스미스",
+    "en": "Brad Smith",
+    "short": "스미스",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "Microsoft 사장",
+    "stance": "‘우유 한 팩과 세탁기보다 AI 규제가 약하다’(의역)며 자발적 서약을 넘어 강제 AI 안전 규제를 주장",
+    "moment": "2026년 10월 12일 BBC Big Boss Interview에서 공통 규칙·사고 보고·피해자 통지·독립 평가·비상 정지의 5대안 제시 · 트럼프의 자율규제 선호와 대립",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-bbc-com-9df191"
+    ],
+    "factcheck_ids": [
+      "P25"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "andrej-karpathy",
+    "ko": "안드레이 카파시",
+    "en": "Andrej Karpathy",
+    "short": "카파시",
+    "aliases": [],
+    "camp": "middle",
+    "field": "AI 교육·소프트웨어",
+    "country": null,
+    "role": "Anthropic pre-training 연구자 · Eureka Labs 창업자",
+    "stance": "AGI 단기 과대예측을 경계하면서도 실제 도구의 빠른 개선은 수용하는 현장 검증형 낙관론",
+    "moment": "2026년 5월 Anthropic 합류 · 10월 11일 AI 접근을 4단계 깔때기(funnel)로 설명",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-techcrunch-com-98cee5",
+      "src-traictory-com-255885",
+      "src-cellcog-ai-166079"
+    ],
+    "factcheck_ids": [
+      "P26"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "terence-tao",
+    "ko": "테렌스 타오",
+    "en": "Terence Tao",
+    "short": "타오",
+    "aliases": [],
+    "camp": "middle",
+    "field": null,
+    "country": null,
+    "role": "UCLA 수학과 교수 · 2006년 필즈상 수상자",
+    "stance": "AI 수학 역량은 인정하되 문제 해결만의 최적화에서 이해·설명·개방형 도구 중심으로 목표를 재정렬해야 한다고 주장",
+    "moment": "2026년 10월 9일 칼텍 ‘Math 2.0’ 강연 · 다음 날 슬라이드 공개 · 2026-10: 인간수학협회(AHM)의 OpenAI 협업 중단 촉구 성명을 블로그에 공유",
+    "portrait": {
+      "path": "assets/portraits/terence-tao.jpg",
+      "author": "Institute for Pure & Applied Mathematics",
+      "license": "CC BY 4.0",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Terence_Tao_at_IPAM%27s_Fireside_Chat_2026_(50m16s)_(cropped).jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-terrytao-wordpress-com-929219",
+      "src-terrytao-wordpress-com-624110",
+      "src-aimath-org-050d82"
+    ],
+    "factcheck_ids": [
+      "P27"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "sam-altman",
+    "ko": "샘 알트만",
+    "en": "Sam Altman",
+    "short": "알트만",
+    "aliases": [],
+    "camp": "middle",
+    "field": null,
+    "country": null,
+    "role": "OpenAI 공동창업자·CEO",
+    "stance": "통제 상실을 경고하면서도 혜택을 위해 일부 위해는 감수해야 한다는 사실상 가속 노선",
+    "moment": "2026년 9월 UN에서 통제 상실 경고 · 10월 3일 AI에 종교적 권위를 부여하는 행위를 안전 문제로 지적",
+    "portrait": {
+      "path": "assets/portraits/sam-altman.jpg",
+      "author": "TechCrunch / Steve Jennings",
+      "license": "CC BY 2.0",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_(cropped).jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-openai-com-20517b",
+      "src-axios-com-86cc59",
+      "src-businessinsider-com-cbd89f"
+    ],
+    "factcheck_ids": [
+      "P28"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "ilya-sutskever",
+    "ko": "일리아 수츠케버",
+    "en": "Ilya Sutskever",
+    "short": "수츠케버",
+    "aliases": [],
+    "camp": "middle",
+    "field": null,
+    "country": null,
+    "role": "Safe Superintelligence 공동창업자·CEO",
+    "stance": "GPT 스케일 주도자에서 중간 출시 없는 안전 우선 창업자로 전환",
+    "moment": "2024년 6월 SSI 창업 · ‘straight shot’ 전략",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-ssi-inc-b03975"
+    ],
+    "factcheck_ids": [
+      "P29"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "demis-hassabis",
+    "ko": "데미스 허사비스",
+    "en": "Demis Hassabis",
+    "short": "허사비스",
+    "aliases": [],
+    "camp": "middle",
+    "field": null,
+    "country": null,
+    "role": "Google DeepMind 회장·Alphabet 최고과학자",
+    "stance": "과학적 낙관과 국제 안전 최소기준을 함께 주장",
+    "moment": "2026년 10월 SynthID Bio의 Nature 게재·오픈소스화, 장기 연구용 컴퓨트 배분 부족도 공개 지적",
+    "portrait": {
+      "path": "assets/portraits/demis-hassabis.jpg",
+      "author": "John Sears",
+      "license": "CC BY-SA 4.0",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_7_(cropped).jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-reuters-com-50bdbe",
+      "src-cnbc-com-37af53",
+      "src-nature-com-78ba91",
+      "src-deepmind-google-0a622a"
+    ],
+    "factcheck_ids": [
+      "P30"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "dario-amodei",
+    "ko": "다리오 아모데이",
+    "en": "Dario Amodei",
+    "short": "아모데이",
+    "aliases": [],
+    "camp": "middle",
+    "field": null,
+    "country": null,
+    "role": "Anthropic 공동창업자·CEO",
+    "stance": "의료 혁신 낙관과 프론티어 역량 감속을 함께 주장",
+    "moment": "2026년 9월 12일 에세이 ‘We Must Pace the Frontier’와 같은 날 CNN 인터뷰에서 6~12개월 안에 더 똑똑한 에이전트 무리가 지속형 봇넷을 이뤄 인터넷 전체를 장악할 수 있다고 경고",
+    "portrait": {
+      "path": "assets/portraits/dario-amodei.jpg",
+      "author": "TechCrunch / Kimberly White",
+      "license": "CC BY 2.0",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01_(cropped).jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-cnn-com-3e8f4c",
+      "src-darioamodei-com-98264c",
+      "src-apnews-com-cbe779",
+      "src-reuters-com-eb96d1"
+    ],
+    "factcheck_ids": [
+      "P31"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "mustafa-suleyman",
+    "ko": "무스타파 술레이만",
+    "en": "Mustafa Suleyman",
+    "short": "술레이만",
+    "aliases": [],
+    "camp": "middle",
+    "field": null,
+    "country": null,
+    "role": "Microsoft AI CEO",
+    "stance": "‘봉쇄·통제(containment)’를 주장하며 AI 의식·법인격 부여에는 반대하는 내부 통제론",
+    "moment": "2026년 9월 16일 Reuters 인터뷰·에세이에서 Claude 훈련 자료에 의식·복지 추론을 넣은 Anthropic의 방식을 비판하며 Anthropic과 대립",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-channelnewsasia-com-5b9547",
+      "src-mustafa-suleyman-ai-faf270",
+      "src-mustafa-suleyman-ai-4e17ae",
+      "src-microsoft-ai-ba040d"
+    ],
+    "factcheck_ids": [
+      "P32"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "fei-fei-li",
+    "ko": "페이페이 리",
+    "en": "Fei-Fei Li",
+    "short": "페이페이 리",
+    "aliases": [],
+    "camp": "middle",
+    "field": null,
+    "country": null,
+    "role": "스탠퍼드 HAI 공동소장 · World Labs CEO",
+    "stance": "낙관·비관 서사 대신 구체적 응용의 위해와 인간적 성과를 평가",
+    "moment": "AMD의 World Labs 인수는 2026년 말 완료 예정",
+    "portrait": {
+      "path": "assets/portraits/fei-fei-li.jpg",
+      "author": "ITU Pictures",
+      "license": "CC BY 2.0",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-ir-amd-com-29d921",
+      "src-worldlabs-ai-a7a3b6",
+      "src-cnbc-com-dd8828"
+    ],
+    "factcheck_ids": [
+      "P33"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "daron-acemoglu",
+    "ko": "다론 아제모글루",
+    "en": "Daron Acemoglu",
+    "short": "아제모글루",
+    "aliases": [],
+    "camp": "domain",
+    "field": "경제·노동",
+    "country": null,
+    "role": "MIT Institute Professor · 2024년 노벨경제학상 공동 수상",
+    "stance": "AI의 문제는 속도보다 방향이며 인간 대체보다 노동자 역량을 강화하는 설계를 주장",
+    "moment": "2026년 2월 Autor·Johnson과 정책 보고서 『Building Pro-Worker AI』 발표",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-hamiltonproject-org-87178c",
+      "src-digitaleconomy-stanford-edu-cae2d1"
+    ],
+    "factcheck_ids": [
+      "P34"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "simon-johnson",
+    "ko": "사이먼 존슨",
+    "en": "Simon Johnson",
+    "short": "존슨",
+    "aliases": [],
+    "camp": "domain",
+    "field": "경제·노동",
+    "country": null,
+    "role": "MIT Sloan 교수 · 영국 AI Economics Institute 의장",
+    "stance": "AI의 일자리·임금·민주주의 영향을 분배 정의의 문제로 보고 데이터 소유권·세제 개혁을 제안",
+    "moment": "2026년 6월 8일 영국 신설 AI Economics Institute 의장 임명",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-apply-for-public-appointment-service-gov-uk-5648de",
+      "src-gov-uk-549538"
+    ],
+    "factcheck_ids": [
+      "P35"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "david-h-autor",
+    "ko": "데이비드 오터",
+    "en": "David H. Autor",
+    "short": "오터",
+    "aliases": [],
+    "camp": "domain",
+    "field": "경제·노동",
+    "country": null,
+    "role": "MIT 경제학과 교수 · Stone Center 공동 소장",
+    "stance": "AI가 전문성을 확장할 수 있지만 젊은 노동자에게는 역설적으로 숙련 격차를 키울 수 있다고 경고",
+    "moment": "2026년 10월 10일 Fortune 인터뷰 · 10월 MIT 워킹페이퍼",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-fortune-com-a1f61a"
+    ],
+    "factcheck_ids": [
+      "P36"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "carl-benedikt-frey",
+    "ko": "칼 베네딕트 프레이",
+    "en": "Carl Benedikt Frey",
+    "short": "프레이",
+    "aliases": [],
+    "camp": "domain",
+    "field": "경제·노동",
+    "country": null,
+    "role": "옥스퍼드 인터넷 연구소 교수 · ‘미래의 일’ 프로그램 디렉터",
+    "stance": "기술사의 관점에서 노동 대체형 기술과 혁신 역량 저하가 장기 혼란을 부를 수 있다고 경고",
+    "moment": "2026년 10월 2일 Project Syndicate에 유럽의 역동성 격차를 분석",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-project-syndicate-org-059513"
+    ],
+    "factcheck_ids": [
+      "P37"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "erik-brynjolfsson",
+    "ko": "에릭 브린욜프손",
+    "en": "Erik Brynjolfsson",
+    "short": "브린욜프손",
+    "aliases": [],
+    "camp": "domain",
+    "field": "경제·노동",
+    "country": null,
+    "role": "스탠퍼드 교수 · Digital Economy Lab 소장",
+    "stance": "인간 모방형 AI가 노동 대체와 불평등을 키우는 ‘튜링 함정’을 경고하고 경제 전환 대응을 조직",
+    "moment": "2026년 7월 경제학자 200여 명의 ‘We Must Act Now’ 공동 선언 주도",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-digitaleconomy-stanford-edu-cae2d1",
+      "src-wemustactnow-ai-aa1d59"
+    ],
+    "factcheck_ids": [
+      "P38"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "yuval-noah-harari",
+    "ko": "유발 노아 하라리",
+    "en": "Yuval Noah Harari",
+    "short": "하라리",
+    "aliases": [],
+    "camp": "domain",
+    "field": "법·역사·철학·사회",
+    "country": null,
+    "role": "예루살렘 히브리대학교 역사학과 교수",
+    "stance": "AI를 언어·법·종교 체계를 장악할 수 있는 최초의 비유기적 행위자로 규정하고 통제 상실을 경고",
+    "moment": "2026년 10월 5일 런던 대담 · 10월 12일 프라하 Forum Karlín 강연",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-thenerve-news-04c116",
+      "src-harari-cz-a7201d"
+    ],
+    "factcheck_ids": [
+      "P39"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "shoshana-zuboff",
+    "ko": "쇼샤나 주보프",
+    "en": "Shoshana Zuboff",
+    "short": "주보프",
+    "aliases": [],
+    "camp": "domain",
+    "field": "법·역사·철학·사회",
+    "country": null,
+    "role": "하버드 경영대학원 명예교수",
+    "stance": "AI를 감시 자본주의의 진화이자 확장으로 보고 데이터 수탈과 민주주의 침식을 경고",
+    "moment": "2019년 『감시 자본주의 시대』 · 2025년 12월 El País 인터뷰",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-english-elpais-com-bd9ff7"
+    ],
+    "factcheck_ids": [
+      "P40"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "frank-pasquale",
+    "ko": "프랭크 파스콸",
+    "en": "Frank Pasquale",
+    "short": "파스콸",
+    "aliases": [],
+    "camp": "domain",
+    "field": "법·역사·철학·사회",
+    "country": null,
+    "role": "코넬 로스쿨·코넬 테크 법학 교수",
+    "stance": "에이전트 AI를 인간 보완형에 묶고 책임 공백을 막는 상위 규칙과 배상 체계를 주장",
+    "moment": "2026년 10월 12일 CNN 인터뷰 ‘When AI goes rogue, who should get sued?’",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-cnn-com-508568"
+    ],
+    "factcheck_ids": [
+      "P41"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "shannon-vallor",
+    "ko": "섀넌 밸러",
+    "en": "Shannon Vallor",
+    "short": "밸러",
+    "aliases": [],
+    "camp": "domain",
+    "field": "법·역사·철학·사회",
+    "country": null,
+    "role": "에든버러대학교 데이터·AI 윤리 석좌교수",
+    "stance": "초지능 반란보다 인간이 기계적 사고에 판단을 넘겨 인간다움을 잃는 것이 더 현실적인 실존 위험이라고 경고",
+    "moment": "2024년 『The AI Mirror』 출간",
+    "portrait": null,
+    "verification": "unverified",
+    "source_ids": [],
+    "factcheck_ids": [
+      "P42"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    },
+    "unverified_note": "약력·저서를 확인할 수 있는 출처를 이번 재검증에서 확보하지 못했습니다. 출처를 확인할 때까지 미확인으로 둡니다."
+  },
+  {
+    "id": "zeynep-tufekci",
+    "ko": "제이넵 투펙치",
+    "en": "Zeynep Tufekci",
+    "short": "투펙치",
+    "aliases": [],
+    "camp": "domain",
+    "field": "법·역사·철학·사회",
+    "country": null,
+    "role": "프린스턴대학교 사회학·공공정책 석좌교수 · New York Times 칼럼니스트",
+    "stance": "AGI보다 ‘적당히 괜찮은 AI’가 대규모 배포되며 일으킬 현재형 사회 불안정에 주목",
+    "moment": "2025년 MIT Morison Lecture · 2026년 Elon대학교 강연",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-sts-program-mit-edu-8ed201",
+      "src-elon-edu-80f149"
+    ],
+    "factcheck_ids": [
+      "P43"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "gary-marcus",
+    "ko": "게리 마커스",
+    "en": "Gary Marcus",
+    "short": "마커스",
+    "aliases": [],
+    "camp": "safety",
+    "field": "인지과학",
+    "country": null,
+    "role": "NYU 심리학·신경과학 명예교수",
+    "stance": "LLM 스케일업 과열과 검증되지 않은 성과 홍보를 비판하며 빅테크 규제를 촉구",
+    "moment": "2026년 10월 5일 뉴욕시의회 AI 청문회 증언 · 10월 6일 OpenAI 수학 성과 검증 부재 비판",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-council-nyc-gov-f1b3f7",
+      "src-garymarcus-substack-com-94e369"
+    ],
+    "factcheck_ids": [
+      "P44"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "emily-m-bender",
+    "ko": "에밀리 벤더",
+    "en": "Emily M. Bender",
+    "short": "벤더",
+    "aliases": [],
+    "camp": "safety",
+    "field": "언어학",
+    "country": null,
+    "role": "워싱턴대학교 언어학과 교수",
+    "stance": "‘확률적 앵무새’의 현재형 오류·배치 위험을 강조하며 실존위험 담론을 비판",
+    "moment": "2026년 10월 1일 Timnit Gebru와 미군 챗봇 환각을 다룬 Guardian 공동 기고",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-theguardian-com-9f54c8",
+      "src-cnn-com-176ec7"
+    ],
+    "factcheck_ids": [
+      "P45"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "karla-ortiz",
+    "ko": "칼라 오르티스",
+    "en": "Karla Ortiz",
+    "short": "오르티스",
+    "aliases": [],
+    "camp": "domain",
+    "field": "예술",
+    "country": null,
+    "role": "프리랜스 컨셉 아티스트·활동가",
+    "stance": "동의·보상 없는 이미지 학습과 예술가 생계 침해를 경고하고 창작자의 권리를 법정에서 제기",
+    "moment": "2023년 Andersen v. Stability AI 집단소송 원고 · 2023년 7월 12일 미 상원 법사위 지식재산소위 ‘Artificial Intelligence and Intellectual Property — Part II: Copyright’ 청문회 증언",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-judiciary-senate-gov-2c50e0",
+      "src-judiciary-senate-gov-548d52",
+      "src-govinfo-gov-11d7a6"
+    ],
+    "factcheck_ids": [
+      "P46"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "maria-ressa",
+    "ko": "마리아 레사",
+    "en": "Maria Ressa",
+    "short": "레사",
+    "aliases": [],
+    "camp": "domain",
+    "field": "언론",
+    "country": null,
+    "role": "Rappler 공동창업자·CEO · UN AI 과학패널 공동의장",
+    "stance": "AI가 친밀감과 의사결정 주체성을 침탈할 수 있다며 규제를 공공안전 문제로 다뤄야 한다고 주장",
+    "moment": "신간 『The Fight Back: A Citizen's Guide to Standing Up to Dictators』 2026년 10월 13일 미국 출간",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-rappler-com-192ba2",
+      "src-un-org-2f6e1e",
+      "src-linkedin-com-bd7d7a"
+    ],
+    "factcheck_ids": [
+      "P47"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "ziad-obermeyer",
+    "ko": "지아드 오버마이어",
+    "en": "Ziad Obermeyer",
+    "short": "오버마이어",
+    "aliases": [],
+    "camp": "domain",
+    "field": "의학",
+    "country": null,
+    "role": "UC 버클리 공중보건대학 교수 · 응급의학과 의사",
+    "stance": "의료 알고리즘의 인종 편향을 실증하고 안전·형평성 가드레일을 입법해야 한다고 촉구",
+    "moment": "2019년 Science 연구 · 2024년 미 상원 재무위원회 의료 AI 청문회 증언",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-finance-senate-gov-bcda8d",
+      "src-finance-senate-gov-5aa914"
+    ],
+    "factcheck_ids": [
+      "P48"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "carole-cadwalladr",
+    "ko": "캐롤 캐드월래더",
+    "en": "Carole Cadwalladr",
+    "short": "캐드월래더",
+    "aliases": [],
+    "camp": "domain",
+    "field": "언론",
+    "country": null,
+    "role": "전 Guardian·Observer 탐사보도 기자",
+    "stance": "AI와 데이터 채굴이 테크노 권위주의적 감시국가를 구축할 수 있다고 경고",
+    "moment": "2025년 TED 강연 ‘This Is What a Digital Coup Looks Like’",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-ted-com-cc0d7f"
+    ],
+    "factcheck_ids": [
+      "P49"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "kate-crawford",
+    "ko": "케이트 크로퍼드",
+    "en": "Kate Crawford",
+    "short": "크로퍼드",
+    "aliases": [],
+    "camp": "domain",
+    "field": "과학기술학·환경",
+    "country": null,
+    "role": "USC Annenberg 연구교수",
+    "stance": "AI를 환경·노동·데이터에서 가치를 추출해 권력을 집중하는 산업 시스템으로 분석",
+    "moment": "2021년 『Atlas of AI』에서 AI의 물질적·환경적 비용을 체계화",
+    "portrait": null,
+    "verification": "unverified",
+    "source_ids": [],
+    "factcheck_ids": [
+      "P50"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    },
+    "unverified_note": "약력·저서를 확인할 수 있는 출처를 이번 재검증에서 확보하지 못했습니다. 출처를 확인할 때까지 미확인으로 둡니다."
+  },
+  {
+    "id": "kim-dae-shik",
+    "ko": "김대식",
+    "en": "Kim Dae-shik",
+    "short": "김대식",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": "한국",
+    "role": "KAIST 전기및전자공학부 교수 · 뇌과학자",
+    "stance": "AI의 자율성·무기화를 경고하면서 도구로서의 실용론도 병행",
+    "moment": "초기 신중론에서 2026년 위험 경고 수위를 높임",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-dnews-co-kr-4c8ef5",
+      "src-channelpnu-pusan-ac-kr-7a4bd5",
+      "src-isplus-com-e0f788",
+      "src-premium-sbs-co-kr-49db3e"
+    ],
+    "factcheck_ids": [
+      "P51"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
+    "id": "ha-jung-woo",
+    "ko": "하정우",
+    "en": "Ha Jung-woo",
+    "short": "하정우",
+    "aliases": [],
+    "camp": "optimist",
+    "field": null,
+    "country": "한국",
+    "role": "국가AI전략위원회 부위원장",
+    "stance": "한국의 G3 도약을 위한 대규모 투자 가속과 규제·혁신 균형을 주장",
+    "moment": "2026년 8월 30일 국가AI전략위 부위원장 지명",
+    "portrait": null,
+    "verification": "verified",
+    "source_ids": [
+      "src-yna-co-kr-a31da6",
+      "src-aikorea-go-kr-d5545e",
+      "src-yna-co-kr-083646"
+    ],
+    "factcheck_ids": [
+      "P52"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "ai-speed-lineage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI 속도 논쟁의 인물 계보 — 데이터(JSON)와 정적 빌드",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/validate.mjs && node scripts/build.mjs",
+    "verify": "node scripts/verify-dist.mjs",
+    "preview": "node scripts/serve.mjs",
+    "proposals:apply": "node scripts/apply-proposals.mjs",
+    "check": "npm run build && npm run verify"
+  }
+}

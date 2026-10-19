@@ -1,0 +1,34 @@
+[
+  {
+    "id": "optimist",
+    "label": "기술 낙관·가속",
+    "short": "낙관",
+    "badge": "opt",
+    "color": "--optimist",
+    "description": "개발·배포·개방을 우선하는 입장"
+  },
+  {
+    "id": "safety",
+    "label": "안전·속도조절",
+    "short": "안전",
+    "badge": "safe",
+    "color": "--safety",
+    "description": "존재위험·감속·강한 감독을 강조하는 입장"
+  },
+  {
+    "id": "middle",
+    "label": "중간·스탠스 변화",
+    "short": "중간",
+    "badge": "mid",
+    "color": "--middle",
+    "description": "양쪽 논리를 병행하거나 최근 스탠스 변화가 큰 경우"
+  },
+  {
+    "id": "domain",
+    "label": "분야별 경고자",
+    "short": "분야별",
+    "badge": "domain",
+    "color": "--domain",
+    "description": "AI 개발을 본업으로 삼지 않고 자기 전문분야에서 사회적 영향을 경고한 인물"
+  }
+]

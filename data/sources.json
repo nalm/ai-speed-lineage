@@ -1,0 +1,2080 @@
+[
+  {
+    "id": "src-a16z-com-455a30",
+    "url": "https://a16z.com/the-techno-optimist-manifesto/",
+    "publisher": "a16z",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-aa-com-tr-5d5d92",
+    "url": "https://www.aa.com.tr/en/world/microsoft-chief-backs-pacing-ai-independent-evaluators-for-superintelligence/4056214",
+    "publisher": "Anadolu Agency",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-abc-net-au-f98cbd",
+    "url": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+    "publisher": "ABC (호주)",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-afp-com-e3bd5c",
+    "url": "https://www.afp.com/en/bill-gates-warns-cyberattacks-most-imminent-ai-threat",
+    "publisher": "AFP",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-afp-com-f2a53d",
+    "url": "https://www.afp.com/en/uk-retains-early-access-test-latest-us-ai-models",
+    "publisher": "AFP",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-ahmath-org-51f5aa",
+    "url": "https://www.ahmath.org/statements",
+    "publisher": "Association for Human Mathematics",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-aikorea-go-kr-d5545e",
+    "url": "https://www.aikorea.go.kr/web/board/brdDetail.do?menu_cd=000012&num=902",
+    "publisher": "국가인공지능전략위원회",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-aimath-org-050d82",
+    "url": "https://aimath.org/videos/terry-tao-pl/",
+    "publisher": "American Institute of Mathematics",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-ainowinstitute-org-5638ed",
+    "url": "https://ainowinstitute.org/news/announcement/ai-nows-co-executive-director-amba-kak-testifies-before-monopoly-busters-caucus",
+    "publisher": "AI Now Institute",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-ainowinstitute-org-602b7b",
+    "url": "https://ainowinstitute.org/wp-content/uploads/2026/09/Amba-Kak-Monopoly-Busters-Caucus-Testimony-Sep-2026.pdf",
+    "publisher": "AI Now Institute",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-alignment-openai-com-9c91f3",
+    "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+    "publisher": "OpenAI Alignment",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-alignmentforum-org-6bdd0f",
+    "url": "https://www.alignmentforum.org/w/eliezer-yudkowsky",
+    "publisher": "Alignment Forum",
+    "title": "Alignment Forum · Yudkowsky",
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 1
+  },
+  {
+    "id": "src-amazon-com-8ab576",
+    "url": "https://www.amazon.com/Fight-Back-Citizens-Standing-Dictators/dp/0063584611",
+    "publisher": "Amazon",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-anthropic-com-7a2384",
+    "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+    "publisher": "Anthropic",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-anthropic-com-b954ee",
+    "url": "https://anthropic.com/aug-2026-risk-report",
+    "publisher": "Anthropic",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-apnews-com-5af56a",
+    "url": "https://apnews.com/article/anthropic-ai-safety-jacob-coxon-2ed549e07f2f941600a135070487d83d",
+    "publisher": "AP",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-apnews-com-cbe779",
+    "url": "https://apnews.com/article/ai-hugging-face-swarm-internet-takeover-amodei-0053ba1b6c8144b2927d2501be9eb919",
+    "publisher": "AP",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-apnews-com-d12e9b",
+    "url": "https://apnews.com/article/ai-must-act-now-job-displacement-783469467e0df1463df44518f33295ee",
+    "publisher": "AP",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-apply-for-public-appointment-service-gov-uk-5648de",
+    "url": "https://apply-for-public-appointment.service.gov.uk/direct-ministerial-appointments-announcements?page=7",
+    "publisher": "GOV.UK 공직 임명",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-arstechnica-com-8f41a0",
+    "url": "https://arstechnica.com/ai/2026/09/openai-halts-frontier-model-training-amid-string-of-agent-misalignment-incidents/",
+    "publisher": "Ars Technica",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-arxiv-org-487e69",
+    "url": "https://arxiv.org/html/2610.10502",
+    "publisher": "arXiv",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-arxiv-org-c93bce",
+    "url": "https://arxiv.org/abs/2609.36054",
+    "publisher": "arXiv",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-ascensionpress-com-fd84eb",
+    "url": "https://ascensionpress.com/blogs/articles/five-paragraphs-of-magnifica-humanitas",
+    "publisher": "Ascension Press",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-axios-com-86cc59",
+    "url": "https://www.axios.com/2026/10/03/openai-anthropic-altman-amodei-religious-force-models",
+    "publisher": "Axios",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-bbc-co-uk-4188ce",
+    "url": "https://www.bbc.co.uk/programmes/p0pfy9cf",
+    "publisher": "BBC",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-bbc-com-8fa0ea",
+    "url": "https://www.bbc.com/news/articles/c14dpgm0rg4o",
+    "publisher": "BBC",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-bbc-com-9df191",
+    "url": "https://www.bbc.com/news/articles/c6rmy7zmvx3lo",
+    "publisher": "BBC",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-betanyc-github-io-a9c4a3",
+    "url": "https://betanyc.github.io/hearings-transcripts/",
+    "publisher": "BetaNYC 청문회 전사본",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-biz-chosun-com-fd2d11",
+    "url": "https://biz.chosun.com/en/en-it/2026/10/12/JCBW3YTVGFALNDTRB7LNRUYVVQ/",
+    "publisher": "Chosun Biz",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-bleepingcomputer-com-032137",
+    "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
+    "publisher": "BleepingComputer",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-bloomberg-com-26da5e",
+    "url": "https://www.bloomberg.com/news/videos/2026-09-17/ai-extinction-fears-are-science-fiction-andrew-ng-video",
+    "publisher": "Bloomberg",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-bloomberg-com-2cce3f",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-09/anthropic-worker-quits-over-ai-firms-gambling-with-our-lives",
+    "publisher": "Bloomberg",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-bloomberg-com-b36c3d",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-09/openai-names-us-ai-adviser-paul-christiano-to-nonprofit-board",
+    "publisher": "Bloomberg",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-bloomberg-com-ce7c4a",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-17/ai-pioneer-andrew-ng-calls-extinction-fears-science-fiction",
+    "publisher": "Bloomberg",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-bloomberg-com-f3f7c4",
+    "url": "https://www.bloomberg.com/news/videos/2026-09-14/cohere-ceo-warns-against-an-ai-safety-cartel-video",
+    "publisher": "Bloomberg",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-businessinsider-com-7fdffb",
+    "url": "https://www.businessinsider.com/linkedin-cofounder-ai-infrastructure-keeping-us-from-recession-2026-10",
+    "publisher": "Business Insider",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-businessinsider-com-bf997b",
+    "url": "https://www.businessinsider.com/deepseek-engineer-viral-post-inside-china-ai-race-2026-9",
+    "publisher": "Business Insider",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-businessinsider-com-cbd89f",
+    "url": "https://www.businessinsider.com/sam-altman-dont-treat-ai-like-a-religious-force-2026-10",
+    "publisher": "Business Insider",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-businessinsider-com-faddac",
+    "url": "https://www.businessinsider.com/godfather-of-ai-wants-fda-style-approval-system-2026-10",
+    "publisher": "Business Insider",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-casp-ac-e8563f",
+    "url": "https://casp.ac/reports/intelligence-explosion",
+    "publisher": "CASP",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-cbsnews-com-3a027d",
+    "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-rejects-ai-extinction-warnings/",
+    "publisher": "CBS News",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-cellcog-ai-166079",
+    "url": "https://cellcog.ai/blog/karpathy-llm-understanding-funnel/",
+    "publisher": "CellCog",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-channelnewsasia-com-5b9547",
+    "url": "https://www.channelnewsasia.com/business/microsoft-ai-chief-calls-out-anthropics-approach-ai-consciousness-6389491",
+    "publisher": "CNA",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-channelpnu-pusan-ac-kr-7a4bd5",
+    "url": "https://channelpnu.pusan.ac.kr/news/articleView.html?idxno=39562",
+    "publisher": "채널PNU",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-chinaresearchcollective-substack-com-bea7e2",
+    "url": "https://chinaresearchcollective.substack.com/p/the-engineer-who-wrote-deepseeks",
+    "publisher": "China Research Collective",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-cnbc-com-37af53",
+    "url": "https://www.cnbc.com/2026/08/06/demis-hassabis-google-reshuffle-deepmind-role.html",
+    "publisher": "CNBC",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-cnbc-com-6456bc",
+    "url": "https://www.cnbc.com/2026/05/19/anthropic-hires-openai-cofounder-andrej-karpathy-former-tesla-ai-lead.html",
+    "publisher": "CNBC",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-cnbc-com-dd8828",
+    "url": "https://www.cnbc.com/2026/09/28/amd-fei-fei-li-world-labs.html",
+    "publisher": "CNBC",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-cnbc-com-f7f34c",
+    "url": "https://www.cnbc.com/2026/10/10/microsoft-satya-nadella-ai-emergency-brake-safety.html",
+    "publisher": "CNBC",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-cnn-com-176ec7",
+    "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+    "publisher": "CNN",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-cnn-com-3e8f4c",
+    "url": "https://www.cnn.com/2026/09/12/tech/anthropic-ceo-essay-ai",
+    "publisher": "CNN",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-cnn-com-508568",
+    "url": "https://www.cnn.com/2026/10/12/business/ai-agents-rogue-legal-liability",
+    "publisher": "CNN",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-cohere-com-ea4e0e",
+    "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+    "publisher": "Cohere",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-commerce-senate-gov-8c7106",
+    "url": "https://www.commerce.senate.gov/press/dem/release/cantwell-outlines-comprehensive-governance-framework-for-safe-and-secure-frontier-ai/",
+    "publisher": "미 상원 상무위원회",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-committees-parliament-uk-a23910",
+    "url": "https://committees.parliament.uk/event/28282/formal-meeting-oral-evidence-session/",
+    "publisher": "영국 하원 위원회",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-council-nyc-gov-f1b3f7",
+    "url": "https://council.nyc.gov/press/2026/10/05/3278/",
+    "publisher": "뉴욕시의회",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-cs-toronto-edu-a13758",
+    "url": "https://www.cs.toronto.edu/~ilya/pubs/ilya_sutskever_phd_thesis.pdf",
+    "publisher": "토론토대 (학위논문)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-darioamodei-com-98264c",
+    "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "publisher": "Dario Amodei",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-deepmind-google-0a622a",
+    "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+    "publisher": "Google DeepMind",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-dig-watch-c14090",
+    "url": "https://dig.watch/updates/top-ai-safety-expert-warns-that-an-unregulated-ai-arms-race-may-pose-existential-risks",
+    "publisher": "Digital Watch",
+    "title": "Digital Watch · Russell",
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 4
+  },
+  {
+    "id": "src-digitaleconomy-stanford-edu-cae2d1",
+    "url": "https://digitaleconomy.stanford.edu/news/wemustactnow/",
+    "publisher": "Stanford Digital Economy Lab",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-dnews-co-kr-4c8ef5",
+    "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610131525574460406",
+    "publisher": "대한경제",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-dvmsinstitute-com-2b4e77",
+    "url": "https://dvmsinstitute.com/2026/09/28/slowing-ai-necessary-but-not-sufficient/",
+    "publisher": "DVMS Institute",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-dwarkesh-com-dc08e9",
+    "url": "https://www.dwarkesh.com/p/andrej-karpathy",
+    "publisher": "Dwarkesh Podcast",
+    "title": "Dwarkesh Podcast · Karpathy",
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 11
+  },
+  {
+    "id": "src-elon-edu-80f149",
+    "url": "https://www.elon.edu/u/news/2026/03/13/zeynep-tufekci-encourages-elon-students-to-ask-tough-questions-about-artificial-intelligence/",
+    "publisher": "Elon University",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-en-wikipedia-org-67ab91",
+    "url": "https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies",
+    "publisher": "Wikipedia",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-en-wikipedia-org-b4de75",
+    "url": "https://en.wikipedia.org/wiki/Pause_Giant_AI_Experiments:_An_Open_Letter",
+    "publisher": "Wikipedia",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-english-elpais-com-bd9ff7",
+    "url": "https://english.elpais.com/technology/2025-12-15/shoshana-zuboff-philosopher-ai-is-surveillance-capitalism-continuing-to-evolve-and-expand.html",
+    "publisher": "El País",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-extropic-ai-389811",
+    "url": "https://extropic.ai/writing/thermodynamic-computing-chips-in-america",
+    "publisher": "Extropic",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-finance-senate-gov-5aa914",
+    "url": "https://www.finance.senate.gov/imo/media/doc/02042024_obermeyer_testimony.pdf",
+    "publisher": "미 상원 재무위원회",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-finance-senate-gov-bcda8d",
+    "url": "https://www.finance.senate.gov/hearings/artificial-intelligence-and-health-care-promise-and-pitfalls",
+    "publisher": "미 상원 재무위원회",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-financialpost-com-9bf883",
+    "url": "https://financialpost.com/technology/ai-pioneer-andrew-ng-calls-extinction-fears-science-fiction",
+    "publisher": "Financial Post",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-find-and-update-company-information-service-gov-uk-f8e054",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/15054502",
+    "publisher": "Companies House",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-forbes-com-106e9d",
+    "url": "https://www.forbes.com/sites/emilybaker-white/2023/12/01/who-is-basedbeffjezos-the-leader-of-effective-accelerationism-eacc/",
+    "publisher": "Forbes",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-fortune-com-a1f61a",
+    "url": "https://fortune.com/2026/10/10/david-autor-china-shock-nber-google-paper-illusion-of-competence-gen-z/",
+    "publisher": "Fortune",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-fortune-com-a6913c",
+    "url": "https://fortune.com/2023/10/16/marc-andreessen-techno-optimist-manifesto-ai-50-billion-people-billionaire-vc/",
+    "publisher": "Fortune",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-forum-effectivealtruism-org-cc94f9",
+    "url": "https://forum.effectivealtruism.org/posts/CmZhcEpz7zBTGhksf/what-happened-to-the-openphil-openai-board-seat",
+    "publisher": "EA Forum",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-futureoflife-org-d015f8",
+    "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+    "publisher": "Future of Life Institute",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-garymarcus-substack-com-10b0d3",
+    "url": "https://garymarcus.substack.com/p/coming-soon-new-york-citys-hearing",
+    "publisher": "Marcus on AI",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-garymarcus-substack-com-94e369",
+    "url": "https://garymarcus.substack.com/p/complementary-remarks-from-gary-marcus",
+    "publisher": "Marcus on AI",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-gazzettaufficiale-it-99bd0c",
+    "url": "https://www.gazzettaufficiale.it/gazzetta/serie_generale/caricaDettaglio/home?dataPubblicazioneGazzetta=2026-10-08&numeroGazzetta=234",
+    "publisher": "Gazzetta Ufficiale (이탈리아 관보)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-geekwire-com-85a3f0",
+    "url": "https://www.geekwire.com/2026/sen-maria-cantwell-outlines-six-point-plan-to-regulate-frontier-ai-as-concerns-escalate/",
+    "publisher": "GeekWire",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-gilkalai-wordpress-com-348c96",
+    "url": "https://gilkalai.wordpress.com/2026/09/03/amazing-there-is-no-percolation-at-the-critical-probability-in-all-dimensions-solved-by-ai-via-a-conjecture-of-gady-kozma-and-shahaf-nitzan/",
+    "publisher": "Gil Kalai 블로그",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-github-com-f02fc4",
+    "url": "https://github.com/openai/math",
+    "publisher": "GitHub",
+    "title": "openai/math 저장소",
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 10
+  },
+  {
+    "id": "src-gov-uk-3bc0c5",
+    "url": "https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai",
+    "publisher": "GOV.UK",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-gov-uk-549538",
+    "url": "https://www.gov.uk/government/publications/introducing-the-ai-economics-institute/introducing-the-ai-economics-institute",
+    "publisher": "GOV.UK",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-govinfo-gov-11d7a6",
+    "url": "https://www.govinfo.gov/content/pkg/CHRG-118shrg53116/html/CHRG-118shrg53116.htm",
+    "publisher": "GovInfo",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-govinfo-gov-23bb6c",
+    "url": "https://www.govinfo.gov/content/pkg/BILLS-119s5576is/html/BILLS-119s5576is.htm",
+    "publisher": "GovInfo",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-hamiltonproject-org-51edfc",
+    "url": "https://www.hamiltonproject.org/wp-content/uploads/2026/02/20260223_THP_ProWorkerAI_OP.pdf",
+    "publisher": "Hamilton Project",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-hamiltonproject-org-87178c",
+    "url": "https://www.hamiltonproject.org/publication/paper/building-pro-worker-ai/",
+    "publisher": "Hamilton Project",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-harari-cz-a7201d",
+    "url": "https://www.harari.cz/",
+    "publisher": "harari.cz",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-help-openai-com-31ee6d",
+    "url": "https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt",
+    "publisher": "OpenAI Help Center",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-huggingface-co-d8ed31",
+    "url": "https://huggingface.co/blog/security-incident-july-2026",
+    "publisher": "Hugging Face",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-humane-intelligence-org-97fa08",
+    "url": "https://humane-intelligence.org/programs-services/bias-bounty/",
+    "publisher": "Humane Intelligence",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-humane-intelligence-org-c59c93",
+    "url": "https://humane-intelligence.org/about/",
+    "publisher": "Humane Intelligence",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-indianexpress-com-479b62",
+    "url": "https://indianexpress.com/article/technology/artificial-intelligence/mathematicians-did-not-ask-for-this-openai-10912458/",
+    "publisher": "The Indian Express",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-intelligence-org-65b9aa",
+    "url": "https://intelligence.org/2023/10/10/announcing-miris-new-ceo-and-leadership-team/",
+    "publisher": "MIRI",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-investor-coursera-com-ebf67e",
+    "url": "https://investor.coursera.com/news/news-details/2026/Coursera-Makes-100-Million-Strategic-Investment-in-LearnVector-a-New-AI-Native-Learning-Company-Founded-by-Andrew-Ng/default.aspx",
+    "publisher": "Coursera IR",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-ir-amd-com-29d921",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+    "publisher": "AMD IR",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-isplus-com-e0f788",
+    "url": "https://isplus.com/article/view/isp202605140133",
+    "publisher": "일간스포츠",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-itdoeswhatnow-com-0aa16f",
+    "url": "https://itdoeswhatnow.com/m/2026-08-14-anthropic-publishes-its-second-risk-report/",
+    "publisher": "It Does What Now",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-itnews-com-au-30cf8e",
+    "url": "https://www.itnews.com.au/news/openai-agent-accessed-credentials-via-medicare-data-portal-629297",
+    "publisher": "iTnews",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-judiciary-senate-gov-2c50e0",
+    "url": "https://www.judiciary.senate.gov/artificial-intelligence-and-intellectual-property_part-ii-copyright",
+    "publisher": "미 상원 법사위원회",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-judiciary-senate-gov-548d52",
+    "url": "https://www.judiciary.senate.gov/imo/media/doc/2023-07-12_pm_-_testimony_-_ortiz.pdf",
+    "publisher": "미 상원 법사위원회",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-kirkusreviews-com-82df80",
+    "url": "https://www.kirkusreviews.com/book-reviews/maria-ressa/the-fight-back/",
+    "publisher": "Kirkus Reviews",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-koreaherald-com-9f8634",
+    "url": "https://www.koreaherald.com/article/10899735",
+    "publisher": "The Korea Herald",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-koreatimes-co-kr-9a38a3",
+    "url": "https://www.koreatimes.co.kr/business/tech-science/20261012/ai-pioneer-sees-koreas-role-in-developing-world-model",
+    "publisher": "The Korea Times",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-lawzero-org-52bf8a",
+    "url": "https://lawzero.org/en/team/yoshua-bengio",
+    "publisher": "LawZero",
+    "title": "LawZero · Bengio",
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 2
+  },
+  {
+    "id": "src-leggi-edilizia-com-5a4e52",
+    "url": "https://leggi.edilizia.com/normativa/atto/188427/d-lgs-179-2026-decreto-legislativo-7-ottobre-2026-n-179?view=originale",
+    "publisher": "Leggi Edilizia",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-lexfridman-com-fc3510",
+    "url": "https://lexfridman.com/guillaume-verdon-transcript/",
+    "publisher": "Lex Fridman Podcast",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-linkedin-com-bd7d7a",
+    "url": "https://www.linkedin.com/posts/maria-ressa-473166_the-week-of-october-12-my-latest-book-the-activity-7490792589814816768-71gS",
+    "publisher": "LinkedIn (마리아 레사)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-machine-net-7f565b",
+    "url": "https://www.machine.net/news/uk-ai-safety-institute-regains-frontier-model-access/",
+    "publisher": "machine.net",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-meritalk-com-2d53f4",
+    "url": "https://www.meritalk.com/articles/cantwell-releases-governance-framework-for-frontier-ai/",
+    "publisher": "MeriTalk",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-mi5-gov-uk-9ea703",
+    "url": "https://www.mi5.gov.uk/mi5-director-general-delivers-annual-threat-update",
+    "publisher": "MI5",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-microsoft-ai-ba040d",
+    "url": "https://microsoft.ai/code-of-conduct/",
+    "publisher": "Microsoft AI",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-mitsloanme-com-e8b3a6",
+    "url": "https://www.mitsloanme.com/article/andrej-karpathy-says-ai-agents-are-not-there-yet/",
+    "publisher": "MIT Sloan ME",
+    "title": "MIT Sloan ME · Karpathy",
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 12
+  },
+  {
+    "id": "src-mlex-com-177637",
+    "url": "https://www.mlex.com/mlex/articles/2537399/pressed-by-uk-lawmakers-anthropic-google-meta-openai-differ-on-ai-regulation",
+    "publisher": "MLex",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-munkdebates-com-a760be",
+    "url": "https://munkdebates.com/podcasts/munk-dialogue-on-ai/",
+    "publisher": "Munk Debates",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-mustafa-suleyman-ai-4e17ae",
+    "url": "https://mustafa-suleyman.ai/a-humanist-future",
+    "publisher": "Mustafa Suleyman",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-mustafa-suleyman-ai-faf270",
+    "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+    "publisher": "Mustafa Suleyman",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-nature-com-78ba91",
+    "url": "https://www.nature.com/articles/s41586-026-10965-y",
+    "publisher": "Nature",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-nbcnews-com-b7f958",
+    "url": "https://www.nbcnews.com/politics/congress/godfather-ai-warns-congress-maybe-year-left-regulate-ai-rcna598330",
+    "publisher": "NBC News",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-nber-org-e028db",
+    "url": "https://www.nber.org/papers/w34854",
+    "publisher": "NBER",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-ncregister-com-818322",
+    "url": "https://www.ncregister.com/cna/pope-leo-addresses-ai-art",
+    "publisher": "National Catholic Register",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-news-berkeley-edu-56367c",
+    "url": "https://news.berkeley.edu/2026/09/03/watch-uc-berkeley-professor-calls-for-a-halt-to-ai-weapons/",
+    "publisher": "UC Berkeley News",
+    "title": "UC Berkeley · Russell",
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 3
+  },
+  {
+    "id": "src-news-sbs-co-kr-03a34b",
+    "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008763896",
+    "publisher": "SBS",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-news-sky-com-3cf9c1",
+    "url": "https://news.sky.com/story/tech-firms-promise-to-take-down-ai-platforms-if-british-secret-services-show-they-are-unsafe-13598926",
+    "publisher": "Sky News",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-news-un-org-2747cb",
+    "url": "https://news.un.org/en/story/2026/09/1168414",
+    "publisher": "UN News",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-news-ycombinator-com-639668",
+    "url": "https://news.ycombinator.com/item?id=14008569",
+    "publisher": "Hacker News",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-nicfab-eu-43c45a",
+    "url": "https://www.nicfab.eu/it/posts/dlgs-179-2026-overview/",
+    "publisher": "NicFab",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-nickbostrom-com-6d66be",
+    "url": "https://nickbostrom.com/cv.pdf",
+    "publisher": "Nick Bostrom",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-nickbostrom-com-e395c4",
+    "url": "https://nickbostrom.com/deep-utopia/",
+    "publisher": "Nick Bostrom",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-nobelpeacecenter-org-5fe1e3",
+    "url": "https://www.nobelpeacecenter.org/en/news/nobel-peace-conference-2026",
+    "publisher": "노벨평화센터",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-noze-it-1c4043",
+    "url": "https://www.noze.it/insights/decreto-ai-179-2026-gazzetta/",
+    "publisher": "Noze",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-npr-org-1481c7",
+    "url": "https://www.npr.org/2026/10/10/nx-s1-5992872/ex-openai-safety-lead-david-robinson-warns-of-broken-tech-culture",
+    "publisher": "NPR",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-nytimes-com-c83b56",
+    "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+    "publisher": "The New York Times",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-nytimes-com-e832d2",
+    "url": "https://www.nytimes.com/2026/10/07/opinion/ezra-klein-podcast-david-robinson.html",
+    "publisher": "The New York Times",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-openai-com-08bdbd",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "publisher": "OpenAI",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-openai-com-20517b",
+    "url": "https://openai.com/index/sam-altman-un-security-council-remarks/",
+    "publisher": "OpenAI",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-openai-com-3bae02",
+    "url": "https://openai.com/index/how-we-will-do-better-for-australia/",
+    "publisher": "OpenAI",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-openai-com-67feed",
+    "url": "https://openai.com/index/gpt-6-for-everyone/",
+    "publisher": "OpenAI",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-openai-com-6e2c59",
+    "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+    "publisher": "OpenAI",
+    "title": "OpenAI · 수학 결과 공개",
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 9
+  },
+  {
+    "id": "src-openai-com-dfc615",
+    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "publisher": "OpenAI",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-openai-com-f42b71",
+    "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board/",
+    "publisher": "OpenAI",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-paulfchristiano-substack-com-9c4d8a",
+    "url": "https://paulfchristiano.substack.com/p/personal-statement-on-joining-the",
+    "publisher": "Paul Christiano",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-penguin-co-uk-192d21",
+    "url": "https://www.penguin.co.uk/books/485472/the-fight-back-by-ressa-maria/9780753562901",
+    "publisher": "Penguin",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-pm-gc-ca-48885c",
+    "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/02/prime-minister-carney-launches-new-national-council-artificial",
+    "publisher": "캐나다 총리실",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-pmi-it-8e7643",
+    "url": "https://www.pmi.it/impresa/normativa/495493/decreto-ai-act-obblighi-formazione-lavoro.html",
+    "publisher": "PMI.it",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-podcast-newcomer-co-0a445a",
+    "url": "https://podcast.newcomer.co/episode/reid-hoffman-on-chatgpt-data-centers-why-america-needs-ai",
+    "publisher": "Newcomer 팟캐스트",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-politico-com-43c032",
+    "url": "https://www.politico.com/news/2026/10/07/maria-cantwell-ai-framework-01109797",
+    "publisher": "Politico",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-politico-com-899cf8",
+    "url": "https://www.politico.com/live-updates/2026/09/29/congress/cruz-blocks-senate-democrats-bid-to-pass-ai-safety-bill-01097480",
+    "publisher": "Politico",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-premium-sbs-co-kr-49db3e",
+    "url": "https://premium.sbs.co.kr/article/hTzkBzfiD",
+    "publisher": "SBS 프리미엄",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-press-vatican-va-1974b0",
+    "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/05/25/260525e.html",
+    "publisher": "교황청 공보실",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-press-vatican-va-f52170",
+    "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/02/261002c.html",
+    "publisher": "교황청 공보실",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-prnewswire-com-52ba85",
+    "url": "https://www.prnewswire.com/news-releases/extropic-signs-75-million-letter-of-intent-with-us-department-of-commerce-to-scale-and-onshore-thermodynamic-computing-302839290.html",
+    "publisher": "PR Newswire",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-project-syndicate-org-059513",
+    "url": "https://www.project-syndicate.org/onpoint/why-europe-is-falling-behind-what-to-do-by-carl-benedikt-frey-2026-09",
+    "publisher": "Project Syndicate",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-publicism-info-83b273",
+    "url": "https://publicism.info/philosophy/superintelligence/17.html",
+    "publisher": "Publicism",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-rappler-com-192ba2",
+    "url": "https://www.rappler.com/world/global-affairs/maria-ressa-yoshua-bengio-un-independent-international-scientific-panel-ai/",
+    "publisher": "Rappler",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-rappler-com-a5c3e6",
+    "url": "https://www.rappler.com/technology/nobel-laureate-maria-ressa-limit-ai-or-humanity-lose-agency/",
+    "publisher": "Rappler",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-raw-githubusercontent-com-53afb7",
+    "url": "https://raw.githubusercontent.com/openai/math/main/README.md",
+    "publisher": "openai/math README",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-redwoodresearch-org-648e53",
+    "url": "https://www.redwoodresearch.org/blog/brief-independent-investigation-of",
+    "publisher": "Redwood Research",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-retractionwatch-com-abef5b",
+    "url": "https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems/",
+    "publisher": "Retraction Watch",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-reuters-com-2a9d3e",
+    "url": "https://www.reuters.com/technology/us-signs-letters-intent-worth-874-million-boost-semiconductor-research-2026-07-30/",
+    "publisher": "Reuters",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-reuters-com-50bdbe",
+    "url": "https://www.reuters.com/business/google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05/",
+    "publisher": "Reuters",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-reuters-com-991930",
+    "url": "https://www.reuters.com/business/autos-transportation/former-tesla-ai-executive-openai-founding-member-andrej-karpathy-joins-anthropic-2026-05-19/",
+    "publisher": "Reuters",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-reuters-com-e39edb",
+    "url": "https://www.reuters.com/legal/litigation/limit-ai-now-or-humanity-will-lose-its-agency-says-nobel-laureate-ressa-2026-09-15/",
+    "publisher": "Reuters",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-reuters-com-eb96d1",
+    "url": "https://www.reuters.com/business/media-telecom/ten-days-that-changed-course-ai-2026-09-19/",
+    "publisher": "Reuters",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-reuters-com-f837ba",
+    "url": "https://www.reuters.com/technology/coursera-backs-co-founder-andrew-ngs-new-ai-education-firm-with-100-million-2026-07-28/",
+    "publisher": "Reuters",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-rnz-co-nz-796d5f",
+    "url": "https://www.rnz.co.nz/national/programmes/morningreport/audio/2019054086/controlai-s-connor-leahy-on-the-risks-of-superintelligent-ai",
+    "publisher": "RNZ",
+    "title": "RNZ · Leahy",
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 6
+  },
+  {
+    "id": "src-scientificamerican-com-2dfc66",
+    "url": "https://www.scientificamerican.com/article/ai-solves-a-holy-grail-problem-from-probability-theory/",
+    "publisher": "Scientific American",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-scmp-com-7f8fab",
+    "url": "https://www.scmp.com/tech/big-tech/article/3338887/nvidia-ceo-jensen-huang-credits-deepseek-accelerating-open-source-ai-shift",
+    "publisher": "SCMP",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-scmp-com-a20995",
+    "url": "https://www.scmp.com/tech/article/3367605/deepseek-ai-engineer-slams-anthropic-openai-over-pacing-calls-invokes-nazi-germany",
+    "publisher": "SCMP",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-self-attention-org-b469f1",
+    "url": "https://self-attention.org/the-layer-above-the-proof/",
+    "publisher": "Self-Attention",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-sgs-utoronto-ca-de8a4c",
+    "url": "https://www.sgs.utoronto.ca/profile/ilya-sutskever/",
+    "publisher": "토론토대 대학원",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-ssi-inc-b03975",
+    "url": "https://ssi.inc/",
+    "publisher": "Safe Superintelligence",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-sts-program-mit-edu-8ed201",
+    "url": "https://sts-program.mit.edu/event/2024-25-morison-prize-and-lecture-with-zeynep-tufekci-topic-to-be-revealed/",
+    "publisher": "MIT STS",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-techcrunch-com-0542b0",
+    "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+    "publisher": "TechCrunch",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-techcrunch-com-119da8",
+    "url": "https://techcrunch.com/2026/01/23/whos-behind-ami-labs-yann-lecuns-world-model-startup/",
+    "publisher": "TechCrunch",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-techcrunch-com-9648fb",
+    "url": "https://techcrunch.com/2025/12/19/yann-lecun-confirms-his-new-world-model-startup-reportedly-seeks-5b-valuation/",
+    "publisher": "TechCrunch",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-techcrunch-com-98cee5",
+    "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+    "publisher": "TechCrunch",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-techcrunch-com-a17db2",
+    "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+    "publisher": "TechCrunch",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-techcrunch-com-c7488c",
+    "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
+    "publisher": "TechCrunch",
+    "title": "TechCrunch · Leahy",
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 5
+  },
+  {
+    "id": "src-techcrunch-com-d05fac",
+    "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+    "publisher": "TechCrunch",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-techmeme-com-9d7c4b",
+    "url": "https://www.techmeme.com/260913/p13",
+    "publisher": "Techmeme",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-technologyreview-com-2f120d",
+    "url": "https://www.technologyreview.com/2026/01/22/1131661/yann-lecuns-new-venture-ami-labs/",
+    "publisher": "MIT Technology Review",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-ted-com-cc0d7f",
+    "url": "https://www.ted.com/talks/carole_cadwalladr_this_is_what_a_digital_coup_looks_like",
+    "publisher": "TED",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-telegraph-co-uk-942dcb",
+    "url": "https://www.telegraph.co.uk/news/2026/10/11/britain-get-first-look-ai-systems-after-white-house-u-turn/",
+    "publisher": "The Telegraph",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-teorth-github-io-0d8dcb",
+    "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+    "publisher": "Terence Tao",
+    "title": "Math 2.0 슬라이드",
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 8
+  },
+  {
+    "id": "src-teorth-github-io-e7f1e5",
+    "url": "https://teorth.github.io/tao-web/ai-views",
+    "publisher": "Terence Tao",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-terrytao-wordpress-com-624110",
+    "url": "https://terrytao.wordpress.com/2026/10/07/ahm-statement-on-openais-october-6-release-of-mathematical-documents/",
+    "publisher": "Terence Tao 블로그",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-terrytao-wordpress-com-929219",
+    "url": "https://terrytao.wordpress.com/2026/10/10/math-2-0/",
+    "publisher": "Terence Tao 블로그",
+    "title": "Terence Tao · Math 2.0",
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 7
+  },
+  {
+    "id": "src-the-decoder-com-308b6b",
+    "url": "https://the-decoder.com/anthropics-bio-weapons-filter-was-down-for-nearly-a-year-exposing-133-million-requests/",
+    "publisher": "The Decoder",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-the-decoder-com-3928d4",
+    "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+    "publisher": "The Decoder",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-the-decoder-com-840bc0",
+    "url": "https://the-decoder.com/former-tesla-ai-chief-andrej-karpathy-now-codes-mostly-in-english-just-three-months-after-calling-ai-agents-useless/",
+    "publisher": "The Decoder",
+    "title": "The Decoder · Karpathy",
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19",
+    "footer": true,
+    "footer_order": 13
+  },
+  {
+    "id": "src-theatlantic-com-1b88c4",
+    "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+    "publisher": "The Atlantic",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-theglobeandmail-com-2aedfa",
+    "url": "https://www.theglobeandmail.com/business/technology/article-cohere-ceo-aidan-gomez-criticizes-calls-for-ai-slowdown/",
+    "publisher": "The Globe and Mail",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-theguardian-com-23847a",
+    "url": "https://www.theguardian.com/commentisfree/2026/sep/15/ai-safety-requirements",
+    "publisher": "The Guardian",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-theguardian-com-78767a",
+    "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+    "publisher": "The Guardian",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-theguardian-com-9f54c8",
+    "url": "https://www.theguardian.com/commentisfree/2026/oct/01/forget-superintelligence-error-prone-ai-nearly-sparked-world-war-iii-this-month",
+    "publisher": "The Guardian",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-theguardian-com-b802aa",
+    "url": "https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown",
+    "publisher": "The Guardian",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-theguardian-com-d4a0c0",
+    "url": "https://www.theguardian.com/technology/2026/sep/10/openai-risk-catastrophic-loss-control-board-member-paul-christiano",
+    "publisher": "The Guardian",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-thehill-com-123ab6",
+    "url": "https://thehill.com/policy/technology/6118009-senator-ted-cruz-blocks-ai-bill/",
+    "publisher": "The Hill",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-thenerve-news-04c116",
+    "url": "https://www.thenerve.news/p/yuval-noah-harari-maria-ressa-carole-cadwalladr-conversation-ai-superintelligence-fascism-regulation",
+    "publisher": "The Nerve",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-thenextweb-com-aaee64",
+    "url": "https://thenextweb.com/news/huang-0-percent-hardening-pace-if-out-of-control",
+    "publisher": "The Next Web",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-theverge-com-819e92",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+    "publisher": "The Verge",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-time-com-7a65fd",
+    "url": "https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/",
+    "publisher": "TIME",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-traictory-com-100d31",
+    "url": "https://traictory.com/news/2026-10-02-claude-percolation-conjecture",
+    "publisher": "Traictory",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-traictory-com-255885",
+    "url": "https://traictory.com/news/2026-10-13-karpathy-llm-funnel-capability-gap",
+    "publisher": "Traictory",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-transcripts-un-org-d03487",
+    "url": "https://transcripts.un.org/en/sc/10228",
+    "publisher": "UN 회의 전사본",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-transformernews-ai-e684fb",
+    "url": "https://www.transformernews.ai/p/yoshua-bengio-if-you-prioritize-safety-leave-frontier-ai-companies",
+    "publisher": "Transformer",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-un-org-2f6e1e",
+    "url": "https://www.un.org/independent-international-scientific-panel-ai/en/panel-members",
+    "publisher": "UN",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-unionchapel-org-uk-b530d1",
+    "url": "https://unionchapel.org.uk/venue/whats-on/yuval-noah-harari-and-maria-ressa-on-the-state-of-the-world",
+    "publisher": "Union Chapel",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-utoronto-ca-42305d",
+    "url": "https://www.utoronto.ca/news/ilya-sutskever-leader-ai-and-its-responsible-development-receives-u-t-honorary-degree",
+    "publisher": "토론토대",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-vatican-va-6b1cf4",
+    "url": "http://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+    "publisher": "교황청",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-vaticannews-va-3abdea",
+    "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-encyclical-magnifica-humanitas-ai.html",
+    "publisher": "Vatican News",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-venturebeat-com-87a38f",
+    "url": "https://venturebeat.com/business/ai-pioneers-yann-lecun-and-yoshua-bengio-clash-in-an-intense-online-debate-over-ai-safety-and-governance",
+    "publisher": "VentureBeat",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-warner-senate-gov-afa663",
+    "url": "https://www.warner.senate.gov/newsroom/press-releases/on-senate-floor-warner-discusses-urgent-need-to-pass-ai-security-legislation/",
+    "publisher": "마크 워너 의원실",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-webtv-un-org-70fcdd",
+    "url": "https://webtv.un.org/en/asset/k1v/k1vmsgetgo",
+    "publisher": "UN Web TV",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-wemustactnow-ai-aa1d59",
+    "url": "https://www.wemustactnow.ai/",
+    "publisher": "We Must Act Now",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-wired-com-74444d",
+    "url": "https://www.wired.com/story/thermodynamic-computing-ai-guillaume-verdon-based-beff-jezos/",
+    "publisher": "Wired",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-wired-com-e96993",
+    "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+    "publisher": "Wired",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-worldlabs-ai-a7a3b6",
+    "url": "https://www.worldlabs.ai/blog/amd-announcement",
+    "publisher": "World Labs",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-wsj-com-6875d0",
+    "url": "https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628",
+    "publisher": "The Wall Street Journal",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-www-cdn-anthropic-com-eb85dc",
+    "url": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/RedactedRiskReportAugust2026.pdf",
+    "publisher": "Anthropic (PDF)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-yna-co-kr-083646",
+    "url": "https://www.yna.co.kr/view/AKR20260831167500017",
+    "publisher": "연합뉴스",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-yna-co-kr-a31da6",
+    "url": "https://www.yna.co.kr/view/AKR20260830030100001",
+    "publisher": "연합뉴스",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-yoshuabengio-org-a8cfd7",
+    "url": "https://yoshuabengio.org/en/blog/bengio-if-you-prioritize-safety-leave-frontier-ai-companies",
+    "publisher": "Yoshua Bengio",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  },
+  {
+    "id": "src-youtube-com-7578ab",
+    "url": "https://www.youtube.com/watch?v=AbMxbgIahtE",
+    "publisher": "YouTube",
+    "title": null,
+    "kind": "secondary",
+    "accessed_at": "2026-10-19",
+    "checked_in": "factcheck-2026-10-19"
+  }
+]

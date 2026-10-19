@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-10-20T06:00:00+09:00",
+  "collector": "daily-collect (예시 파일 — 실제 수집 결과가 아닙니다)",
+  "items": [
+    {
+      "id": "p-2026-10-20-001",
+      "op": "add",
+      "target": "events",
+      "after": {
+        "id": "2026-10-19-example-event",
+        "date_start": "2026-10-19", "date_end": null, "date_label": "2026.10.19",
+        "title": "(예시) 새 사건 제목", "summary": "(예시) 한두 문장 요약", "camp": "middle",
+        "people_ids": [], "background": "(예시) 배경", "confirmed": "(예시) 출처에서 확인한 사실", "unknown": "(예시) 아직 확인되지 않은 점",
+        "source_ids": [], "factcheck_ids": []
+      },
+      "evidence": [{ "url": "https://example.com/article", "publisher": "Example", "published_at": "2026-10-19", "quote": "해당 문장 발췌" }],
+      "confidence": "low",
+      "risk": ["새 사건"],
+      "review": { "state": "pending", "by": null, "at": null }
+    }
+  ]
+}
