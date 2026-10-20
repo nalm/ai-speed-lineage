@@ -10,7 +10,7 @@
     "country": null,
     "role": "AMI Labs 공동창업자·집행 의장 · NYU 교수",
     "stance": "종말론을 집단적 과장으로 보고 오픈소스·JEPA 월드모델 연구를 옹호",
-    "moment": "2025년 말 Meta 퇴사 → 2025년 12월 AMI Labs 설립, 2026년 1월 공식 출범 · 10월 12일 서울에서 월드모델을 다음 돌파구로 제시",
+    "moment": "2025년 말 Meta 퇴사 → 2025년 12월 AMI Labs 설립, 2026년 1월 공식 출범 · 10월 12일 서울에서 기업들의 AI 속도 조절론을 ‘마케팅이자 로비’라고 비판하고 월드모델을 다음 돌파구로 제시",
     "portrait": {
       "path": "assets/portraits/yann-lecun.jpg",
       "author": "Jérémy Barande / École polytechnique",
@@ -23,15 +23,16 @@
       "src-techcrunch-com-9648fb",
       "src-technologyreview-com-2f120d",
       "src-techcrunch-com-119da8",
-      "src-koreaherald-com-9f8634"
+      "src-koreaherald-com-9f8634",
+      "src-chosun-com-fd0a9a"
     ],
     "factcheck_ids": [
       "P01"
     ],
     "review": {
-      "state": "pending",
+      "state": "approved",
       "by": "nalm",
-      "at": null
+      "at": "2026-10-20"
     }
   },
   {

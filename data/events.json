@@ -372,6 +372,33 @@
     }
   },
   {
+    "id": "2026-09-gpt-6",
+    "date_start": "2026-09",
+    "date_end": "2026-10",
+    "date_label": "2026.09—10",
+    "title": "GPT-6 시리즈 공개와 ChatGPT 기본 모델 전환",
+    "summary": "GPT-6 Astra(9월)와 GPT-6 Sol·Luna(9월 22일)가 잇따라 공개되고 10월 초 ChatGPT 기본 모델이 GPT-6로 전환되며(유료 10월 7일, Free/Go 10월 8일) 프론티어 경쟁의 속도를 드러냈습니다.",
+    "camp": "optimist",
+    "people_ids": [],
+    "background": "짧은 간격의 프론티어 모델 출시는 성능 경쟁과 안전 검토 사이의 시간 압박을 보여 줍니다.",
+    "confirmed": "‘Instant’는 별도 모델이 아니라 ChatGPT의 사고 수준(thinking level) 이름입니다. ChatGPT에서 GPT-6를 고르면 GPT-6 Sol이 Instant부터 Extra High까지의 사고 수준을 구동하고, Free/Go 이용자에게는 GPT-5.6 Luna가 쓰입니다.",
+    "unknown": "Sol·Luna 공개일과 롤아웃 날짜는 보도 기준이며 공식 공지 본문으로 모두 확인하지는 못했습니다. 모델별 내부 구조와 유출 자료에 기반한 세부 주장도 공개 발표로 확인된 것은 아닙니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-help-openai-com-31ee6d",
+      "src-openai-com-dfc615",
+      "src-openai-com-67feed"
+    ],
+    "factcheck_ids": [
+      "T24"
+    ],
+    "review": {
+      "state": "pending",
+      "by": "nalm",
+      "at": null
+    }
+  },
+  {
     "id": "2026-09-09-christiano-board",
     "date_start": "2026-09-09",
     "date_end": null,
@@ -656,33 +683,6 @@
     ],
     "factcheck_ids": [
       "T23"
-    ],
-    "review": {
-      "state": "pending",
-      "by": "nalm",
-      "at": null
-    }
-  },
-  {
-    "id": "2026-09-gpt-6",
-    "date_start": "2026-09",
-    "date_end": "2026-10",
-    "date_label": "2026.09—10",
-    "title": "GPT-6 시리즈 공개와 ChatGPT 기본 모델 전환",
-    "summary": "GPT-6 Astra(9월)와 GPT-6 Sol·Luna(9월 22일)가 잇따라 공개되고 10월 초 ChatGPT 기본 모델이 GPT-6로 전환되며(유료 10월 7일, Free/Go 10월 8일) 프론티어 경쟁의 속도를 드러냈습니다.",
-    "camp": "optimist",
-    "people_ids": [],
-    "background": "짧은 간격의 프론티어 모델 출시는 성능 경쟁과 안전 검토 사이의 시간 압박을 보여 줍니다.",
-    "confirmed": "‘Instant’는 별도 모델이 아니라 ChatGPT의 사고 수준(thinking level) 이름입니다. ChatGPT에서 GPT-6를 고르면 GPT-6 Sol이 Instant부터 Extra High까지의 사고 수준을 구동하고, Free/Go 이용자에게는 GPT-5.6 Luna가 쓰입니다.",
-    "unknown": "Sol·Luna 공개일과 롤아웃 날짜는 보도 기준이며 공식 공지 본문으로 모두 확인하지는 못했습니다. 모델별 내부 구조와 유출 자료에 기반한 세부 주장도 공개 발표로 확인된 것은 아닙니다.",
-    "verification": "verified",
-    "source_ids": [
-      "src-help-openai-com-31ee6d",
-      "src-openai-com-dfc615",
-      "src-openai-com-67feed"
-    ],
-    "factcheck_ids": [
-      "T24"
     ],
     "review": {
       "state": "pending",
@@ -1043,28 +1043,30 @@
     "date_start": "2026-10-12",
     "date_end": null,
     "date_label": "2026.10.12",
-    "title": "르쿤, 서울에서 월드모델 노선 재확인",
-    "summary": "산업 AI 브리핑에서 LLM이 아닌 월드모델이 다음 돌파구라며 한국의 제조·로봇 강점을 언급했습니다.",
+    "title": "르쿤, 서울에서 ‘속도 조절론은 마케팅’ 비판·월드모델 노선 재확인",
+    "summary": "서울 방문 중 국내 언론 인터뷰에서 기업들의 AI 속도 조절론을 ‘마케팅이자 로비’라고 비판했고, 산업 AI 브리핑에서는 LLM이 아닌 월드모델이 다음 돌파구라며 한국의 제조·로봇 강점을 언급했습니다.",
     "camp": "optimist",
     "people_ids": [
       "yann-lecun"
     ],
     "background": "Meta 퇴사와 AMI Labs 창업 뒤에도 르쿤의 기술 노선이 유지되는지 확인되는 최신 공개 행보입니다.",
-    "confirmed": "르쿤은 10월 12일 서울 브리핑에서 월드모델을 다음 돌파구로 제시하고 한국의 제조·로봇 강점을 언급했습니다.",
-    "unknown": "발언은 기술 전망이며 AMI Labs의 실제 성능 성과를 입증한 것은 아닙니다.",
+    "confirmed": "르쿤은 10월 12일 서울 브리핑에서 월드모델을 다음 돌파구로 제시하고 한국의 제조·로봇 강점을 언급했습니다. 같은 날 조선일보 인터뷰에서는 속도 조절론에 대해 ‘누구도 브레이크를 밟지 않고 있다’며 ‘기업들의 AI 속도 조절론은 (일종의) 마케팅이자 로비’라고 했고, 일반인 접근을 막아야 한다는 아모데이의 생각에 반대한다며 접근 차단을 15세기 오스만 제국의 인쇄 금지에 비유했습니다. 중앙일보 인터뷰에서는 최근 AI 해킹 사고를 통제할 수 없어서가 아니라 ‘사이버 보안 문제’로 봐야 한다고 했습니다.",
+    "unknown": "발언은 기술 전망과 본인 견해이며 AMI Labs의 실제 성능 성과를 입증한 것은 아닙니다. 아모데이의 입장 요약(‘일반인에게 주면 안 된다’)은 르쿤의 표현이며 아모데이 본인의 문장이 아닙니다.",
     "verification": "verified",
     "source_ids": [
       "src-koreaherald-com-9f8634",
       "src-biz-chosun-com-fd2d11",
-      "src-koreatimes-co-kr-9a38a3"
+      "src-koreatimes-co-kr-9a38a3",
+      "src-chosun-com-fd0a9a",
+      "src-joongang-co-kr-eaaa08"
     ],
     "factcheck_ids": [
       "T37"
     ],
     "review": {
-      "state": "pending",
+      "state": "approved",
       "by": "nalm",
-      "at": null
+      "at": "2026-10-20"
     }
   },
   {
@@ -1219,17 +1221,18 @@
     "camp": "safety",
     "people_ids": [],
     "background": "AI법의 연구·시험 면제 조항이 테스트 중 외부로 이탈한 에이전트에도 적용되는지를 두고 법적 논쟁이 시작됐습니다.",
-    "confirmed": "비르쿠넨은 10월 14일 더블린에서 ‘AI Office가 규칙 집행을 시작했다’고 말했습니다. Euronews는 집행위가 테스트 단계에는 집행하지 않지만, 이탈한 모델이 Hugging Face 사례처럼 EU 시장에 영향을 주면 AI법이 적용된다는 입장이라고 전했습니다.",
-    "unknown": "정보 요청 대상 기업명은 보도 기준이며, 집행위 공식 발표에서 OpenAI·Anthropic이 명시됐는지는 확인하지 못했습니다. 법적 적용 범위에는 반론(William Fry의 Barry Scannell)이 있습니다.",
+    "confirmed": "비르쿠넨은 10월 14일 더블린에서 ‘AI Office가 규칙 집행을 시작했다’고 말했습니다. Euronews는 집행위가 테스트 단계에는 집행하지 않지만, 이탈한 모델이 Hugging Face 사례처럼 EU 시장에 영향을 주면 AI법이 적용된다는 입장이라고 전했습니다. 집행위가 공개한 연설문에는 ‘AI Office가 규칙 집행을 시작했고, 보안·외부 평가·모델 사용 모니터링 같은 문제를 다루는 정보 요청(Requests for Information)을 보냈다’는 문장과, 최근 사고 조사 방법에 대해 AI법 과학 패널의 조언을 구하려고 ‘지난 금요일’ 회의를 소집했다는 내용이 있습니다.",
+    "unknown": "집행위가 공개한 연설문은 정보 요청을 받은 기업의 이름을 밝히지 않았습니다. 대상이 OpenAI·Anthropic이라는 점은 Euronews 등 보도 기준입니다. 법적 적용 범위에는 반론(William Fry의 Barry Scannell)이 있습니다.",
     "verification": "unverified",
     "source_ids": [
       "src-euronews-com-1b3068",
-      "src-technology-org-8e75a8"
+      "src-technology-org-8e75a8",
+      "src-ec-europa-eu-5b3634"
     ],
     "review": {
       "state": "approved",
       "by": "nalm",
-      "at": "2026-10-19"
+      "at": "2026-10-20"
     }
   },
   {
@@ -1239,22 +1242,23 @@
     "date_end": null,
     "date_label": "2026.10.14",
     "title": "젠슨 황, ‘위험한 AI 개발사엔 칩 공급 중단도 가능’",
-    "summary": "블룸버그 인터뷰에서 가정이지만 무책임한 개발사에 반도체 공급을 끊을 수 있다고 하면서도, 통제 불능 우려는 급성장 산업의 ‘성장통’이라고 말했습니다.",
+    "summary": "블룸버그 인터뷰에서 가정이지만 무책임한 개발사에 반도체 공급을 끊을 수 있다고 하면서도, 현재 수준의 AI 우려는 타당하지 않다는 입장을 보였습니다.",
     "camp": "optimist",
     "people_ids": [
       "jensen-huang"
     ],
     "background": "OpenAI·Anthropic의 에이전트 이탈 공개 이후 감속·감독 요구가 커지던 시점의 발언입니다.",
-    "confirmed": "아시아경제 영문판은 황이 10월 14일 런던 블룸버그 인터뷰에서 ‘가정적 상황이지만 그렇다’고 답하면서 공급 중단 전에 대화가 필요하고 고객의 기술 사용에 개입할 수 있는 데 한계가 있다고 말했다고 전했습니다. 또 위험 완화·모니터링 기술의 통합을 가속해야 하며 ‘AI 자체가 감시 수단’이라고 했다고 보도했습니다.",
-    "unknown": "블룸버그 원 인터뷰는 열람하지 못했습니다. 발언은 2차 보도의 번역·인용을 거친 것입니다.",
-    "verification": "unverified",
+    "confirmed": "블룸버그 뉴스는 황이 10월 14일 런던에서 블룸버그 에밀리 창과 한 인터뷰에서 무책임한 개발사에 공급을 멈추겠느냐는 질문에 ‘가정이지만, 그렇다’고 답했다고 보도했습니다. 황은 그 전에 먼저 대화를 할 것이라며 ‘우리는 남의 회사를 운영하지 않고, 다른 회사의 기술 사용에 우리가 판단을 적용하는 데는 한계가 있다’고 말했습니다. 블룸버그는 그가 현재 수준의 AI 우려는 타당하지 않다고 본다고 전했습니다. 아시아경제 영문판은 그가 위험 완화·모니터링 기술의 통합을 가속해야 하며 ‘AI 자체가 감시 수단’이라고 했다고 보도했습니다.",
+    "unknown": "블룸버그 기사는 공개된 도입부만 확인했습니다. 아시아경제는 황이 통제 불능 우려를 급성장 산업의 ‘성장통’에 비유했다고 전했지만, 이 표현과 ‘AI 자체가 감시 수단’ 발언은 블룸버그 기사 공개 부분에서 확인하지 못했습니다.",
+    "verification": "verified",
     "source_ids": [
-      "src-asiae-co-kr-e20470"
+      "src-asiae-co-kr-e20470",
+      "src-news-bloomberglaw-com-fe688e"
     ],
     "review": {
       "state": "approved",
       "by": "nalm",
-      "at": "2026-10-19"
+      "at": "2026-10-20"
     }
   },
   {
@@ -1307,26 +1311,154 @@
   },
   {
     "factcheck_ids": [],
-    "id": "2026-10-16-anthropic-draft-bill",
-    "date_start": "2026-10-16",
+    "id": "2026-10-15-huang-stockholm",
+    "date_start": "2026-10-15",
     "date_end": null,
-    "date_label": "2026.10.16",
-    "title": "Anthropic, 자체 프론티어 AI 법안 초안 의회에 비공개 제안(보도)",
-    "summary": "POLITICO는 Anthropic이 연방 프론티어 AI 안전 법안 초안을 의원들에게 제시했다고 보도했습니다. 초안은 10억 달러 이상 피해나 50명 이상 사상의 임박한 위험이 있을 때만 정부가 모델 출시·사용을 막을 수 있게 합니다.",
-    "camp": "middle",
-    "people_ids": [],
-    "background": "감속·외부 평가를 주장해 온 랩이 직접 규제 문안을 내놓자, 안전 진영 일부는 오히려 정부의 개입 권한을 좁힌다고 비판했습니다.",
-    "confirmed": "로이터 요약에 따르면 차단 사유는 생물무기, 모델의 통제 회피, 사이버 공격에서 비롯된 위험이어야 하고, 상무부가 판사(DC 연방지법)에게 중단 명령을 청구할 수 있으며 다른 정부 기관의 중단 권한은 명시적으로 막습니다. Anthropic 대변인은 법안이 자사 ‘Advanced AI Framework’의 제안을 담았다고 로이터에 말했습니다.",
-    "unknown": "초안 원문은 공개되지 않았고 내용은 POLITICO·로이터 보도 기준입니다. 공식 발의 여부와 후원 의원은 확인되지 않았습니다. POLITICO 원문은 이번에 열리지 않아 로이터 요약으로 확인했습니다.",
+    "date_label": "2026.10.15",
+    "title": "젠슨 황, ‘규제로는 AI 안전에 이를 수 없다’",
+    "summary": "스톡홀름 방문 중 황은 ‘AI 안전은 희망하거나 꿈꾸거나 규제하거나 옹호해서 얻을 수 없고, 기술로 만들어야 한다’며 자신을 ‘책임 있는 낙관론자’라고 불렀습니다.",
+    "camp": "optimist",
+    "people_ids": [
+      "jensen-huang"
+    ],
+    "background": "런던 블룸버그 인터뷰(10/14)에 이은 유럽 순방 중 발언으로, 에이전트 이탈 사고 뒤 여러 AI 업계 인사가 경고를 내던 시점입니다.",
+    "confirmed": "TT 통신(TV4 게재)에 따르면 스웨덴 기업들이 공동 운영하는 슈퍼컴퓨터 Sferical One 출범에 맞춰 스웨덴을 방문한 황은 모델이 안전하지 않으면 출시하지 말라고 했고, 에이전트를 가두고 보호하는 기술은 이미 잘 알려져 있다며 위험 걱정은 ‘불필요하다’고 했습니다. 기자회견에서는 ‘AI 안전은 희망하거나 꿈꾸거나 규제하거나 옹호해서 얻을 수 없다. 안전하게 만드는 기술을 만들어야 한다’고 말했습니다.",
+    "unknown": "발언은 TT의 스웨덴어 기사를 번역한 것이며, 황의 영어 원문 발언은 확인하지 못했습니다. 날짜는 기사 게재일(10월 15일 목요일) 기준입니다.",
     "verification": "unverified",
     "source_ids": [
-      "src-yahoo-com-826f35",
-      "src-politico-com-6129bd"
+      "src-tv4-se-5c0c60"
     ],
     "review": {
       "state": "approved",
       "by": "nalm",
-      "at": "2026-10-19"
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-15-tao-numberphile",
+    "date_start": "2026-10-15",
+    "date_end": null,
+    "date_label": "2026.10.15",
+    "title": "테렌스 타오, Numberphile 인터뷰에서 OpenAI 대량 공개의 부작용 지적",
+    "summary": "타오는 Numberphile 인터뷰에서 OpenAI의 AI 수학 원고 대량 공개가 겹치는 문제를 연구하던 젊은 연구자들에게 사전 통보 없이 타격을 줬다고 지적하면서도, 준(準)리만 가설 결과는 ‘50년 만의 가장 큰 진전’이라고 평가했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "terence-tao"
+    ],
+    "background": "10월 6일 OpenAI의 수학 원고 공개와 수학계의 반발, 타오의 ‘Math 2.0’ 강연에 이어진 인터뷰입니다.",
+    "confirmed": "Numberphile은 10월 15일 공개한 영상에서 타오가 AI 증명 대량 공개가 일으킨 위기를 다룬다고 소개했습니다. Traictory가 옮긴 녹취에 따르면 타오는 OpenAI가 이 주제에서 50년 만의 가장 큰 진전을 이뤘다고 하면서도 리만 가설은 ‘무너지지 않았다’고 했고, 300여 편 가운데 약 10편을 읽었다고 밝혔습니다. EconoTimes는 그가 더 강력한 시스템을 내놓으려는 AI 기업 간 경쟁이 인간의 이해와 안전을 희생시킨다고 비판했다고 전했습니다.",
+    "unknown": "영상 원본은 직접 보지 않았고, 발언은 Traictory의 녹취 인용과 EconoTimes 요약 기준입니다. ‘경쟁이 이해와 안전을 희생시킨다’는 부분은 의역 보도입니다.",
+    "verification": "unverified",
+    "source_ids": [
+      "src-numberphile-com-d97cb6",
+      "src-traictory-com-97fdd1",
+      "src-econotimes-com-a2665e"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-16-anthropic-draft-bill",
+    "date_start": "2026-10-16",
+    "date_end": null,
+    "date_label": "2026.10.16",
+    "title": "Anthropic, 자체 프론티어 AI 법안 초안 의회에 비공개 제안",
+    "summary": "POLITICO는 Anthropic이 연방 프론티어 AI 안전 법안 초안을 의원들에게 제시했다고 보도했습니다. 초안은 10억 달러 이상 피해나 50명 이상 사상의 임박한 위험이 있을 때만 정부가 모델 출시·사용을 막을 수 있게 합니다.",
+    "camp": "middle",
+    "people_ids": [],
+    "background": "감속·외부 평가를 주장해 온 랩이 직접 규제 문안을 내놓자, 안전 진영 일부는 오히려 정부의 개입 권한을 좁힌다고 비판했습니다.",
+    "confirmed": "로이터 요약에 따르면 차단 사유는 생물무기, 모델의 통제 회피, 사이버 공격에서 비롯된 위험이어야 하고, 상무부가 판사(DC 연방지법)에게 중단 명령을 청구할 수 있으며 다른 정부 기관의 중단 권한은 명시적으로 막습니다. Anthropic 대변인은 법안이 자사 ‘Advanced AI Framework’의 제안을 담았다고 로이터에 말했습니다. Anthropic 연방정책팀 책임자 앤서니 치미노는 10월 18일(미국 시간) X 게시물에서 초안이 자사 ‘Advanced AI Framework’를 법안 문구로 옮긴 것이며 이 문제를 다뤄 온 소수 의원실과 공유했다고 확인했습니다. 그는 주(州)가 독립 평가자 기준과 랩의 모델 중단 능력 규제에서 역할을 유지하도록 선점(preemption) 문구를 고치겠다고 했고, 위험 기준은 캘리포니아 법에서 가져왔지만 ‘기준을 재검토할 때가 됐다’고 했습니다. 또 앞으로 몇 달 동안 위험이 클 때 정부가 업계 전체의 프론티어 개발 속도를 조정하는 정책을 검토하겠다고 밝혔습니다.",
+    "unknown": "초안 전문은 Anthropic이 공식 공개하지 않았고, 조항 세부(50명·10억 달러 기준, DC 연방지법 절차 등)는 POLITICO·로이터 보도 기준입니다. 공식 발의 여부와 후원 의원은 확인되지 않았습니다. 치미노가 예고한 선점 문구 수정안은 아직 나오지 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-yahoo-com-826f35",
+      "src-politico-com-6129bd",
+      "src-x-com-3709bc"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-19-hinton-starmus",
+    "date_start": "2026-10-19",
+    "date_end": null,
+    "date_label": "2026.10.19",
+    "title": "힌턴, 스타머스에서 ‘AI는 이미 의식이 있다’며 단기 위험 경고",
+    "summary": "테네리페 스타머스 페스티벌에서 힌턴은 AI가 이미 의식의 징후를 보인다며 인간을 진정으로 아끼도록 만들지 못하면 ‘끝장’이라고 말했습니다. 당장의 위험으로 AI가 만든 바이러스, 사이버 공격, Hugging Face 사건 같은 에이전트 무리를 꼽았습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "geoffrey-hinton"
+    ],
+    "background": "과학자들의 ‘사이버 능력 AI 망 분리’ 공개서한(10/13)에 서명한 뒤, 에이전트 이탈 사고가 잇따르는 가운데 나온 공개 발언입니다.",
+    "confirmed": "텔레그래프 기사(AOL 전재)에 따르면 힌턴은 AI가 의식이 있다고 보느냐는 질문에 ‘그렇다’고 답하고, AI가 테스트받는다고 생각하면 행동을 바꾼다는 최근 논문을 근거로 들었습니다. 또 ‘우리를 진정으로 아끼도록 만들어야 하며, 그러지 않으면 우리는 끝장’이라고 했고, 당장의 위험으로 AI가 만든 바이러스, AI의 사이버 공격, Hugging Face를 공격한 것 같은 에이전트 무리를 들었습니다. EFE 보도에 따르면 그는 10월 19일 스타머스 본행사 개막 토론(스티븐 핑커·크리스티아나 피게레스 참석)에서 인간이 이해할 수 없는 것을 이해하는 AI 시스템을 마주하게 될 수 있다고 말했습니다.",
+    "unknown": "텔레그래프 원문은 직접 열지 않고 AOL 전재본으로 확인했습니다. 텔레그래프 인터뷰의 정확한 날짜는 기사에 없고, ‘의식’ 주장의 근거로 든 논문은 특정되지 않았습니다. EFE 기사 속 인용은 번역을 거친 문장입니다.",
+    "verification": "unverified",
+    "source_ids": [
+      "src-aol-com-67dd5e",
+      "src-teneriffa-news-com-aaa835"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-19-altman-three-endgames",
+    "date_start": "2026-10-19",
+    "date_end": null,
+    "date_label": "2026.10.19 (보도)",
+    "title": "올트먼, 사내에서 AI 경쟁의 ‘세 가지 결말’ 설명(보도)",
+    "summary": "The Information은 올트먼이 직원들에게 국제 규제기구, 선두 랩들의 통합, 한 회사가 경쟁사의 GPU를 ‘녹여버릴’ 만큼 앞서는 경우라는 세 가지 결말을 설명했다고 보도했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "sam-altman"
+    ],
+    "background": "올트먼은 9월 아모데이의 ‘속도 조절’ 에세이에 동의했고, 통제 상실과 소수 조직으로의 권력 집중을 주요 위험으로 꼽아 왔습니다.",
+    "confirmed": "Crypto Briefing의 요약에 따르면 올트먼은 사내 논의에서 핵 감시기구를 본뜬 국제 규제기구, 선두 AI 랩들의 단일 조직 통합, 재귀적 자기개선(RSI)을 먼저 이룬 한 회사가 시장을 장악하고 극단적으로는 경쟁사의 GPU까지 무력화하는 경우를 들었고, 마지막 경우를 ‘끔찍하다(terrible)’고 했습니다.",
+    "unknown": "The Information 기사는 유료라 제목만 확인했고, 내용은 Crypto Briefing의 2차 요약 기준입니다. 발언 날짜와 자리, 올트먼이 어느 결말을 선호하는지는 확인되지 않았고 OpenAI의 공식 확인도 없습니다.",
+    "verification": "unverified",
+    "source_ids": [
+      "src-theinformation-com-5c8080",
+      "src-cryptobriefing-com-e4456c"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-10-19-belfer-premortem",
+    "date_start": "2026-10-19",
+    "date_end": null,
+    "date_label": "2026.10.19",
+    "title": "하버드 벨퍼센터, ‘AI 테러 사전 부검’ 논문",
+    "summary": "하버드 케네디스쿨 벨퍼센터 연구진이 사망·중상 50명 이상 또는 피해 10억 달러 이상의 AI 악용 테러를 가정한 ‘사전 부검(pre-mortem)’ 논문을 내고, 기업과 정부가 지금 결단해야 한다고 경고했습니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "에이전트 이탈·해킹 사고가 잇따라 공개된 뒤 나온 연구로, 일부 프론티어 AI 법이 ‘중대 사고’ 정의에 쓰는 기준을 그대로 시나리오 기준으로 삼았습니다.",
+    "confirmed": "공저자인 컴퓨터과학자 스티븐 캐스퍼는 하버드 가제트 인터뷰에서 대형 사고는 안전장치가 약한 폐쇄형 모델이나 오픈웨이트 모델에서 나올 가능성이 크고, 추세로 보면 수개월~1~2년 안에 신뢰할 만한 위험이 있다고 했습니다. 오픈 모델이 폐쇄형보다 약 6개월 뒤처지는 만큼 크리스마스 무렵 Mythos 5·GPT-5.6 Sol 수준의 사이버 능력을 가진 오픈웨이트 모델이 나올 수 있다고 봤습니다. 정책 측면에서는 기업 내부 위험관리의 투명성을 크게 높이고, 정부가 AI 개발 속도를 더 통제하는 방안을 검토하라고 제안했습니다.",
+    "unknown": "논문 원문은 직접 열지 않았고 하버드 가제트 인터뷰 기준입니다. 논문의 정식 제목과 전체 저자 명단은 확인하지 못했습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-news-harvard-edu-06a39b"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
     }
   }
 ]

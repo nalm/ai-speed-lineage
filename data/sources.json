@@ -2384,5 +2384,201 @@
       "by": "nalm",
       "at": "2026-10-19"
     }
+  },
+  {
+    "id": "src-x-com-3709bc",
+    "url": "https://x.com/ajcimino/status/2111932795714977941",
+    "publisher": "Anthony Cimino (Anthropic 연방정책 책임자, X)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-ec-europa-eu-5b3634",
+    "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/speech_26_2150/SPEECH_26_2150_EN.pdf",
+    "publisher": "European Commission",
+    "title": "Speech by Executive Vice-President Virkkunen at the International AI Summit in Dublin",
+    "kind": "primary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-news-bloomberglaw-com-fe688e",
+    "url": "https://news.bloomberglaw.com/artificial-intelligence/nvidia-ceo-says-he-would-cut-off-customers-who-build-unsafe-ai",
+    "publisher": "Bloomberg News (Bloomberg Law)",
+    "title": "Nvidia CEO Says He Would Cut Off Buyers Who Build Unsafe AI (1)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-chosun-com-fd0a9a",
+    "url": "https://www.chosun.com/economy/tech_it/2026/10/13/XWQYAAOOHRDIDDTHRTSXZQ67WM/",
+    "publisher": "조선일보",
+    "title": "“AI 개발 속도 늦춘다고? 다 연극이다”",
+    "kind": "secondary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-joongang-co-kr-eaaa08",
+    "url": "https://www.joongang.co.kr/article/25469021",
+    "publisher": "중앙일보",
+    "title": "“AI 때문에 인류 멸망? 전혀 걱정 안해\"…AI 대부 얀 르쿤 인터뷰 [팩플]",
+    "kind": "secondary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-aol-com-67dd5e",
+    "url": "https://www.aol.com/articles/godfather-ai-befriend-bots-toast-205002000.html",
+    "publisher": "The Telegraph (AOL 전재)",
+    "title": "Godfather of AI: We have to befriend bots or we’re toast",
+    "kind": "secondary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-teneriffa-news-com-aaa835",
+    "url": "https://www.teneriffa-news.com/en/news-en/tenerife-news/hinton-says-we-will-not-understand-ai-as-rats-cannot-grasp-primes_1484949.html",
+    "publisher": "Teneriffa News (EFE)",
+    "title": "Hinton says we will not understand AI like rats grasp prime numbers",
+    "kind": "secondary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-tv4-se-5c0c60",
+    "url": "https://www.tv4.se/artikel/tt-261015-nvidia1-f7488eec/miljarddator-i-bruk-nvidias-grundare-i-stockholm",
+    "publisher": "TT (TV4 게재)",
+    "title": "Miljarddator i bruk – Nvidias grundare i Stockholm",
+    "kind": "secondary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-theinformation-com-5c8080",
+    "url": "https://www.theinformation.com/articles/altman-describes-three-endgames-ai-including-one-single-firm-melts-everyone-elses-gpus",
+    "publisher": "The Information",
+    "title": "Altman Describes Three Endgames for AI, Including One Where a Single Firm ‘Melts Everyone Else’s GPUs’",
+    "kind": "secondary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-cryptobriefing-com-e4456c",
+    "url": "https://cryptobriefing.com/sam-altman-three-ai-endgames/",
+    "publisher": "Crypto Briefing",
+    "title": "OpenAI CEO Sam Altman outlines three endgames for AI development",
+    "kind": "secondary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-news-harvard-edu-06a39b",
+    "url": "https://news.harvard.edu/gazette/story/2026/10/is-it-already-too-late-to-reduce-catastrophic-ai-risk/",
+    "publisher": "Harvard Gazette",
+    "title": "Is it already too late to reduce catastrophic AI risk?",
+    "kind": "primary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-numberphile-com-d97cb6",
+    "url": "https://www.numberphile.com/videos/tao-ai",
+    "publisher": "Numberphile",
+    "title": "No More Heroes - Terence Tao on AI",
+    "kind": "primary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-traictory-com-97fdd1",
+    "url": "https://traictory.com/news/2026-10-19-tao-quasi-riemann-openai-claim",
+    "publisher": "Traictory",
+    "title": "Tao did call it the biggest advance in 50 years. The clip stops before the bound",
+    "kind": "secondary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
+  },
+  {
+    "id": "src-econotimes-com-a2665e",
+    "url": "https://econotimes.com/Terence-Tao-Says-OpenAI-Math-Release-Disrupted-Junior-Researchers-Work-1756108",
+    "publisher": "EconoTimes",
+    "title": "Terence Tao Says OpenAI Math Release Disrupted Junior Researchers' Work",
+    "kind": "secondary",
+    "accessed_at": "2026-10-20",
+    "checked_in": "collect-2026-10-20",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-20"
+    }
   }
 ]
