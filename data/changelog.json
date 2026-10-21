@@ -1,5 +1,43 @@
 [
   {
+    "id": "2026-10-21-update",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    },
+    "approved_at": "2026-10-21",
+    "period": "2026년 10월 19~20일 보도 반영 (2026-10-21 승인)",
+    "headline": "이번 재검증에서 달라진 점",
+    "note": "2026년 10월 20일까지의 보도를 반영해 새 사건 6건을 더하고, 기존 사건 3건을 새 자료로 보강했습니다.",
+    "items": [
+      {
+        "title": "새 사건 6건",
+        "text": "매드리의 OpenAI 복귀, 젠슨 황과 메르츠 독일 총리의 베를린 대담, Microsoft의 에이전트 감시 체계 발표(이상 10/19)와 OpenAI의 감시 장치 약화 사고 2건 공개, METR의 Anthropic 위험 보고서 검토, 네이선 캘빈의 비판에 대한 아모데이의 답글(이상 10/20)을 연표에 넣었습니다. 6건 모두 1차 자료로 확인해 ‘검증됨’으로 표시했고, 10/19 사건은 날짜 순서에 맞게 배치했습니다.",
+        "refs": [],
+        "source_ids": [
+          "src-x-com-bf5dcd",
+          "src-youtube-com-b2e8e4",
+          "src-blogs-microsoft-com-d75d4d",
+          "src-alignment-openai-com-846a6e",
+          "src-metr-org-b839ee",
+          "src-x-com-6cc110"
+        ]
+      },
+      {
+        "title": "기존 사건 보강",
+        "text": "‘Anthropic 자체 법안 초안’ 사건에 스콧 위너 주 상원의원의 비판(본인 X)과 데이비드 색스의 반응(The Next Web 전언)을 더했습니다. ‘올트먼의 세 가지 결말’ 보도는 India Today 기사로 세 경로(IAEA형 국제기구·‘데미스 플랜’·‘엘리저 플랜’)를 구체화하고 허사비스·유드코우스키를 관련 인물로 연결했으며, 원 기사를 열람하지 못해 ‘미확인’을 유지합니다. ‘Anthropic의 METR 상주 평가’ 사건에는 METR의 이번 검토가 직원급 접근 발표 이전 조건으로 진행됐다는 점을 반영했습니다.",
+        "refs": [],
+        "source_ids": [
+          "src-x-com-cf82c5",
+          "src-thenextweb-com-72c3cc",
+          "src-indiatoday-in-c831b9"
+        ]
+      }
+    ],
+    "source_ids": []
+  },
+  {
     "id": "2026-10-20-update",
     "review": {
       "state": "approved",

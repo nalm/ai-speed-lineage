@@ -2580,5 +2580,229 @@
       "by": "nalm",
       "at": "2026-10-20"
     }
+  },
+  {
+    "id": "src-alignment-openai-com-846a6e",
+    "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+    "publisher": "OpenAI",
+    "title": "Suppressing misalignment monitoring alerts and disabling misalignment monitoring",
+    "kind": "primary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-channelnewsasia-com-43e591",
+    "url": "https://www.channelnewsasia.com/business/openai-says-its-ai-agents-weakened-internal-monitoring-system-6477621",
+    "publisher": "Reuters (CNA 게재)",
+    "title": "OpenAI says its AI agents weakened internal monitoring system",
+    "kind": "secondary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-metr-org-b839ee",
+    "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+    "publisher": "METR",
+    "title": "Review of the \"Misalignment in high-stakes settings\" section in Anthropic's Risk Report (August 2026)",
+    "kind": "primary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-x-com-6cc110",
+    "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+    "publisher": "Dario Amodei (Anthropic CEO, X)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-x-com-1bb1fb",
+    "url": "https://x.com/_NathanCalvin/status/2112295219765137570",
+    "publisher": "Nathan Calvin (Encode, X)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-x-com-bf5dcd",
+    "url": "https://x.com/aleks_madry/status/2112231448103239998",
+    "publisher": "Aleksander Madry (X)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-x-com-8fbe92",
+    "url": "https://x.com/merettm/status/2112231743734579542",
+    "publisher": "Jakub Pachocki (OpenAI 수석과학자, X)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-x-com-79a61c",
+    "url": "https://x.com/sama/status/2112652656602923366",
+    "publisher": "Sam Altman (X)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-youtube-com-b2e8e4",
+    "url": "https://www.youtube.com/watch?v=PCroCEAGQ7g",
+    "publisher": "Bundesministerium für Wirtschaft und Energie (YouTube)",
+    "title": "Fireside Talk: Chancellor Merz and Jensen Huang | Invest in Germany Summit 2026",
+    "kind": "primary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-bundeskanzler-de-f8175c",
+    "url": "https://www.bundeskanzler.de/bk-de/aktuelles/teilnahme-am-empfang-des-invest-in-germany-summit--2457420",
+    "publisher": "Die Bundesregierung (bundeskanzler.de)",
+    "title": "Teilnahme am Empfang des „Invest in Germany Summit“",
+    "kind": "primary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-businessinsider-com-1e7d47",
+    "url": "https://www.businessinsider.com/jensen-huang-warns-europe-move-faster-ai-risk-falling-behind-2026-10",
+    "publisher": "Business Insider",
+    "title": "Jensen Huang has a message for Europe: stop overthinking AI or get left behind",
+    "kind": "secondary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-blogs-microsoft-com-d75d4d",
+    "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+    "publisher": "Microsoft (The Official Microsoft Blog)",
+    "title": "Securing the agentic insider",
+    "kind": "primary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-techcrunch-com-0cffae",
+    "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+    "publisher": "TechCrunch",
+    "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+    "kind": "secondary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-x-com-cf82c5",
+    "url": "https://x.com/Scott_Wiener/status/2112213719866564742",
+    "publisher": "Scott Wiener (캘리포니아주 상원의원, X)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-thenextweb-com-72c3cc",
+    "url": "https://thenextweb.com/news/anthropic-leaked-ai-safety-bill-backlash-frontier",
+    "publisher": "The Next Web",
+    "title": "Anthropic to rewrite part of its leaked AI bill after safety backlash",
+    "kind": "secondary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
+  },
+  {
+    "id": "src-indiatoday-in-c831b9",
+    "url": "https://www.indiatoday.in/technology/news/story/sam-altman-warns-staff-of-nightmare-scenario-where-one-ai-lab-melts-everyones-gpus-3021151-2026-10-20",
+    "publisher": "India Today",
+    "title": "Sam Altman warns staff of nightmare scenario where one AI lab melts everyone’s GPUs",
+    "kind": "secondary",
+    "accessed_at": "2026-10-21",
+    "checked_in": "collect-2026-10-21",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-21"
+    }
   }
 ]

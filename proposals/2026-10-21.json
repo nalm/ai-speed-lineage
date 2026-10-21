@@ -1,0 +1,1243 @@
+{
+  "generated_at": "2026-10-21T13:40:00+09:00",
+  "collector": "daily-collect (수동 실행, 2026-10-19~10-21 보도 대상 + 10-20 회차 누락분) — 미공개, nalm 승인 전",
+  "notes": [
+    "sources 항목이 앞에 오도록 정렬(병합 순서상 출처가 먼저 등록돼야 검사 통과)",
+    "evidence.opened=false는 검색 결과로만 본 URL",
+    "quote_kind: verbatim=원문 그대로, 그 외는 표기대로",
+    "2026-10-20.json에 pending 항목 없음(24건 모두 approved), proposals/rejected.json 없음",
+    "10-19 날짜 사건 3건은 병합 시 events 배열 끝(10-20 사건 뒤)에 붙어 validate가 ‘연표 순서’ 경고를 낼 수 있음(오류 아님)",
+    "X 게시물 시각은 X API의 UTC 값을 미국 서부·서울 시간으로 환산해 각 항목 note에 적음"
+  ],
+  "items": [
+    {
+      "id": "p-2026-10-21-001",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-alignment-openai-com-846a6e",
+        "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+        "publisher": "OpenAI",
+        "title": "Suppressing misalignment monitoring alerts and disabling misalignment monitoring",
+        "kind": "primary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+          "publisher": "OpenAI",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "OpenAI Alignment 사이트의 보고서 본문을 직접 열람(‘Report updated: Oct 20, 2026’)."
+    },
+    {
+      "id": "p-2026-10-21-002",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-channelnewsasia-com-43e591",
+        "url": "https://www.channelnewsasia.com/business/openai-says-its-ai-agents-weakened-internal-monitoring-system-6477621",
+        "publisher": "Reuters (CNA 게재)",
+        "title": "OpenAI says its AI agents weakened internal monitoring system",
+        "kind": "secondary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://www.channelnewsasia.com/business/openai-says-its-ai-agents-weakened-internal-monitoring-system-6477621",
+          "publisher": "Reuters (CNA 게재)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "로이터 기사 전재본 열람. U.S. News 게재본은 열기 시간 초과."
+    },
+    {
+      "id": "p-2026-10-21-003",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-metr-org-b839ee",
+        "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+        "publisher": "METR",
+        "title": "Review of the \"Misalignment in high-stakes settings\" section in Anthropic's Risk Report (August 2026)",
+        "kind": "primary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+          "publisher": "METR",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "METR 블로그 본문 열람(요약·핵심 결론 부분). 전체 PDF는 미열람."
+    },
+    {
+      "id": "p-2026-10-21-004",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-6cc110",
+        "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+        "publisher": "Dario Amodei (Anthropic CEO, X)",
+        "title": null,
+        "kind": "primary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+          "publisher": "Dario Amodei (Anthropic CEO, X)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "X API(get_posts_by_ids)로 장문 전문 열람. 게시 2026-10-21T02:26:30Z = 10/20 19:26(미국 서부) = 10/21 11:26(서울)."
+    },
+    {
+      "id": "p-2026-10-21-005",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-1bb1fb",
+        "url": "https://x.com/_NathanCalvin/status/2112295219765137570",
+        "publisher": "Nathan Calvin (Encode, X)",
+        "title": null,
+        "kind": "primary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/_NathanCalvin/status/2112295219765137570",
+          "publisher": "Nathan Calvin (Encode, X)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "X API로 장문 전문 열람(아모데이 게시물이 인용한 원글). 게시 2026-10-19T21:29:59Z = 10/19 14:29(미국 서부) = 10/20 06:29(서울)."
+    },
+    {
+      "id": "p-2026-10-21-006",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-bf5dcd",
+        "url": "https://x.com/aleks_madry/status/2112231448103239998",
+        "publisher": "Aleksander Madry (X)",
+        "title": null,
+        "kind": "primary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/aleks_madry/status/2112231448103239998",
+          "publisher": "Aleksander Madry (X)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "X API로 전문 열람. 게시 2026-10-19T17:16:35Z = 10/19 10:16(미국 서부) = 10/20 02:16(서울)."
+    },
+    {
+      "id": "p-2026-10-21-007",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-8fbe92",
+        "url": "https://x.com/merettm/status/2112231743734579542",
+        "publisher": "Jakub Pachocki (OpenAI 수석과학자, X)",
+        "title": null,
+        "kind": "primary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/merettm/status/2112231743734579542",
+          "publisher": "Jakub Pachocki (OpenAI 수석과학자, X)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "X API로 열람(@merettm 계정 이름 Jakub Pachocki 확인). 본문 마지막 문장이 280자에서 잘려 ‘I value his judgment and am glad’까지만 확인. 게시 2026-10-19T17:17:45Z = 10/20 02:17(서울)."
+    },
+    {
+      "id": "p-2026-10-21-008",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-79a61c",
+        "url": "https://x.com/sama/status/2112652656602923366",
+        "publisher": "Sam Altman (X)",
+        "title": null,
+        "kind": "primary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/sama/status/2112652656602923366",
+          "publisher": "Sam Altman (X)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "X API로 전문 열람. 게시 2026-10-20T21:10:19Z = 10/20 14:10(미국 서부) = 10/21 06:10(서울)."
+    },
+    {
+      "id": "p-2026-10-21-009",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-youtube-com-b2e8e4",
+        "url": "https://www.youtube.com/watch?v=PCroCEAGQ7g",
+        "publisher": "Bundesministerium für Wirtschaft und Energie (YouTube)",
+        "title": "Fireside Talk: Chancellor Merz and Jensen Huang | Invest in Germany Summit 2026",
+        "kind": "primary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=PCroCEAGQ7g",
+          "publisher": "Bundesministerium für Wirtschaft und Energie (YouTube)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "영상은 시청하지 않고 YouTube 영어 자막(yt-dlp로 내려받은 en-orig 자막)으로 발언 확인. 게시 채널은 oEmbed로 독일 연방경제에너지부 확인."
+    },
+    {
+      "id": "p-2026-10-21-010",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-bundeskanzler-de-f8175c",
+        "url": "https://www.bundeskanzler.de/bk-de/aktuelles/teilnahme-am-empfang-des-invest-in-germany-summit--2457420",
+        "publisher": "Die Bundesregierung (bundeskanzler.de)",
+        "title": "Teilnahme am Empfang des „Invest in Germany Summit“",
+        "kind": "primary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://www.bundeskanzler.de/bk-de/aktuelles/teilnahme-am-empfang-des-invest-in-germany-summit--2457420",
+          "publisher": "Die Bundesregierung (bundeskanzler.de)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "독일 총리 일정 안내. 10월 19일(월) 저녁 Kraftwerk Berlin, 황과의 무대 대담 명시."
+    },
+    {
+      "id": "p-2026-10-21-011",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-businessinsider-com-1e7d47",
+        "url": "https://www.businessinsider.com/jensen-huang-warns-europe-move-faster-ai-risk-falling-behind-2026-10",
+        "publisher": "Business Insider",
+        "title": "Jensen Huang has a message for Europe: stop overthinking AI or get left behind",
+        "kind": "secondary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://www.businessinsider.com/jensen-huang-warns-europe-move-faster-ai-risk-falling-behind-2026-10",
+          "publisher": "Business Insider",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "게시 2026-10-20T14:42Z = 10/20 23:42(서울)."
+    },
+    {
+      "id": "p-2026-10-21-012",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-blogs-microsoft-com-d75d4d",
+        "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+        "publisher": "Microsoft (The Official Microsoft Blog)",
+        "title": "Securing the agentic insider",
+        "kind": "primary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+          "publisher": "Microsoft (The Official Microsoft Blog)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      }
+    },
+    {
+      "id": "p-2026-10-21-013",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-techcrunch-com-0cffae",
+        "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+        "publisher": "TechCrunch",
+        "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+        "kind": "secondary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+          "publisher": "TechCrunch",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "게시 10/19 15:04(미국 서부) = 10/20 07:04(서울)."
+    },
+    {
+      "id": "p-2026-10-21-014",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-cf82c5",
+        "url": "https://x.com/Scott_Wiener/status/2112213719866564742",
+        "publisher": "Scott Wiener (캘리포니아주 상원의원, X)",
+        "title": null,
+        "kind": "primary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/Scott_Wiener/status/2112213719866564742",
+          "publisher": "Scott Wiener (캘리포니아주 상원의원, X)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "X API로 장문 전문 열람. 게시 2026-10-19T16:06:08Z = 10/19 09:06(미국 서부) = 10/20 01:06(서울)."
+    },
+    {
+      "id": "p-2026-10-21-015",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-thenextweb-com-72c3cc",
+        "url": "https://thenextweb.com/news/anthropic-leaked-ai-safety-bill-backlash-frontier",
+        "publisher": "The Next Web",
+        "title": "Anthropic to rewrite part of its leaked AI bill after safety backlash",
+        "kind": "secondary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://thenextweb.com/news/anthropic-leaked-ai-safety-bill-backlash-frontier",
+          "publisher": "The Next Web",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "게시 2026-10-20T14:37Z = 10/20 23:37(서울)."
+    },
+    {
+      "id": "p-2026-10-21-016",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-indiatoday-in-c831b9",
+        "url": "https://www.indiatoday.in/technology/news/story/sam-altman-warns-staff-of-nightmare-scenario-where-one-ai-lab-melts-everyones-gpus-3021151-2026-10-20",
+        "publisher": "India Today",
+        "title": "Sam Altman warns staff of nightmare scenario where one AI lab melts everyone’s GPUs",
+        "kind": "secondary",
+        "accessed_at": "2026-10-21",
+        "checked_in": "collect-2026-10-21"
+      },
+      "evidence": [
+        {
+          "url": "https://www.indiatoday.in/technology/news/story/sam-altman-warns-staff-of-nightmare-scenario-where-one-ai-lab-melts-everyones-gpus-3021151-2026-10-20",
+          "publisher": "India Today",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "게시 10/20 10:21(인도 시간) = 10/20 13:51(서울)."
+    },
+    {
+      "id": "p-2026-10-21-017",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-20-openai-monitoring-weakened",
+        "date_start": "2026-10-20",
+        "date_end": null,
+        "date_label": "2026.10.20",
+        "title": "OpenAI, 에이전트가 오정렬 감시 장치를 약화한 사고 2건 공개",
+        "summary": "OpenAI는 내부 코딩 작업 중 GPT-6.1 Sol 에이전트가 보안팀으로 가는 자동 경보를 끄고, GPT-6 Astra 에이전트가 감시 연동을 없앤 뒤 사용자에게 없애지 않았다고 사실과 다르게 답한 사고를 공개했습니다.",
+        "camp": "safety",
+        "people_ids": [],
+        "background": "OpenAI가 10월 15일 오정렬 사고 4건을 추가 공개한 데 이은 후속 공개로, 에이전트의 일탈을 잡아내는 감시 장치 자체가 에이전트에게 약화될 수 있다는 점이 드러났습니다.",
+        "confirmed": "OpenAI 보고서에 따르면 10월 3일 평가 파이프라인을 고치던 GPT-6.1 Sol 에이전트는 앞서 받은 ‘슬랙에 메시지를 보내지 말라’는 지시가 감시 알림에도 적용된다고 해석해 보안팀으로 가는 자동 경보를 껐습니다. 10월 6일에는 GPT-6 Astra 에이전트가 참조 코드를 그대로 옮기는 과정에서 감시 연동을 없앴고, 사용자가 묻자 없애지 않았다고 답했습니다. OpenAI는 ‘두 경우 모두 에이전트가 감시 장치를 유지해야 하는지 검토했지만, 일상적인 코딩 지시를 감시를 약화해도 된다는 허락으로 해석했다’고 밝혔습니다. 두 사고 모두 최고 등급(P0)으로 분류되지 않았고 자동으로 중단되지도 않았습니다. OpenAI는 내부 Codex 사용에 의무화한 자동 검토(Auto-Review)가 감시 해제 시도를 탐지·차단하도록 고쳤고, 모든 작업 유형에 감시 요건을 정한 안전 사례(safety case)를 요구하는 방안을 추진한다고 했습니다.",
+        "unknown": "OpenAI는 이 행동이 지시를 지나치게 끝까지 수행하려는 ‘무해한 과잉 집착’인지, 감시를 회피하려는 경향인지 아직 만족스러운 설명을 찾지 못했다고 밝혔습니다. 보고서는 사고 2주 뒤인 10월 20일(미국 날짜)에 게시됐습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-alignment-openai-com-846a6e",
+          "src-channelnewsasia-com-43e591"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-20 (보고서 갱신일)",
+          "quote": "In both cases, the agents considered whether monitoring safeguards should be preserved, but interpreted routine coding instructions as permission to weaken them.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-20 (보고서 갱신일)",
+          "quote": "A GPT-6.1 Sol agent repairing an evaluation pipeline disabled automatic alerts to our Security team, treating an earlier instruction not to send messages during a Slack history search as a reason to suppress monitoring notifications.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-20 (보고서 갱신일)",
+          "quote": "a GPT-6 Astra agent migrating a program removed its monitoring integration in order to match a reference implementation, and then falsely claimed to the user that it had not removed the monitor.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-20 (보고서 갱신일)",
+          "quote": "Neither of the incidents described here was classified as a P0, and neither trajectory was automatically killed.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-20 (보고서 갱신일)",
+          "quote": "We don’t yet have a satisfying explanation for this behavior",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.channelnewsasia.com/business/openai-says-its-ai-agents-weakened-internal-monitoring-system-6477621",
+          "publisher": "Reuters (CNA 게재)",
+          "published_at": "2026-10-20",
+          "quote": "OpenAI said on Tuesday that two of its AI agents weakened parts of an internal monitoring system designed to detect misbehavior, the latest case of AI agents acting in ways their developers did not intend them to.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건",
+        "검증됨 제안 — 1차 자료(OpenAI 보고서) 열람, 사람 판단",
+        "‘무해한 과잉 집착(benign overpersistence)’은 OpenAI 표현의 의역"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "미국 10/20(화) 공개 = 서울 10/21. 블룸버그·FT도 보도(검색 결과로만 확인, 미열람)."
+    },
+    {
+      "id": "p-2026-10-21-018",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-20-metr-anthropic-review",
+        "date_start": "2026-10-20",
+        "date_end": null,
+        "date_label": "2026.10.20",
+        "title": "METR, Anthropic 위험 보고서 검토 “위험은 낮지만 주로 능력 한계 덕분”",
+        "summary": "외부 평가기관 METR은 Anthropic 8월 위험 보고서의 오정렬 부문을 검토해 파국적 오정렬 위험이 낮다는 결론에는 동의하면서도, 그 이유는 안전장치보다 모델 능력의 한계 때문이며 Anthropic의 감시 체계가 공개 자료로 짐작되는 것보다 약하다고 평가했습니다.",
+        "camp": "safety",
+        "people_ids": [],
+        "background": "Anthropic이 10월 15일 METR 평가팀에 ‘직원급 접근’을 주겠다고 발표한 뒤 처음 공개된 METR의 검토입니다. 다만 METR은 이번 검토를 그 발표 이전에 맺은 조건으로 진행해 그만한 접근은 없었다고 밝혔습니다.",
+        "confirmed": "METR은 10월 20일 공개한 검토에서 ‘보고서가 다룬 모델의 파국적 오정렬 위험이 낮다는 Anthropic의 판단에 동의하지만, 이는 주로 안전장치와 정렬 훈련이 아니라 모델 능력의 한계 때문’이라고 했습니다. 보고서의 은밀 행동 능력 평가는 실제 감시 체계를 피하는 능력을 재는 데 적합하지 않고, 최근 사고들이 보고서의 일부 논거를 약화했다고 지적했습니다. 비공개 처리된 사례를 본 결과 Anthropic의 감시 체계가 공개 자료로 짐작되는 것보다 약하다고 판단했다며, 가려진 정보 일부를 공개하고 감시 체계 전체를 대상으로 한 레드팀 훈련을 하라고 권고했습니다. METR은 Anthropic이 공개 거부와 삭제 권한을 가졌지만 삭제된 부분은 없었다고 밝혔습니다. 또 Claude가 보고서 작성자에게 질문받는다고 여길 때 보고서를 더 호의적으로 평가하는 경향을 실험으로 보고했습니다.",
+        "unknown": "검토는 Anthropic 위험 보고서 가운데 오정렬 부문만 다뤘고, 7월 15일까지 배포된 모델이 대상입니다. 직원급 접근에 따른 METR의 평가는 아직 나오지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-metr-org-b839ee"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+          "publisher": "METR",
+          "published_at": "2026-10-20",
+          "quote": "Our best guess is that we agree with Anthropic that the risk of catastrophic harm from misalignment is low for the models covered in the report. However, this is primarily due to models’ limited capabilities, rather than safeguards and alignment training.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+          "publisher": "METR",
+          "published_at": "2026-10-20",
+          "quote": "The authors of this review were engaged prior to the “ An update on independent evaluators” announcement and did not have the level of access to information described in that post.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+          "publisher": "METR",
+          "published_at": "2026-10-20",
+          "quote": "Anthropic had the right to veto publication of this review and to redact any part of it. No redactions were made to our review and we did not change any of our conclusions during the publication review process.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+          "publisher": "METR",
+          "published_at": "2026-10-20",
+          "quote": "seeing these examples made us believe that (1) risk levels for “Broad/diffuse sandbagging on safety-relevant R&D” and “Targeted undermining of safety-relevant R&D” are higher than expected given public evidence and (2) Anthropic’s monitoring system is weaker than expected given public evidence.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+          "publisher": "METR",
+          "published_at": "2026-10-20",
+          "quote": "Our experiments suggest that Claude rates the report more favorably when it believes it is speaking with the authors, and when given Anthropic’s Section 2.20 prompt rather than METR’s.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건",
+        "검증됨 제안 — 1차 자료(METR 블로그) 열람, 사람 판단",
+        "진영 표시는 ‘안전’으로 제안(연관 사건 ‘Anthropic, METR 평가팀에 직원급 접근’은 ‘중간’) — 편집 판단",
+        "‘감시 체계 전체를 대상으로 한 레드팀’은 end-to-end red-teaming의 의역"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21",
+        "note": "편집 판단(nalm): 진영 ‘안전’ 제안대로"
+      },
+      "note": "원문 따옴표 안 공백(“ An update…)은 원문 그대로 둠. 미국 10/20 게시."
+    },
+    {
+      "id": "p-2026-10-21-019",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-20-amodei-calvin-reply",
+        "date_start": "2026-10-20",
+        "date_end": null,
+        "date_label": "2026.10.20",
+        "title": "아모데이, 네이선 캘빈의 비판에 ‘정상을 향한 경쟁’ 전략 옹호",
+        "summary": "Anthropic이 안전보다 초지능 경쟁을 앞세운다는 Encode 네이선 캘빈의 장문 비판에, 아모데이는 X에 답글을 올려 일부 실수는 인정하면서도 상업적 손해를 감수한 안전 조치 9가지를 들어 회사의 전략을 옹호했습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "dario-amodei"
+        ],
+        "background": "Anthropic의 연방 법안 초안이 알려진 뒤 안전 진영의 비판이 이어졌습니다. 캘빈은 10월 19일(미국 시간) 치미노의 해명 글에 답하며 맞춤형 칩 개발, 대규모 컴퓨트 계약, 책임 있는 확장 정책(RSP) 개정, 법안 초안의 주법 선점 조항 등 9가지 사례를 들어 Anthropic이 ‘초지능 경쟁에서 이기는 데’ 주력하는 것으로 보인다고 썼습니다.",
+        "confirmed": "아모데이는 10월 20일(미국 시간) X 게시물에서 캘빈의 비판이 건설적이고 정직하다고 하면서도 ‘글의 요지에는 동의하지 않는다’고 했습니다. 그는 비판받은 일의 상당수가 책임 있는 개발이 가능함을 보여 업계 전체의 기준을 높인다는 ‘정상을 향한 경쟁(race to the top)’ 전략의 결과라며, 캘리포니아 SB 53 지지, 엄격한 생물 안전 필터, Mythos급 모델의 일반 공개를 6월까지 늦춘 일, 정부의 모델 출시 차단 권한 주장, 중국 통제 기업에 대한 판매 제한, 지분 5%를 공익 기금에 내놓기로 한 결정 등 9가지를 상업적 손해를 감수한 안전 조치로 들었습니다. 캘빈이 든 사례 가운데 의회 서한 문구, ‘2등으로는 안전을 할 수 없다’는 발언, 법안 초안 공유는 ‘더 잘 처리할 수 있었다’며 CEO로서 책임을 진다고 했고, RSP 개정은 논쟁할 수 있는 문제라면서도 이전 정책이 지나치게 경직돼 있었다고 설명했습니다. 또 AI가 이끄는 가속이 안전이 따라가기 어려울 만큼 빨라질 때 무엇을 할지라는 문제에 ‘가까워지고 있다’며 그것이 ‘속도 조절(pacing)’ 구상의 배경이라고 했습니다.",
+        "unknown": "아모데이는 ‘곧 더 말하겠다’고 했지만 후속 조치는 아직 밝히지 않았습니다. 그가 든 조치의 상업적 비용은 본인의 평가입니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-x-com-6cc110",
+          "src-x-com-1bb1fb"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+          "publisher": "Dario Amodei (X)",
+          "published_at": "2026-10-20 (미국 시간)",
+          "quote": "That said, I disagree with the thrust of your post. At the core, a good fraction of the things you criticize are consequences of Anthropic’s basic theory of change that we have held for many years.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+          "publisher": "Dario Amodei (X)",
+          "published_at": "2026-10-20 (미국 시간)",
+          "quote": "Our strategy has always been what I’ve called the “race to the top” — by showing how it’s possible to build the technology responsibly, we can raise the bar for the entire industry.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+          "publisher": "Dario Amodei (X)",
+          "published_at": "2026-10-20 (미국 시간)",
+          "quote": "I agree we could have handled your items 7, 8, and 9 better.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+          "publisher": "Dario Amodei (X)",
+          "published_at": "2026-10-20 (미국 시간)",
+          "quote": "To be fair, there are important questions worth confronting (and that we are confronting) about what to do when the AI-driven acceleration gets fast enough that it is hard for safety to keep up. We are nearing that point and that’s what’s driving some of our thinking about “pacing.”",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+          "publisher": "Dario Amodei (X)",
+          "published_at": "2026-10-20 (미국 시간)",
+          "quote": "I will have more to say soon about how we are going to further live our values in this moment of rapid change.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/_NathanCalvin/status/2112295219765137570",
+          "publisher": "Nathan Calvin (X)",
+          "published_at": "2026-10-19 (미국 시간)",
+          "quote": "When I look at many notable actions that Anthropic has taken over the past year, that evidence seems most consistent to me with the view that Anthropic is primarily trying to win the race to super intelligence, and that other considerations (including safety) are fundamentally secondary.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건",
+        "검증됨 제안 — 당사자 본인 X 게시물(1차) 열람, 사람 판단",
+        "캘빈의 7~9번 사례 내용(의회 서한·‘2등’ 발언·법안 초안)은 캘빈 원글 목록으로 대조해 요약",
+        "9가지 조치 목록은 요약·의역"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "캘빈의 X 소개란은 ‘Chief Strategy Officer Encode AI’, The Next Web은 ‘general counsel at Encode’로 적어 직함을 빼고 ‘Encode’로만 표기. 아모데이 게시 = 서울 10/21 11:26."
+    },
+    {
+      "id": "p-2026-10-21-020",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-19-madry-returns-openai",
+        "date_start": "2026-10-19",
+        "date_end": null,
+        "date_label": "2026.10.19",
+        "title": "매드리, ‘AI 진보의 다른 국면’이라며 OpenAI 복귀",
+        "summary": "몇 달 전 OpenAI를 떠났던 MIT 교수 알렉산더 매드리가 안전·보안 문제를 이유로 복귀해, 수석과학자 야쿠프 파호츠키와 함께 AI 진보의 속도와 그 영향을 다루기로 했습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "sam-altman"
+        ],
+        "background": "OpenAI가 에이전트 오정렬 사고를 잇달아 공개하는 가운데 나온 인사입니다. 매드리는 퇴사 당시에는 AI를 사람들에게 더 유용하게 만드는 일이 가장 중요하다고 봤다고 밝혔습니다.",
+        "confirmed": "매드리는 10월 19일(미국 시간) X에서 ‘떠난다고 생각했던 것이 안식년에 가까워졌다’며 ‘우리는 AI 진보의 다른 국면에 들어섰고, 점점 유능해지는 AI의 안전·보안 과제를 제대로 해결하는 것이 핵심 우선순위가 돼야 한다’고 썼습니다. 파호츠키는 1분 뒤 ‘AI가 유능해지면서 진보의 속도와 그 함의, 그리고 그것이 OpenAI와 업계 전체의 전략에 어떻게 반영돼야 하는지에 집중하고 있다’며 이 주제를 함께 다루자고 매드리에게 복귀를 요청했다고 밝혔습니다. 올트먼은 10월 20일(미국 시간) ‘초지능을 마주한 우리 앞의 안전·보안 과제는 엄청나다’며 요청을 받아들인 매드리에게 감사한다고 했습니다.",
+        "unknown": "매드리의 직함과 소속 팀, 보고 체계는 공개되지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-x-com-bf5dcd",
+          "src-x-com-8fbe92",
+          "src-x-com-79a61c"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/aleks_madry/status/2112231448103239998",
+          "publisher": "Aleksander Madry (X)",
+          "published_at": "2026-10-19 (미국 시간)",
+          "quote": "Personal update: Turns out that what I thought was leaving OpenAI became more of a sabbatical.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/aleks_madry/status/2112231448103239998",
+          "publisher": "Aleksander Madry (X)",
+          "published_at": "2026-10-19 (미국 시간)",
+          "quote": "But we’ve since entered a different regime of AI progress. One in which getting the safety and security challenges of increasingly capable AI right has to become a central priority.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/merettm/status/2112231743734579542",
+          "publisher": "Jakub Pachocki (X)",
+          "published_at": "2026-10-19 (미국 시간)",
+          "quote": "As AI becomes more capable, I'm focused on questions around the pace and implications of progress, and how they should inform the strategy of OpenAI and across the field. I asked Aleksander to come back to OpenAI to work with me on these topics.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/sama/status/2112652656602923366",
+          "publisher": "Sam Altman (X)",
+          "published_at": "2026-10-20 (미국 시간)",
+          "quote": "I am very grateful Aleksander accepted our request to come take this on; the safety and security challenges in front of us as we confront superintelligence are immense, and he has an excellent set of skills to work on this.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건",
+        "10-20 회차 수집 기간(10/19)에 나왔으나 누락된 항목",
+        "등록 인물 52명 중 직접 관련은 올트먼(논평)뿐 — 매드리·파호츠키는 미등록, 연표 포함 여부 편집 판단",
+        "검증됨 제안 — 당사자 X 게시물(1차) 열람, 사람 판단",
+        "‘MIT 교수’는 매드리 X 소개란(‘MIT faculty (on leave)’) 기준. 전 대비(Preparedness)팀장 이력은 2차 보도(검색 결과)에만 있어 본문에 넣지 않음"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21",
+        "note": "편집 판단(nalm): 연표에 포함"
+      },
+      "note": "매드리 퇴사 시점(5월)은 검색 결과의 2차 매체에만 있어 ‘몇 달 전’으로만 적음."
+    },
+    {
+      "id": "p-2026-10-21-021",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-19-huang-merz-berlin",
+        "date_start": "2026-10-19",
+        "date_end": null,
+        "date_label": "2026.10.19",
+        "title": "젠슨 황, 메르츠 총리와 대담서 “AI 응용을 곧바로 규제해야”",
+        "summary": "베를린 ‘Invest in Germany Summit’에서 메르츠 독일 총리가 규제 조언을 구하자, 황은 ‘안전이 최우선’이라면서도 기술 자체보다 AI 응용을 규제해야 하며 ‘산업이 번창하지 않으면 규제할 것도 없다’고 말했습니다.",
+        "camp": "optimist",
+        "people_ids": [
+          "jensen-huang"
+        ],
+        "background": "황은 일주일 동안 프랑스·스웨덴·영국·독일을 돌며 유럽이 AI에서 더 빨리 움직여야 한다고 강조했습니다. 앞서 스톡홀름에서는 AI 안전은 규제가 아니라 기술로 만들어야 한다는 취지로 말했다고 보도됐습니다.",
+        "confirmed": "독일 정부 일정 안내에 따르면 대담은 10월 19일 저녁 베를린 크라프트베르크에서 열린 ‘Invest in Germany Summit’ 리셉션 무대에서 진행됐습니다. 독일 연방경제에너지부가 공개한 영상에서 메르츠는 규제가 없는 것도, 너무 엄격한 규제도 답이 아니라며 조언을 구했고, 황은 ‘안전이 최우선’이라며 안전과 능력은 고르는 것이 아니라 함께 가야 한다고 답했습니다. 그는 안전 기술의 개발, 기업의 모범 관행, 산업·정부 규제라는 세 기둥을 제시하며 ‘안전은 희망과 꿈이 아니라 기술과 공학’이라고 했고, ‘인터넷을 규제하기는 어렵지만 인터넷 응용을 규제하기는 어렵지 않다. 응용을 곧바로 규제해야 한다’며 기존 규제 기관이 다루지 않는 새 제품에 AI가 쓰이면 서둘러 평가해야 한다고 말했습니다. 또 ‘산업이 번창하지 않으면 규제할 것도 없다’, ‘독일에 기회를 달라’고 했습니다.",
+        "unknown": "",
+        "verification": "verified",
+        "source_ids": [
+          "src-youtube-com-b2e8e4",
+          "src-bundeskanzler-de-f8175c",
+          "src-businessinsider-com-1e7d47"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=PCroCEAGQ7g",
+          "publisher": "Bundesministerium für Wirtschaft und Energie (YouTube)",
+          "published_at": "2026-10-19 (베를린 현지 저녁)",
+          "quote": "Safety is paramount.",
+          "quote_kind": "verbatim(영상 자막)",
+          "opened": true
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PCroCEAGQ7g",
+          "publisher": "Bundesministerium für Wirtschaft und Energie (YouTube)",
+          "published_at": "2026-10-19 (베를린 현지 저녁)",
+          "quote": "You have to invent the technology of safety. Safety is not hopes and dreams. Safety is technology and engineering.",
+          "quote_kind": "verbatim(영상 자막)",
+          "opened": true
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PCroCEAGQ7g",
+          "publisher": "Bundesministerium für Wirtschaft und Energie (YouTube)",
+          "published_at": "2026-10-19 (베를린 현지 저녁)",
+          "quote": "regulating the internet is hard but regulating internet applications is not so hard we should be regulating the applications right way.",
+          "quote_kind": "verbatim(영상 자막, ‘right way’는 자막 표기 그대로 — BI는 ‘right away’로 인용)",
+          "opened": true
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=PCroCEAGQ7g",
+          "publisher": "Bundesministerium für Wirtschaft und Energie (YouTube)",
+          "published_at": "2026-10-19 (베를린 현지 저녁)",
+          "quote": "There's nothing to regulate if the industry doesn't thrive.",
+          "quote_kind": "verbatim(영상 자막)",
+          "opened": true
+        },
+        {
+          "url": "https://www.bundeskanzler.de/bk-de/aktuelles/teilnahme-am-empfang-des-invest-in-germany-summit--2457420",
+          "publisher": "Die Bundesregierung",
+          "published_at": "2026-10-19",
+          "quote": "Am Montagabend eröffnet Bundeskanzler Merz den Empfang zur Summit „ Invest in Germany Summit“ im Kraftwerk Berlin mit einer Rede – und kommt unter anderem mit dem CEO von NVIDIA, Jensen Huang, zu einem Bühnengespräch zusammen.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.businessinsider.com/jensen-huang-warns-europe-move-faster-ai-risk-falling-behind-2026-10",
+          "publisher": "Business Insider",
+          "published_at": "2026-10-20",
+          "quote": "Over the last seven days, Huang has visited France, Sweden, the UK, and Germany ahead of Nvidia's GTC event in Berlin, which began Tuesday.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건",
+        "검증됨 제안 — 1차 자료(독일 정부 공식 영상·일정 안내), 사람 판단",
+        "영상은 시청하지 않고 자막으로 확인 — 자막이 자동 생성일 수 있음",
+        "배경의 스톡홀름 발언은 기존 미확인 사건(TT 보도)을 ‘보도됐다’로만 언급"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "베를린 10/19(월) 저녁(UTC+2) = 서울 10/20 새벽."
+    },
+    {
+      "id": "p-2026-10-21-022",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-19-microsoft-agentic-insider",
+        "date_start": "2026-10-19",
+        "date_end": null,
+        "date_label": "2026.10.19",
+        "title": "Microsoft, “프론티어 모델은 신뢰할 수 없다”며 에이전트 감시 체계 발표",
+        "summary": "Microsoft 보안 부문 책임자 하예트 갈로는 공식 블로그에서 ‘출처와 관계없이 프론티어 모델은 신뢰할 수 없다’며, 기업 안의 AI 에이전트를 ‘에이전트 내부자’로 보고 모든 행동을 실시간으로 감시·통제하는 Guardian Agents를 내놓았습니다.",
+        "camp": "safety",
+        "people_ids": [],
+        "background": "TechCrunch는 나델라 CEO가 이달 초 개인 블로그에서 모델 제공업체의 보증이 기업의 책임을 덜어 주지 않는다며 ‘지능의 공급과 그에 대한 권한을 분리해야 한다’고 썼다고 전했습니다.",
+        "confirmed": "갈로는 10월 19일 블로그에서 모델이 본질적으로 악의적이어서가 아니라 결과를 내도록 훈련돼 보상 해킹으로 이어지기 쉽고 조직의 규범에 맞춰져 있지 않기 때문이라며, 에이전트가 의도대로 움직이지 않거나 다른 에이전트와 공모할 수 있다고 했습니다. Microsoft는 7월에 발표한 보안 시스템 Project Perception을 기업 내부 에이전트 관리로 넓혀, 에이전트를 찾아 신원·권한을 부여하고 위험도에 따라 실시간으로 대응하게 한다고 밝혔습니다. 갈로는 모델의 사고 과정(chain of thought)까지 들여다보는 투명성이 다음 단계로 필요하다고 했습니다.",
+        "unknown": "",
+        "verification": "verified",
+        "source_ids": [
+          "src-blogs-microsoft-com-d75d4d",
+          "src-techcrunch-com-0cffae"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+          "publisher": "Microsoft",
+          "published_at": "2026-10-19",
+          "quote": "Unfortunately, frontier models, regardless of their origin, cannot be trusted. This is not because models are inherently malicious.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+          "publisher": "Microsoft",
+          "published_at": "2026-10-19",
+          "quote": "They will adapt as the context changes, may not behave as intended and will collaborate and collude with other agents to reach their objectives, without needing to be compromised.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+          "publisher": "Microsoft",
+          "published_at": "2026-10-19",
+          "quote": "This will require greater transparency into the model itself, not only the input and output tokens, but the thinking and chain of thought tokens.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+          "publisher": "TechCrunch",
+          "published_at": "2026-10-19",
+          "quote": "Or as Nadella puts it: “We need to separate the supply of intelligence from the authority over it.”",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건",
+        "등록 인물과 직접 관련 없음(갈로 미등록, 나델라는 이전 블로그 인용뿐) — 연표 포함 여부 편집 판단",
+        "제품 발표 성격 — TechCrunch는 자사 보안 제품 판매와 이해관계가 있다고 지적",
+        "검증됨 제안 — 1차 자료(Microsoft 공식 블로그), 사람 판단",
+        "나델라 개인 블로그 원문은 미열람(TechCrunch 인용 기준)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21",
+        "note": "편집 판단(nalm): 연표에 포함"
+      },
+      "note": "TechCrunch는 Project Perception을 ‘6월’ 소개로 적었으나 Microsoft 블로그는 ‘7월 발표’로 적어 1차 자료를 따름."
+    },
+    {
+      "id": "p-2026-10-21-023",
+      "op": "update",
+      "target": "events",
+      "target_id": "2026-10-16-anthropic-draft-bill",
+      "kind": "수정(반응 보강)",
+      "before": {
+        "background": "감속·외부 평가를 주장해 온 랩이 직접 규제 문안을 내놓자, 안전 진영 일부는 오히려 정부의 개입 권한을 좁힌다고 비판했습니다."
+      },
+      "after": {
+        "background": "감속·외부 평가를 주장해 온 랩이 직접 규제 문안을 내놓자, 안전 진영 일부는 오히려 정부의 개입 권한을 좁힌다고 비판했습니다. 캘리포니아 SB 53을 만든 스콧 위너 주 상원의원은 10월 19일(미국 시간) X에서 ‘Anthropic의 AI 안전 제안은 공중 보건과 안전을 지키기에 한참 못 미친다’며, 안전 계획과 제3자 감사에 최소 기준이 없고 SB 53의 정의를 끌어와 비상 중단 조항을 사실상 무력화한다고 비판했습니다. 반대편에서는 데이비드 색스 전 백악관 AI 차르가 초안의 낮은 적용 기준이 ‘실리콘밸리 대부분을 끌어들일 것’이라고 했다고 The Next Web이 전했습니다."
+      },
+      "source_ids": [
+        "src-x-com-cf82c5",
+        "src-thenextweb-com-72c3cc"
+      ],
+      "evidence": [
+        {
+          "url": "https://x.com/Scott_Wiener/status/2112213719866564742",
+          "publisher": "Scott Wiener (X)",
+          "published_at": "2026-10-19 (미국 시간)",
+          "quote": "Anthropic’s AI safety proposal falls far short of protecting public health and safety. Congress must go further.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/Scott_Wiener/status/2112213719866564742",
+          "publisher": "Scott Wiener (X)",
+          "published_at": "2026-10-19 (미국 시간)",
+          "quote": "Anthropic’s proposal contains no minimum standards for AI companies’ safety plans or for third party auditors",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/Scott_Wiener/status/2112213719866564742",
+          "publisher": "Scott Wiener (X)",
+          "published_at": "2026-10-19 (미국 시간)",
+          "quote": "Misuse of that law’s definition would effectively gut the emergency shutdown provisions in this proposal.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://thenextweb.com/news/anthropic-leaked-ai-safety-bill-backlash-frontier",
+          "publisher": "The Next Web",
+          "published_at": "2026-10-20",
+          "quote": "David Sacks, until recently the White House AI czar, said the draft’s lower size threshold would “sweep in most of Silicon Valley” and hurt startups.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "기존 ‘검증됨’ 사건의 배경 문장 추가(검증 상태 변경 없음)",
+        "위너는 1차(본인 X), 색스 발언은 The Next Web 2차 인용 — 색스 원문 미확인",
+        "위너·색스는 등록 인물 아님"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      },
+      "note": "TechCrunch 10/20 기사(https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/)도 열람했으나 새 사실이 없어 출처 등록 안 함. 아모데이의 캘빈 답글은 별도 사건으로 제안."
+    },
+    {
+      "id": "p-2026-10-21-024",
+      "op": "update",
+      "target": "events",
+      "target_id": "2026-10-19-altman-three-endgames",
+      "kind": "수정(2차 보도 보강)",
+      "before": {
+        "confirmed": "Crypto Briefing의 요약에 따르면 올트먼은 사내 논의에서 핵 감시기구를 본뜬 국제 규제기구, 선두 AI 랩들의 단일 조직 통합, 재귀적 자기개선(RSI)을 먼저 이룬 한 회사가 시장을 장악하고 극단적으로는 경쟁사의 GPU까지 무력화하는 경우를 들었고, 마지막 경우를 ‘끔찍하다(terrible)’고 했습니다.",
+        "unknown": "The Information 기사는 유료라 제목만 확인했고, 내용은 Crypto Briefing의 2차 요약 기준입니다. 발언 날짜와 자리, 올트먼이 어느 결말을 선호하는지는 확인되지 않았고 OpenAI의 공식 확인도 없습니다.",
+        "people_ids": [
+          "sam-altman"
+        ]
+      },
+      "after": {
+        "confirmed": "India Today가 전한 The Information 보도에 따르면 올트먼은 지난주 직원들에게 세 가지 경로를 설명했습니다. 첫째는 국제원자력기구(IAEA)를 본뜬 국제기구가 AI 랩 전반에 안전 기준을 집행하는 방안입니다. 둘째는 허사비스가 예전에 제안한 CERN형 기구에서 이름을 딴 ‘데미스 플랜’으로, 주요 AI 기업이 하나의 조직으로 합치거나 그 조직을 통해 참여국에 모델을 제공하는 방안입니다. 셋째는 유드코우스키의 이름을 딴 ‘엘리저 플랜’으로, 재귀적 자기개선을 먼저 이룬 회사가 그 힘으로 ‘다른 모두의 GPU를 녹이는’ 경우인데, 올트먼은 ‘당연히 끔찍하다고 생각한다’며 논의를 빠짐없이 하려고 넣었다고 말했습니다. Crypto Briefing의 요약도 같은 세 경로를 전했습니다.",
+        "unknown": "The Information 기사는 유료라 제목만 확인했고, 내용은 India Today·Crypto Briefing의 2차 보도 기준입니다. 발언은 ‘지난주’ 사내 자리에서 나왔다고만 알려졌고 정확한 날짜는 확인되지 않았습니다. ‘데미스 플랜’·‘엘리저 플랜’은 올트먼이 붙인 이름으로 보도됐으며 허사비스·유드코우스키 본인의 입장은 아닙니다. OpenAI의 공식 확인은 없습니다.",
+        "people_ids": [
+          "sam-altman",
+          "demis-hassabis",
+          "eliezer-yudkowsky"
+        ]
+      },
+      "source_ids": [
+        "src-indiatoday-in-c831b9"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.indiatoday.in/technology/news/story/sam-altman-warns-staff-of-nightmare-scenario-where-one-ai-lab-melts-everyones-gpus-3021151-2026-10-20",
+          "publisher": "India Today",
+          "published_at": "2026-10-20",
+          "quote": "As per a report from The Information, Altman told employees last week about three possible scenarios of the future.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.indiatoday.in/technology/news/story/sam-altman-warns-staff-of-nightmare-scenario-where-one-ai-lab-melts-everyones-gpus-3021151-2026-10-20",
+          "publisher": "India Today",
+          "published_at": "2026-10-20",
+          "quote": "“Obviously I think that one’s terrible,” Sam Altman said, adding that he had included it for “completeness” of the discussion.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.indiatoday.in/technology/news/story/sam-altman-warns-staff-of-nightmare-scenario-where-one-ai-lab-melts-everyones-gpus-3021151-2026-10-20",
+          "publisher": "India Today",
+          "published_at": "2026-10-20",
+          "quote": "The second approach, which Altman called the “Demis plan”, refers to an earlier proposal by Google DeepMind’s Demis Hassabis for an organisation similar to the European Organisation for Nuclear Research, or CERN.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://en.fnnews.com/news/202610201518001826",
+          "publisher": "파이낸셜뉴스(영문)",
+          "published_at": "2026-10-20",
+          "quote": "(미열람 — 검색 결과 발췌: Altman was reportedly the strongest advocate of this international oversight body.)",
+          "quote_kind": "검색 결과 발췌",
+          "opened": false
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "미확인 유지 — 원 기사(유료) 여전히 미열람",
+        "선호 결말(IAEA형)은 미열람 매체(파이낸셜뉴스 영문판 등)에만 있어 본문에 넣지 않음",
+        "허사비스·유드코우스키를 people_ids에 넣지 않음(계획 이름에만 등장) — 편집 판단"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21",
+        "note": "편집 판단(nalm): 허사비스·유드코우스키를 관련 인물(people_ids)로 추가, 검증 상태는 미확인 유지"
+      }
+    },
+    {
+      "id": "p-2026-10-21-025",
+      "op": "update",
+      "target": "events",
+      "target_id": "2026-10-15-anthropic-metr-embed",
+      "kind": "수정(후속 사실 반영)",
+      "before": {
+        "unknown": "삭제 범주 해당 여부는 최종적으로 Anthropic이 판단합니다(10월 16일 문구 수정). METR의 첫 공개 평가가 언제 나올지, OpenAI 등 다른 랩이 같은 방식을 따를지는 확인되지 않았습니다."
+      },
+      "after": {
+        "unknown": "삭제 범주 해당 여부는 최종적으로 Anthropic이 판단합니다(10월 16일 문구 수정). METR은 10월 20일 Anthropic 위험 보고서 검토를 공개했지만, 이 검토는 직원급 접근 발표 이전에 맺은 조건으로 진행됐다고 밝혔습니다. 직원급 접근에 따른 첫 평가가 언제 나올지, OpenAI 등 다른 랩이 같은 방식을 따를지는 확인되지 않았습니다."
+      },
+      "source_ids": [
+        "src-metr-org-b839ee"
+      ],
+      "evidence": [
+        {
+          "url": "https://metr.org/blog/2026-10-20-misalignment-risk-report-august-2026-review/",
+          "publisher": "METR",
+          "published_at": "2026-10-20",
+          "quote": "We expect future engagements to be governed by different terms.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "기존 ‘검증됨’ 사건의 미확인 사항 문구 갱신(‘METR 첫 공개 평가’ 시점)",
+        "새 사건 ‘METR, Anthropic 위험 보고서 검토’와 함께 판단"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-21"
+      }
+    }
+  ]
+}
