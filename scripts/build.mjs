@@ -250,7 +250,7 @@ const footer = `
       <details class="photo-credits">
         <summary>사진 크레딧 · Wikimedia Commons 자유 라이선스 ${withPhoto.length}건</summary>
         <div class="photo-credit-grid">
-          ${withPhoto.map(p => `<p class="photo-credit"><strong>${esc(p.ko)}</strong> · ${esc(p.portrait.author)} · ${esc(p.portrait.license)} · ${esc(p.portrait.crop)} · <a href="${esc(p.portrait.commons_url)}" target="_blank" rel="noopener noreferrer">원본·라이선스</a></p>`).join("\n          ")}
+          ${withPhoto.map(p => `<p class="photo-credit"><strong>${esc(p.ko)}</strong> · ${esc(p.portrait.author)} · ${p.portrait.license_url ? `<a href="${esc(p.portrait.license_url)}" target="_blank" rel="noopener noreferrer license">${esc(p.portrait.license)}</a>` : esc(p.portrait.license)} · ${esc(p.portrait.crop)} · <a href="${esc(p.portrait.commons_url)}" target="_blank" rel="noopener noreferrer">원본·라이선스</a></p>`).join("\n          ")}
         </div>
       </details>
       <div class="corrections">

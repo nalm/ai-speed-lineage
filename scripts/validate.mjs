@@ -70,6 +70,7 @@ for (const p of D.people) {
     if (!/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/.test(p.portrait.commons_url || "")) err(`${w}: 사진은 Wikimedia Commons 원본 링크 필요`);
     if (!/^(CC BY(-SA)? \d\.\d|CC0|Public domain)$/.test(p.portrait.license || "")) err(`${w}: 자유 라이선스가 아님 (${p.portrait.license})`);
     if (!p.portrait.author) err(`${w}: 사진 작성자 누락`);
+    if (p.portrait.license_url != null && !/^https:\/\/creativecommons\.org\/(licenses|publicdomain)\//.test(p.portrait.license_url)) err(`${w}: 라이선스 URL 형식 오류 (${p.portrait.license_url})`);
   }
 }
 // ---- events ----
