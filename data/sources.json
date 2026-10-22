@@ -2804,5 +2804,229 @@
       "by": "nalm",
       "at": "2026-10-21"
     }
+  },
+  {
+    "id": "src-cdn-openai-com-ab1c67",
+    "url": "https://cdn.openai.com/pdf/openai-letter-to-governor-newsom-20261020.pdf",
+    "publisher": "OpenAI",
+    "title": "Recommendations under Sept. 18, 2026 Executive Order (OpenAI 정책 책임자 찬 박이 뉴섬 주지사에게 보낸 서한)",
+    "kind": "primary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-openai-com-98f901",
+    "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+    "publisher": "OpenAI",
+    "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+    "kind": "primary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-bbc-com-e56d29",
+    "url": "https://www.bbc.com/news/articles/cmly0lg3w5x2o",
+    "publisher": "BBC News",
+    "title": "Websites taken down worldwide as critical cyber-security update issued",
+    "kind": "secondary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-openai-com-23caf7",
+    "url": "https://openai.com/index/empowering-cyber-defenders/",
+    "publisher": "OpenAI",
+    "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+    "kind": "primary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-x-com-561cac",
+    "url": "https://x.com/zeynep/status/2113052568859386130",
+    "publisher": "Zeynep Tufekci (X)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-x-com-c65534",
+    "url": "https://x.com/zeynep/status/2113059011629310131",
+    "publisher": "Zeynep Tufekci (X)",
+    "title": null,
+    "kind": "primary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-youtube-com-e72f76",
+    "url": "https://www.youtube.com/watch?v=anAmTGcewX8",
+    "publisher": "Stanford Graduate School of Business (YouTube)",
+    "title": "Sam Altman, Co-Founder and CEO of OpenAI: Staying Human While Scaling Superintelligence",
+    "kind": "primary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-ceointerviews-ai-335fa3",
+    "url": "https://ceointerviews.ai/interview/3109501/",
+    "publisher": "CEOInterviews.AI",
+    "title": "Sam Altman … Staying Human While Scaling Superintelligence (녹취록)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-youtube-com-52ffeb",
+    "url": "https://www.youtube.com/watch?v=a-_TTEdieaI",
+    "publisher": "CNN (YouTube)",
+    "title": "Microsoft AI’s CEO on building a human-first AI future | Terms of Service",
+    "kind": "primary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-cnn-com-7b6764",
+    "url": "https://www.cnn.com/audio/podcasts/terms-of-service-with-clare-duffy",
+    "publisher": "CNN Podcasts",
+    "title": "Terms of Service with Clare Duffy",
+    "kind": "primary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-ceointerviews-ai-cce780",
+    "url": "https://ceointerviews.ai/interview/3096092/",
+    "publisher": "CEOInterviews.AI",
+    "title": "Microsoft AI’s CEO on building a human-first AI future | Terms of Service (녹취록)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-ctrlai-com-aa4c5d",
+    "url": "https://ctrlai.com/base/cnn-2026-10-20-suleyman-human-first-ai",
+    "publisher": "Ctrl AI",
+    "title": "Microsoft AI’s CEO on building a human-first AI future | Terms of Service",
+    "kind": "secondary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-www-cdn-anthropic-com-f36735",
+    "url": "https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf7c142cd587.pdf",
+    "publisher": "Anthropic",
+    "title": "Anthropic 2026 Public Benefit Report: Taking stock of our progress toward our charter",
+    "kind": "primary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-anthropic-com-b12d9d",
+    "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+    "publisher": "Anthropic",
+    "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+    "kind": "primary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-livemint-com-ea460c",
+    "url": "https://www.livemint.com/global/why-ai-s-deepest-mind-believes-the-world-is-about-to-change-radically-11792584394493.html",
+    "publisher": "The Wall Street Journal (Mint 게재)",
+    "title": "Why AI’s deepest mind believes the world is about to change radically",
+    "kind": "secondary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
+  },
+  {
+    "id": "src-theverge-com-772aba",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1015277/google-deepminds-demis-hassabis-thinks-agi-is-two-to-three-years-away",
+    "publisher": "The Verge",
+    "title": "Google DeepMind’s Demis Hassabis thinks AGI is two to three years away.",
+    "kind": "secondary",
+    "accessed_at": "2026-10-22",
+    "checked_in": "collect-2026-10-22",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    }
   }
 ]

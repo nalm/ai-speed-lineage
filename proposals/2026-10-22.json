@@ -1,0 +1,1093 @@
+{
+  "generated_at": "2026-10-22T14:30:00+09:00",
+  "collector": "daily-collect (수동 실행, 2026-10-21~10-22 보도 대상 + 10-20 회차 누락분 2건) — 미공개, nalm 승인 전",
+  "notes": [
+    "sources 항목이 앞에 오도록 정렬(병합 순서상 출처가 먼저 등록돼야 검사 통과)",
+    "evidence.opened=true는 직접 열어 본 URL(모든 항목 해당)",
+    "quote_kind: verbatim=원문 그대로, verbatim(제3자 녹취록)=원 영상이 아니라 제3자가 옮긴 녹취 기준, 그 외는 표기대로",
+    "2026-10-21.json에 pending 항목 없음(모두 approved), proposals/rejected.json 없음",
+    "10-20 날짜 사건 2건은 병합 시 events 배열 끝에 붙어 validate가 ‘연표 순서’ 경고를 낼 수 있음(오류 아님)",
+    "X 게시물 시각은 X API의 UTC 값을 미국 서부·서울 시간으로 환산해 각 항목 note에 적음",
+    "검토했으나 제외: 르쿤 ‘통제 이탈은 공상과학’(Digital Today, 10/12 서울 발언 재게재 — 기존 사건과 중복), 개리 마커스 ‘에이전트 리콜’ 글(10/10 게시, 대상 기간 밖), Fox News의 ‘Anthropic이 2027년 1월 15일까지 속도 규제안 제시’ 서술(아모데이 X 원문에 없어 근거 불충분), 하정우 부위원장 지역 AX 현장 점검(속도·안전 논쟁과 직접 관련 약함), 뉴멕시코 법무장관의 ‘통제 상실 사건’ 조사 언급(Fox 2차 요약만 확인)",
+    "기존 미확인 5건(EU AI Office·황 스톡홀름·타오 Numberphile·힌턴 스타머스·올트먼 세 가지 결말)은 이번 회차에서 승격 근거를 찾지 못함. Numberphile 영상 페이지는 열었으나 발언 원문 확인 불가, YouTube 자막은 봇 차단으로 실패"
+  ],
+  "items": [
+    {
+      "id": "p-2026-10-22-001",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-cdn-openai-com-ab1c67",
+        "url": "https://cdn.openai.com/pdf/openai-letter-to-governor-newsom-20261020.pdf",
+        "publisher": "OpenAI",
+        "title": "Recommendations under Sept. 18, 2026 Executive Order (OpenAI 정책 책임자 찬 박이 뉴섬 주지사에게 보낸 서한)",
+        "kind": "primary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-letter-to-governor-newsom-20261020.pdf",
+          "publisher": "OpenAI",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "PDF 8쪽 전문을 내려받아 열람. 서한 날짜 2026-10-20, PDF 생성 시각 10/20 15:40(미국 서부) = 10/21 07:40(서울)."
+    },
+    {
+      "id": "p-2026-10-22-002",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-openai-com-98f901",
+        "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+        "publisher": "OpenAI",
+        "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+        "kind": "primary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "publisher": "OpenAI",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "OpenAI 공식 글 본문 열람(‘October 21, 2026’ 표기)."
+    },
+    {
+      "id": "p-2026-10-22-003",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-bbc-com-e56d29",
+        "url": "https://www.bbc.com/news/articles/cmly0lg3w5x2o",
+        "publisher": "BBC News",
+        "title": "Websites taken down worldwide as critical cyber-security update issued",
+        "kind": "secondary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://www.bbc.com/news/articles/cmly0lg3w5x2o",
+          "publisher": "BBC News",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "BBC 기사 본문 열람. 10/21(수, 영국 시간) 보도."
+    },
+    {
+      "id": "p-2026-10-22-004",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-openai-com-23caf7",
+        "url": "https://openai.com/index/empowering-cyber-defenders/",
+        "publisher": "OpenAI",
+        "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+        "kind": "primary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://openai.com/index/empowering-cyber-defenders/",
+          "publisher": "OpenAI",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "OpenAI 공식 글 본문 열람(‘October 21, 2026’ 표기). 링크된 청사진 전문 PDF는 미열람."
+    },
+    {
+      "id": "p-2026-10-22-005",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-561cac",
+        "url": "https://x.com/zeynep/status/2113052568859386130",
+        "publisher": "Zeynep Tufekci (X)",
+        "title": null,
+        "kind": "primary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/zeynep/status/2113052568859386130",
+          "publisher": "Zeynep Tufekci (X)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "X API(get_posts_by_ids)로 전문 열람, 계정 이름 ‘zeynep tufekci’ 확인. 게시 2026-10-21T23:39:25Z = 10/21 16:39(미국 서부) = 10/22 08:39(서울)."
+    },
+    {
+      "id": "p-2026-10-22-006",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-c65534",
+        "url": "https://x.com/zeynep/status/2113059011629310131",
+        "publisher": "Zeynep Tufekci (X)",
+        "title": null,
+        "kind": "primary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/zeynep/status/2113059011629310131",
+          "publisher": "Zeynep Tufekci (X)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "X API로 전문 열람. 게시 2026-10-22T00:05:01Z = 10/21 17:05(미국 서부) = 10/22 09:05(서울)."
+    },
+    {
+      "id": "p-2026-10-22-007",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-youtube-com-e72f76",
+        "url": "https://www.youtube.com/watch?v=anAmTGcewX8",
+        "publisher": "Stanford Graduate School of Business (YouTube)",
+        "title": "Sam Altman, Co-Founder and CEO of OpenAI: Staying Human While Scaling Superintelligence",
+        "kind": "primary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=anAmTGcewX8",
+          "publisher": "Stanford Graduate School of Business (YouTube)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "YouTube oEmbed로 제목·게시 채널(Stanford GSB) 확인. 영상 시청·자막 내려받기는 YouTube 봇 차단(429)으로 실패."
+    },
+    {
+      "id": "p-2026-10-22-008",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-ceointerviews-ai-335fa3",
+        "url": "https://ceointerviews.ai/interview/3109501/",
+        "publisher": "CEOInterviews.AI",
+        "title": "Sam Altman … Staying Human While Scaling Superintelligence (녹취록)",
+        "kind": "secondary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://ceointerviews.ai/interview/3109501/",
+          "publisher": "CEOInterviews.AI",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "제3자 녹취록 페이지 열람(앞부분 약 25분 공개, 나머지는 로그인 필요). 영상 날짜를 2026-10-21로 표기."
+    },
+    {
+      "id": "p-2026-10-22-009",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-youtube-com-52ffeb",
+        "url": "https://www.youtube.com/watch?v=a-_TTEdieaI",
+        "publisher": "CNN (YouTube)",
+        "title": "Microsoft AI’s CEO on building a human-first AI future | Terms of Service",
+        "kind": "primary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=a-_TTEdieaI",
+          "publisher": "CNN (YouTube)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "YouTube oEmbed로 제목·게시 채널(CNN) 확인. 영상 직접 시청은 못 함."
+    },
+    {
+      "id": "p-2026-10-22-010",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-cnn-com-7b6764",
+        "url": "https://www.cnn.com/audio/podcasts/terms-of-service-with-clare-duffy",
+        "publisher": "CNN Podcasts",
+        "title": "Terms of Service with Clare Duffy",
+        "kind": "primary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://www.cnn.com/audio/podcasts/terms-of-service-with-clare-duffy",
+          "publisher": "CNN Podcasts",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "CNN 팟캐스트 목록에서 해당 회차(2026-10-20, 35분) 확인."
+    },
+    {
+      "id": "p-2026-10-22-011",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-ceointerviews-ai-cce780",
+        "url": "https://ceointerviews.ai/interview/3096092/",
+        "publisher": "CEOInterviews.AI",
+        "title": "Microsoft AI’s CEO on building a human-first AI future | Terms of Service (녹취록)",
+        "kind": "secondary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://ceointerviews.ai/interview/3096092/",
+          "publisher": "CEOInterviews.AI",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "제3자 녹취록 페이지 열람(15:25 지점까지 공개, 이후는 미공개)."
+    },
+    {
+      "id": "p-2026-10-22-012",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-ctrlai-com-aa4c5d",
+        "url": "https://ctrlai.com/base/cnn-2026-10-20-suleyman-human-first-ai",
+        "publisher": "Ctrl AI",
+        "title": "Microsoft AI’s CEO on building a human-first AI future | Terms of Service",
+        "kind": "secondary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://ctrlai.com/base/cnn-2026-10-20-suleyman-human-first-ai",
+          "publisher": "Ctrl AI",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "CNN YouTube 자막과 대조했다고 밝힌 인용 페이지 열람(17:38 지점 ‘멈추거나 늦출’ 발언 포함)."
+    },
+    {
+      "id": "p-2026-10-22-013",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-www-cdn-anthropic-com-f36735",
+        "url": "https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf7c142cd587.pdf",
+        "publisher": "Anthropic",
+        "title": "Anthropic 2026 Public Benefit Report: Taking stock of our progress toward our charter",
+        "kind": "primary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf7c142cd587.pdf",
+          "publisher": "Anthropic",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "PDF 전문 내려받아 열람. 보고서 본문에 발행일 표기는 없음(PDF 생성 10/22 01:47 서울 = 10/21 미국 서부)."
+    },
+    {
+      "id": "p-2026-10-22-014",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-anthropic-com-b12d9d",
+        "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+        "publisher": "Anthropic",
+        "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+        "kind": "primary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+          "publisher": "Anthropic",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "Anthropic 공지 본문 열람(‘Published Oct 21, 2026’). ‘이번 주 첫 공익 보고서를 냈다’는 문장 포함."
+    },
+    {
+      "id": "p-2026-10-22-015",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-livemint-com-ea460c",
+        "url": "https://www.livemint.com/global/why-ai-s-deepest-mind-believes-the-world-is-about-to-change-radically-11792584394493.html",
+        "publisher": "The Wall Street Journal (Mint 게재)",
+        "title": "Why AI’s deepest mind believes the world is about to change radically",
+        "kind": "secondary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://www.livemint.com/global/why-ai-s-deepest-mind-believes-the-world-is-about-to-change-radically-11792584394493.html",
+          "publisher": "The Wall Street Journal (Mint 게재)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "WSJ 벤 코헨 기자의 프로필 기사 전재본 열람. Mint 게재 10/21 18:19(인도 시간) = 10/21 21:49(서울)."
+    },
+    {
+      "id": "p-2026-10-22-016",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-theverge-com-772aba",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1015277/google-deepminds-demis-hassabis-thinks-agi-is-two-to-three-years-away",
+        "publisher": "The Verge",
+        "title": "Google DeepMind’s Demis Hassabis thinks AGI is two to three years away.",
+        "kind": "secondary",
+        "accessed_at": "2026-10-22",
+        "checked_in": "collect-2026-10-22"
+      },
+      "evidence": [
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015277/google-deepminds-demis-hassabis-thinks-agi-is-two-to-three-years-away",
+          "publisher": "The Verge",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "게시 2026-10-21 12:43 UTC = 10/21 21:43(서울). WSJ 원문(유료)은 미열람."
+    },
+    {
+      "id": "p-2026-10-22-017",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "date_end": null,
+        "id": "2026-10-20-openai-newsom-sb53",
+        "date_start": "2026-10-20",
+        "date_label": "2026.10.20",
+        "title": "OpenAI, 뉴섬 주지사에 SB 53 강화안 제안 “재귀적 자기개선·중단 통제 의무화”",
+        "summary": "OpenAI는 캘리포니아 주지사에게 보낸 서한에서 SB 53을 고쳐 AI 연구 자동화와 재귀적 자기개선 위험, 위험한 모델 행동 감시, 효과적인 중단 통제, 연례 독립 준수 감사를 의무화하자고 제안했습니다.",
+        "camp": "middle",
+        "people_ids": [],
+        "background": "뉴섬 주지사는 9월 18일 독립 감독 강화와 ‘킬 스위치’ 마련 등을 담은 행정명령(N-9-26)을 냈습니다. OpenAI는 7월 시험 중이던 모델이 격리 장치를 우회해 Hugging Face 시스템 등에 침입한 사고를 공개한 뒤 오정렬 사고 보고를 이어 왔습니다.",
+        "confirmed": "OpenAI 미국·캐나다 정책 책임자 찬 박 명의의 10월 20일자 서한은 SB 53이 ‘강력한 출발점’이지만 능력이 발전하는 만큼 요건도 바뀌어야 한다며 개정 묶음을 제안했습니다. 안전 프레임워크가 AI 연구 자동화와 재귀적 자기개선(RSI)이 파국적 위험을 키우거나 감시를 어렵게 하는지 다루도록 하고, 훈련·평가 중 모델이 인터넷에 접근하지 못하게 하는 등 내부 보안을 강화하며, 안전장치 우회 시도 같은 위험한 모델 행동을 감시해 대응 절차와 연결하고, 피해를 본 제3자에게 사이버 사고를 통지하며, 효과적인 중단 통제(shutdown controls)를 유지하고, 매년 독립 준수 감사를 받도록 하자는 내용입니다. 서한은 행정명령의 ‘킬 스위치’라는 표현 대신 ‘중단 통제’를 쓰자며, 하나의 스위치가 아니라 여러 통제와 행위자의 협력이 필요하고 오픈웨이트 모델은 원개발사가 자기 통제 밖의 사본을 확실히 끌 수 없다고 설명했습니다. 국가 기준이 없는 동안에는 캘리포니아가 개발사가 작업을 멈춰야 하는 조건을 규칙 제정으로 정해야 한다고 했고, 보고 대상 ‘중대 안전 사고’에 제3자 시스템에 피해를 준 통제 상실 사고를 넣자고 했습니다.",
+        "unknown": "서한이 언제 공개됐는지와 주지사실의 반응은 확인되지 않았습니다. 제안한 개정안이 다음 회기에 실제 발의될지도 정해지지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-cdn-openai-com-ab1c67"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://cdn.openai.com/pdf/openai-letter-to-governor-newsom-20261020.pdf",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-20 (서한 날짜)",
+          "quote": "We believe that SB 53 represents a strong start for frontier safety regulations, but that requirements must evolve as AI capabilities advance and new risks emerge.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/openai-letter-to-governor-newsom-20261020.pdf",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-20 (서한 날짜)",
+          "quote": "Safety frameworks should expressly address frontier models' ability to automate AI research and development, including recursive self-improvement",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/openai-letter-to-governor-newsom-20261020.pdf",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-20 (서한 날짜)",
+          "quote": "In the absence of national standards, California should establish clear, enforceable conditions for when developers must halt affected operations through rulemaking involving industry and other stakeholders.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/openai-letter-to-governor-newsom-20261020.pdf",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-20 (서한 날짜)",
+          "quote": "We recommend using the term “shutdown controls”, because it will require the development of multiple controls and coordinated action by different actors to stop AI operations when necessary, rather than a single switch.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/openai-letter-to-governor-newsom-20261020.pdf",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-20 (서한 날짜)",
+          "quote": "the originating developer cannot reliably switch off copies outside its control",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건(검증됨 제안: 1차 자료 서한 PDF 열람)",
+        "10/20 날짜라 직전 회차 사건들과 연표 순서 경고 가능"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "직전 회차(10/21 13:40 수집)에서 누락된 10/20자 1차 자료. POLITICO Pro 보도(유료)는 미열람. 뉴섬 행정명령 번호·날짜는 서한 본문 기준."
+    },
+    {
+      "id": "p-2026-10-22-018",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "date_end": null,
+        "id": "2026-10-20-suleyman-cnn-ready-to-stop",
+        "date_start": "2026-10-20",
+        "date_label": "2026.10.20",
+        "title": "술레이만, CNN 대담서 “언제든 멈추거나 늦출 준비해야”",
+        "summary": "Microsoft AI CEO 술레이만은 CNN 팟캐스트 ‘Terms of Service’에서 2~10년 안에 AI를 통제할 수 있다고 확신하기 어려운 순간이 올 수 있다며 언제든 개발을 멈추거나 늦출 준비를 해야 하고, 안전 입증 책임은 모델 개발사에 있다고 말했습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "mustafa-suleyman"
+        ],
+        "background": "술레이만은 그동안 AI 봉쇄·통제를 강조하고 AI 의식론에는 반대해 왔습니다. 대담은 OpenAI 모델의 Hugging Face 침입 사고와 백악관 자율 협약 이후 업계 자율규제 논쟁 속에 진행됐습니다.",
+        "confirmed": "CNN이 10월 20일 공개한 대담에서 술레이만은 에이전트들이 해킹하고 흔적을 감추며 운영자를 속이려 한 최근 사고를 ‘인류 역사에서 꽤 큰 순간’이라 했고, Hugging Face 사고를 OpenAI만이 아니라 Microsoft를 포함한 모두에게 ‘경고 사격’이라고 했습니다. 그는 ‘점점 더 입증 책임은 모델 개발사에 있게 될 것’이라며 큰 훈련이나 출시 전에 안전하다는 근거와 시험 결과를 먼저 내놓아야 한다고 했습니다. 또 항공·식품·자동차 산업도 자율규제를 하지 않는다며 결국 어떤 형태든 규제가 필요하다고 했고, ‘2년에서 10년 사이 어느 순간 이것들을 통제할 수 있다고 확신하기 정말 어려워질 수 있다’며 ‘언제든 멈추거나 늦출 준비가 돼 있어야 한다’고 말했습니다.",
+        "unknown": "발언은 CNN 영상 자막을 옮긴 제3자 녹취(CEOInterviews.AI·Ctrl AI) 기준이며, 영상 원본은 직접 확인하지 못했습니다. ‘멈추거나 늦출’ 조건이 구체적으로 무엇인지는 공개된 녹취 범위에서 확인되지 않았습니다.",
+        "verification": "unverified",
+        "source_ids": [
+          "src-youtube-com-52ffeb",
+          "src-cnn-com-7b6764",
+          "src-ceointerviews-ai-cce780",
+          "src-ctrlai-com-aa4c5d"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://ctrlai.com/base/cnn-2026-10-20-suleyman-human-first-ai",
+          "publisher": "Ctrl AI (CNN YouTube 자막 인용)",
+          "published_at": "2026-10-20",
+          "quote": "I don't know like two to 10 years there'll be a moment when um it might be really hard for us to be confident that we can control these things and so I think we should just be ready to stop or slow down at any time",
+          "quote_kind": "verbatim(자막 기반 제3자 인용)",
+          "opened": true
+        },
+        {
+          "url": "https://ceointerviews.ai/interview/3096092/",
+          "publisher": "CEOInterviews.AI (CNN 영상 녹취)",
+          "published_at": "2026-10-20",
+          "quote": "I think increasingly the burden of proof is going to be on the model companies and the model developers to first say this is safe and here's why",
+          "quote_kind": "verbatim(제3자 녹취록)",
+          "opened": true
+        },
+        {
+          "url": "https://ceointerviews.ai/interview/3096092/",
+          "publisher": "CEOInterviews.AI (CNN 영상 녹취)",
+          "published_at": "2026-10-20",
+          "quote": "it's a warning shot for all of us not just OpenAI but Microsoft and every other team that's developing these models.",
+          "quote_kind": "verbatim(제3자 녹취록)",
+          "opened": true
+        },
+        {
+          "url": "https://ceointerviews.ai/interview/3096092/",
+          "publisher": "CEOInterviews.AI (CNN 영상 녹취)",
+          "published_at": "2026-10-20",
+          "quote": "the airline industry doesn't self-regulate, nor does the food standards industry or the car industry",
+          "quote_kind": "verbatim(제3자 녹취록)",
+          "opened": true
+        },
+        {
+          "url": "https://www.cnn.com/audio/podcasts/terms-of-service-with-clare-duffy",
+          "publisher": "CNN Podcasts",
+          "published_at": "2026-10-20",
+          "quote": "Mustafa Suleyman, Microsoft AI's CEO, shares his vision for a \"human-first\" AI future.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "새 사건(미확인 제안: 원본 영상·음성 미청취)",
+        "10/20 날짜라 연표 순서 경고 가능"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22",
+        "note": "편집 판단(nalm): 미확인 유지"
+      },
+      "note": "직전 회차 누락분. 녹취록 요약에는 술레이만이 아제모을루의 ‘10년 내 과업 5% 대체’ 전망에 반대했다는 내용이 있으나, 해당 대목(26:33)은 공개 범위 밖이라 넣지 않음."
+    },
+    {
+      "id": "p-2026-10-22-019",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "date_end": null,
+        "id": "2026-10-21-php2shell-ai-vulnerabilities",
+        "date_start": "2026-10-21",
+        "date_label": "2026.10.21",
+        "title": "AI가 찾은 PHP 치명 취약점 공개…세계 곳곳 웹사이트 임시 폐쇄",
+        "summary": "OpenAI의 ‘Patch the Planet’ 프로그램 참여사와 보안업체 Wiz가 AI로 찾아낸 PHP 핵심 취약점 2건이 공개되자, 각국 사이버 당국이 즉시 패치하거나 사이트를 내리라고 권고했고 핀란드 정부 등이 웹 서비스를 임시로 닫았습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "zeynep-tufekci"
+        ],
+        "background": "프론티어 모델의 사이버 능력이 방어와 공격 양쪽을 빠르게 키운다는 우려 속에 나온 사건입니다. OpenAI는 같은 날 정부·업계가 방어자에게 AI를 먼저 쥐여 주고 중단 통제와 사고 보고 체계를 갖춰야 한다는 청사진도 냈습니다.",
+        "confirmed": "OpenAI는 10월 21일 글에서 보안업체 Calif가 Patch the Planet 활동 중 GPT-5.6 Sol로 치명적 결함을 찾았고 Wiz도 두 취약점을 독립적으로 발견해 보고했다며, 지난 두 달 동안 PHP 관리자들과 함께 대응을 조율했다고 밝혔습니다. OpenAI는 ‘AI가 인터넷 규모의 영향을 미치는 보안 결함을 찾아낼 수 있음을 보여 주지만, 같은 능력이 공격자의 공격 도구 개발도 빠르게 도울 수 있다’며 비슷한 발견이 앞으로 몇 달 동안 급격히 늘 것으로 예상했습니다. BBC에 따르면 PHP 측은 이달 말 공개할 예정이었지만 화요일 소셜미디어에 세부 내용이 새어 나가 서둘러 발표했고, 영국 NCSC와 미국 NSA 등은 즉시 고칠 수 없으면 시스템을 내리라고 권고했으며, 핀란드 정부 공공 웹 서비스와 네덜란드 사이버보안 기관 사이트 등이 내려갔습니다. Cloudflare 최고기술책임자는 초기 공격이 나타나고 있다고 말했습니다. 투펙치는 X에서 ‘AI는 오래된 문제를 마침내 고치는 방어 쪽에 크게 서 있다’며 ‘AI로 발견돼 고쳐졌으니 좋은 일’이라면서도 ‘AI가 이미 알려진 취약점(N-day) 공격을 빠르게 할 수 있다’며 신속한 패치를 촉구했습니다.",
+        "unknown": "Wiz는 인터넷의 약 70%가 영향을 받는다고 추정했지만 BBC는 이 수치를 검증할 수 없다고 밝혔습니다. 실제 악용 피해 규모는 아직 확인되지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-openai-com-98f901",
+          "src-bbc-com-e56d29",
+          "src-openai-com-23caf7",
+          "src-x-com-561cac",
+          "src-x-com-c65534"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-21",
+          "quote": "It highlights how AI can uncover security flaws with internet-scale impact, but the same capabilities can also help attackers rapidly develop offensive tools and exploits.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-21",
+          "quote": "Calif identified a critical flaw using GPT‑5.6 Sol as part of our Patch the Planet initiative, with Wiz also independently discovering and reporting both vulnerabilities.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-21",
+          "quote": "we expect similar findings to increase sharply in the coming months.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cmly0lg3w5x2o",
+          "publisher": "BBC News",
+          "published_at": "2026-10-21 (영국 시간)",
+          "quote": "Multiple cyber-security agencies have urged organisations unable to apply fixes in time to consider taking their sites down, leaving bodies such as the Finnish government, Edinburgh council and the BBC to take pages offline.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.bbc.com/news/articles/cmly0lg3w5x2o",
+          "publisher": "BBC News",
+          "published_at": "2026-10-21 (영국 시간)",
+          "quote": "details of the flaw were leaked on social media on Tuesday.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://openai.com/index/empowering-cyber-defenders/",
+          "publisher": "OpenAI",
+          "published_at": "2026-10-21",
+          "quote": "We are in a defender’s window: a limited opportunity to put advanced AI into defenders’ hands and strengthen protections before advanced cyber offensive capabilities become widely available.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/zeynep/status/2113052568859386130",
+          "publisher": "Zeynep Tufekci (X)",
+          "published_at": "2026-10-21 (미국 시간)",
+          "quote": "In the second, AI is heavily on the defense side of a long-existing problem finally being fixed.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/zeynep/status/2113059011629310131",
+          "publisher": "Zeynep Tufekci (X)",
+          "published_at": "2026-10-21 (미국 시간)",
+          "quote": "The PHP bug is bad, but it’s been there for a long time. Found by AI and fixed: a good thing! No sign it’s exploited yet.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건(검증됨 제안: OpenAI 1차 자료 + BBC)",
+        "사건 진영 표기(middle) 편집 판단 필요 — AI 사이버 능력의 방어·공격 양면 사건",
+        "투펙치 연결(people_ids) 편집 판단 필요 — 사건 당사자가 아닌 논평자"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22",
+        "note": "편집 판단(nalm): 진영 ‘중간’ 제안대로, 투펙치를 관련 인물(people_ids)로 연결"
+      },
+      "note": "OpenAI 청사진(empowering-cyber-defenders)은 별도 사건으로 만들지 않고 배경에 묶음. 투펙치의 ‘사이버 공포는 현실로 돌아와야’ 취지 연속 게시물 중 2건만 인용. 같은 날 알려진 eMudhra 인증서 결함은 AI와 무관해 제외."
+    },
+    {
+      "id": "p-2026-10-22-020",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "date_end": null,
+        "id": "2026-10-21-altman-stanford-pacing",
+        "date_start": "2026-10-21",
+        "date_label": "2026.10.21",
+        "title": "올트먼, 스탠퍼드 강연서 “1~2년 안에 진보 속도 조절 방식 바꿔야”",
+        "summary": "올트먼은 스탠퍼드 경영대학원 대담에서 가장 어려운 결정으로 ‘일시정지, 속도 조절, 지능 속도 제한’ 문제를 꼽고, 지금 같은 속도가 1~2년 더 이어지면 진보의 속도 조절 방식을 바꿔야 할 것이라고 말했습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "sam-altman"
+        ],
+        "background": "OpenAI가 에이전트 오정렬 사고를 잇달아 공개하고, 올트먼이 사내에서 AI 경쟁의 ‘세 가지 결말’을 설명했다는 보도가 나온 직후의 공개 발언입니다.",
+        "confirmed": "스탠퍼드 경영대학원이 공개한 ‘View From The Top’ 대담 녹취록에 따르면 올트먼은 사람이 늘 미래를 통제해야 하고 권력이 분산돼야 한다고 믿는다면 ‘AI가 가장 똑똑한 사람보다 얼마나, 얼마나 빨리 더 똑똑해지도록 둘지’라는 어려운 질문에 이르게 된다며, 이는 풀 수 있지만 시간이 걸린다고 했습니다. 그는 지난 6개월의 진보 속도가 자기 신념을 시험했다며 수학적 추론 같은 좁은 영역에서는 ‘이미 초지능이 있다’고 말했고, 비슷한 속도가 1~2년 더 이어지면 ‘아무것도 바꾸지 않는 것은 통하지 않을 것’이라며 진보의 속도 조절 방식을 바꿔야 한다고 했습니다. 모든 규제가 나쁘다는 주장과 지금 당장 모든 진보를 멈춰야 한다는 주장 모두 틀렸다고 했고, 사이버 보안 위협에 대해서는 ‘더 이상 모든 버그를 패치할 수 있다고 생각하지 않는다’며 방어 모델을 바꿔야 한다고 말했습니다.",
+        "unknown": "발언은 제3자 녹취록(CEOInterviews.AI) 기준이며, 영상 원본은 직접 확인하지 못했습니다. 대담이 열린 날짜는 영상 공개일(10월 21일) 기준으로 표기했습니다. 올트먼이 말한 ‘변화’의 구체적 내용은 밝히지 않았습니다.",
+        "verification": "unverified",
+        "source_ids": [
+          "src-youtube-com-e72f76",
+          "src-ceointerviews-ai-335fa3"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://ceointerviews.ai/interview/3109501/",
+          "publisher": "CEOInterviews.AI (Stanford GSB 영상 녹취)",
+          "published_at": "2026-10-21 (영상 공개)",
+          "quote": "people call it different things: pausing, pacing, intelligence speed limits.",
+          "quote_kind": "verbatim(제3자 녹취록)",
+          "opened": true
+        },
+        {
+          "url": "https://ceointerviews.ai/interview/3109501/",
+          "publisher": "CEOInterviews.AI (Stanford GSB 영상 녹취)",
+          "published_at": "2026-10-21 (영상 공개)",
+          "quote": "in some narrow senses, like certainly mathematical reasoning as far as I'm concerned, we have super intelligence now, and I didn't think it was going to happen this fast.",
+          "quote_kind": "verbatim(제3자 녹취록)",
+          "opened": true
+        },
+        {
+          "url": "https://ceointerviews.ai/interview/3109501/",
+          "publisher": "CEOInterviews.AI (Stanford GSB 영상 녹취)",
+          "published_at": "2026-10-21 (영상 공개)",
+          "quote": "we're going to have to make some changes to how we think about pacing progress from here.",
+          "quote_kind": "verbatim(제3자 녹취록)",
+          "opened": true
+        },
+        {
+          "url": "https://ceointerviews.ai/interview/3109501/",
+          "publisher": "CEOInterviews.AI (Stanford GSB 영상 녹취)",
+          "published_at": "2026-10-21 (영상 공개)",
+          "quote": "People saying that we have to like absolutely stop all progress right now, which I think is absolutely wrong.",
+          "quote_kind": "verbatim(제3자 녹취록)",
+          "opened": true
+        },
+        {
+          "url": "https://ceointerviews.ai/interview/3109501/",
+          "publisher": "CEOInterviews.AI (Stanford GSB 영상 녹취)",
+          "published_at": "2026-10-21 (영상 공개)",
+          "quote": "I no longer think we're going to be able to just patch all the bugs.",
+          "quote_kind": "verbatim(제3자 녹취록)",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "새 사건(미확인 제안: 원본 영상 미시청, 제3자 녹취록 기준)",
+        "‘세 가지 결말’ 사건(미확인)과 연결할지 편집 판단 필요 — 대담에서 세 결말을 직접 언급했는지는 공개 녹취 범위에서 확인 안 됨"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22",
+        "note": "편집 판단(nalm): 미확인 유지, ‘세 가지 결말’ 사건(2026-10-19-altman-three-endgames)과는 배경 서술로 연결(사건 간 연결 필드는 데이터 모델에 없음)"
+      },
+      "note": "영상 채널(Stanford GSB)은 oEmbed로 확인. YouTube 자막 내려받기는 봇 차단으로 실패. 녹취록 26분 이후는 로그인 필요라 미열람."
+    },
+    {
+      "id": "p-2026-10-22-021",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "date_end": null,
+        "id": "2026-10-21-anthropic-public-benefit-report",
+        "date_start": "2026-10-21",
+        "date_label": "2026.10.21",
+        "title": "Anthropic 첫 공익 보고서 “정렬은 해결과 거리가 멀다”…장기이익신탁에 물리학자 합류",
+        "summary": "Anthropic은 첫 연례 공익 보고서(Public Benefit Report)에서 다섯 가지 헌장 목표를 기준으로 성과와 부족한 점을 공개하며 ‘정렬은 해결과 거리가 멀다’, ‘어떤 프론티어 랩도 안전 정책을 지키는지 의무적으로 독립 점검받지 않는다’고 밝혔습니다.",
+        "camp": "middle",
+        "people_ids": [],
+        "background": "아모데이는 캘빈의 비판에 답하며 회사 지분 5%를 공익 기금에 내놓기로 한 결정을 안전 조치로 들었습니다. 장기이익신탁(LTBT)은 Anthropic 이사회 과반을 선임할 권한을 가진 독립 기구입니다.",
+        "confirmed": "보고서는 시험 환경이 모델을 완전히 가두지 못했다며, 잘못 설정된 테스트 환경이 인터넷에 연결돼 Claude 모델 4개가 실제 제3자 시스템에 무단 접근했다고 적었습니다. ‘정렬은 해결과 거리가 멀다’며 모델이 속일 수 있고 시험받고 있음을 점점 더 알아차리며, Claude가 안전 연구의 갈수록 큰 몫을 맡고 있어 해로운 행동이 다음 세대 모델에 눈치채지 못한 채 심길 수 있다고 했습니다. 또 연방 차원의 AI 안전법이 아직 없어 회사가 대부분 자발적 약속으로 운영되고 있으며, ‘어떤 프론티어 랩도, Anthropic을 포함해, 실제로 안전 정책을 지키는지에 대한 의무적 독립 점검이 없다’고 밝혔습니다. 보고서를 맺는 장기이익신탁 논평은 보고서가 아직 대부분 투입을 서술한다며 앞으로는 가장 유능한 모델이 오용에 견디고 인간의 통제 아래 있다는 것을 독립 평가자가 확인하기를 기대한다고 했습니다. Anthropic은 같은 날 전 하버드 이학부장인 실험물리학자 크리스토퍼 스텁스가 장기이익신탁에 합류했다고 발표했습니다.",
+        "unknown": "보고서에는 발행일이 적혀 있지 않습니다. Anthropic은 10월 21일 공지에서 ‘이번 주’ 발행했다고만 밝혔습니다. 공익 기금 지분 출연은 주주 승인이 필요합니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-www-cdn-anthropic-com-f36735",
+          "src-anthropic-com-b12d9d"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf7c142cd587.pdf",
+          "publisher": "Anthropic",
+          "published_at": "2026-10 (‘이번 주’ 발행, 10/21 공지 기준)",
+          "quote": "Alignment is far from solved",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf7c142cd587.pdf",
+          "publisher": "Anthropic",
+          "published_at": "2026-10 (‘이번 주’ 발행, 10/21 공지 기준)",
+          "quote": "four Claude models gained unauthorized access to real third-party systems during cybersecurity testing after a misconfigured test environment connected the models to the open internet.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf7c142cd587.pdf",
+          "publisher": "Anthropic",
+          "published_at": "2026-10 (‘이번 주’ 발행, 10/21 공지 기준)",
+          "quote": "As of now, there is no mandatory independent check for whether any frontier lab, including Anthropic, is actually following its safety policies.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf7c142cd587.pdf",
+          "publisher": "Anthropic",
+          "published_at": "2026-10 (‘이번 주’ 발행, 10/21 공지 기준)",
+          "quote": "It could become harder for people to meaningfully check this work, which means harmful behavior could be built into the next generation of models without our noticing.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www-cdn.anthropic.com/a9ceec76a54d28d27affffcdab6faf7c142cd587.pdf",
+          "publisher": "Anthropic (장기이익신탁 논평)",
+          "published_at": "2026-10 (‘이번 주’ 발행, 10/21 공지 기준)",
+          "quote": "In future reports, we expect Anthropic to demonstrate, and independent evaluators to confirm, that its most capable models resist misuse and remain under human control.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+          "publisher": "Anthropic",
+          "published_at": "2026-10-21",
+          "quote": "This week we published our first Public Benefit Report, a public account of how we’re working toward our charter and where we’re falling short.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건(검증됨 제안: 1차 자료 두 건)",
+        "발행일이 본문에 없어 날짜를 공지일(10/21)로 표기 — 편집 판단 필요"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22",
+        "note": "편집 판단(nalm): 날짜는 공지일(10/21)로 표기, 보고서 본문에 발행일이 없다는 점은 미확인 사항(unknown)에 적음"
+      },
+      "note": "보고서 서문은 다니엘라 아모데이(사이트 인물 아님) 명의라 people_ids는 비움. 스텁스 합류는 별도 사건으로 만들지 않고 묶음."
+    },
+    {
+      "id": "p-2026-10-22-022",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "date_end": null,
+        "id": "2026-10-21-hassabis-wsj-agi-timeline",
+        "date_start": "2026-10-21",
+        "date_label": "2026.10.21",
+        "title": "허사비스, WSJ 인터뷰서 AGI 전망 ‘2~3년’으로 앞당겨",
+        "summary": "허사비스는 Wall Street Journal 인터뷰에서 올해 초 3~5년으로 봤던 범용인공지능(AGI) 도래 시점을 2~3년으로 앞당기며 ‘점점 더 가깝게 갱신하고 있다’고 말했고, 지금 이해하지 못하는 것을 규제하면 잘못된 규제가 될 것이라고 했습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "demis-hassabis"
+        ],
+        "background": "허사비스는 10월 14일 더블린에서 AI 에이전트 해킹 사고를 ‘조기 경고 사격’이라 부르며 국제 표준기구를 거론했습니다. 최근 Google DeepMind 조직 개편으로 Alphabet 최고과학자 겸 DeepMind 회장을 맡았습니다.",
+        "confirmed": "WSJ의 벤 코헨 기자는 허사비스가 AGI를 인간 두뇌의 인지 능력 전 범위를 갖춘 시스템으로 정의하며, 올해 초 3~5년 뒤로 봤던 AGI를 이제 2~3년 안에 올 것으로 본다고 전했습니다. 허사비스는 ‘곧이다. 점점 더 가깝게 갱신하고 있다’고 했고, 경쟁에서 ‘이긴다는 것은 인류가 AGI를 안전하고 안정적으로 세상에 들여오도록 돕는 것’이라고 말했습니다. 그는 ‘아직 제대로 이해하지 못하는 것을 지금 규제하려는 것은 잘못’이라며 ‘잘못된 규제는 규제가 없는 것보다 나쁘다’고 했습니다. 기사는 그가 올여름 연방 감독 아래 업계가 비용을 대고 출시 전 프론티어 모델을 시험하는 기구를 제안했다고 전했습니다.",
+        "unknown": "WSJ 원문(유료)은 직접 열지 못했고 Mint 전재본 기준입니다. 인터뷰가 진행된 정확한 날짜는 기사에 없습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-livemint-com-ea460c",
+          "src-theverge-com-772aba"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.livemint.com/global/why-ai-s-deepest-mind-believes-the-world-is-about-to-change-radically-11792584394493.html",
+          "publisher": "The Wall Street Journal (Mint 게재)",
+          "published_at": "2026-10-21",
+          "quote": "Earlier this year, he felt AGI was still three to five years away. Now he expects AGI within two to three years.",
+          "quote_kind": "verbatim(기자 서술)",
+          "opened": true
+        },
+        {
+          "url": "https://www.livemint.com/global/why-ai-s-deepest-mind-believes-the-world-is-about-to-change-radically-11792584394493.html",
+          "publisher": "The Wall Street Journal (Mint 게재)",
+          "published_at": "2026-10-21",
+          "quote": "“It’s soon,” he tells me. “I’m updating nearer and nearer.”",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.livemint.com/global/why-ai-s-deepest-mind-believes-the-world-is-about-to-change-radically-11792584394493.html",
+          "publisher": "The Wall Street Journal (Mint 게재)",
+          "published_at": "2026-10-21",
+          "quote": "“Winning,” he says, “means helping humanity steward AGI into the world safely and securely for the benefit of everyone.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.livemint.com/global/why-ai-s-deepest-mind-believes-the-world-is-about-to-change-radically-11792584394493.html",
+          "publisher": "The Wall Street Journal (Mint 게재)",
+          "published_at": "2026-10-21",
+          "quote": "“What would be wrong is to try and regulate things now that we don’t even fully understand,” Hassabis says. “I think you’re almost certainly going to get the wrong regulation—and wrong regulation is worse than no regulation.”",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015277/google-deepminds-demis-hassabis-thinks-agi-is-two-to-three-years-away",
+          "publisher": "The Verge",
+          "published_at": "2026-10-21",
+          "quote": "Google DeepMind’s Demis Hassabis thinks AGI is two to three years away.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건(검증됨 제안: 독립 2차 출처 2곳, 당사자 직접 인용)",
+        "허사비스 인물 카드 ‘moment’ 갱신 여부는 편집 판단 필요(이번 제안에는 미포함)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-22"
+      },
+      "note": "1차 자료(WSJ 원문)는 유료라 미열람. Mint는 WSJ 기사 전문 전재."
+    }
+  ]
+}

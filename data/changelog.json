@@ -1,5 +1,49 @@
 [
   {
+    "id": "2026-10-22-update",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-22"
+    },
+    "approved_at": "2026-10-22",
+    "period": "2026년 10월 20~21일 보도 반영 (2026-10-22 승인)",
+    "headline": "이번 재검증에서 달라진 점",
+    "note": "2026년 10월 21일까지의 보도를 반영해 새 사건 6건을 더했습니다.",
+    "items": [
+      {
+        "title": "새 사건 6건",
+        "text": "OpenAI의 뉴섬 주지사 서한(SB 53 강화안)과 술레이만의 CNN 대담(이상 10/20, 지난 회차 누락분), AI가 찾은 PHP 치명 취약점 공개, 올트먼의 스탠퍼드 경영대학원 대담, Anthropic의 첫 공익 보고서, 허사비스의 WSJ 인터뷰(이상 10/21)를 연표에 넣었습니다. 제3자 녹취록에 근거한 술레이만·올트먼 발언 2건은 ‘미확인’으로 표시했고, 10/20 사건은 날짜 순서에 맞게 배치했습니다.",
+        "refs": [],
+        "source_ids": [
+          "src-cdn-openai-com-ab1c67",
+          "src-youtube-com-52ffeb",
+          "src-openai-com-98f901",
+          "src-bbc-com-e56d29",
+          "src-youtube-com-e72f76",
+          "src-www-cdn-anthropic-com-f36735",
+          "src-livemint-com-ea460c"
+        ]
+      },
+      {
+        "title": "편집 판단",
+        "text": "PHP 취약점 사건은 진영을 ‘중간’으로 두고, X에서 논평한 투펙치를 관련 인물로 연결했습니다. 올트먼의 스탠퍼드 발언은 ‘세 가지 결말’ 보도 직후의 공개 발언으로 배경에 적었습니다. Anthropic 공익 보고서는 본문에 발행일이 없어 Anthropic 공지일(10/21)로 표기했습니다.",
+        "refs": [],
+        "source_ids": [
+          "src-x-com-561cac",
+          "src-anthropic-com-b12d9d"
+        ]
+      },
+      {
+        "title": "‘미확인’ 유지",
+        "text": "기존 ‘미확인’ 사건 5건(EU AI Office·황 스톡홀름·타오 Numberphile·힌턴 스타머스·올트먼 세 가지 결말)은 이번 회차에서 승격 근거를 찾지 못해 그대로 둡니다.",
+        "refs": [],
+        "source_ids": []
+      }
+    ],
+    "source_ids": []
+  },
+  {
     "id": "2026-10-21-update",
     "review": {
       "state": "approved",
