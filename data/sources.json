@@ -3028,5 +3028,201 @@
       "by": "nalm",
       "at": "2026-10-22"
     }
+  },
+  {
+    "id": "src-theregister-com-e9a24e",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/22/nvidias-huang-dont-mention-the-ai-pocalypse/5304743",
+    "publisher": "The Register",
+    "title": "Nvidia's Huang: Don't mention the AI-pocalypse",
+    "kind": "secondary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-berlinertageblatt-de-27e6ea",
+    "url": "https://www.berlinertageblatt.de/en/Economy/802623-nvidia-boss-criticises-cheap-ai-doomsday-warnings.html",
+    "publisher": "Berliner Tageblatt (AFP)",
+    "title": "Nvidia boss criticises 'cheap' AI doomsday warnings",
+    "kind": "secondary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-calcalistech-com-1e42fa",
+    "url": "https://www.calcalistech.com/ctechnews/article/r1hxauv2zl",
+    "publisher": "Calcalist Ctech",
+    "title": "젠슨 황 베를린 발언 보도(Ctech, 2026-10-22)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-metr-org-b30896",
+    "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+    "publisher": "METR",
+    "title": "Red-teaming OpenAI's agent monitoring (METR·Redwood Research)",
+    "kind": "primary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-cnbc-com-19d8c9",
+    "url": "https://www.cnbc.com/2026/10/22/metr-redwood-research-open-ai-test.html",
+    "publisher": "CNBC",
+    "title": "METR, Redwood Research test of OpenAI monitoring",
+    "kind": "secondary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-linkedin-com-bf963d",
+    "url": "https://www.linkedin.com/pulse/raising-bar-frontier-ai-governance-chris-lehane-raaac",
+    "publisher": "Chris Lehane (LinkedIn)",
+    "title": "Raising the bar on frontier AI governance",
+    "kind": "primary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-openaiglobalaffairs-substack-com-7d18c2",
+    "url": "https://openaiglobalaffairs.substack.com/p/stronger-ai-stronger-safeguards",
+    "publisher": "OpenAI Global Affairs (The Prompt)",
+    "title": "Stronger AI, Stronger Safeguards",
+    "kind": "primary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-pjfp-com-1a547f",
+    "url": "https://pjfp.com/sam-altman-matthew-berman-ai-consciousness-rsi-hardware/",
+    "publisher": "PJFP.com",
+    "title": "Sam Altman on AI Consciousness, RSI Speed Limits and OpenAI Hardware",
+    "kind": "secondary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-dealroom-co-7f64cf",
+    "url": "https://dealroom.co/news/165142-altman-openais-edge-is-internal-models-and-self-improving-ai-needs-speed/",
+    "publisher": "Dealroom News",
+    "title": "Altman: OpenAI's edge is internal models, and self-improving AI needs \"speed limits\"",
+    "kind": "secondary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-ct24-ceskatelevize-cz-e957d1",
+    "url": "https://ct24.ceskatelevize.cz/clanek/veda/jsme-kravy-budoucnosti-mini-historik-harari-varuje-pred-ai-migranty-378773",
+    "publisher": "ČT24 (체코 공영방송)",
+    "title": "Jsme krávy budoucnosti, míní historik Harari. Varuje před AI migranty",
+    "kind": "secondary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-ceskatelevize-cz-f7ee78",
+    "url": "https://www.ceskatelevize.cz/porady/10441294653-hyde-park-civilizace/226411058091017/",
+    "publisher": "Česká televize",
+    "title": "Hyde Park Civilizace (하라리 출연 회차)",
+    "kind": "primary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-businesstoday-in-78ad39",
+    "url": "https://www.businesstoday.in/technology/story/sapiens-author-warns-ais-biggest-danger-isnt-killer-robots-but-collective-dementia-562643-2026-10-20",
+    "publisher": "Business Today",
+    "title": "Sapiens author warns AI's biggest danger isn't killer robots but 'collective dementia'",
+    "kind": "secondary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-garymarcus-substack-com-f676e6",
+    "url": "https://garymarcus.substack.com/p/breaking-news-us-banks-are-taking",
+    "publisher": "Gary Marcus (Substack)",
+    "title": "Breaking news: U.S. banks are taking hits from AI agents",
+    "kind": "primary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
+  },
+  {
+    "id": "src-telegraph-co-uk-1216c9",
+    "url": "https://www.telegraph.co.uk/news/2026/10/19/godfather-ai-befriend-bots-or-toast/",
+    "publisher": "The Telegraph",
+    "title": "Godfather of AI: befriend the bots or we're toast",
+    "kind": "primary",
+    "accessed_at": "2026-10-23",
+    "checked_in": "collect-2026-10-23",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-23"
+    }
   }
 ]
