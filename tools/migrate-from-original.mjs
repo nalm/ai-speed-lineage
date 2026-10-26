@@ -108,7 +108,7 @@ N("intellectual-origins", "Eliezer Yudkowsky", "유드코우스키", "정렬 개
 N("intellectual-origins", "Nick Bostrom", "보스트롬", "학계 정식화");
 N("intellectual-origins", null, "EA 커뮤니티", "사상 전파", { id: "n-ea-community", camp: "middle" });
 N("intellectual-origins", null, "OpenAI · Anthropic 창업자 계열", "프론티어 랩으로 확산", { id: "n-frontier-founders", camp: "middle" });
-N("openai-split", "Sam Altman", "알트만", "사실상 가속");
+N("openai-split", "Sam Altman", "올트먼", "사실상 가속");
 N("openai-split", "Dario Amodei", "아모데이", "Anthropic · 감속");
 N("openai-split", "Ilya Sutskever", "수츠케버", "SSI · 안전 우선");
 N("openai-split", "David Robinson", "로빈슨", "사임 · 외부 비판");
@@ -135,7 +135,7 @@ let edges = [
   E("L01", "n-eliezer-yudkowsky", "n-nick-bostrom", "flow", "", "『Superintelligence』(2014) 감사의 글에서 유드코우스키와의 토론에 감사하고 ‘seed AI’ 용어를 그에게 귀속했습니다. 보스트롬의 실존위험 연구(2002~)는 독자적 출발점도 있어 영향이 일방적이지는 않습니다."),
   E("L02", "n-nick-bostrom", "n-ea-community", "flow", "", "널리 언급되는 관계(FHI와 옥스퍼드 EA의 근접성)이지만, 이번 재검증에서 이를 직접 서술한 출처를 확보하지 못해 미확인으로 표시합니다."),
   E("L03", "n-ea-community", "n-frontier-founders", "flow", "", "2017년 Open Philanthropy의 OpenAI 3천만 달러 지원·이사직과 Anthropic 창업자들과의 관계가 보도됐습니다. ‘창업자 계열’ 전체가 EA의 영향을 받았다는 뜻은 아닙니다."),
-  E("L04", "n-sam-altman", "n-dario-amodei", "opposition", "", "Axios는 2026년 10월 3일 알트만의 발언을 Anthropic(아모데이)에 대한 간접 비판으로 보도했습니다."),
+  E("L04", "n-sam-altman", "n-dario-amodei", "opposition", "", "Axios는 2026년 10월 3일 올트먼의 발언을 Anthropic(아모데이)에 대한 간접 비판으로 보도했습니다."),
   E("L05", "n-dario-amodei", "n-ilya-sutskever", "flow", "", ""),
   E("L06", "n-david-robinson", "n-paul-christiano", "opposition", "", ""),
   E("L07", "n-geoffrey-hinton", "n-ilya-sutskever-deep-learning", "flow", "제자", "수츠케버는 토론토대에서 힌턴의 지도로 박사학위(2013)를 받았습니다."),

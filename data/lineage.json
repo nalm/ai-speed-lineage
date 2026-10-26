@@ -71,7 +71,7 @@
       "lane": "openai-split",
       "order": 1,
       "person_id": "sam-altman",
-      "label": "알트만",
+      "label": "올트먼",
       "sub": "사실상 가속"
     },
     {
@@ -295,7 +295,7 @@
       "to": "n-dario-amodei",
       "type": "opposition",
       "label": "",
-      "note": "Axios는 2026년 10월 3일 알트만의 발언을 Anthropic(아모데이)에 대한 간접 비판으로 보도했습니다.",
+      "note": "Axios는 2026년 10월 3일 올트먼의 발언을 Anthropic(아모데이)에 대한 간접 비판으로 보도했습니다.",
       "verification": "verified",
       "source_ids": [
         "src-axios-com-86cc59"

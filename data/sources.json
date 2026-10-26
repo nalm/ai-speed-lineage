@@ -3224,5 +3224,145 @@
       "by": "nalm",
       "at": "2026-10-23"
     }
+  },
+  {
+    "id": "src-youtube-com-8652fa",
+    "url": "https://www.youtube.com/watch?v=3gXLmy7DK_4",
+    "publisher": "Matthew Berman (YouTube)",
+    "title": "샘 올트먼 인터뷰(매슈 버먼 YouTube, 2026-10)",
+    "kind": "primary",
+    "accessed_at": "2026-10-26",
+    "checked_in": "collect-2026-10-26",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-26"
+    }
+  },
+  {
+    "id": "src-gizmodo-com-b7b4bf",
+    "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947",
+    "publisher": "Gizmodo",
+    "title": "Sam Altman: ‘I No Longer Think We’re Gonna Be Able to Just Patch All the Bugs’",
+    "kind": "secondary",
+    "accessed_at": "2026-10-26",
+    "checked_in": "collect-2026-10-26",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-26"
+    }
+  },
+  {
+    "id": "src-youtube-com-9af6eb",
+    "url": "https://www.youtube.com/watch?v=bAnwMdfcMVw",
+    "publisher": "Numberphile (YouTube)",
+    "title": "No More Heroes - Terence Tao Talks to Numberphile About AI",
+    "kind": "primary",
+    "accessed_at": "2026-10-26",
+    "checked_in": "collect-2026-10-26",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-26"
+    }
+  },
+  {
+    "id": "src-openai-com-48e227",
+    "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "publisher": "OpenAI",
+    "title": "Securing our frontier model training environment",
+    "kind": "primary",
+    "accessed_at": "2026-10-26",
+    "checked_in": "collect-2026-10-26",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-26"
+    }
+  },
+  {
+    "id": "src-anthropic-com-bf6986",
+    "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+    "publisher": "Anthropic",
+    "title": "An alignment assessment of the UK AISI cybertesting incident",
+    "kind": "primary",
+    "accessed_at": "2026-10-26",
+    "checked_in": "collect-2026-10-26",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-26"
+    }
+  },
+  {
+    "id": "src-aisi-gov-uk-8df1fc",
+    "url": "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident",
+    "publisher": "UK AI Security Institute",
+    "title": "Investigating alignment failures in AISI’s incident",
+    "kind": "primary",
+    "accessed_at": "2026-10-26",
+    "checked_in": "collect-2026-10-26",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-26"
+    }
+  },
+  {
+    "id": "src-youtube-com-f11c2e",
+    "url": "https://www.youtube.com/watch?v=TNffIt8eRb0",
+    "publisher": "TU Wien Informatics (YouTube)",
+    "title": "Vienna Gödel Lecture 2026: Geoffrey Hinton",
+    "kind": "primary",
+    "accessed_at": "2026-10-26",
+    "checked_in": "collect-2026-10-26",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-26"
+    }
+  },
+  {
+    "id": "src-derstandard-de-7b9732",
+    "url": "https://www.derstandard.de/story/3000000345664/ki-pionier-hinton-die-kis-bestehen-aus-silizium-sie-werden-uns-nicht-essen",
+    "publisher": "Der Standard",
+    "title": "KI-Pionier Hinton: \"Die KIs bestehen aus Silizium, sie werden uns nicht essen\"",
+    "kind": "secondary",
+    "accessed_at": "2026-10-26",
+    "checked_in": "collect-2026-10-26",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-26"
+    }
+  },
+  {
+    "id": "src-nypost-com-1e5583",
+    "url": "https://nypost.com/2026/09/21/tech/silicon-valleys-ai-accelerationists-fighting-back-against-mind-virus-taking-over-big-labs/",
+    "publisher": "New York Post",
+    "title": "Silicon Valley’s AI accelerationists fighting back against ‘doomer mind virus’ taking over big labs",
+    "kind": "secondary",
+    "accessed_at": "2026-10-26",
+    "checked_in": "collect-2026-10-26",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-26"
+    }
+  },
+  {
+    "id": "src-garymarcus-substack-com-10748a",
+    "url": "https://garymarcus.substack.com/p/will-generative-ai-do-more-harm-than",
+    "publisher": "Marcus on AI (Substack)",
+    "title": "Will Generative AI do more harm than good?",
+    "kind": "primary",
+    "accessed_at": "2026-10-26",
+    "checked_in": "collect-2026-10-26",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-26"
+    }
   }
 ]
