@@ -3364,5 +3364,89 @@
       "by": "nalm",
       "at": "2026-10-26"
     }
+  },
+  {
+    "id": "src-sec-gov-d7b6b5",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "publisher": "SEC EDGAR (Anthropic, PBC)",
+    "title": "Anthropic, PBC Form S-1 등록신고서 (2026-10-26 제출)",
+    "kind": "primary",
+    "accessed_at": "2026-10-27",
+    "checked_in": "collect-2026-10-27",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-27"
+    }
+  },
+  {
+    "id": "src-rappler-com-c86b97",
+    "url": "https://www.rappler.com/technology/anthropic-discloses-training-pause-ai-security-breaches-ipo-filing/",
+    "publisher": "Reuters (Rappler 전재)",
+    "title": "Anthropic discloses month-long training pause, AI security breaches in IPO filing",
+    "kind": "secondary",
+    "accessed_at": "2026-10-27",
+    "checked_in": "collect-2026-10-27",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-27"
+    }
+  },
+  {
+    "id": "src-presidency-ucsb-edu-867d18",
+    "url": "https://www.presidency.ucsb.edu/documents/white-house-accord-super-intelligence",
+    "publisher": "The American Presidency Project (UCSB)",
+    "title": "White House Accord on Super Intelligence (2026-09-29) 전문",
+    "kind": "primary",
+    "accessed_at": "2026-10-27",
+    "checked_in": "collect-2026-10-27",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-27"
+    }
+  },
+  {
+    "id": "src-cbsnews-com-529e27",
+    "url": "https://www.cbsnews.com/news/trump-ai-constitution-tech-execs-openai-anthropic-voluntary-controls/",
+    "publisher": "CBS News",
+    "title": "Trump and major AI executives sign \"morally binding\" voluntary controls",
+    "kind": "secondary",
+    "accessed_at": "2026-10-27",
+    "checked_in": "collect-2026-10-27",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-27"
+    }
+  },
+  {
+    "id": "src-zdnet-co-kr-6c9058",
+    "url": "https://zdnet.co.kr/view/?no=20261001161724",
+    "publisher": "지디넷코리아",
+    "title": "하정우 부위원장 \"AI 속도 늦추기보다 개발·평가 역량 함께 키워야\"",
+    "kind": "secondary",
+    "accessed_at": "2026-10-27",
+    "checked_in": "collect-2026-10-27",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-27"
+    }
+  },
+  {
+    "id": "src-etnews-com-20e38f",
+    "url": "https://www.etnews.com/20261001000397",
+    "publisher": "전자신문",
+    "title": "국가AI전략위 “AI 속도조절 없다”…역량 키우며 검증·통제 강화 제안",
+    "kind": "secondary",
+    "accessed_at": "2026-10-27",
+    "checked_in": "collect-2026-10-27",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-27"
+    }
   }
 ]
