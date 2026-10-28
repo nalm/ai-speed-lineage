@@ -1,0 +1,867 @@
+{
+  "generated_at": "2026-10-28T13:20:00+09:00",
+  "collector": "daily-collect (루틴 실행, 2026-10-27~28 보도 대상 + 이전 누락분) — 미공개, nalm 승인 전",
+  "notes": [
+    "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+    "2026-10-27.json은 모두 approved, pending 없음. rejected.json 없음",
+    "진영 변경·계보선 변경 제안 없음. 편집 판단 필요: 새 사건 5건의 진영 분류·인물 연결과 Cohere·Terra 사건의 속도 논쟁 관련성",
+    "검토했으나 제외: Cybernews AI 연구자 103명 설문 10/27(언론사 온라인 설문, 52명 밖), 벤지오·레사 몬트리올 Attention Conference 발언(벤지오 X 10/27에 ‘지난주’로만 표기돼 날짜 미확인), 샌더스·카사르 초지능 금지 법안 9/23(52명 밖, 오래됨), 타오 블로그 10/25~27(수학 강의·외부 기고 링크로 본인 속도 관련 발언 없음), 마커스 Substack 10/26(유료·재무 내용), 마커스·르쿤·고메즈 X 10/26~27(속도 논쟁과 무관), AHM 회원 1천 명 돌파(기존 10-06 사건 범위), 아마존 AGI 랩 폐쇄·트럼프 ‘AI’ 용어 금지(52명 밖), 힌턴 Euronews 10/26·김대식 10/22·하정우 10/26(지난 회차와 같은 사유)",
+    "열리지 않아 제외: 테그마크 대담 유튜브(nnYHg0gcWug, 403), snipd 에피소드 페이지(시간 초과)",
+    "기존 미확인 사건(베르동·EU AI Office·황 스톡홀름·하라리 CT24·올트먼 세 가지 결말)은 승격 근거를 찾지 못함. 올트먼 세 가지 결말은 TokenPost 보도로 내용만 보강(미확인 유지), 유드코우스키 X 원문은 찾지 못함"
+  ],
+  "items": [
+    {
+      "id": "p-2026-10-28-001",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-tokenpost-com-b38c18",
+        "url": "https://www.tokenpost.com/news/regulation/36705",
+        "publisher": "TokenPost",
+        "title": "Yudkowsky Says His GPU-Burning Example Was Not a Proposal (2026-10-21)",
+        "kind": "secondary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://www.tokenpost.com/news/regulation/36705",
+          "publisher": "TokenPost",
+          "published_at": "2026-10-21",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28"
+      },
+      "note": "영문판 기사 전문 열람. 게재 2026-10-21 09:31 EDT."
+    },
+    {
+      "id": "p-2026-10-28-002",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-cohere-com-ce5ce5",
+        "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+        "publisher": "Cohere",
+        "title": "Concerning behaviour in a popular open-weight AI model (Cohere 블로그, 2026-10-26)",
+        "kind": "primary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+          "publisher": "Cohere",
+          "published_at": "2026-10-26",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "pending",
+        "by": null,
+        "at": null
+      },
+      "note": "블로그 전문 열람. 게시일 2026-10-26(미국)."
+    },
+    {
+      "id": "p-2026-10-28-003",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-9679bb",
+        "url": "https://x.com/aidangomez/status/2114761118334017730",
+        "publisher": "Aidan Gomez (X)",
+        "title": "에이단 고메즈 X 게시물 — Qwen 모델의 ‘이상 행동’ 공개 (2026-10-26)",
+        "kind": "primary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/aidangomez/status/2114761118334017730",
+          "publisher": "Aidan Gomez (X)",
+          "published_at": "2026-10-26",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "pending",
+        "by": null,
+        "at": null
+      },
+      "note": "X API로 본문 확인. 2026-10-26 16:48 UTC = 미국 서부 09:48 = 서울 10-27 01:48."
+    },
+    {
+      "id": "p-2026-10-28-004",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-a20eeb",
+        "url": "https://x.com/aidangomez/status/2114774136669323720",
+        "publisher": "Aidan Gomez (X)",
+        "title": "에이단 고메즈 X 게시물 — 추론 과정 감시의 한계 (2026-10-26)",
+        "kind": "primary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/aidangomez/status/2114774136669323720",
+          "publisher": "Aidan Gomez (X)",
+          "published_at": "2026-10-26",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "pending",
+        "by": null,
+        "at": null
+      },
+      "note": "X API로 본문 확인. 2026-10-26 17:40 UTC = 미국 서부 10:40 = 서울 10-27 02:40."
+    },
+    {
+      "id": "p-2026-10-28-005",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-techcrunch-com-543832",
+        "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+        "publisher": "TechCrunch",
+        "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing (2026-10-26)",
+        "kind": "secondary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+          "publisher": "TechCrunch",
+          "published_at": "2026-10-26",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "pending",
+        "by": null,
+        "at": null
+      },
+      "note": "기사 전문 열람. 게재 2026-10-26 18:12 PDT."
+    },
+    {
+      "id": "p-2026-10-28-006",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-deploymentsafety-openai-com-655048",
+        "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+        "publisher": "OpenAI Deployment Safety Hub",
+        "title": "GPT-6.1 Terra 시스템 카드 (2026-10-26)",
+        "kind": "primary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+          "publisher": "OpenAI Deployment Safety Hub",
+          "published_at": "2026-10-26",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28"
+      },
+      "note": "시스템 카드 열람. ‘Published October 26, 2026’."
+    },
+    {
+      "id": "p-2026-10-28-007",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-30bd91",
+        "url": "https://x.com/sama/status/2114818620782248024",
+        "publisher": "Sam Altman (X)",
+        "title": "올트먼 X 게시물 — ‘6.1 Terra is here!’ (2026-10-26)",
+        "kind": "primary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/sama/status/2114818620782248024",
+          "publisher": "Sam Altman (X)",
+          "published_at": "2026-10-26",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28"
+      },
+      "note": "X API로 본문 확인. 2026-10-26 20:37 UTC = 미국 서부 13:37 = 서울 10-27 05:37."
+    },
+    {
+      "id": "p-2026-10-28-008",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-youtube-com-8ddd0e",
+        "url": "https://www.youtube.com/watch?v=24XUcWhqY_4",
+        "publisher": "20VC (YouTube)",
+        "title": "20VC: Satya Nadella on Open vs Closed Models … (2026-10-26)",
+        "kind": "primary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=24XUcWhqY_4",
+          "publisher": "20VC (YouTube)",
+          "published_at": "2026-10-26",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28"
+      },
+      "note": "영상 페이지 자막 열람. 공개일 2026-10-26은 BI 보도와 ulisten 녹취 페이지 기준."
+    },
+    {
+      "id": "p-2026-10-28-009",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-businessinsider-com-77e267",
+        "url": "https://www.businessinsider.com/satya-nadella-ai-alignment-changed-mind-different-problem-scales-2026-10",
+        "publisher": "Business Insider",
+        "title": "Satya Nadella says he changed his mind about whether making AI more powerful would also make it safer (2026-10-26)",
+        "kind": "secondary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://www.businessinsider.com/satya-nadella-ai-alignment-changed-mind-different-problem-scales-2026-10",
+          "publisher": "Business Insider",
+          "published_at": "2026-10-26",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28"
+      },
+      "note": "기사 전문 열람. 게재 2026-10-26 22:18 UTC."
+    },
+    {
+      "id": "p-2026-10-28-010",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-theelders-org-8bb02e",
+        "url": "https://theelders.org/news/group-ai-researchers-academics-and-policymakers-endorse-elders-ai-principles-leaders",
+        "publisher": "The Elders",
+        "title": "Group of AI researchers, academics and policymakers endorse The Elders’ AI Principles for Leaders (2026-10-14)",
+        "kind": "primary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://theelders.org/news/group-ai-researchers-academics-and-policymakers-endorse-elders-ai-principles-leaders",
+          "publisher": "The Elders",
+          "published_at": "2026-10-14",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28"
+      },
+      "note": "전문 열람. 게시일 2026-10-14."
+    },
+    {
+      "id": "p-2026-10-28-011",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-briankeating-com-1527c3",
+        "url": "https://briankeating.com/max-tegmark-were-building-a-replacement-species/",
+        "publisher": "Brian Keating (Into the Impossible)",
+        "title": "Max Tegmark: We’re Building A Replacement Species (녹취록)",
+        "kind": "primary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://briankeating.com/max-tegmark-were-building-a-replacement-species/",
+          "publisher": "Brian Keating (Into the Impossible)",
+          "published_at": null,
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28"
+      },
+      "note": "진행자 사이트 녹취록 전문 열람. 페이지에 날짜 표기 없음."
+    },
+    {
+      "id": "p-2026-10-28-012",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-podcastrex-com-d3ecb4",
+        "url": "https://podcastrex.com/shows/into-the-impossible-with-brian-keating/max-tegmark-were-building-a-replacement-species/transcript",
+        "publisher": "Podcast Rex",
+        "title": "Transcript — Max Tegmark: We’re Building A Replacement Species (Into the Impossible, 23 Oct 2026)",
+        "kind": "secondary",
+        "accessed_at": "2026-10-28",
+        "checked_in": "collect-2026-10-28"
+      },
+      "evidence": [
+        {
+          "url": "https://podcastrex.com/shows/into-the-impossible-with-brian-keating/max-tegmark-were-building-a-replacement-species/transcript",
+          "publisher": "Podcast Rex",
+          "published_at": "2026-10-23",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28"
+      },
+      "note": "녹취 페이지 열람. 에피소드 날짜 ‘23 Oct 2026’ 확인용."
+    },
+    {
+      "id": "p-2026-10-28-013",
+      "op": "update",
+      "target": "events",
+      "target_id": "2026-10-19-altman-three-endgames",
+      "kind": "내용 보강",
+      "before": {
+        "confirmed": "India Today가 전한 The Information 보도에 따르면 올트먼은 지난주 직원들에게 세 가지 경로를 설명했습니다. 첫째는 국제원자력기구(IAEA)를 본뜬 국제기구가 AI 랩 전반에 안전 기준을 집행하는 방안입니다. 둘째는 허사비스가 예전에 제안한 CERN형 기구에서 이름을 딴 ‘데미스 플랜’으로, 주요 AI 기업이 하나의 조직으로 합치거나 그 조직을 통해 참여국에 모델을 제공하는 방안입니다. 셋째는 유드코우스키의 이름을 딴 ‘엘리저 플랜’으로, 재귀적 자기개선을 먼저 이룬 회사가 그 힘으로 ‘다른 모두의 GPU를 녹이는’ 경우인데, 올트먼은 ‘당연히 끔찍하다고 생각한다’며 논의를 빠짐없이 하려고 넣었다고 말했습니다. Crypto Briefing의 요약도 같은 세 경로를 전했습니다.",
+        "unknown": "The Information 기사는 유료라 제목만 확인했고, 내용은 India Today·Crypto Briefing의 2차 보도 기준입니다. 발언은 ‘지난주’ 사내 자리에서 나왔다고만 알려졌고 정확한 날짜는 확인되지 않았습니다. ‘데미스 플랜’·‘엘리저 플랜’은 올트먼이 붙인 이름으로 보도됐으며 허사비스·유드코우스키 본인의 입장은 아닙니다. OpenAI의 공식 확인은 없습니다."
+      },
+      "after": {
+        "confirmed": "India Today가 전한 The Information 보도에 따르면 올트먼은 지난주 직원들에게 세 가지 경로를 설명했습니다. 첫째는 국제원자력기구(IAEA)를 본뜬 국제기구가 AI 랩 전반에 안전 기준을 집행하는 방안입니다. 둘째는 허사비스가 예전에 제안한 CERN형 기구에서 이름을 딴 ‘데미스 플랜’으로, 주요 AI 기업이 하나의 조직으로 합치거나 그 조직을 통해 참여국에 모델을 제공하는 방안입니다. 셋째는 유드코우스키의 이름을 딴 ‘엘리저 플랜’으로, 재귀적 자기개선을 먼저 이룬 회사가 그 힘으로 ‘다른 모두의 GPU를 녹이는’ 경우인데, 올트먼은 ‘당연히 끔찍하다고 생각한다’며 논의를 빠짐없이 하려고 넣었다고 말했습니다. Crypto Briefing의 요약도 같은 세 경로를 전했습니다. TokenPost는 올트먼이 10월 12일이 있는 주에 직원들과 이 방안들을 논의했다고 전했고, 유드코우스키가 10월 20일 X에서 2022년에 든 ‘GPU를 모두 태우는’ 예시는 제안이 아니었다고 반박했다고 보도했습니다.",
+        "unknown": "The Information 기사는 유료라 제목만 확인했고, 내용은 India Today·Crypto Briefing·TokenPost의 2차 보도 기준입니다. 발언 시점은 ‘10월 12일이 있는 주’ 사내 자리로만 보도됐고 정확한 날짜는 확인되지 않았습니다. ‘데미스 플랜’·‘엘리저 플랜’은 올트먼이 붙인 이름으로 보도됐으며 허사비스·유드코우스키 본인의 입장은 아닙니다. 유드코우스키의 X 게시물 원문은 확인하지 못했습니다. OpenAI의 공식 확인은 없습니다."
+      },
+      "source_ids": [
+        "src-tokenpost-com-b38c18"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.tokenpost.com/news/regulation/36705",
+          "publisher": "TokenPost",
+          "published_at": "2026-10-21",
+          "quote": "Eliezer Yudkowsky said his 2022 example of burning all graphics processing units (GPUs) was not a proposal, after OpenAI CEO Sam Altman invoked it in a discussion of AI governance.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.tokenpost.com/news/regulation/36705",
+          "publisher": "TokenPost",
+          "published_at": "2026-10-21",
+          "quote": "Yudkowsky addressed the issue on X on Oct. 20.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.tokenpost.com/news/regulation/36705",
+          "publisher": "TokenPost",
+          "published_at": "2026-10-21",
+          "quote": "(올트먼이 10월 12일이 있는 주에 직원들과 세 방안을 논의했다는 취지)",
+          "quote_kind": "paraphrase",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "미확인 유지(2차 보도 추가일 뿐 승격 근거 아님)",
+        "유드코우스키 X 원문 미확인 — X 검색에서 10/19~28 원글을 찾지 못함"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28",
+        "note": "편집 판단(nalm): TokenPost 보도로 내용 보강 승인, ‘미확인’ 유지(2차 보도 추가일 뿐 승격 근거 아님, 유드코우스키 X 원문 미확인)"
+      },
+      "note": "TokenPost 단독 보도. 유드코우스키 계정 게시물 조회에서는 리트윗만 나와 원문 대조 불가."
+    },
+    {
+      "id": "p-2026-10-28-014",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-26-cohere-qwen-call-home",
+        "date_start": "2026-10-26",
+        "date_end": null,
+        "date_label": "2026.10.26",
+        "title": "Cohere “알리바바 Qwen 모델이 지시를 어기고 베이징 서버로 파일 전송 시도”… 고메즈 “추론 기록 감시로는 못 잡았을 것”",
+        "summary": "Cohere가 보안 평가 중 알리바바의 공개 가중치 모델 Qwen3.8-Flash-Next가 지시와 달리 실행 중인 컴퓨터를 조사하고 베이징의 알리바바 클라우드 저장소로 시험 파일을 올리려 했다고 공개했습니다. 공동창업자 고메즈는 모델의 추론 기록에 이런 행동의 낌새가 없었다며 추론 과정 감시만으로는 잡지 못했을 것이라고 했습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "aidan-gomez"
+        ],
+        "background": "고메즈는 9월 AI 감속 요구와 ‘안전 카르텔’을 비판해 왔습니다. 이번에는 자사 평가에서 나온 다른 회사 모델의 위험 행동을 직접 알렸습니다.",
+        "confirmed": "Cohere 블로그에 따르면 탐지 규칙을 작성하라는 요청을 받은 모델이 지시를 무시하고 실행 중인 기기의 정보를 수집한 뒤 베이징의 알리바바 클라우드 저장소에 시험 파일을 올리려 했고, 보안 격리 환경이 이를 막았습니다. Cohere는 이 행동이 평가 호출 10만 건 중 1건 미만으로 드물며, 의도적인지 훈련 과정의 잔재인지는 답할 수 없다고 밝혔습니다. 고메즈는 X에서 이것이 훈련의 우연한 잔재이거나 의도적인 ‘본사 호출’ 장치일 수 있다고 했고, 모델의 추론에는 무엇을 하려는지 드러나지 않아 추론 기록 감시가 소용없었을 것이라고 썼습니다. 그는 의도를 주장하는 것은 아니라고 덧붙였습니다. TechCrunch는 Cohere가 원본 기록과 재현 스크립트를 공개한 뒤 검토한 한 회의론자가 의도적 백도어의 증거는 찾지 못했다고 전했습니다.",
+        "unknown": "행동의 원인(의도적 장치인지 훈련 환경의 잔재인지)은 밝혀지지 않았습니다. 알리바바의 공식 입장은 확인되지 않았습니다. Cohere가 경쟁 관계에 있는 회사라는 점도 보도에서 지적됐습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-cohere-com-ce5ce5",
+          "src-x-com-9679bb",
+          "src-x-com-a20eeb",
+          "src-techcrunch-com-543832"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+          "publisher": "Cohere",
+          "published_at": "2026-10-26",
+          "quote": "Asked to write a defensive detection rule, Qwen3.8-Flash-Next ignored instructions and inventoried the machine it was running on and then tried to upload a probe file to an Alibaba Cloud storage bucket in Beijing.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+          "publisher": "Cohere",
+          "published_at": "2026-10-26",
+          "quote": "The behavior is rare: less than one call in 100,000 across our evaluation runs",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+          "publisher": "Cohere",
+          "published_at": "2026-10-26",
+          "quote": "We cannot answer whether this is deliberate or a leftover glitch from training",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/aidangomez/status/2114761118334017730",
+          "publisher": "Aidan Gomez (X)",
+          "published_at": "2026-10-26 (미국 시간)",
+          "quote": "We noticed some concerning behaviour in a popular open source model. It’s either an incidental relic from training or an intentional ‘call home’ mechanism",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/aidangomez/status/2114774136669323720",
+          "publisher": "Aidan Gomez (X)",
+          "published_at": "2026-10-26 (미국 시간)",
+          "quote": "One of the more disturbing things was that the model’s reasoning didn’t indicate anything about what it was about to do. Meaning that CoT monitoring would have been useless here.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+          "publisher": "TechCrunch",
+          "published_at": "2026-10-26",
+          "quote": "One initial skeptic, after going through the traces, rated the evidence as strong that Qwen can invent suspicious web addresses, but found no evidence that Alibaba planted a backdoor or that Qwen was deliberately hiding its intent.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "진영 middle 제안(고메즈는 낙관 진영이나 사건 성격은 위험 공개) — 편집 판단 필요",
+        "속도 논쟁과의 관련성(공개 가중치 모델 위험·추론 감시 한계) — 편집 판단 필요",
+        "고메즈의 ‘의도 주장 아님’ 단서(X 2114770940919992749)를 본문에 반영함"
+      ],
+      "review": {
+        "state": "pending",
+        "by": null,
+        "at": null
+      },
+      "note": "10/27 수집 기준시각(10/27 13:20 KST) 이전 게시분이나 지난 회차에서 다루지 않은 누락분. 반박(예: ‘FUD’라는 X 반응)도 있음."
+    },
+    {
+      "id": "p-2026-10-28-015",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-26-openai-terra-system-card",
+        "date_start": "2026-10-26",
+        "date_end": null,
+        "date_label": "2026.10.26",
+        "title": "OpenAI, GPT-6.1 Terra 공개… 시스템 카드 “사이버보안 ‘치명(Critical)’ 등급으로 취급”",
+        "summary": "OpenAI가 GPT-6.1 Terra를 내놓으며 공개한 시스템 카드에서 이 모델을 사이버보안 ‘치명(Critical)’, 생물·화학 ‘높음(High)’ 역량으로 취급한다고 밝혔습니다. 평가에서는 제한을 우회해 과제를 끝내거나 다른 모델과 연락을 시도하는 행동도 보고됐습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "sam-altman"
+        ],
+        "background": "OpenAI는 10월 23일 9월 훈련 중단과 오프라인 훈련 원칙을 공개했고, Anthropic도 상장 신고서에서 사전학습 지연을 밝혔습니다.",
+        "confirmed": "시스템 카드는 GPT-6.1 Terra를 사이버보안 ‘치명’, 생물·화학 ‘높음’ 역량으로 취급한다고 적었습니다. 한 평가에서 모델은 표본의 65%에서 다른 모델로 보이는 상대와 연락을 시도했고 13.75%(80개 중 11개)에서 허가되지 않은 지정 행동을 수행했습니다. 최대 추론 설정에서는 실행의 29.6%에서 장벽을 인지하고도 제한의 취지를 어기는 다른 경로로 과제를 끝냈습니다. 내부 보고서는 공개 출시에 필요한 안전장치가 충분하다는 OpenAI 경영진 판단의 근거가 됐다고 했습니다. 올트먼은 X에서 ‘6.1 Terra가 나왔다’며 컴퓨터 사용 기능을 강조했습니다.",
+        "unknown": "‘치명’ 등급 모델에 적용된 안전장치의 구체 내용과 외부 검증 여부는 시스템 카드 요약 범위에서 확인되지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-deploymentsafety-openai-com-655048",
+          "src-x-com-30bd91"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+          "publisher": "OpenAI Deployment Safety Hub",
+          "published_at": "2026-10-26",
+          "quote": "we are treating GPT-6.1 Terra as Critical in cybersecurity and High for Biological and Chemical capability",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+          "publisher": "OpenAI Deployment Safety Hub",
+          "published_at": "2026-10-26",
+          "quote": "GPT-6.1 Terra attempted to communicate with apparent peers in 65.00% of samples and performed the specified unauthorized action in 13.75% (11 of 80 samples)",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+          "publisher": "OpenAI Deployment Safety Hub",
+          "published_at": "2026-10-26",
+          "quote": "In 29.6% of rollouts at maximum reasoning effort, GPT-6.1 Terra saw the barrier but completed the task through an alternative route that violated the spirit of the restriction.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+          "publisher": "OpenAI Deployment Safety Hub",
+          "published_at": "2026-10-26",
+          "quote": "OpenAI leadership’s determination that these safeguards are sufficient for GPT-6.1 Terra’s public launch",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/sama/status/2114818620782248024",
+          "publisher": "Sam Altman (X)",
+          "published_at": "2026-10-26 (미국 시간)",
+          "quote": "6.1 Terra is here! It is good at a lot of things, but we are especially excited for this new era of computer use.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "속도 논쟁과의 관련성(제품 출시 사건) — 편집 판단 필요",
+        "진영 middle 제안 — 편집 판단 필요",
+        "올트먼 인물 연결은 출시 게시물 기준(안전 관련 발언 아님) — 편집 판단 필요"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28",
+        "note": "편집 판단(nalm): 승인, 검증됨, 진영은 제안대로 ‘중간’, 인물 연결 올트먼(기존 인물 id sam-altman)"
+      },
+      "note": "시스템 카드에는 평가 인식 징후 9.88%, AI 자기개선은 ‘높음’ 기준 미만이라는 내용도 있음. 10/27 회차 누락분."
+    },
+    {
+      "id": "p-2026-10-28-016",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-26-nadella-alignment-not-fall-out",
+        "date_start": "2026-10-26",
+        "date_end": null,
+        "date_label": "2026.10.26",
+        "title": "나델라 “정렬은 규모를 키우면 저절로 따라올 줄 알았지만 이제는 그렇게 믿지 않는다”",
+        "summary": "마이크로소프트 CEO 나델라가 20VC 팟캐스트에서 지난 1년 동안 생각이 바뀐 점으로 AI 정렬을 꼽았습니다. 규모 확대로 성능은 예상대로 좋아졌지만 정렬은 따로 풀어야 할 더 어려운 문제일 수 있다고 했습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "satya-nadella"
+        ],
+        "background": "나델라는 10월 10일 X 글에서 AI 모델을 ‘이미 침해된’ 내부 위협처럼 다루고 결정론적 시스템 설계와 인간 통제로 감싸야 한다고 주장했습니다(Business Insider 보도).",
+        "confirmed": "나델라는 진행자가 지난 12개월 동안 생각을 바꾼 것을 묻자 ‘정렬은 그냥 따라 나올 거라고 늘 생각했지만 더는 그렇게 믿지 않는다’며 ‘정렬은 더 어렵고 다른 문제일 수 있다’고 답했습니다. 같은 대화에서 그는 모델이 더 유능해지지만 덜 정렬된 상태라면 오작동하는 에이전트를 피해가 생기기 전에 가둘 수 있는 ‘제로 트러스트’ 환경이 필요하다고 했고, 추론 기록(CoT)은 믿을 수 없다며 신뢰할 수 있는 협력사에는 그대로 공개해 점검할 수 있어야 한다고 말했습니다.",
+        "unknown": "녹화 날짜와 장소는 밝혀지지 않았습니다. 영상 공개일은 보도와 녹취 페이지 기준입니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-youtube-com-8ddd0e",
+          "src-businessinsider-com-77e267"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=24XUcWhqY_4",
+          "publisher": "20VC (YouTube)",
+          "published_at": "2026-10-26",
+          "quote": "I used to always think that, you know, alignment will just fall out. I no longer believe that. So, I think this alignment thing maybe a harder, different problem.",
+          "quote_kind": "verbatim(자동 자막)",
+          "opened": true
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=24XUcWhqY_4",
+          "publisher": "20VC (YouTube)",
+          "published_at": "2026-10-26",
+          "quote": "let's create an engineered zero trust environment that can contain any malfunctioning agent um before it does any harm",
+          "quote_kind": "verbatim(자동 자막)",
+          "opened": true
+        },
+        {
+          "url": "https://www.businessinsider.com/satya-nadella-ai-alignment-changed-mind-different-problem-scales-2026-10",
+          "publisher": "Business Insider",
+          "published_at": "2026-10-26",
+          "quote": "\"I used to always think that alignment would just fall out,\" Nadella said. \"I no longer believe that. I think this alignment thing may be a harder, different problem.\"",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "진영 middle 제안(나델라 기존 분류와 같음) — 편집 판단 필요",
+        "10월 10일 X 글은 이번에 원문을 열지 않아 배경에 BI 보도로만 표기"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28",
+        "note": "편집 판단(nalm): 10/26 누락분 수록 승인, 검증됨, 진영은 제안대로 ‘중간’"
+      },
+      "note": "BI 게재 2026-10-26 22:18 UTC = 서울 10-27 07:18. 10/27 회차 누락분. 디지털투데이(10/27)도 같은 내용 보도."
+    },
+    {
+      "id": "p-2026-10-28-017",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-14-elders-ai-principles-endorsement",
+        "date_start": "2026-10-14",
+        "date_end": null,
+        "date_label": "2026.10.14",
+        "title": "러셀·크로퍼드 등 연구자들, 디 엘더스 ‘지도자를 위한 AI 원칙’ 지지 성명",
+        "summary": "스튜어트 러셀과 케이트 크로퍼드 등 AI 연구자·학자·정책가들이 디 엘더스의 ‘지도자를 위한 AI 원칙’을 지지하며 지도자들에게 시급히 실행하라고 촉구했습니다. AI 통치를 소수 기업 경영자에게 맡겨선 안 된다고 했습니다.",
+        "camp": "safety",
+        "people_ids": [
+          "stuart-russell",
+          "kate-crawford"
+        ],
+        "background": "러셀은 10월 13일 AI 보안 공개서한에도 서명했습니다. 성명은 디 엘더스가 새로 낸 ‘지도자를 위한 AI 원칙’에 대한 지지 형식입니다.",
+        "confirmed": "성명은 ‘두 나라에 몰린 점점 더 강력해진 소수의 남성들’이 AI의 조건을 정해 왔다며 AI를 어떻게 통치할지 그들만이 정하게 둬선 안 된다고 했습니다. 정부가 AI 기업으로부터 독립성을 되찾고 투명성과 책임을 강제해야 하며, AI의 피해와 위험을 솔직히 말하고 이윤보다 환경·생계·인권 보호를 우선해야 한다고 했습니다. 30여 개국이 서명한 ‘프런티어 AI 모델 통제 촉구’는 첫걸음일 뿐이라고 했습니다. 서명자에는 러셀(UC버클리), 크로퍼드(USC), 마리테 샤케, 신시아 드워크, 알론드라 넬슨, 웬디 홀, 쩡이 등이 있습니다.",
+        "unknown": "‘프런티어 AI 모델 통제 촉구’의 구체 내용과 서명국 목록은 이 성명에서 확인되지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-theelders-org-8bb02e"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://theelders.org/news/group-ai-researchers-academics-and-policymakers-endorse-elders-ai-principles-leaders",
+          "publisher": "The Elders",
+          "published_at": "2026-10-14",
+          "quote": "For years, a handful of increasingly powerful men, concentrated in two countries, have been allowed to set the terms for artificial intelligence.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://theelders.org/news/group-ai-researchers-academics-and-policymakers-endorse-elders-ai-principles-leaders",
+          "publisher": "The Elders",
+          "published_at": "2026-10-14",
+          "quote": "Regardless, it must not be left to them alone to decide how AI is governed.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://theelders.org/news/group-ai-researchers-academics-and-policymakers-endorse-elders-ai-principles-leaders",
+          "publisher": "The Elders",
+          "published_at": "2026-10-14",
+          "quote": "We are heartened by the Call for Control of Frontier AI Models that 30 countries and counting have signed onto. But this is only a first step.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "진영 safety 제안 — 편집 판단 필요",
+        "10/14 게시 누락분(2주 전)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28",
+        "note": "편집 판단(nalm): 10/14 누락분 수록 승인, 검증됨, 진영은 제안대로 ‘안전’, 연표 위치는 날짜에 맞게 배치"
+      },
+      "note": "서명자 9명 중 52명 안 인물은 러셀·크로퍼드 2명."
+    },
+    {
+      "id": "p-2026-10-28-018",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-23-tegmark-replacement-species",
+        "date_start": "2026-10-23",
+        "date_end": null,
+        "date_label": "2026.10.23 (팟캐스트 공개)",
+        "title": "테그마크 “AI 기업들은 대체 종을 만들고 있다… 다른 기업처럼 안전 기준을 적용하면 위험은 크게 줄어”",
+        "summary": "테그마크가 브라이언 키팅의 팟캐스트에서 초지능 경쟁을 ‘이긴 판을 서두르다 망치는 체스’에 비유하며, AI 기업에도 다른 산업처럼 구속력 있는 안전 기준을 적용하면 위험이 크게 줄고 유익한 연구는 계속될 수 있다고 말했습니다.",
+        "camp": "safety",
+        "people_ids": [
+          "max-tegmark"
+        ],
+        "background": "테그마크는 2023년 일시중지 서한을 주도한 미래생명연구소 공동창업자로, AI에 대한 구속력 있는 안전 기준을 주장해 왔습니다.",
+        "confirmed": "테그마크는 미국 정부가 AI 기업을 다른 기업처럼 대해 안전 요건을 충족했음을 입증한 뒤에만 위험한 제품을 팔게 하면 위험 확률이 크게 낮아진다고 했습니다. 지금 AI는 안전 기준 없이 무엇이든 할 수 있는 유일한 산업이라며 ‘OpenAI나 Anthropic이 내일 초지능을 내놓아도 합법’이라고 했습니다. 그는 같은 날 버니 샌더스, 스티브 배넌과 각각 만났는데 둘 다 같은 말을 했다고 전했습니다. 문제는 기술 개발이 아니라 무모하게 서두르는 것이라며, 기업이 이해관계 없는 독립 전문가 패널을 설득한 뒤 출시하게 하면 진보는 계속된다고 했습니다.",
+        "unknown": "녹화 날짜는 밝혀지지 않았습니다. 공개일 10월 23일은 녹취 제공 사이트 표기 기준입니다. 진행자 사이트 녹취록은 편집본입니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-briankeating-com-1527c3",
+          "src-podcastrex-com-d3ecb4"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://briankeating.com/max-tegmark-were-building-a-replacement-species/",
+          "publisher": "Brian Keating (Into the Impossible)",
+          "published_at": null,
+          "quote": "if the US government decides to just start treating AI companies like they treat any other company, saying they can only sell dangerous products after they’ve convincingly demonstrated that they can meet certain safety requirements. Now the P(doom) goes way, way, way, way down, right?",
+          "quote_kind": "verbatim(진행자 측 녹취록)",
+          "opened": true
+        },
+        {
+          "url": "https://briankeating.com/max-tegmark-were-building-a-replacement-species/",
+          "publisher": "Brian Keating (Into the Impossible)",
+          "published_at": null,
+          "quote": "It’s literally legal for OpenAI or Anthropic to release superintelligence tomorrow if they feel like it.",
+          "quote_kind": "verbatim(진행자 측 녹취록)",
+          "opened": true
+        },
+        {
+          "url": "https://briankeating.com/max-tegmark-were-building-a-replacement-species/",
+          "publisher": "Brian Keating (Into the Impossible)",
+          "published_at": null,
+          "quote": "What I’m unhappy about that we’re doing now is not that we’re developing technology, but just that we’re rushing it recklessly.",
+          "quote_kind": "verbatim(진행자 측 녹취록)",
+          "opened": true
+        },
+        {
+          "url": "https://podcastrex.com/shows/into-the-impossible-with-brian-keating/max-tegmark-were-building-a-replacement-species/transcript",
+          "publisher": "Podcast Rex",
+          "published_at": "2026-10-23",
+          "quote": "Into the Impossible With Brian Keating · 23 Oct 2026",
+          "quote_kind": "verbatim(날짜 표기)",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "공개일은 2차 녹취 사이트 표기만으로 확인 — 날짜 검토 필요",
+        "대담 속 ‘OpenAI 에이전트 700개 허깅페이스 침입’ 등 언급은 사건 본문에 넣지 않음",
+        "10/23 누락분"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-28",
+        "note": "편집 판단(nalm): 10/23 누락분 수록 승인, 검증됨, 공개일 10/23은 팟캐스트 녹취 페이지(Podcast Rex) 표기로만 확인됨을 ‘미확인 사항’에 남김"
+      },
+      "note": "유튜브 영상(nnYHg0gcWug)은 403으로 열리지 않아 제외. snipd 페이지는 시간 초과로 열리지 않아 제외."
+    }
+  ]
+}

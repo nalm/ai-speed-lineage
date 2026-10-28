@@ -3448,5 +3448,117 @@
       "by": "nalm",
       "at": "2026-10-27"
     }
+  },
+  {
+    "id": "src-tokenpost-com-b38c18",
+    "url": "https://www.tokenpost.com/news/regulation/36705",
+    "publisher": "TokenPost",
+    "title": "Yudkowsky Says His GPU-Burning Example Was Not a Proposal (2026-10-21)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-28"
+    }
+  },
+  {
+    "id": "src-deploymentsafety-openai-com-655048",
+    "url": "https://deploymentsafety.openai.com/gpt-6-1-terra",
+    "publisher": "OpenAI Deployment Safety Hub",
+    "title": "GPT-6.1 Terra 시스템 카드 (2026-10-26)",
+    "kind": "primary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-28"
+    }
+  },
+  {
+    "id": "src-x-com-30bd91",
+    "url": "https://x.com/sama/status/2114818620782248024",
+    "publisher": "Sam Altman (X)",
+    "title": "올트먼 X 게시물 — ‘6.1 Terra is here!’ (2026-10-26)",
+    "kind": "primary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-28"
+    }
+  },
+  {
+    "id": "src-youtube-com-8ddd0e",
+    "url": "https://www.youtube.com/watch?v=24XUcWhqY_4",
+    "publisher": "20VC (YouTube)",
+    "title": "20VC: Satya Nadella on Open vs Closed Models … (2026-10-26)",
+    "kind": "primary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-28"
+    }
+  },
+  {
+    "id": "src-businessinsider-com-77e267",
+    "url": "https://www.businessinsider.com/satya-nadella-ai-alignment-changed-mind-different-problem-scales-2026-10",
+    "publisher": "Business Insider",
+    "title": "Satya Nadella says he changed his mind about whether making AI more powerful would also make it safer (2026-10-26)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-28"
+    }
+  },
+  {
+    "id": "src-theelders-org-8bb02e",
+    "url": "https://theelders.org/news/group-ai-researchers-academics-and-policymakers-endorse-elders-ai-principles-leaders",
+    "publisher": "The Elders",
+    "title": "Group of AI researchers, academics and policymakers endorse The Elders’ AI Principles for Leaders (2026-10-14)",
+    "kind": "primary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-28"
+    }
+  },
+  {
+    "id": "src-briankeating-com-1527c3",
+    "url": "https://briankeating.com/max-tegmark-were-building-a-replacement-species/",
+    "publisher": "Brian Keating (Into the Impossible)",
+    "title": "Max Tegmark: We’re Building A Replacement Species (녹취록)",
+    "kind": "primary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-28"
+    }
+  },
+  {
+    "id": "src-podcastrex-com-d3ecb4",
+    "url": "https://podcastrex.com/shows/into-the-impossible-with-brian-keating/max-tegmark-were-building-a-replacement-species/transcript",
+    "publisher": "Podcast Rex",
+    "title": "Transcript — Max Tegmark: We’re Building A Replacement Species (Into the Impossible, 23 Oct 2026)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-28"
+    }
   }
 ]
