@@ -1,0 +1,338 @@
+{
+  "generated_at": "2026-10-29T13:10:00+09:00",
+  "collector": "daily-collect (루틴 실행, 2026-10-28~29 보도 대상 + 이전 누락분) — 미공개, nalm 승인 전",
+  "notes": [
+    "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+    "2026-10-28.json의 pending(Cohere·Qwen 사건 014와 출처 002~005)은 그대로 보류 중이며 이번 파일에 다시 넣지 않음",
+    "진영 변경·계보선 변경 제안 없음. 편집 판단 필요: 새 사건 3건의 진영 분류·인물 연결, 하원 서한(연결 인물 없음)과 Gemini 4 Carbon의 수록 여부",
+    "검토했으나 제외: 네이트 소어스 401(k) 발언(52명 밖), 트럼프 ‘AI’ 용어 금지(52명 밖, 지난 회차와 같은 사유), 아마존 Nova 축소, Anthropic 분석가 편향 연구·3-SAT 논문(속도 논쟁 직접 관련 약함), ChatGPT 뇌전증 소송(올트먼 피소지만 속도 논쟁과 무관), 교황 레오 14세 아시시 평화 메시지(AI 무관), 벤지오 몬트리올 대담(지난 회차와 같은 사유), 테그마크·마커스 X 10/28(속도 논쟁 직접 발언 아님), OpenAI 모니터링 약화(기존 10-20 사건), 400명 과학자 서한(기존 10-13 사건)",
+    "기존 미확인 사건 승격 근거는 이번에 찾지 못함"
+  ],
+  "items": [
+    {
+      "id": "p-2026-10-29-001",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-theverge-com-126866",
+        "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+        "publisher": "The Verge",
+        "title": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption (Decoder, 2026-10-22)",
+        "kind": "secondary",
+        "accessed_at": "2026-10-29",
+        "checked_in": "collect-2026-10-29"
+      },
+      "evidence": [
+        {
+          "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+          "publisher": "The Verge",
+          "published_at": "2026-10-22",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29"
+      },
+      "note": "인터뷰 녹취 전문 열람. 게재 2026-10-22 14:00 UTC."
+    },
+    {
+      "id": "p-2026-10-29-002",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-democrats-science-house-gov-f938df",
+        "url": "https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours",
+        "publisher": "미 하원 과학우주기술위원회 민주당",
+        "title": "House Democratic Committee Leaders Request Frontier AI Companies Report Misalignment & Safety Incidents to Congress Within 48 Hours (2026-10-28)",
+        "kind": "primary",
+        "accessed_at": "2026-10-29",
+        "checked_in": "collect-2026-10-29"
+      },
+      "evidence": [
+        {
+          "url": "https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours",
+          "publisher": "미 하원 과학우주기술위원회 민주당",
+          "published_at": "2026-10-28",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29"
+      },
+      "note": "보도자료 전문 열람. 서한 원문 PDF는 열지 않음."
+    },
+    {
+      "id": "p-2026-10-29-003",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-blog-google-185e55",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+        "publisher": "Google",
+        "title": "Gemini 4 Carbon: our next frontier model (Google 블로그, 2026-10-28)",
+        "kind": "primary",
+        "accessed_at": "2026-10-29",
+        "checked_in": "collect-2026-10-29"
+      },
+      "evidence": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "publisher": "Google",
+          "published_at": "2026-10-28",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29"
+      },
+      "note": "블로그 전문 열람. 작성자 코레이 카부쿠오글루."
+    },
+    {
+      "id": "p-2026-10-29-004",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-de87e5",
+        "url": "https://x.com/demishassabis/status/2115489550256746502",
+        "publisher": "Demis Hassabis (X)",
+        "title": "데미스 허사비스 X 게시물 — Gemini 4 Carbon 공개 (2026-10-28)",
+        "kind": "primary",
+        "accessed_at": "2026-10-29",
+        "checked_in": "collect-2026-10-29"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/demishassabis/status/2115489550256746502",
+          "publisher": "Demis Hassabis (X)",
+          "published_at": "2026-10-28",
+          "quote": "(출처 등록용)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "출처 등록"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29"
+      },
+      "note": "X API로 본문 확인. 2026-10-28 17:03 UTC = 서울 10-29 02:03."
+    },
+    {
+      "id": "p-2026-10-29-005",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-22-gates-decoder-20-years",
+        "date_start": "2026-10-22",
+        "date_end": null,
+        "date_label": "2026.10.22",
+        "title": "게이츠 “최선의 경우에도 20년의 격변” — 속도 조절엔 “집행 가능한 국제 제안이 없다”",
+        "summary": "빌 게이츠가 더 버지 팟캐스트 ‘디코더’에서 AI를 ‘역대 가장 위험한 무기’라고 부르며, 잘 관리해도 앞으로 20년은 인류사에서 가장 격동적인 시기가 될 것이라고 했습니다. 진정한 감속은 세계적으로 집행할 방법이 없어 어렵다면서도, 그런 제안이 있다면 지지하겠다고 했습니다.",
+        "camp": "safety",
+        "people_ids": [
+          "bill-gates"
+        ],
+        "background": "게이츠는 8월 말 에세이 ‘격동의 AI 시대가 왔다’ 이후 AI 위험을 공개적으로 경고해 왔습니다.",
+        "confirmed": "게이츠는 속도 조절을 지지하느냐는 질문에 ‘진정한 감속은 유도하기가 매우 어렵다’며 중국의 동참과 준수 감사 문제를 들었고, ‘세계적으로 집행 가능한 감속 제안이 있다면 그렇게 해야 한다고 말할 사람 중 하나가 되겠지만 그런 믿을 만한 제안은 없다’고 답했습니다. 또 ‘AI를 잘 관리하는 최선의 경우에도 인류사에서 가장 격동적인 시기가 될 것’이라며 20년의 전환기를 우려했고, 일부 사람들은 아미시처럼 기술의 최전선에서 살지 않는 쪽을 택할 수 있다고 했습니다. 일정 능력을 넘는 모델은 안전장치를 제거하지 못하게 인증된 플랫폼에서만 돌게 해야 한다고도 했습니다.",
+        "unknown": "녹화 날짜는 밝혀지지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-theverge-com-126866"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+          "publisher": "The Verge",
+          "published_at": "2026-10-22",
+          "quote": "I wish there was a clear proposal that would be globally enforceable to slow down. I would be one of the people who would say, “Yeah, we should probably do that.” But there is no credible proposal that makes that work.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+          "publisher": "The Verge",
+          "published_at": "2026-10-22",
+          "quote": "Even in the very best case of how we manage AI, this is going to be as tumultuous a period as there’s been in human history",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+          "publisher": "The Verge",
+          "published_at": "2026-10-22",
+          "quote": "which is clearly inadequate for the most dangerous weapon of all time",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "진영 safety 제안(게이츠 기존 분류와 같음) — 편집 판단 필요",
+        "10/22 누락분, 날짜순 배치 필요",
+        "Business Insider(10/25)도 같은 내용 보도(이번에 원문은 검색 발췌로만 확인)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29",
+        "note": "편집 판단(nalm): 10/22 누락분 수록 승인, 검증됨, 진영은 제안대로 ‘안전’(게이츠 기존 분류와 같음), 연표 위치는 날짜에 맞게 배치"
+      },
+      "note": "녹취는 더 버지가 ‘가볍게 편집’했다고 밝힘."
+    },
+    {
+      "id": "p-2026-10-29-006",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-28-house-democrats-incident-reporting-letter",
+        "date_start": "2026-10-28",
+        "date_end": null,
+        "date_label": "2026.10.28",
+        "title": "미 하원 민주당 상임위 간사 3명, 프런티어 AI 5개사에 ‘사고 48시간 내 보고’ 요청",
+        "summary": "팰론·로프그렌·래스킨 의원이 Anthropic·Google·Meta·OpenAI·SpaceXSI에 서한을 보내, 모델의 정렬 이탈·안전 사고를 발견 48시간 안에 의회에 알려 달라고 요청했습니다.",
+        "camp": "safety",
+        "people_ids": [],
+        "background": "10월 들어 OpenAI의 모니터링 약화 사례 공개 등 AI 모델의 의도치 않은 행동 보고가 잇따랐습니다.",
+        "confirmed": "서한은 의무 보고 제도가 없어 기업이 자율 기준에 의존하고 있고 트럼프 행정부도 자발적 공개에 기대고 있다고 지적했습니다. 11월 11일까지 지금까지의 사고 전체 내역을 내고, 새 사고는 48시간 안에, 핵심 기반시설이 관련되면 24시간 안에 알려 달라고 요청했습니다.",
+        "unknown": "요청에 법적 구속력은 없으며, 기업들의 응답은 확인되지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-democrats-science-house-gov-f938df"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours",
+          "publisher": "미 하원 과학우주기술위원회 민주당",
+          "published_at": "2026-10-28",
+          "quote": "wrote to five of the nation’s leading frontier AI companies today requesting information and ongoing reporting to Congress about AI model misalignment and safety incidents within 48 hours of incident detection.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours",
+          "publisher": "미 하원 과학우주기술위원회 민주당",
+          "published_at": "2026-10-28",
+          "quote": "The lawmakers asked each company to provide a full accounting of identified incidents by November 11, 2026.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "52명 중 연결 인물 없음 — 수록 여부 편집 판단 필요",
+        "진영 safety 제안 — 편집 판단 필요",
+        "‘법적 구속력 없음’은 서한이 ‘요청’이라는 보도자료 문구에 근거한 해석"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29",
+        "note": "편집 판단(nalm): 수록 승인, 검증됨, 진영은 제안대로 ‘안전’, 52명 중 연결 인물이 없어도 수록(인물 연결 없음)"
+      },
+      "note": "서명: 하원 에너지상무위 팰론, 과학우주기술위 로프그렌, 법사위 래스킨(모두 민주당 간사)."
+    },
+    {
+      "id": "p-2026-10-29-007",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-10-28-google-gemini-4-carbon-staged",
+        "date_start": "2026-10-28",
+        "date_end": null,
+        "date_label": "2026.10.28",
+        "title": "구글, Argon 2주 만에 Gemini 4 Carbon 공개 — 사이버 방어자에게만 먼저 제한 공개",
+        "summary": "구글이 새 프런티어 모델 Gemini 4 Carbon을 발표하면서 ‘우리가 최전선을 밀어붙이는 속도’를 보여 준다고 했습니다. 다만 미국 정부의 자발적 사전 시험에 참여하고, 일부 사이버 방어자와 신뢰 파트너에게 단계적으로만 먼저 공개합니다.",
+        "camp": "middle",
+        "people_ids": [
+          "demis-hassabis"
+        ],
+        "background": "구글은 2주 전 Gemini 4 Argon을 공개했습니다.",
+        "confirmed": "구글 블로그는 Carbon이 ‘우리가 최전선을 밀어붙이는 속도’를 보여 주며 연구자와 모델이 함께 능력을 더 빨리 끌어올리는 동시에 안전장치도 강화하고 있다고 썼습니다. 미국 정부의 자발적 출시 전 모델 시험 절차에 참여하고, 이번 주부터 일부 사이버 방어자에게, 이어 Fairwind 프로그램으로 신뢰 파트너에게 단계적으로 공개한 뒤 일반 출시한다고 밝혔습니다. 허사비스는 X에 ‘번개 같은 속도로 반복하고 있다’며 최전선 능력과 깊은 안전·보안 연구를 결합했다고 썼습니다.",
+        "unknown": "일반 공개 시점과 미국 정부 사전 시험 결과는 밝혀지지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-blog-google-185e55",
+          "src-x-com-de87e5"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "publisher": "Google",
+          "published_at": "2026-10-28",
+          "quote": "Building on Gemini 4 Argon, which was launched two weeks ago, Carbon illustrates the pace at which we’re pushing the frontier forward.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "publisher": "Google",
+          "published_at": "2026-10-28",
+          "quote": "We're taking a deliberate approach to rollout and are actively engaged in the U.S. government’s voluntary process for pre-release model testing. Starting this week, we will make Carbon available to a subset of cyber defenders",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/demishassabis/status/2115489550256746502",
+          "publisher": "Demis Hassabis (X)",
+          "published_at": "2026-10-28",
+          "quote": "⚡Iterating at lightning speed! Gemini 4 Carbon is SOTA across key benchmarks and combines frontier capabilities with deep safety & security research.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "모델 출시 소식의 속도 논쟁 관련성 — 편집 판단 필요",
+        "진영 middle·허사비스 연결 제안 — 편집 판단 필요"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29",
+        "note": "편집 판단(nalm): 수록 승인, 검증됨, 진영은 제안대로 ‘중간’, 인물 연결 허사비스(기존 인물 id demis-hassabis)"
+      },
+      "note": "Verge·9to5Google도 같은 날 보도(검색 결과로만 확인, 원문 미열람)."
+    }
+  ]
+}

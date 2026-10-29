@@ -3560,5 +3560,117 @@
       "by": "nalm",
       "at": "2026-10-28"
     }
+  },
+  {
+    "id": "src-cohere-com-ce5ce5",
+    "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+    "publisher": "Cohere",
+    "title": "Concerning behaviour in a popular open-weight AI model (Cohere 블로그, 2026-10-26)",
+    "kind": "primary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-29"
+    }
+  },
+  {
+    "id": "src-x-com-9679bb",
+    "url": "https://x.com/aidangomez/status/2114761118334017730",
+    "publisher": "Aidan Gomez (X)",
+    "title": "에이단 고메즈 X 게시물 — Qwen 모델의 ‘이상 행동’ 공개 (2026-10-26)",
+    "kind": "primary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-29"
+    }
+  },
+  {
+    "id": "src-x-com-a20eeb",
+    "url": "https://x.com/aidangomez/status/2114774136669323720",
+    "publisher": "Aidan Gomez (X)",
+    "title": "에이단 고메즈 X 게시물 — 추론 과정 감시의 한계 (2026-10-26)",
+    "kind": "primary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-29"
+    }
+  },
+  {
+    "id": "src-techcrunch-com-543832",
+    "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+    "publisher": "TechCrunch",
+    "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing (2026-10-26)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-28",
+    "checked_in": "collect-2026-10-28",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-29"
+    }
+  },
+  {
+    "id": "src-theverge-com-126866",
+    "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+    "publisher": "The Verge",
+    "title": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption (Decoder, 2026-10-22)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-29",
+    "checked_in": "collect-2026-10-29",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-29"
+    }
+  },
+  {
+    "id": "src-democrats-science-house-gov-f938df",
+    "url": "https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours",
+    "publisher": "미 하원 과학우주기술위원회 민주당",
+    "title": "House Democratic Committee Leaders Request Frontier AI Companies Report Misalignment & Safety Incidents to Congress Within 48 Hours (2026-10-28)",
+    "kind": "primary",
+    "accessed_at": "2026-10-29",
+    "checked_in": "collect-2026-10-29",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-29"
+    }
+  },
+  {
+    "id": "src-blog-google-185e55",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "publisher": "Google",
+    "title": "Gemini 4 Carbon: our next frontier model (Google 블로그, 2026-10-28)",
+    "kind": "primary",
+    "accessed_at": "2026-10-29",
+    "checked_in": "collect-2026-10-29",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-29"
+    }
+  },
+  {
+    "id": "src-x-com-de87e5",
+    "url": "https://x.com/demishassabis/status/2115489550256746502",
+    "publisher": "Demis Hassabis (X)",
+    "title": "데미스 허사비스 X 게시물 — Gemini 4 Carbon 공개 (2026-10-28)",
+    "kind": "primary",
+    "accessed_at": "2026-10-29",
+    "checked_in": "collect-2026-10-29",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-29"
+    }
   }
 ]

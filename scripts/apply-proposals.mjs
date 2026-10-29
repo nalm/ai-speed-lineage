@@ -17,7 +17,10 @@ const data = {};
 const load = (f) => (data[f] ??= JSON.parse(fs.readFileSync(path.join(DATA_DIR, f), "utf8")));
 const list = (target) => { const d = load(TARGETS[target]); return target.startsWith("lineage.") ? d[target.split(".")[1]] : d; };
 
-const applied = [], skipped = [], rejected = [];
+const applied = [], skipped = [], rejected = [], already = [];
+const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+// 이미 data/ 에 반영된 승인 항목(같은 파일을 다시 적용할 때)은 중복 없이 건너뜁니다.
+const isApplied = (obj, after) => Object.entries(after).every(([k, v]) => same(obj[k], v));
 for (const it of prop.items || []) {
   const state = it.review?.state;
   if (state === "rejected") { rejected.push(it); continue; }
@@ -26,7 +29,9 @@ for (const it of prop.items || []) {
   const arr = list(it.target);
   const review = { state: "approved", by: it.review.by || "nalm", at: it.review.at || new Date().toISOString().slice(0, 10) };
   if (it.op === "add") {
-    if (arr.some(x => x.id === it.after.id)) throw new Error(`${it.id}: 이미 있는 id ${it.after.id}`);
+    const ex = arr.find(x => x.id === it.after.id);
+    if (ex && ex.review?.state === "approved" && isApplied(ex, it.after)) { already.push(it.id); continue; }
+    if (ex) throw new Error(`${it.id}: 이미 있는 id ${it.after.id}`);
     const obj = { ...it.after, review };
     if (it.target !== "sources" && it.target !== "lineage.nodes") obj.verification ??= "unverified";
     if (it.source_ids && "source_ids" in obj === false) obj.source_ids = it.source_ids;
@@ -34,13 +39,14 @@ for (const it of prop.items || []) {
   } else if (it.op === "update") {
     const obj = arr.find(x => x.id === it.target_id);
     if (!obj) throw new Error(`${it.id}: 대상 없음 ${it.target_id}`);
+    if (obj.review?.state === "approved" && isApplied(obj, it.after) && (it.source_ids || []).every(s => (obj.source_ids || []).includes(s))) { already.push(it.id); continue; }
     for (const [k, v] of Object.entries(it.before || {})) if (JSON.stringify(obj[k]) !== JSON.stringify(v)) throw new Error(`${it.id}: ${k}의 현재 값이 제안의 before와 다릅니다(다른 변경과 충돌)`);
     Object.assign(obj, it.after, { review });
     if (it.source_ids) obj.source_ids = [...new Set([...(obj.source_ids || []), ...it.source_ids])];
   } else throw new Error(`${it.id}: op는 add|update`);
   applied.push(it.id);
 }
-console.log(`승인 반영 ${applied.length}건 · 대기 ${skipped.length}건 · 거절 ${rejected.length}건`);
+console.log(`승인 반영 ${applied.length}건 · 이미 반영 ${already.length}건 · 대기 ${skipped.length}건 · 거절 ${rejected.length}건`);
 if (dry || !applied.length) { console.log(dry ? "(--dry-run: 파일을 쓰지 않았습니다)" : "반영할 승인 항목이 없습니다."); process.exit(0); }
 
 // 임시 디렉터리에 써서 검증 → 통과하면 실제 data/ 에 반영

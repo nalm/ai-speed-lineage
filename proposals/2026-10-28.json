@@ -74,9 +74,9 @@
         "출처 등록"
       ],
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29"
       },
       "note": "블로그 전문 열람. 게시일 2026-10-26(미국)."
     },
@@ -109,9 +109,9 @@
         "출처 등록"
       ],
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29"
       },
       "note": "X API로 본문 확인. 2026-10-26 16:48 UTC = 미국 서부 09:48 = 서울 10-27 01:48."
     },
@@ -144,9 +144,9 @@
         "출처 등록"
       ],
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29"
       },
       "note": "X API로 본문 확인. 2026-10-26 17:40 UTC = 미국 서부 10:40 = 서울 10-27 02:40."
     },
@@ -179,9 +179,9 @@
         "출처 등록"
       ],
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29"
       },
       "note": "기사 전문 열람. 게재 2026-10-26 18:12 PDT."
     },
@@ -571,9 +571,10 @@
         "고메즈의 ‘의도 주장 아님’ 단서(X 2114770940919992749)를 본문에 반영함"
       ],
       "review": {
-        "state": "pending",
-        "by": null,
-        "at": null
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-10-29",
+        "note": "편집 판단(nalm): 10/28 회차에서 보류(pending)했다가 10/29 승인, 검증됨, 진영은 제안대로 ‘중간’(고메즈 본인은 낙관 진영이나 사건 성격은 위험 공개), 인물 연결 고메즈(기존 인물 id aidan-gomez), 연표 위치는 날짜에 맞게 배치"
       },
       "note": "10/27 수집 기준시각(10/27 13:20 KST) 이전 게시분이나 지난 회차에서 다루지 않은 누락분. 반박(예: ‘FUD’라는 X 반응)도 있음."
     },
