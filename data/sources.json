@@ -3672,5 +3672,75 @@
       "by": "nalm",
       "at": "2026-10-29"
     }
+  },
+  {
+    "id": "src-openai-com-d28967",
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "publisher": "OpenAI",
+    "title": "How we detect frontier model misalignment (2026-10-29)",
+    "kind": "primary",
+    "accessed_at": "2026-10-30",
+    "checked_in": "collect-2026-10-30",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-30"
+    }
+  },
+  {
+    "id": "src-cheekypint-transistor-fm-64f082",
+    "url": "https://cheekypint.transistor.fm/39/transcript",
+    "publisher": "Cheeky Pint (Stripe)",
+    "title": "Cheeky Pint #39 녹취: Why Sam Altman is against a single superintelligence (2026-10-29)",
+    "kind": "primary",
+    "accessed_at": "2026-10-30",
+    "checked_in": "collect-2026-10-30",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-30"
+    }
+  },
+  {
+    "id": "src-llms-blog-9cae37",
+    "url": "https://www.llms.blog/posts/new-york-raise-act-2-frontier-ai-compute-limits",
+    "publisher": "LLMs Blog",
+    "title": "RAISE Act 2.0: NY Bill Would Let State Limit AI Compute",
+    "kind": "secondary",
+    "accessed_at": "2026-10-30",
+    "checked_in": "collect-2026-10-30",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-30"
+    }
+  },
+  {
+    "id": "src-computerworld-com-d72fa3",
+    "url": "https://www.computerworld.com/article/4242101/anthropic-and-openai-diverge-on-who-should-pull-the-plug-on-risky-ai.html",
+    "publisher": "Computerworld",
+    "title": "Anthropic and OpenAI diverge on who should pull the plug on risky AI (2026-10-29)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-30",
+    "checked_in": "collect-2026-10-30",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-30"
+    }
+  },
+  {
+    "id": "src-aitechdaily-com-26e7bf",
+    "url": "https://www.aitechdaily.com/anthropic-newsom-letter-courts-block-risky-ai-models/",
+    "publisher": "AI Tech Daily",
+    "title": "Anthropic’s letter to Newsom says courts should be able to block AI models (2026-10-28)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-30",
+    "checked_in": "collect-2026-10-30",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-10-30"
+    }
   }
 ]

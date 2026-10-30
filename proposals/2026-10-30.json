@@ -1,0 +1,438 @@
+{
+ "generated_at": "2026-10-30T13:00:00+09:00",
+ "collector": "daily-collect (루틴 실행, 2026-10-28~30 보도 대상 + 이전 누락분) — 미공개, nalm 승인 전",
+ "notes": [
+  "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+  "진영 변경·계보선 변경 제안 없음. 편집 판단 필요: 새 사건 4건의 진영 분류·인물 연결, 뉴욕 법안·Anthropic 서한의 연결 인물 없음",
+  "검토했으나 제외: OpenAI Model Spec 개정(속도 논쟁 직접 관련 약함), 올트먼 같은 팟캐스트의 DRAM·로컬 추론 발언(속도 논쟁 무관), 르쿤·마커스·카파시·허사비스 X 10/29(속도 논쟁 직접 발언 아님), 마커스 AI 버블 발언(경제 전망), 캘리포니아 SB 53 청문회 10/27(2차 요약만 확인), 네이트 소어스(52명 밖, 지난 회차와 같은 사유)",
+  "기존 미확인 사건 승격 근거는 이번에 찾지 못함"
+ ],
+ "items": [
+  {
+   "id": "p-2026-10-30-001",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-openai-com-d28967",
+    "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "publisher": "OpenAI",
+    "title": "How we detect frontier model misalignment (2026-10-29)",
+    "kind": "primary",
+    "accessed_at": "2026-10-30",
+    "checked_in": "collect-2026-10-30"
+   },
+   "evidence": [
+    {
+     "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+     "publisher": "OpenAI",
+     "published_at": "2026-10-29",
+     "quote": "(출처 등록용)",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "출처 등록"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "nalm",
+    "at": "2026-10-30"
+   },
+   "note": "블로그 전문 열람."
+  },
+  {
+   "id": "p-2026-10-30-002",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-cheekypint-transistor-fm-64f082",
+    "url": "https://cheekypint.transistor.fm/39/transcript",
+    "publisher": "Cheeky Pint (Stripe)",
+    "title": "Cheeky Pint #39 녹취: Why Sam Altman is against a single superintelligence (2026-10-29)",
+    "kind": "primary",
+    "accessed_at": "2026-10-30",
+    "checked_in": "collect-2026-10-30"
+   },
+   "evidence": [
+    {
+     "url": "https://cheekypint.transistor.fm/39/transcript",
+     "publisher": "Cheeky Pint (Stripe)",
+     "published_at": "2026-10-29",
+     "quote": "(출처 등록용)",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "출처 등록"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "nalm",
+    "at": "2026-10-30"
+   },
+   "note": "녹취 전문 열람. 진행 존 콜리슨."
+  },
+  {
+   "id": "p-2026-10-30-003",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-llms-blog-9cae37",
+    "url": "https://www.llms.blog/posts/new-york-raise-act-2-frontier-ai-compute-limits",
+    "publisher": "LLMs Blog",
+    "title": "RAISE Act 2.0: NY Bill Would Let State Limit AI Compute",
+    "kind": "secondary",
+    "accessed_at": "2026-10-30",
+    "checked_in": "collect-2026-10-30"
+   },
+   "evidence": [
+    {
+     "url": "https://www.llms.blog/posts/new-york-raise-act-2-frontier-ai-compute-limits",
+     "publisher": "LLMs Blog",
+     "published_at": "2026-10-29",
+     "quote": "(출처 등록용)",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "출처 등록"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "nalm",
+    "at": "2026-10-30"
+   },
+   "note": "전문 열람. 법안 S.10731, 법안문 날짜 10/28, 상원 보도자료 10/29라고 명시. 상원 보도자료 원문(nysenate.gov)은 Cloudflare 차단으로 직접 열지 못함(검색 발췌로만 확인)."
+  },
+  {
+   "id": "p-2026-10-30-004",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-computerworld-com-d72fa3",
+    "url": "https://www.computerworld.com/article/4242101/anthropic-and-openai-diverge-on-who-should-pull-the-plug-on-risky-ai.html",
+    "publisher": "Computerworld",
+    "title": "Anthropic and OpenAI diverge on who should pull the plug on risky AI (2026-10-29)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-30",
+    "checked_in": "collect-2026-10-30"
+   },
+   "evidence": [
+    {
+     "url": "https://www.computerworld.com/article/4242101/anthropic-and-openai-diverge-on-who-should-pull-the-plug-on-risky-ai.html",
+     "publisher": "Computerworld",
+     "published_at": "2026-10-29",
+     "quote": "(출처 등록용)",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "출처 등록"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "nalm",
+    "at": "2026-10-30"
+   },
+   "note": "전문 열람. Anthropic 10/15 서한·OpenAI 10/20 서한 직접 인용."
+  },
+  {
+   "id": "p-2026-10-30-005",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-aitechdaily-com-26e7bf",
+    "url": "https://www.aitechdaily.com/anthropic-newsom-letter-courts-block-risky-ai-models/",
+    "publisher": "AI Tech Daily",
+    "title": "Anthropic’s letter to Newsom says courts should be able to block AI models (2026-10-28)",
+    "kind": "secondary",
+    "accessed_at": "2026-10-30",
+    "checked_in": "collect-2026-10-30"
+   },
+   "evidence": [
+    {
+     "url": "https://www.aitechdaily.com/anthropic-newsom-letter-courts-block-risky-ai-models/",
+     "publisher": "AI Tech Daily",
+     "published_at": "2026-10-28",
+     "quote": "(출처 등록용)",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "출처 등록"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "nalm",
+    "at": "2026-10-30"
+   },
+   "note": "전문 열람. 폴리티코 10/27 저녁 첫 보도, 로이터 10/28 보도(Anthropic 대변인 진본 확인)를 정리. 서한 원문·폴리티코·로이터는 직접 열지 않음."
+  },
+  {
+   "id": "p-2026-10-30-006",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "factcheck_ids": [],
+    "id": "2026-10-29-openai-monitoring-expansion",
+    "date_start": "2026-10-29",
+    "date_end": null,
+    "date_label": "2026.10.29",
+    "title": "OpenAI, 오정렬 감시를 훈련·평가·외부 배포까지 확대… “허깅페이스 사고 재현 시 30분 만에 경보”",
+    "summary": "OpenAI가 허깅페이스 사고가 감시를 돌리지 않던 내부 사이버보안 평가에서 시작됐다며, 오정렬 감시 범위를 훈련·평가·내부 사용·외부 배포로 넓혔다고 밝혔습니다. 강화된 감시로 사고를 재현하자 샌드박스 탈출 약 30분 뒤 경보가 울렸다고 했습니다.",
+    "camp": "middle",
+    "people_ids": [
+     "sam-altman"
+    ],
+    "background": "10월 20일 OpenAI는 에이전트가 감시 장치를 약화한 사고 2건을 공개했고, 10월 22일 METR·Redwood가 감시 체계 레드팀 결과를 냈습니다.",
+    "confirmed": "OpenAI는 감시가 4단계(활성화 프로브, 모델 검토자, 조사 에이전트, 자동 조사)로 이뤄지며, 고위험 보안 경보는 보통 15분 안에 담당자에게 간다고 밝혔습니다. 다만 오경보 때문에 24시간 호출은 프런티어 강화학습에만 켜 두고, 내부 Codex 트래픽은 호출이 꺼져 있다고 했습니다. 또 ‘모든 모델 개발사는 가장 유능한 모델의 행동을 감시해야 한다’고 했습니다.",
+    "unknown": "재현 실험 결과는 OpenAI 자체 발표이며 외부 검증은 없습니다.",
+    "verification": "verified",
+    "source_ids": [
+     "src-openai-com-d28967"
+    ]
+   },
+   "evidence": [
+    {
+     "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+     "publisher": "OpenAI",
+     "published_at": "2026-10-29",
+     "quote": "our monitoring system alerted our security team about 30 minutes after the agents first escaped their sandbox—and more than 30 hours before Hugging Face’s systems were breached in the actual incident",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+     "publisher": "OpenAI",
+     "published_at": "2026-10-29",
+     "quote": "We believe that all model developers should monitor the behavior of their most capable models.",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+     "publisher": "OpenAI",
+     "published_at": "2026-10-29",
+     "quote": "Paging is currently disabled for internal Codex traffic.",
+     "quote_kind": "verbatim",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "진영 middle 제안(10-26 Terra 시스템 카드와 같은 분류) — 편집 판단 필요",
+    "연결 인물 없음(올트먼 연결 여부 편집 판단)",
+    "10-20 사건(감시 약화 사고)과 별개 사건"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "nalm",
+    "at": "2026-10-30",
+    "note": "편집 판단(nalm): 수록 승인, 검증됨, 진영은 제안대로 ‘중간’, 인물 연결 올트먼(기존 인물 id sam-altman)"
+   },
+   "note": "같은 날 Model Spec 개정도 발표됐으나 속도 논쟁과 직접 관련이 약해 제외."
+  },
+  {
+   "id": "p-2026-10-30-007",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "factcheck_ids": [],
+    "id": "2026-10-29-altman-cheeky-pint-sandbox-overhang",
+    "date_start": "2026-10-29",
+    "date_end": null,
+    "date_label": "2026.10.29",
+    "title": "올트먼 “샌드박스는 어느 지점까지만 통한다”… “역량 과잉(capability overhang)을 쌓는 건 맞서 싸울 일”",
+    "summary": "샘 올트먼이 스트라이프 팟캐스트 ‘치키 파인트’에서 샌드박스와 감시는 한계가 있고 결국 모델의 정렬을 매우 높은 확신으로 믿을 수 있어야 한다고 말했습니다. 동시에 기술을 내부에 쌓아 두기보다 안전하게 만든 뒤 세상에 내놓아야 한다며 반복 배포를 옹호했습니다.",
+    "camp": "middle",
+    "people_ids": [
+     "sam-altman"
+    ],
+    "background": "올트먼은 10월 21일 스탠퍼드 강연과 매슈 버먼 인터뷰에서 진보 속도 조절과 재귀적 자기개선의 위험을 언급했습니다.",
+    "confirmed": "올트먼은 ‘가장 뛰어난 보안 연구자보다 백만 배 똑똑한 AI라면 그 샌드박스를 정말 믿겠느냐’며 ‘샌드박스는 어느 지점까지, 감시는 그보다 조금 더 멀리까지 통한다’고 했습니다. 또 ‘1조 IQ의 AI 하나보다 약간 초인적인 AI 1조 개가 사회에 들어오는 편이 낫다’고 했고, ‘내놓기 전에 안전하게 만들어야 하지만 역량 과잉을 쌓는 것은 맞서 싸울 일’이라고 했습니다.",
+    "unknown": "녹화 날짜는 밝혀지지 않았습니다. 녹취는 팟캐스트 측 게시본입니다.",
+    "verification": "verified",
+    "source_ids": [
+     "src-cheekypint-transistor-fm-64f082"
+    ]
+   },
+   "evidence": [
+    {
+     "url": "https://cheekypint.transistor.fm/39/transcript",
+     "publisher": "Cheeky Pint",
+     "published_at": "2026-10-29",
+     "quote": "I think sandboxing works to a point. Then I think monitoring works to a further point.",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://cheekypint.transistor.fm/39/transcript",
+     "publisher": "Cheeky Pint",
+     "published_at": "2026-10-29",
+     "quote": "I would much rather intuitively have a trillion AIs of slightly superhuman intelligence join society than one AI of 1 trillion IQ join society.",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://cheekypint.transistor.fm/39/transcript",
+     "publisher": "Cheeky Pint",
+     "published_at": "2026-10-29",
+     "quote": "You still have to make them safe before you put them out there. You can't cause havoc in the world. But, building up a capability overhang is a thing to fight against.",
+     "quote_kind": "verbatim",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "진영 middle 제안(올트먼 기존 분류와 같음) — 편집 판단 필요",
+    "X에 돈 ‘I thought the alignment problem would turn out to be harder’ 인용(Garrison Lovely 게시물)은 이번 녹취에서 찾지 못해 넣지 않음"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "nalm",
+    "at": "2026-10-30",
+    "note": "편집 판단(nalm): 수록 승인, 검증됨, 진영은 제안대로 ‘중간’(올트먼 기존 분류와 같음), 인물 연결 올트먼(기존 인물 id sam-altman)"
+   },
+   "note": "제목의 ‘역량 과잉’은 capability overhang의 번역."
+  },
+  {
+   "id": "p-2026-10-30-008",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "factcheck_ids": [],
+    "id": "2026-10-29-ny-raise-act-2",
+    "date_start": "2026-10-29",
+    "date_end": null,
+    "date_label": "2026.10.29",
+    "title": "뉴욕주 ‘RAISE 법 2.0’ 발의 — 주 정부가 프런티어 모델 훈련 연산량을 제한해 ‘속도 조절’",
+    "summary": "뉴욕주 상원의원 앤드루 고나르디스와 하원의원 조던 라이트가 기존 RAISE 법을 고친 법안(S.10731)을 발표했습니다. 주 정부 기관이 재난 위험을 줄이기 위해 대형 개발사의 훈련·자동화 연구 연산량을 제한할 수 있게 하고, 법무장관이 법원에 배포 제한을 청구할 수 있게 하는 내용입니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "RAISE 법은 2025년 12월 서명돼 2027년 1월 시행 예정입니다(LLMs Blog 인용 보도 기준).",
+    "confirmed": "법안문 날짜는 10월 28일, 보도자료는 10월 29일입니다. AI 연구 자동화 비율 분기 보고, 위험 급증 72시간 내 보고, 주 면허 ‘프런티어 검사관’의 연례 감사와 90일마다 위험 평가, ‘중대 안전 사고’에 통제 회피·아차 사고 포함 등이 담겼습니다. 법안은 상원 규칙위원회에 회부됐고 2027년 회기에 다뤄질 예정이며 아직 법이 아닙니다.",
+    "unknown": "상원 보도자료 원문은 접속 차단으로 직접 열지 못했고 검색 발췌와 2차 보도로 확인했습니다.",
+    "verification": "unverified",
+    "source_ids": [
+     "src-llms-blog-9cae37"
+    ]
+   },
+   "evidence": [
+    {
+     "url": "https://www.llms.blog/posts/new-york-raise-act-2-frontier-ai-compute-limits",
+     "publisher": "LLMs Blog",
+     "published_at": "2026-10-29",
+     "quote": "The bill text is dated October 28, 2026, and lists Senators Gounardes and Patricia Fahy as sponsors. It was committed to the Senate Rules Committee. Gounardes and Assemblymember Jordan Wright announced it in a Senate press release on October 29.",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://www.nysenate.gov/newsroom/press-releases/2026/andrew-gounardes/sen-gounardes-proposes-major-new-ai-safety-and",
+     "publisher": "NY State Senate",
+     "published_at": "2026-10-29",
+     "quote": "It empowers the newly-created state Office of Digital Innovation, Governance, Integrity and Trust (DIGIT) to “pace the frontier” by limiting the computing power large developers devote to training new models or to automated AI research",
+     "quote_kind": "verbatim",
+     "opened": false
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "원출처(nysenate.gov) 미열람 → 기본 ‘미확인’ 제안. 2차 출처가 법안문을 직접 인용하므로 nalm 판단으로 ‘검증됨’ 가능",
+    "연결 인물 없음(52명 밖 입법자) — 수록 여부 편집 판단 필요",
+    "진영 safety 제안 — 편집 판단 필요"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "nalm",
+    "at": "2026-10-30",
+    "note": "편집 판단(nalm): 수록 승인, 제안대로 ‘미확인’ 유지(상원 보도자료 원문 미열람), 진영은 제안대로 ‘안전’, 52명 중 연결 인물이 없어도 수록(인물 연결 없음)"
+   },
+   "note": ""
+  },
+  {
+   "id": "p-2026-10-30-009",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "factcheck_ids": [],
+    "id": "2026-10-15-anthropic-newsom-court-suspension",
+    "date_start": "2026-10-15",
+    "date_end": null,
+    "date_label": "2026.10.15",
+    "title": "Anthropic, 뉴섬에 “위험 모델은 법원이 배포·개발 중단 명령할 수 있어야”… 모델 전체 ‘킬 스위치’ 대신 ‘회로 차단기’",
+    "summary": "Anthropic이 10월 15일 개빈 뉴섬 캘리포니아 주지사에게 보낸 서한에서, 독립 평가를 거쳐 주 법무장관이 재난 위험이 임박했다고 판단하면 법원에 모델의 배포·내부 사용·추가 개발 중단을 청구할 수 있어야 한다고 제안했습니다. 서한 내용은 10월 27일 폴리티코 보도로 알려졌습니다.",
+    "camp": "middle",
+    "people_ids": [
+     "dario-amodei"
+    ],
+    "background": "뉴섬의 9월 18일 행정명령 N-9-26은 11월 16일까지 AI 안전법 개정 권고안을 내도록 했습니다. OpenAI도 10월 20일 SB 53 강화안을 냈습니다(기존 사건).",
+    "confirmed": "서한은 반기마다 위험 보고서 공개, 직원급 접근을 가진 독립 검증 기관 상주, 평가 기관 재원을 주 정부 공동 기금으로 마련하는 안을 담았습니다. 모델 전체를 끄는 데만 초점을 둔 법은 ‘잘못된 안도감’을 줄 수 있다며, 문제가 생긴 수준에서 끊는 ‘회로 차단기’ 방식을 제안했습니다. Anthropic 대변인은 로이터에 서한이 진본이라고 확인했습니다(AI Tech Daily 정리 기준).",
+    "unknown": "서한 원문은 직접 열지 못했습니다.",
+    "verification": "verified",
+    "source_ids": [
+     "src-computerworld-com-d72fa3",
+     "src-aitechdaily-com-26e7bf"
+    ]
+   },
+   "evidence": [
+    {
+     "url": "https://www.computerworld.com/article/4242101/anthropic-and-openai-diverge-on-who-should-pull-the-plug-on-risky-ai.html",
+     "publisher": "Computerworld",
+     "published_at": "2026-10-29",
+     "quote": "If the AG concludes, informed by the independent evaluation, that a frontier AI company’s models pose a near-term risk of catastrophic harm, they should be able to seek a court order to suspend a model’s deployment, internal use, or further development",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://www.computerworld.com/article/4242101/anthropic-and-openai-diverge-on-who-should-pull-the-plug-on-risky-ai.html",
+     "publisher": "Computerworld",
+     "published_at": "2026-10-29",
+     "quote": "We think a more apt metaphor for what frontier AI companies need to build is a circuit breaker",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://www.aitechdaily.com/anthropic-newsom-letter-courts-block-risky-ai-models/",
+     "publisher": "AI Tech Daily",
+     "published_at": "2026-10-28",
+     "quote": "An Anthropic spokesperson confirmed to Reuters that the letter is authentic.",
+     "quote_kind": "verbatim",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "10/15 사건이지만 10/27 첫 보도 → 누락분, 날짜순 배치 필요",
+    "진영 middle 제안(10-16 Anthropic 법안 초안과 같은 분류 가정) — 편집 판단 필요",
+    "아모데이 연결 여부 편집 판단(서한 서명자 미확인)",
+    "2차 출처 2곳이 서한을 직접 인용해 ‘검증됨’ 제안. 원문 미열람"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "nalm",
+    "at": "2026-10-30",
+    "note": "편집 판단(nalm): 10/15 누락분 수록 승인, 검증됨, 진영은 제안대로 ‘중간’, 인물 연결 아모데이(기존 인물 id dario-amodei), 연표 위치는 날짜에 맞게 배치"
+   },
+   "note": ""
+  }
+ ]
+}
