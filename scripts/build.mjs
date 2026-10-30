@@ -49,7 +49,7 @@ const hero = `
 // ---------- 달라진 점 ----------
 const [latest, ...older] = D.changelog;
 const updates = `
-    <section aria-labelledby="update-title">
+    <section id="updates" aria-labelledby="update-title">
       <div class="section-head">
         <div><h2 id="update-title">${esc(latest.headline)}</h2></div>
         <p class="section-note">${txt(latest.note)}</p>
@@ -97,7 +97,7 @@ const evidence = D.lineage.edges.map(e => {
 }).join("\n              ");
 const et = S.edgeTypes;
 const genealogy = `
-    <section aria-labelledby="genealogy-title">
+    <section id="genealogy" aria-labelledby="genealogy-title">
       <div class="section-head">
         <div>
           <h2 id="genealogy-title">${NUM[S.lanes] || S.lanes} 갈래의 계보</h2>
@@ -130,17 +130,16 @@ const genealogy = `
       </div>
     </section>`;
 
-// ---------- 연표 ----------
+// ---------- 연표 (최신순, 최근 3개 날짜만 먼저) ----------
 const chevron = '<span class="event-chevron" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>';
-const timeline = `
-    <section aria-labelledby="timeline-title">
-      <div class="section-head">
-        <div><h2 id="timeline-title">${esc(D.events[0].date_start.slice(0, 4))}—${esc(D.events.at(-1).date_start.slice(0, 4))} 전환점</h2></div>
-        <p class="section-note">${txt(D.meta.sections.timeline_note)} 사건 ${S.events}건 중 ${S.eventsVerified}건 검증됨, ${S.eventsUnverified}건 미확인.</p>
-      </div>
-      <div class="timeline-frame">
-        <ol class="timeline" id="timeline">
-${D.events.map(e => {
+// data/events.json은 오름차순 그대로 두고, 화면에서만 뒤집습니다(같은 날짜는 데이터 순서의 역순).
+const eventsDesc = D.events.map((e, i) => [e, i]).sort((a, b) => (b[0].date_start > a[0].date_start) - (b[0].date_start < a[0].date_start) || b[1] - a[1]).map(x => x[0]);
+const RECENT_DAYS = 3;
+const recentDates = [...new Set(eventsDesc.map(e => e.date_start))].slice(0, RECENT_DAYS);
+const recentEvents = eventsDesc.filter(e => recentDates.includes(e.date_start));
+const olderEvents = eventsDesc.filter(e => !recentDates.includes(e.date_start));
+const shortDate = (iso) => iso.slice(5).replace("-", ".").replace(/^0/, "").replace(/\.0/, ".");
+const eventLi = (e) => {
   const did = "detail-" + e.id, ok = e.verification === "verified";
   return `          <li class="${camp[e.camp].badge}" id="event-${esc(e.id)}">
             <div class="when">${isoRange(e)}</div>
@@ -158,14 +157,34 @@ ${D.events.map(e => {
               </div>
             </article>
           </li>`;
-}).join("\n")}
+};
+const timeline = `
+    <section id="news" aria-labelledby="timeline-title">
+      <div class="section-head">
+        <div><h2 id="timeline-title">${esc(D.events[0].date_start.slice(0, 4))}—${esc(D.events.at(-1).date_start.slice(0, 4))} 전환점</h2><p class="order-note">최신 소식부터 · 최근 ${recentDates.length}일치(${recentDates.map(shortDate).join(" · ")}) ${recentEvents.length}건을 먼저 보여 줍니다</p></div>
+        <p class="section-note">${txt(D.meta.sections.timeline_note)} 사건 ${S.events}건 중 ${S.eventsVerified}건 검증됨, ${S.eventsUnverified}건 미확인.</p>
+      </div>
+      <div class="timeline-frame">
+        <ol class="timeline timeline-recent" id="timeline">
+${recentEvents.map(eventLi).join("\n")}
         </ol>
+${olderEvents.length ? `        <div class="timeline-older" id="timeline-older" role="region" aria-label="이전 소식 ${olderEvents.length}건">
+          <div class="timeline-older-inner">
+            <ol class="timeline">
+${olderEvents.map(eventLi).join("\n")}
+            </ol>
+          </div>
+        </div>
+        <div class="timeline-more">
+          <button class="more-btn" id="timelineMore" type="button" aria-expanded="false" aria-controls="timeline-older" data-count="${olderEvents.length}"><span class="more-label">이전 소식 ${olderEvents.length}건 더보기</span><svg class="more-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <a class="more-people" href="#people">인물 ${S.people}명 소개 보기 ↓</a>
+        </div>` : ""}
       </div>
     </section>`;
 
 // ---------- 분야별 ----------
 const domains = `
-    <section aria-labelledby="domains-title">
+    <section id="domains" aria-labelledby="domains-title">
       <div class="section-head">
         <div><h2 id="domains-title">전문분야에서 건너온 경고</h2></div>
         <p class="section-note">${txt(D.meta.sections.domains_note)}</p>
@@ -204,7 +223,7 @@ const card = (p, i) => {
 };
 const filters = [["all", `전체 ${S.people}`], ...D.camps.map(c => [c.id, `${c.short} ${S.byCamp[c.id]}`]), ["korea", `한국 태그 ${S.korea}`]];
 const peopleSec = `
-    <section aria-labelledby="people-title">
+    <section id="people" class="people-section" aria-labelledby="people-title">
       <div class="section-head">
         <div><h2 id="people-title">인물 ${S.people}명</h2></div>
         <p class="section-note">${txt(D.meta.sections.people_note)}</p>
@@ -224,14 +243,14 @@ const peopleSec = `
         ${D.people.map(card).join("\n        ")}
       </div>
       <div class="empty" id="emptyState">조건에 맞는 인물이 없습니다. 검색어나 진영 필터를 바꿔 보세요.</div>
-      <noscript><p class="noscript">검색·필터와 연표 접기는 JavaScript가 필요합니다. 모든 내용은 JavaScript 없이도 아래에 펼쳐져 있습니다.</p></noscript>
+      <noscript><p class="noscript">검색·필터와 연표 접기·더보기는 JavaScript가 필요합니다. 모든 내용은 JavaScript 없이도 아래에 펼쳐져 있습니다.</p></noscript>
     </section>`;
 
 // ---------- 푸터 ----------
 const withPhoto = D.people.filter(p => p.portrait);
 const bySource = [...D.sources].sort((a, b) => a.publisher.localeCompare(b.publisher, "ko") || a.url.localeCompare(b.url));
 const footer = `
-    <footer class="method">
+    <footer class="method" id="method">
       <div>
         <h2>분류 기준</h2>
         <p>${txt(fill(D.meta.sections.classification))}</p>
@@ -260,6 +279,17 @@ const footer = `
       <p class="build-info">데이터 기준일 ${esc(D.meta.data_as_of)} · 보도 반영 ${esc(D.meta.news_through)}까지 · 팩트체크 점검일 ${esc(D.meta.factcheck.checked_at)} · ${preview ? "공개 승인 전 미리보기" : `마지막 승인 ${esc(D.meta.last_approved_at)}`}</p>
     </footer>`;
 
+// ---------- 목차 ----------
+const toc = `
+    <nav class="toc" aria-label="페이지 목차">
+      <a href="#news"><strong>최신 소식</strong><span>${S.events}건 · 최신순</span></a>
+      <a href="#people"><strong>인물 소개</strong><span>${S.people}명</span></a>
+      <a href="#genealogy"><strong>계보</strong><span>${S.lanes}갈래</span></a>
+      <a href="#domains"><strong>분야별 경고</strong><span>${D.domainGroups.length}개 분야</span></a>
+      <a href="#updates"><strong>달라진 점</strong><span>${D.changelog.length}회 기록</span></a>
+      <a href="#method"><strong>분류·출처</strong><span>${S.sources}건</span></a>
+    </nav>`;
+
 const html = `<!doctype html>
 <html lang="ko" class="no-js">
 <head>
@@ -284,11 +314,12 @@ const html = `<!doctype html>
   ${preview ? '<p class="preview-banner" role="note">공개 승인 전 미리보기입니다. 편집자 승인 뒤 공개됩니다.</p>' : ""}
   <main class="page">
 ${hero}
-${updates}
-${genealogy}
+${toc}
 ${timeline}
-${domains}
 ${peopleSec}
+${genealogy}
+${domains}
+${updates}
 ${footer}
   </main>
   <script src="assets/app.js" defer></script>
@@ -306,4 +337,5 @@ fs.copyFileSync(path.join(APP_DIR, "src/app.js"), path.join(DIST_DIR, "assets/ap
 for (const p of withPhoto) fs.copyFileSync(path.join(APP_DIR, p.portrait.path), path.join(DIST_DIR, p.portrait.path));
 for (const f of fs.readdirSync(path.join(APP_DIR, "data"))) fs.copyFileSync(path.join(APP_DIR, "data", f), path.join(DIST_DIR, "data", f));
 fs.writeFileSync(path.join(DIST_DIR, "build-stats.json"), JSON.stringify({ built_at: new Date().toISOString(), data_as_of: D.meta.data_as_of, preview, ...S }, null, 2));
+console.log(`· 연표: 최신순, 처음 ${recentEvents.length}건(${recentDates.join(", ")}) + 더보기 ${olderEvents.length}건`);
 console.log(`✓ 빌드 완료 → dist/index.html (${(html.length / 1024).toFixed(0)} KB) · 인물 ${S.people} · 관점 ${S.perspectives} · 사건 ${S.events} · 관계선 ${S.edges}`);

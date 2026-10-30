@@ -362,3 +362,41 @@ a:focus-visible { outline: 3px solid color-mix(in srgb, var(--focus) 45%, transp
   .update-item:last-child:nth-child(odd) { grid-column: 1 / -1; }
 }
 @media (max-width: 560px) { .update-item:last-child:nth-child(odd) { grid-column: auto; } }
+
+/* ---- 2026-10-30 UI: 목차 · 최신순 연표 더보기 · 인물 소개 강조 ---- */
+.toc { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 1px; margin-top: 22px; background: var(--line); border: 1px solid var(--line); }
+.toc a { display: block; padding: 12px 14px; background: var(--surface); text-decoration: none; }
+.toc a:hover { background: var(--surface-2); }
+.toc strong { display: block; font-size: .9rem; letter-spacing: -.01em; }
+.toc span { display: block; margin-top: 2px; color: var(--muted); font-size: .74rem; }
+.toc a[href="#people"] { box-shadow: inset 0 3px 0 var(--focus); }
+.order-note { margin: 8px 0 0; color: var(--muted); font-size: .86rem; font-weight: 600; }
+section { scroll-margin-top: 8px; }
+.timeline-recent li:last-child .event { border-bottom: 1px solid var(--line); }
+.no-js .timeline-recent li:last-child .event { border-bottom: 1px solid var(--line); }
+.timeline-older-inner > .timeline { margin: 0; }
+.js .timeline-older { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .5s cubic-bezier(.2, .7, .2, 1); }
+.js .timeline-older.is-open { grid-template-rows: 1fr; }
+.js .timeline-older-inner { min-height: 0; overflow: hidden; visibility: hidden; transition: visibility 0s linear .5s; }
+.js .timeline-older.is-open .timeline-older-inner { visibility: visible; transition-delay: 0s; }
+.js .timeline-older.no-anim, .js .timeline-older.no-anim .timeline-older-inner { transition: none; }
+.timeline-more { display: none; }
+.js .timeline-more { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 18px; padding: 16px 18px 12px; border-top: 1px solid var(--line); }
+.more-btn { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 10px 20px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--ink); font-size: .9rem; font-weight: 700; cursor: pointer; }
+.more-btn:hover { border-color: var(--ink); background: var(--surface-2); }
+.more-btn:focus-visible { outline: 3px solid color-mix(in srgb, var(--focus) 45%, transparent); outline-offset: 2px; }
+.more-chevron { transition: transform .25s ease; }
+.more-btn[aria-expanded="true"] .more-chevron { transform: rotate(180deg); }
+.more-people { color: var(--muted); font-size: .84rem; font-weight: 600; text-underline-offset: 3px; }
+.more-people:hover { color: var(--ink); }
+.people-section .section-head h2::before { content: "인물 소개"; display: block; margin-bottom: 6px; color: var(--focus); font-size: .8rem; font-weight: 700; letter-spacing: .06em; }
+@media (max-width: 1120px) { .toc { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 560px) {
+  .toc { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 16px; }
+  .toc a { padding: 10px 12px; }
+  .more-btn { width: 100%; justify-content: center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .js .timeline-older, .js .timeline-older-inner, .more-chevron, .event-chevron { transition: none; }
+}
+.event-heading, .event-copy, .detail-block p, .source { overflow-wrap: anywhere; }
