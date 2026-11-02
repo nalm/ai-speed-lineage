@@ -3742,5 +3742,257 @@
       "by": "nalm",
       "at": "2026-10-30"
     }
+  },
+  {
+    "id": "src-press-vatican-va-e09bbf",
+    "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/30/261030e.html",
+    "publisher": "Holy See Press Office",
+    "title": "Address of the Holy Father to participants in the meeting promoted by the Pontifical Academy for Life (2026-10-30)",
+    "kind": "primary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-vaticannews-va-b33052",
+    "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/vatican-artificial-intelligence-conference-interdicasterial-comm.html",
+    "publisher": "Vatican News",
+    "title": "Vatican hosts dialogue on AI and human dignity (2026-10-30)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-academyforlife-va-33a822",
+    "url": "https://www.academyforlife.va/content/pav/en/news/2026/vatican-hosts-leading-AI-scientists-and-experts-for-dialogue-on-the-future-of-AI.html",
+    "publisher": "Pontifical Academy for Life",
+    "title": "Vatican hosts leading AI scientists and experts for dialogue on the future of Artificial Intelligence and Human Dignity (2026-10)",
+    "kind": "primary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-ewtnnews-com-020ab3",
+    "url": "https://www.ewtnnews.com/vatican/pope-leo-xiv-ai-can-never-be-a-person-its-future-depends-on-our-choices",
+    "publisher": "EWTN News",
+    "title": "Pope Leo XIV: AI can never be a person; its future depends on our choices (2026-10-30)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-podcasts-happyscribe-com-41cfae",
+    "url": "https://podcasts.happyscribe.com/the-builders/mustafa-suleyman-ai-should-serve-humanity-not-replace-it",
+    "publisher": "Happy Scribe (The Builders 녹취)",
+    "title": "The Builders — Mustafa Suleyman: AI Should Serve Humanity, Not Replace It (2026-10-29 공개, 10-12 녹화) 녹취",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-business-cch-com-ed5467",
+    "url": "https://business.cch.com/bfld/SBC-Democrats-Press-Release-Impacts-Anthropic-IPO-10282026102926.pdf",
+    "publisher": "Senate Banking Committee Democrats (Wolters Kluwer CCH 게시본)",
+    "title": "As Anthropic Discloses Concerns of AI Posing “Existential Risks to Humanity,” Warren Presses For Answers About the Impacts of an IPO (2026-10-28)",
+    "kind": "primary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-cfodive-com-7c3518",
+    "url": "https://www.cfodive.com/news/sen-warren-probes-ai-safety-market-risks-anthropic-ipo/873076/",
+    "publisher": "CFO Dive",
+    "title": "Sen. Warren probes AI safety, market risks in Anthropic IPO (2026-10-28)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-comptroller-nyc-gov-95186c",
+    "url": "https://comptroller.nyc.gov/reports/letter-to-anthropic-re-planned-initial-public-offering/",
+    "publisher": "NYC Comptroller",
+    "title": "Letter to Anthropic Re: Planned Initial Public Offering (2026-10-14)",
+    "kind": "primary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-washingtonpost-com-8b3af0",
+    "url": "https://www.washingtonpost.com/technology/2026/10/29/anthropic-other-ai-firms-agreed-slow-down-ai-it-didnt-happen/",
+    "publisher": "The Washington Post",
+    "title": "He called for an AI slowdown, then told investors he’d race ahead (2026-10-29)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-updater-news-644e7f",
+    "url": "https://updater.news/post-finds-ai-labs-kept-racing-despite-slowdown-calls/",
+    "publisher": "Updater News",
+    "title": "Post finds AI labs kept racing despite slowdown calls (2026-10-29)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-heraldmonitor-com-d13076",
+    "url": "https://heraldmonitor.com/article/ai-giants-race-ahead-six-weeks-after-ceos-pledged-to-slow-down/",
+    "publisher": "Herald Monitor",
+    "title": "AI giants race ahead six weeks after CEOs pledged to slow down (2026-10)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-pfalz-express-de-2c499e",
+    "url": "https://www.pfalz-express.de/nvidia-chef-huang-nennt-ki-warnungen-laecherlich/",
+    "publisher": "Pfalz-Express (dts Nachrichtenagentur)",
+    "title": "Nvidia-Chef Huang nennt KI-Warnungen „lächerlich“ (2026-10-30)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-handelsblatt-com-41df54",
+    "url": "https://www.handelsblatt.com/technik/it-internet/jensen-huang-deutschland-bleibt-weit-hinter-seinem-potenzial-zurueck/100265111.html",
+    "publisher": "Handelsblatt",
+    "title": "Jensen Huang: „Deutschland bleibt weit hinter seinem Potenzial zurück“ (2026-10-30)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-biz-chosun-com-b8fafc",
+    "url": "https://biz.chosun.com/en/en-it/2026/11/01/GFGQCIRB4NBP7CJBPHSDPVCWPI/",
+    "publisher": "ChosunBiz (English)",
+    "title": "Yoshua Bengio 서면 인터뷰 (2026-11-01)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-alignment-anthropic-com-565b7e",
+    "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+    "publisher": "Anthropic Alignment Science Blog",
+    "title": "Automated Subtle Emergent Misalignment Research (2026-10)",
+    "kind": "primary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-the-decoder-com-f9a1b5",
+    "url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
+    "publisher": "The Decoder",
+    "title": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight (2026-10-31)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-fortune-com-260f48",
+    "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+    "publisher": "Fortune",
+    "title": "AI godfather Yann LeCun has zero concerns about human extinction, says Anthropic CEO Dario Amodei is deluded (2026-10-01)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
+  },
+  {
+    "id": "src-finance-yahoo-com-720104",
+    "url": "https://finance.yahoo.com/technology/ai/articles/yann-lecun-calls-anthropic-ceo-090000452.html",
+    "publisher": "Yahoo Finance (Moneywise)",
+    "title": "Yann LeCun calls Anthropic CEO … (2026-10-02)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-02",
+    "checked_in": "collect-2026-11-02",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-02"
+    }
   }
 ]
