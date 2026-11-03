@@ -3994,5 +3994,159 @@
       "by": "nalm",
       "at": "2026-11-02"
     }
+  },
+  {
+    "id": "src-sec-gov-1b0064",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+    "publisher": "U.S. SEC (EDGAR)",
+    "title": "Anthropic, PBC — Form S-1/A (Amendment No. 1, 2026-11-02 접수)",
+    "kind": "primary",
+    "accessed_at": "2026-11-03",
+    "checked_in": "collect-2026-11-03",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-03"
+    }
+  },
+  {
+    "id": "src-techcrunch-com-55dd7e",
+    "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+    "publisher": "TechCrunch",
+    "title": "Anthropic warns that it's very close to RSI capability, aka self-building AI (2026-11-02)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-03",
+    "checked_in": "collect-2026-11-03",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-03"
+    }
+  },
+  {
+    "id": "src-axios-com-a351f1",
+    "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy",
+    "publisher": "Axios",
+    "title": "Behind the Curtain: OpenAI's post-election power play (2026-11-01)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-03",
+    "checked_in": "collect-2026-11-03",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-03"
+    }
+  },
+  {
+    "id": "src-businessinsider-com-3da642",
+    "url": "https://www.businessinsider.com/openai-ai-data-centers-rebrand-compute-campuses-midterms-2026-11",
+    "publisher": "Business Insider",
+    "title": "OpenAI wants everyone to call AI data centers 'compute campuses' (2026-11-01)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-03",
+    "checked_in": "collect-2026-11-03",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-03"
+    }
+  },
+  {
+    "id": "src-thenationalnews-com-38cf99",
+    "url": "https://www.thenationalnews.com/future/technology/2026/11/02/no-room-for-debate-over-human-control-of-ai-says-sam-altman/",
+    "publisher": "The National",
+    "title": "'No room for debate' over human control of AI, says Sam Altman (2026-11-02)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-03",
+    "checked_in": "collect-2026-11-03",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-03"
+    }
+  },
+  {
+    "id": "src-khaleejtimes-com-1ee504",
+    "url": "https://www.khaleejtimes.com/business/humans-must-remain-in-control-of-ai-says-openai-ceo-sam-altman",
+    "publisher": "Khaleej Times",
+    "title": "Humans must remain in control of AI, says OpenAI CEO Sam Altman (2026-11-02)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-03",
+    "checked_in": "collect-2026-11-03",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-03"
+    }
+  },
+  {
+    "id": "src-corriere-it-c0cc86",
+    "url": "https://www.corriere.it/cronache/26_ottobre_31/max-tegmark-ai-musk-altman-intervista-b327e0e7-8f1b-43ac-b8fd-13d1a7e15xlk.shtml",
+    "publisher": "Corriere della Sera",
+    "title": "Max Tegmark: «L’AI è fuori controllo. Musk e Altman? Li conosco: sono in trappola…» (2026-10-31)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-03",
+    "checked_in": "collect-2026-11-03",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-03"
+    }
+  },
+  {
+    "id": "src-casar-house-gov-e64f8e",
+    "url": "https://casar.house.gov/sites/evo-subsites/casar.house.gov/files/evo-media-document/openai-employee-firing_cyber-security-follow-up_0.pdf",
+    "publisher": "Office of Congressman Greg Casar",
+    "title": "Letter to Sam Altman on fired OpenAI safety researchers and cybersecurity incidents (2026-10-29)",
+    "kind": "primary",
+    "accessed_at": "2026-11-03",
+    "checked_in": "collect-2026-11-03",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-03"
+    }
+  },
+  {
+    "id": "src-nextgov-com-f415b1",
+    "url": "https://www.nextgov.com/artificial-intelligence/2026/10/democrats-press-openai-over-safety-researcher-firings-security-incidents/416954/",
+    "publisher": "Nextgov/FCW",
+    "title": "Democrats press OpenAI over safety researcher firings, security incidents (2026-10-30)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-03",
+    "checked_in": "collect-2026-11-03",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-03"
+    }
+  },
+  {
+    "id": "src-nyassembly-gov-c4d0dc",
+    "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S10731&term=2025&Summary=Y&Actions=Y&Text=Y",
+    "publisher": "New York State Assembly (Bill Search)",
+    "title": "S10731 — 요약·진행 경과·법안문 (2026-10-28 상원 제출)",
+    "kind": "primary",
+    "accessed_at": "2026-11-03",
+    "checked_in": "collect-2026-11-03",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-03"
+    }
+  },
+  {
+    "id": "src-transparencycoalition-ai-44e22b",
+    "url": "https://www.transparencycoalition.ai/news/raise-act-part-2-pre-filed-in-new-york-state-legislature",
+    "publisher": "Transparency Coalition",
+    "title": "Bill Guide: New York’s RAISE Act (Part 2) adds stronger frontier model protections (2026-11-02)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-03",
+    "checked_in": "collect-2026-11-03",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-03"
+    }
   }
 ]
