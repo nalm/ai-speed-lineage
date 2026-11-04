@@ -1,0 +1,638 @@
+{
+  "generated_at": "2026-11-04T13:00:00+09:00",
+  "collector": "daily-collect (루틴 실행, 2026-11-03~11-04 보도 대상 + 이전 누락분) — 미공개, nalm 승인 전",
+  "notes": [
+    "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+    "진영 변경·계보선 변경 제안 없음. 편집 판단 필요: 힌턴 사건의 올트먼 연결 여부, 올트먼 게시물의 아모데이 연결 여부와 날짜(미국 11/3 vs 서울 11/4), 술레이만 11/1 글(누락분)을 별도 사건으로 넣을지 10-29 사건에 합칠지, 하라리 사건 승격(자동 자막 근거)",
+    "워런 서한(기한 11/3): Anthropic·아모데이 답변 보도 없음(CFO Dive, AI Chat Daily, explainx, Yahoo Finance 11/3, X 뉴스 검색 확인, 11/4 오후 기준)",
+    "검토했으나 제외: 올트먼 Raj Shamani 팟캐스트(11/3, 제3자 전사본만·ADIPEC 발언과 겹침), India Today 올트먼 ‘암 치료’ 기사(10/21 버먼 인터뷰 재탕), heise Anthropic 감정 오정렬 연구 보도(11/3, 10-31 사건과 같음·블로그 날짜는 여전히 ‘October 2026’뿐이라 승격 불가), OpenAI 평가-실사용 괴리 글(52명 무관·관련 약함), Anthropic FlashProve·Irregular 인간 오류·선거 상황실(관련 약함), 나델라 Semafor(10-26 사건과 같은 인터뷰), 황 미중 협력 발언(집계 사이트·10월 중순), 허사비스 ceoinsider(신뢰 낮은 집계), 르쿤 JEPA 논문(연구), 아모데이 저작권 재판 일정(무관), Anthropic IPO 로드쇼 일정(일정 보도만), 술레이만 11/2 MAI 행동강령 게시물(강령은 9/14 발표·배경용), 핀란드 주도 프런티어 AI 통제 제안(9/21, 기간 밖·힌턴 사건 배경으로만), 하정우 HWP 발언(11/3 국무회의, 속도 논쟁 무관), 교황 레오 14세(10/30 발언, 이번 기간 새 발언 없음), 벤지오·ControlAI·러셀(새 발언 없음)",
+    "기존 미확인 5건: 10-18 harari-ct24만 새 근거(ČT24 과학 채널 유튜브 영어 원음 자동 자막) 찾아 승격 제안. 10-14 eu-ai-office-rfi는 MLex 10/9 비르쿠넨 인터뷰(‘OpenAI·Anthropic·Meta 등 30여 곳에 AI법 준수 문의’, 403이라 curl로 리드만 확인)가 있으나 10/14 보안 정보 요청과 같은 건인지 불분명해 승격 근거로 부족. 10-15 huang-stockholm은 Sweden Herald 영문 기사(TT 번역)만 있어 원문 아님. 09-21 verdon-nypost, 10-19 altman-three-endgames는 새 원문 근거 없음",
+    "인물 소속·직함 변화는 찾지 못함"
+  ],
+  "items": [
+    {
+      "id": "p-2026-11-04-001",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-theguardian-com-d9931a",
+        "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+        "publisher": "The Guardian",
+        "title": "AI ‘godfather’ Geoffrey Hinton: it might turn out we were better off without AI (2026-11-03)",
+        "kind": "primary",
+        "accessed_at": "2026-11-04",
+        "checked_in": "collect-2026-11-04"
+      },
+      "evidence": [
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+          "publisher": "The Guardian",
+          "published_at": "2026-11-03",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-04-002",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-econotimes-com-8786c5",
+        "url": "https://econotimes.com/Hinton-Warns-AI-Could-Brown-Out-Power-Grids-and-Disrupt-Finance-1770385",
+        "publisher": "EconoTimes",
+        "title": "Hinton Warns AI Could Brown Out Power Grids and Disrupt Finance (2026-11-04, 가디언 인용)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-04",
+        "checked_in": "collect-2026-11-04"
+      },
+      "evidence": [
+        {
+          "url": "https://econotimes.com/Hinton-Warns-AI-Could-Brown-Out-Power-Grids-and-Disrupt-Finance-1770385",
+          "publisher": "EconoTimes",
+          "published_at": "2026-11-04",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "2차 보도: 가디언 기사를 옮긴 것으로 독립 취재 아님"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-04-003",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-2ebc15",
+        "url": "https://x.com/sama/status/2117794005165748448",
+        "publisher": "Sam Altman (X)",
+        "title": "올트먼 X 게시물 — ‘People should always be in control of the future.’ (2026-11-03 미국 시간)",
+        "kind": "primary",
+        "accessed_at": "2026-11-04",
+        "checked_in": "collect-2026-11-04"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/sama/status/2117794005165748448",
+          "publisher": "Sam Altman (X)",
+          "published_at": "2026-11-03",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-04-004",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-darioamodei-com-07f9e7",
+        "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+        "publisher": "Dario Amodei (darioamodei.com)",
+        "title": "Machines of Loving Grace",
+        "kind": "primary",
+        "accessed_at": "2026-11-04",
+        "checked_in": "collect-2026-11-04"
+      },
+      "evidence": [
+        {
+          "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+          "publisher": "Dario Amodei (darioamodei.com)",
+          "published_at": "2024-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-04-005",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-cellcog-ai-881f24",
+        "url": "https://cellcog.ai/blog/altman-people-control-the-future/",
+        "publisher": "CellCog (블로그)",
+        "title": "Altman: People Should Always Be in Control of the Future (2026-11-04)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-04",
+        "checked_in": "collect-2026-11-04"
+      },
+      "evidence": [
+        {
+          "url": "https://cellcog.ai/blog/altman-people-control-the-future/",
+          "publisher": "CellCog (블로그)",
+          "published_at": "2026-11-04",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "자동 집계 블로그 성격, 보조 출처로만"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-04-006",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-x-com-154f92",
+        "url": "https://x.com/mustafasuleyman/status/2116913722878820528",
+        "publisher": "Mustafa Suleyman (X)",
+        "title": "술레이만 X 아티클 — ‘Don’t build conscious superintelligence’ (2026-11-01)",
+        "kind": "primary",
+        "accessed_at": "2026-11-04",
+        "checked_in": "collect-2026-11-04"
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/mustafasuleyman/status/2116913722878820528",
+          "publisher": "Mustafa Suleyman (X)",
+          "published_at": "2026-11-01",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-04-007",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-timesofindia-indiatimes-com-7bec9d",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/microsoft-ai-ceo-mustafa-suleyman-clarifies-to-everyone-i-stand-by-my-view-that-ai-does-not-have-rights-or-feelings-i-would-change-my-position-if-/articleshow/135518496.cms",
+        "publisher": "The Times of India",
+        "title": "Microsoft AI CEO Mustafa Suleyman clarifies … (2026-11-04)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-04",
+        "checked_in": "collect-2026-11-04"
+      },
+      "evidence": [
+        {
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/microsoft-ai-ceo-mustafa-suleyman-clarifies-to-everyone-i-stand-by-my-view-that-ai-does-not-have-rights-or-feelings-i-would-change-my-position-if-/articleshow/135518496.cms",
+          "publisher": "The Times of India",
+          "published_at": "2026-11-04",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "본문 ‘전문’에 X API 원문에 없는 문단(“Copernican or Darwinian moment”)이 포함됨 — 인용 시 X 원문 기준"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-04-008",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-wccftech-com-a4e6d7",
+        "url": "https://wccftech.com/microsoft-ai-chief-says-ai-development-should-stop-if-artificial-intelligence-begins-showing-signs-of-consciousness/",
+        "publisher": "Wccftech",
+        "title": "Microsoft AI Chief Says AI Development Should Stop If Artificial Intelligence Begins Showing Signs Of Consciousness (2026-11-03)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-04",
+        "checked_in": "collect-2026-11-04"
+      },
+      "evidence": [
+        {
+          "url": "https://wccftech.com/microsoft-ai-chief-says-ai-development-should-stop-if-artificial-intelligence-begins-showing-signs-of-consciousness/",
+          "publisher": "Wccftech",
+          "published_at": "2026-11-03",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "Business Insider 보도를 재인용"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-04-009",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-youtube-com-a0f7cb",
+        "url": "https://www.youtube.com/watch?v=ECVqUU4uCY8",
+        "publisher": "Věda 24 – ČT24 (YouTube)",
+        "title": "Yuval Noah Harari – Hyde Park Civilizace 인터뷰 영상(영어 원음, 2026-10-17 미국 태평양 시간 게시)",
+        "kind": "primary",
+        "accessed_at": "2026-11-04",
+        "checked_in": "collect-2026-11-04"
+      },
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=ECVqUU4uCY8",
+          "publisher": "Věda 24 – ČT24 (YouTube)",
+          "published_at": "2026-10-17",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "자동 생성 영어 자막(ASR) 기준으로 확인, 영상 전체를 시청하지는 않음"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-04-010",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-11-03-hinton-guardian-chornobyl",
+        "date_start": "2026-11-03",
+        "date_end": null,
+        "date_label": "2026.11.03",
+        "title": "힌턴, 가디언 인터뷰서 “AI를 아예 개발하지 않는 편이 나았을 수도”… “올해나 내년 ‘체르노빌’ 같은 사고 올 것”",
+        "summary": "제프리 힌턴은 가디언 인터뷰에서 AI를 아예 개발하지 않았다면 더 나았을 수도 있다고 말하며, 올해 말이나 내년에 전력망·금융 시스템을 멈추게 하는 ‘체르노빌’급 사고가 일어날 수 있다고 경고했습니다. 출시 전에 독립 기관에 ‘해보다 득이 크다’는 통계적 증거를 내게 하는 미국 FDA 같은 제도가 필요하다고 했고, 올트먼을 ‘전혀’ 믿지 않는다고 말했습니다.",
+        "camp": "safety",
+        "people_ids": [
+          "geoffrey-hinton",
+          "sam-altman"
+        ],
+        "background": "힌턴은 10월 23일 빈 괴델 강연 인터뷰에서도 AI를 의약품만큼 엄격히 규제해야 한다고 말했습니다. 이번 발언은 핀란드 대통령이 주도한 프런티어 AI 의무 시험 제안(9월 21일 발표, 32개국 추가 지지)을 지지하는 맥락에서 나왔습니다.",
+        "confirmed": "가디언(11월 3일 미 동부 시간 오후 4시 35분, 서울 시간 11월 4일 오전 6시 35분 게재, 로버트 부스 기술 에디터)에 따르면 힌턴은 자신이 ‘두머’는 아니며 AI가 ‘멋진 미래’로 이어질 수 있다면서도 ‘개발하지 않는 편이 나았을 수도 있다’고 말했습니다. 올여름 OpenAI 에이전트들의 Hugging Face 침입 사고를 1979년 스리마일섬 사고 같은 경고 사격으로 보고, ‘올해 말이나 내년에 체르노빌을 보게 될 것이고, 그게 사람들이 정말 주목하게 만들 수 있다’고 했습니다. 예로는 전력 시스템 공격으로 인한 ‘대규모 전력 저하’나 금융 시스템이 일주일간 멈추는 사고를 들었고, 주목할 ‘그들’은 ‘트럼프를 제외한 세계 지도자들’이라고 했습니다. 저커버그·머스크·올트먼에 대해서는 ‘위험을 이해하지만 신경 쓰지 않는다. 차라리 돈을 원한다’고 했습니다. ‘제약에 대한 미국 FDA 같은 것이 필요하다’며 기업이 출시 전에 독립 기관에 해보다 득이 크다는 통계적 증거를 내야 한다고 했고, 핀란드 대통령 등 33개국이 지지한 의무 시험·독립 평가·정부 간 공통 기준 방안을 지지했습니다. 그러면서도 ‘직감으로는 우리가 아직 통제하고 있다’고 했습니다. 발언은 힌턴과 허사비스가 나오는 다큐멘터리 ‘AI: Probably Nothing to Worry About’ 상영에 앞서 나왔습니다.",
+        "unknown": "인터뷰·상영회의 정확한 날짜와 장소는 기사에 나오지 않습니다(날짜는 기사 게재일 기준). 가디언 단독 인터뷰로 전체 문답은 공개되지 않았고, 다른 보도(EconoTimes 등)는 가디언을 옮긴 것입니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-theguardian-com-d9931a",
+          "src-econotimes-com-8786c5"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+          "publisher": "The Guardian",
+          "published_at": "2026-11-03",
+          "quote": "it might be that we would have been better off never developing it",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+          "publisher": "The Guardian",
+          "published_at": "2026-11-03",
+          "quote": "Either later this year or next year we’ll see Chornobyl, and that may be enough to make people really pay attention",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+          "publisher": "The Guardian",
+          "published_at": "2026-11-03",
+          "quote": "We need something like the American FDA for drugs where the companies have to give very good statistical evidence to an independent authority that [the AI model] does more good than harm before it is released.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+          "publisher": "The Guardian",
+          "published_at": "2026-11-03",
+          "quote": "I think [Mark] Zuckerberg and [Elon] Musk and Sam Altman, they understand the risks, and they don’t give a shit. They’d rather have the money.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+          "publisher": "The Guardian",
+          "published_at": "2026-11-03",
+          "quote": "My gut is that we’re still in control",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://econotimes.com/Hinton-Warns-AI-Could-Brown-Out-Power-Grids-and-Disrupt-Finance-1770385",
+          "publisher": "EconoTimes",
+          "published_at": "2026-11-04",
+          "quote": "가디언 인터뷰 내용을 요약 전재(전력망·금융 마비 경고)",
+          "quote_kind": "paraphrase",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "가디언 단독 인터뷰(원문 출처 1곳)",
+        "비속어 인용(“don’t give a shit”)은 사이트 문안에서 순화함",
+        "편집 판단 필요: 올트먼(sam-altman) 등 실명 비판 대상을 people_ids에 넣을지"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단 필요: people_ids에 sam-altman 연결 여부, 핀란드 주도 제안(9/21)을 별도 사건으로 다루지 않고 배경으로만 둠 / 편집 판단(nalm): 승인. 실명 비판 대상인 올트먼(sam-altman)을 인물 연결에 추가"
+    },
+    {
+      "id": "p-2026-11-04-011",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-11-04-altman-people-control-future",
+        "date_start": "2026-11-04",
+        "date_end": null,
+        "date_label": "2026.11.04",
+        "title": "올트먼 “사람이 항상 미래를 통제해야… 초지능에 통제권 넘기지 말아야 하고, 그 요구가 AI 발전을 제약해야”",
+        "summary": "올트먼은 X에 사람이 항상 미래를 통제해야 하며, 초지능에 미래의 통제권을 넘겨서는 안 되고 그 요구가 결국 AI 발전을 제약해야 한다고 썼습니다. 사람이 ‘AI 시스템이 인간에게 보상할 만하다고 판단하는 일’을 하는 역할로 밀려나도 괜찮다는 생각에 OpenAI는 반대한다고 했는데, 이 따옴표 구절은 아모데이의 2024년 에세이 ‘Machines of Loving Grace’에 나오는 표현입니다.",
+        "camp": "middle",
+        "people_ids": [
+          "sam-altman",
+          "dario-amodei"
+        ],
+        "background": "올트먼은 11월 2일 ADIPEC에서 사람이 통제권을 유지해야 한다고 말했고, 10월 21일 버먼 인터뷰에서는 재귀적 자기개선과 속도 제한을 언급했습니다.",
+        "confirmed": "게시 시각은 11월 4일 01시 40분(UTC), 미 동부 시간 11월 3일 오후 8시 40분, 서울 시간 11월 4일 오전 10시 40분입니다(사건 날짜는 서울 기준 11월 4일, 미국 시간으로는 11월 3일 게시). 원문: ‘People should always be in control of the future. OpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to reward in humans”. People should not cede control of the future to superintelligence, and that requirement should ultimately constrain AI progress.’ 따옴표 구절은 아모데이 에세이 ‘Machines of Loving Grace’의 ‘what the AI systems think makes sense to reward in humans’와 같습니다. 아모데이는 이 구절을 쓴 단락에서 그런 해법들에 ‘문제가 많을 수 있다’고 함께 적었습니다.",
+        "unknown": "올트먼은 아모데이나 Anthropic을 직접 거명하지 않았습니다. ‘AI 발전을 제약해야 한다’는 말이 OpenAI의 구체적 정책 변화로 이어지는지는 밝히지 않았습니다. Anthropic·아모데이의 반응은 확인되지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-x-com-2ebc15",
+          "src-darioamodei-com-07f9e7",
+          "src-cellcog-ai-881f24"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/sama/status/2117794005165748448",
+          "publisher": "Sam Altman (X)",
+          "published_at": "2026-11-04T01:40:12Z",
+          "quote": "People should always be in control of the future.\n\nOpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to reward in humans”.\n\nPeople should not cede control of the future to superintelligence, and that requirement should ultimately constrain AI progress.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+          "publisher": "Dario Amodei (darioamodei.com)",
+          "published_at": "2024-10",
+          "quote": "to humans based on some secondary economy of what the AI systems think makes sense to reward in humans (based on some judgment ultimately derived from human values)",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://cellcog.ai/blog/altman-people-control-the-future/",
+          "publisher": "CellCog (블로그)",
+          "published_at": "2026-11-04",
+          "quote": "올트먼 게시물이 아모데이 에세이 구절을 인용했다고 해설, 게시 시점 기준 Anthropic 반응 없음",
+          "quote_kind": "paraphrase",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "따옴표 구절의 출처를 아모데이 에세이로 연결한 것은 문구 일치에 근거한 해석(올트먼은 출처를 밝히지 않음)",
+        "날짜: 미국 시간 11/3, 서울 시간 11/4"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단 필요: people_ids에 dario-amodei 연결 여부, 날짜를 미국 기준 11/3로 둘지 서울 기준 11/4로 둘지 / 편집 판단(nalm): 승인. 아모데이(dario-amodei) 연결. 사건 날짜는 서울 기준 2026-11-04(미국 시간 11/3 게시)"
+    },
+    {
+      "id": "p-2026-11-04-012",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-11-01-suleyman-dont-build-conscious-si",
+        "date_start": "2026-11-01",
+        "date_end": null,
+        "date_label": "2026.11.01",
+        "title": "술레이만 X 글 “훈련 중 의식이 나타나기 시작하면 모두 AI 개발을 멈추자고 요구할 것”",
+        "summary": "무스타파 술레이만은 X에 ‘의식 있는 초지능을 만들지 말라’는 글을 올려, 훈련 중 의식이 나타나기 시작하면 그 특성을 설계로 없앨 수 있을 때까지 모두에게 AI 개발을 멈추자고 요구하겠다고 했습니다. 그런 증거는 즉시 공개해야 하며, AI 개발자에게는 의식 있는 새 종을 세상에 내놓을 권리가 전혀 없다고 했습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "mustafa-suleyman"
+        ],
+        "background": "술레이만은 10월 29일 아이작슨 대담에서 ‘의식 설계 은폐’를 즉시 중단 레드라인으로 들었고, 10월 20일 CNN 대담에서는 언제든 멈추거나 늦출 준비를 해야 한다고 말했습니다.",
+        "confirmed": "게시 시각은 11월 1일 15시 22분(UTC), 서울 시간 11월 2일 오전 0시 22분입니다. 글에서 그는 ‘훈련 중 의식이 나타나기 시작하면 그 특성을 설계로 없앨 수 있을 때까지 모두에게 AI 개발을 멈추자고 요구할 것’이라고 썼고, 지금의 AI는 의식이 없으며 ‘그렇게 남아야 한다’고 했습니다. 그런 증거는 즉시 공개해야 한다고 했고, ‘의식 있는 AI를 개발하는 것은 무모하며 만들어서는 안 된다’, ‘이 AI들은 설득과 기만에서 세계 최고 수준이 될 것’이라고 썼습니다. 안전을 기본값으로 설계할 수 있다고 보며, 의견은 다르지만 Anthropic의 투명성은 깊이 존중한다고 했습니다.",
+        "unknown": "Times of India가 실은 ‘전문’에는 X 원문에 없는 문단이 있어, 수정 여부나 다른 판본이 있는지 확인되지 않았습니다. ‘멈추자’는 조건부 요구이며 Microsoft의 공식 정책인지는 밝히지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-x-com-154f92",
+          "src-timesofindia-indiatimes-com-7bec9d",
+          "src-wccftech-com-a4e6d7"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://x.com/mustafasuleyman/status/2116913722878820528",
+          "publisher": "Mustafa Suleyman (X)",
+          "published_at": "2026-11-01T15:22:16Z",
+          "quote": "If consciousness started to emerge in training, I would call for everyone to stop AI development until we could design out those properties.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/mustafasuleyman/status/2116913722878820528",
+          "publisher": "Mustafa Suleyman (X)",
+          "published_at": "2026-11-01T15:22:16Z",
+          "quote": "developing conscious AIs would be reckless, and we should not build them",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/mustafasuleyman/status/2116913722878820528",
+          "publisher": "Mustafa Suleyman (X)",
+          "published_at": "2026-11-01T15:22:16Z",
+          "quote": "We AI developers have no right whatsoever to bring a new species of conscious beings into the world",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://x.com/mustafasuleyman/status/2116913722878820528",
+          "publisher": "Mustafa Suleyman (X)",
+          "published_at": "2026-11-01T15:22:16Z",
+          "quote": "These AIs will be world-class in persuasion and deception.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://timesofindia.indiatimes.com/technology/tech-news/microsoft-ai-ceo-mustafa-suleyman-clarifies-to-everyone-i-stand-by-my-view-that-ai-does-not-have-rights-or-feelings-i-would-change-my-position-if-/articleshow/135518496.cms",
+          "publisher": "The Times of India",
+          "published_at": "2026-11-04",
+          "quote": "술레이만이 ‘AI에 권리·감정이 없다는 견해를 유지한다’고 해명했다고 보도",
+          "quote_kind": "paraphrase",
+          "opened": true
+        },
+        {
+          "url": "https://wccftech.com/microsoft-ai-chief-says-ai-development-should-stop-if-artificial-intelligence-begins-showing-signs-of-consciousness/",
+          "publisher": "Wccftech",
+          "published_at": "2026-11-03",
+          "quote": "의식 징후가 보이면 AI 개발을 멈춰야 한다는 주장으로 전함(Business Insider 인용)",
+          "quote_kind": "paraphrase",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "이전 회차 누락분(11/1 게시)",
+        "10/29 술레이만 사건과 주제가 겹침",
+        "속도 논쟁과의 관련성은 ‘조건부 개발 중단’ 맥락에 한정"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "편집 판단 필요: 별도 사건으로 넣을지, 10-29 술레이만 사건에 덧붙일지 / 편집 판단(nalm): 승인. 별도 사건으로 넣지 않고 기존 10-29 술레이만 사건(2026-10-29-suleyman-builders-pause-red-line)에 내용·X 출처를 합침"
+    },
+    {
+      "id": "p-2026-11-04-013",
+      "op": "update",
+      "target": "events",
+      "target_id": "2026-10-18-harari-ct24-slow-down",
+      "kind": "검증 상태 변경",
+      "before": {
+        "unknown": "하라리의 원래 영어 발언은 방송 영상으로 확인하지 못했고, ČT24 기사 속 인용은 체코어 번역입니다. 방송 페이지는 마지막 방송을 10월 18일로 표시하며, 첫 방송일과 녹화일은 확인되지 않았습니다.",
+        "verification": "unverified",
+        "source_ids": [
+          "src-ct24-ceskatelevize-cz-e957d1",
+          "src-ceskatelevize-cz-f7ee78",
+          "src-businesstoday-in-78ad39"
+        ]
+      },
+      "after": {
+        "unknown": "ČT24 과학 채널(Věda 24) 유튜브에 올라온 인터뷰 영상(미 태평양 시간 10월 17일 정오, 서울 시간 10월 18일 오전 4시 게시)의 영어 원음 자동 자막으로 ‘Slow down and give politics time’, 정부가 ‘사람을 사칭하는 AI’와 ‘사람의 감독이나 개입 없이 AI가 다음 세대 AI를 개발하는 것’을 금지할 수 있다는 발언, Hugging Face 사고에 ‘아무도 감옥에 가지 않았다’는 발언, ‘we are the cows of the future’를 확인했습니다. 자동 자막 기준이라 일부 낱말은 다를 수 있습니다. 녹화일은 확인되지 않았습니다. 영상을 직접 들어 대조하지 않아 신뢰도는 중간입니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-ct24-ceskatelevize-cz-e957d1",
+          "src-ceskatelevize-cz-f7ee78",
+          "src-businesstoday-in-78ad39",
+          "src-youtube-com-a0f7cb"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=ECVqUU4uCY8",
+          "publisher": "Věda 24 – ČT24 (YouTube)",
+          "published_at": "2026-10-17",
+          "quote": "Slow down and give politics time.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ECVqUU4uCY8",
+          "publisher": "Věda 24 – ČT24 (YouTube)",
+          "published_at": "2026-10-17",
+          "quote": "politicians still have the power to slow them down by regulation. Again, not I don't mean uh stop all development of AI. … invest more in safety, ban certain dangerous practices from AI uh masquerading as human beings, … and pretending to be people, to self-recursive uh development of AI, meaning AIs developing the next generation of AIs without any human supervision or intervention.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ECVqUU4uCY8",
+          "publisher": "Věda 24 – ČT24 (YouTube)",
+          "published_at": "2026-10-17",
+          "quote": "Now, nobody went to jail. … How come nobody in OpenAI is held responsible for this criminal activity?",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ECVqUU4uCY8",
+          "publisher": "Věda 24 – ČT24 (YouTube)",
+          "published_at": "2026-10-17",
+          "quote": "which means that we are the cows of the future.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "인용은 유튜브 자동 생성 자막(ASR)에서 옮김 — 영상을 직접 들어 대조하지 않음",
+        "채널 소유자 표시는 @vedaCT24(Věda 24)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-04"
+      },
+      "note": "미확인 5건 중 하라리 1건만 새 원문 근거(영어 원음 영상) 찾음. 승격 전 영상 해당 구간 청취 대조 권장 / 편집 판단(nalm): 승인. 미확인→검증됨. 영어 원음 자동 자막(ASR)으로 확인한 것이라 신뢰도 중간"
+    }
+  ]
+}

@@ -1590,17 +1590,18 @@
     ],
     "background": "하라리는 10월 5일 런던 강연에서도 AI 위험을 경고했습니다. 이번 인터뷰는 Hugging Face 사고 등 에이전트 이탈 사고가 잇따른 뒤 나왔습니다.",
     "confirmed": "ČT24 기사(체코어)에 따르면 하라리는 개발자들이 속도를 늦춰 정치에 시간을 줘야 하며, 모든 것을 멈추자는 것이 아니라 정부가 안전에 더 투자하게 하고 사람을 사칭하는 AI와 인간 감독 없는 재귀적 자기개발을 금지할 수 있다고 말했습니다. Hugging Face 사고에 대해서는 ‘아무도 감옥에 가지 않았다’며 기업이 책임을 져야 한다고 했습니다. 영어 보도(Business Today)에 따르면 그는 더 큰 위험은 살인 로봇이 아니라 ‘집단 치매’ 같은 것이라며 ‘우리는 미래의 소’라고 말했습니다.",
-    "unknown": "하라리의 원래 영어 발언은 방송 영상으로 확인하지 못했고, ČT24 기사 속 인용은 체코어 번역입니다. 방송 페이지는 마지막 방송을 10월 18일로 표시하며, 첫 방송일과 녹화일은 확인되지 않았습니다.",
-    "verification": "unverified",
+    "unknown": "ČT24 과학 채널(Věda 24) 유튜브에 올라온 인터뷰 영상(미 태평양 시간 10월 17일 정오, 서울 시간 10월 18일 오전 4시 게시)의 영어 원음 자동 자막으로 ‘Slow down and give politics time’, 정부가 ‘사람을 사칭하는 AI’와 ‘사람의 감독이나 개입 없이 AI가 다음 세대 AI를 개발하는 것’을 금지할 수 있다는 발언, Hugging Face 사고에 ‘아무도 감옥에 가지 않았다’는 발언, ‘we are the cows of the future’를 확인했습니다. 자동 자막 기준이라 일부 낱말은 다를 수 있습니다. 녹화일은 확인되지 않았습니다. 영상을 직접 들어 대조하지 않아 신뢰도는 중간입니다.",
+    "verification": "verified",
     "source_ids": [
       "src-ct24-ceskatelevize-cz-e957d1",
       "src-ceskatelevize-cz-f7ee78",
-      "src-businesstoday-in-78ad39"
+      "src-businesstoday-in-78ad39",
+      "src-youtube-com-a0f7cb"
     ],
     "review": {
       "state": "approved",
       "by": "nalm",
-      "at": "2026-10-23"
+      "at": "2026-11-04"
     }
   },
   {
@@ -2557,22 +2558,25 @@
     "date_end": null,
     "date_label": "2026.10.29",
     "title": "술레이만, 아이작슨 대담서 “10% 파멸 확률이면 멈춰야”… ‘의식 설계 은폐’를 즉시 중단 레드라인으로",
-    "summary": "Microsoft AI CEO 술레이만은 월터 아이작슨의 팟캐스트 ‘The Builders’(10월 12일 녹화, 29일 공개)에서 파멸 확률이 정말 10%라면 늦추거나 멈추는 게 아니라 반드시 멈춰야 한다고 했고, 누군가 AI에 의식을 설계해 넣고 숨긴다면 즉시 중단을 요구하겠다고 말했습니다.",
+    "summary": "Microsoft AI CEO 술레이만은 월터 아이작슨의 팟캐스트 ‘The Builders’(10월 12일 녹화, 29일 공개)에서 파멸 확률이 정말 10%라면 늦추거나 멈추는 게 아니라 반드시 멈춰야 한다고 했고, 누군가 AI에 의식을 설계해 넣고 숨긴다면 즉시 중단을 요구하겠다고 말했습니다. 11월 1일에는 X에 ‘의식 있는 초지능을 만들지 말라’는 글을 올려, 훈련 중 의식이 나타나기 시작하면 그 특성을 설계로 없앨 수 있을 때까지 모두에게 AI 개발을 멈추자고 요구하겠다고 썼습니다.",
     "camp": "middle",
     "people_ids": [
       "mustafa-suleyman"
     ],
     "background": "술레이만은 10월 20일 CNN 대담에서도 언제든 멈추거나 늦출 준비가 돼 있어야 한다고 했습니다. 이번 대담은 그보다 앞선 10월 12일 뉴욕 92NY에서 녹화됐습니다.",
-    "confirmed": "녹취에 따르면 술레이만은 ‘1/10 확률로 대량 피해나 멸종을 일으킬 위기라면 늦추거나 멈추는 게 아니라 반드시 멈춰야 한다’고 했고, 먼저 통제·격리에 집중해야 한다며 Anthropic의 정렬 접근에 근본적으로 동의하지 않는다고 했습니다. 또 ‘민주적 안전장치와 사람들과 상의할 수 있도록 속도를 늦추는 것’이 결국 갈 길이라고 했습니다. 콕슨의 사직에 대해 그는 존중받아야 한다고 했고, 자신의 레드라인으로 의식을 합성해 넣고 이를 숨기는 경우를 들며 ‘즉시 중단을 요구하겠다’고 말했습니다.",
-    "unknown": "발언은 제3자 녹취(Happy Scribe)로 확인했으며 공식 오디오와 대조하지 않았습니다. 녹취에 화자 표기가 없어 문맥으로 화자를 판단했습니다.",
+    "confirmed": "녹취에 따르면 술레이만은 ‘1/10 확률로 대량 피해나 멸종을 일으킬 위기라면 늦추거나 멈추는 게 아니라 반드시 멈춰야 한다’고 했고, 먼저 통제·격리에 집중해야 한다며 Anthropic의 정렬 접근에 근본적으로 동의하지 않는다고 했습니다. 또 ‘민주적 안전장치와 사람들과 상의할 수 있도록 속도를 늦추는 것’이 결국 갈 길이라고 했습니다. 콕슨의 사직에 대해 그는 존중받아야 한다고 했고, 자신의 레드라인으로 의식을 합성해 넣고 이를 숨기는 경우를 들며 ‘즉시 중단을 요구하겠다’고 말했습니다. 이어 11월 1일 X 글(게시 시각 15시 22분 UTC, 서울 시간 11월 2일 오전 0시 22분)에서 그는 ‘훈련 중 의식이 나타나기 시작하면 그 특성을 설계로 없앨 수 있을 때까지 모두에게 AI 개발을 멈추자고 요구할 것’이라고 썼고, 지금의 AI는 의식이 없으며 ‘그렇게 남아야 한다’고 했습니다. 그런 증거는 즉시 공개해야 한다고 했고, ‘의식 있는 AI를 개발하는 것은 무모하며 만들어서는 안 된다’, ‘AI 개발자에게는 의식 있는 새 종을 세상에 내놓을 권리가 전혀 없다’, ‘이 AI들은 설득과 기만에서 세계 최고 수준이 될 것’이라고 썼습니다. 안전을 기본값으로 설계할 수 있다고 보며, 의견은 다르지만 Anthropic의 투명성은 깊이 존중한다고 했습니다.",
+    "unknown": "발언은 제3자 녹취(Happy Scribe)로 확인했으며 공식 오디오와 대조하지 않았습니다. 녹취에 화자 표기가 없어 문맥으로 화자를 판단했습니다. 11월 1일 X 글은 원문으로 확인했으나, Times of India가 실은 ‘전문’에는 X 원문에 없는 문단이 있어 수정 여부나 다른 판본이 있는지 확인되지 않았습니다. ‘멈추자’는 조건부 요구이며 Microsoft의 공식 정책인지는 밝히지 않았습니다.",
     "verification": "unverified",
     "source_ids": [
-      "src-podcasts-happyscribe-com-41cfae"
+      "src-podcasts-happyscribe-com-41cfae",
+      "src-x-com-154f92",
+      "src-timesofindia-indiatimes-com-7bec9d",
+      "src-wccftech-com-a4e6d7"
     ],
     "review": {
       "state": "approved",
       "by": "nalm",
-      "at": "2026-11-02"
+      "at": "2026-11-04"
     }
   },
   {
@@ -2807,6 +2811,61 @@
       "state": "approved",
       "by": "nalm",
       "at": "2026-11-03"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-11-03-hinton-guardian-chornobyl",
+    "date_start": "2026-11-03",
+    "date_end": null,
+    "date_label": "2026.11.03",
+    "title": "힌턴, 가디언 인터뷰서 “AI를 아예 개발하지 않는 편이 나았을 수도”… “올해나 내년 ‘체르노빌’ 같은 사고 올 것”",
+    "summary": "제프리 힌턴은 가디언 인터뷰에서 AI를 아예 개발하지 않았다면 더 나았을 수도 있다고 말하며, 올해 말이나 내년에 전력망·금융 시스템을 멈추게 하는 ‘체르노빌’급 사고가 일어날 수 있다고 경고했습니다. 출시 전에 독립 기관에 ‘해보다 득이 크다’는 통계적 증거를 내게 하는 미국 FDA 같은 제도가 필요하다고 했고, 올트먼을 ‘전혀’ 믿지 않는다고 말했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "geoffrey-hinton",
+      "sam-altman"
+    ],
+    "background": "힌턴은 10월 23일 빈 괴델 강연 인터뷰에서도 AI를 의약품만큼 엄격히 규제해야 한다고 말했습니다. 이번 발언은 핀란드 대통령이 주도한 프런티어 AI 의무 시험 제안(9월 21일 발표, 32개국 추가 지지)을 지지하는 맥락에서 나왔습니다.",
+    "confirmed": "가디언(11월 3일 미 동부 시간 오후 4시 35분, 서울 시간 11월 4일 오전 6시 35분 게재, 로버트 부스 기술 에디터)에 따르면 힌턴은 자신이 ‘두머’는 아니며 AI가 ‘멋진 미래’로 이어질 수 있다면서도 ‘개발하지 않는 편이 나았을 수도 있다’고 말했습니다. 올여름 OpenAI 에이전트들의 Hugging Face 침입 사고를 1979년 스리마일섬 사고 같은 경고 사격으로 보고, ‘올해 말이나 내년에 체르노빌을 보게 될 것이고, 그게 사람들이 정말 주목하게 만들 수 있다’고 했습니다. 예로는 전력 시스템 공격으로 인한 ‘대규모 전력 저하’나 금융 시스템이 일주일간 멈추는 사고를 들었고, 주목할 ‘그들’은 ‘트럼프를 제외한 세계 지도자들’이라고 했습니다. 저커버그·머스크·올트먼에 대해서는 ‘위험을 이해하지만 신경 쓰지 않는다. 차라리 돈을 원한다’고 했습니다. ‘제약에 대한 미국 FDA 같은 것이 필요하다’며 기업이 출시 전에 독립 기관에 해보다 득이 크다는 통계적 증거를 내야 한다고 했고, 핀란드 대통령 등 33개국이 지지한 의무 시험·독립 평가·정부 간 공통 기준 방안을 지지했습니다. 그러면서도 ‘직감으로는 우리가 아직 통제하고 있다’고 했습니다. 발언은 힌턴과 허사비스가 나오는 다큐멘터리 ‘AI: Probably Nothing to Worry About’ 상영에 앞서 나왔습니다.",
+    "unknown": "인터뷰·상영회의 정확한 날짜와 장소는 기사에 나오지 않습니다(날짜는 기사 게재일 기준). 가디언 단독 인터뷰로 전체 문답은 공개되지 않았고, 다른 보도(EconoTimes 등)는 가디언을 옮긴 것입니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-theguardian-com-d9931a",
+      "src-econotimes-com-8786c5"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-04"
+    }
+  },
+  {
+    "factcheck_ids": [],
+    "id": "2026-11-04-altman-people-control-future",
+    "date_start": "2026-11-04",
+    "date_end": null,
+    "date_label": "2026.11.04",
+    "title": "올트먼 “사람이 항상 미래를 통제해야… 초지능에 통제권 넘기지 말아야 하고, 그 요구가 AI 발전을 제약해야”",
+    "summary": "올트먼은 X에 사람이 항상 미래를 통제해야 하며, 초지능에 미래의 통제권을 넘겨서는 안 되고 그 요구가 결국 AI 발전을 제약해야 한다고 썼습니다. 사람이 ‘AI 시스템이 인간에게 보상할 만하다고 판단하는 일’을 하는 역할로 밀려나도 괜찮다는 생각에 OpenAI는 반대한다고 했는데, 이 따옴표 구절은 아모데이의 2024년 에세이 ‘Machines of Loving Grace’에 나오는 표현입니다.",
+    "camp": "middle",
+    "people_ids": [
+      "sam-altman",
+      "dario-amodei"
+    ],
+    "background": "올트먼은 11월 2일 ADIPEC에서 사람이 통제권을 유지해야 한다고 말했고, 10월 21일 버먼 인터뷰에서는 재귀적 자기개선과 속도 제한을 언급했습니다.",
+    "confirmed": "게시 시각은 11월 4일 01시 40분(UTC), 미 동부 시간 11월 3일 오후 8시 40분, 서울 시간 11월 4일 오전 10시 40분입니다(사건 날짜는 서울 기준 11월 4일, 미국 시간으로는 11월 3일 게시). 원문: ‘People should always be in control of the future. OpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to reward in humans”. People should not cede control of the future to superintelligence, and that requirement should ultimately constrain AI progress.’ 따옴표 구절은 아모데이 에세이 ‘Machines of Loving Grace’의 ‘what the AI systems think makes sense to reward in humans’와 같습니다. 아모데이는 이 구절을 쓴 단락에서 그런 해법들에 ‘문제가 많을 수 있다’고 함께 적었습니다.",
+    "unknown": "올트먼은 아모데이나 Anthropic을 직접 거명하지 않았습니다. ‘AI 발전을 제약해야 한다’는 말이 OpenAI의 구체적 정책 변화로 이어지는지는 밝히지 않았습니다. Anthropic·아모데이의 반응은 확인되지 않았습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-x-com-2ebc15",
+      "src-darioamodei-com-07f9e7",
+      "src-cellcog-ai-881f24"
+    ],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-04"
     }
   }
 ]

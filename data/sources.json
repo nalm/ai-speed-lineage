@@ -4148,5 +4148,131 @@
       "by": "nalm",
       "at": "2026-11-03"
     }
+  },
+  {
+    "id": "src-theguardian-com-d9931a",
+    "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+    "publisher": "The Guardian",
+    "title": "AI ‘godfather’ Geoffrey Hinton: it might turn out we were better off without AI (2026-11-03)",
+    "kind": "primary",
+    "accessed_at": "2026-11-04",
+    "checked_in": "collect-2026-11-04",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-04"
+    }
+  },
+  {
+    "id": "src-econotimes-com-8786c5",
+    "url": "https://econotimes.com/Hinton-Warns-AI-Could-Brown-Out-Power-Grids-and-Disrupt-Finance-1770385",
+    "publisher": "EconoTimes",
+    "title": "Hinton Warns AI Could Brown Out Power Grids and Disrupt Finance (2026-11-04, 가디언 인용)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-04",
+    "checked_in": "collect-2026-11-04",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-04"
+    }
+  },
+  {
+    "id": "src-x-com-2ebc15",
+    "url": "https://x.com/sama/status/2117794005165748448",
+    "publisher": "Sam Altman (X)",
+    "title": "올트먼 X 게시물 — ‘People should always be in control of the future.’ (2026-11-03 미국 시간)",
+    "kind": "primary",
+    "accessed_at": "2026-11-04",
+    "checked_in": "collect-2026-11-04",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-04"
+    }
+  },
+  {
+    "id": "src-darioamodei-com-07f9e7",
+    "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+    "publisher": "Dario Amodei (darioamodei.com)",
+    "title": "Machines of Loving Grace",
+    "kind": "primary",
+    "accessed_at": "2026-11-04",
+    "checked_in": "collect-2026-11-04",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-04"
+    }
+  },
+  {
+    "id": "src-cellcog-ai-881f24",
+    "url": "https://cellcog.ai/blog/altman-people-control-the-future/",
+    "publisher": "CellCog (블로그)",
+    "title": "Altman: People Should Always Be in Control of the Future (2026-11-04)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-04",
+    "checked_in": "collect-2026-11-04",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-04"
+    }
+  },
+  {
+    "id": "src-x-com-154f92",
+    "url": "https://x.com/mustafasuleyman/status/2116913722878820528",
+    "publisher": "Mustafa Suleyman (X)",
+    "title": "술레이만 X 아티클 — ‘Don’t build conscious superintelligence’ (2026-11-01)",
+    "kind": "primary",
+    "accessed_at": "2026-11-04",
+    "checked_in": "collect-2026-11-04",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-04"
+    }
+  },
+  {
+    "id": "src-timesofindia-indiatimes-com-7bec9d",
+    "url": "https://timesofindia.indiatimes.com/technology/tech-news/microsoft-ai-ceo-mustafa-suleyman-clarifies-to-everyone-i-stand-by-my-view-that-ai-does-not-have-rights-or-feelings-i-would-change-my-position-if-/articleshow/135518496.cms",
+    "publisher": "The Times of India",
+    "title": "Microsoft AI CEO Mustafa Suleyman clarifies … (2026-11-04)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-04",
+    "checked_in": "collect-2026-11-04",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-04"
+    }
+  },
+  {
+    "id": "src-wccftech-com-a4e6d7",
+    "url": "https://wccftech.com/microsoft-ai-chief-says-ai-development-should-stop-if-artificial-intelligence-begins-showing-signs-of-consciousness/",
+    "publisher": "Wccftech",
+    "title": "Microsoft AI Chief Says AI Development Should Stop If Artificial Intelligence Begins Showing Signs Of Consciousness (2026-11-03)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-04",
+    "checked_in": "collect-2026-11-04",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-04"
+    }
+  },
+  {
+    "id": "src-youtube-com-a0f7cb",
+    "url": "https://www.youtube.com/watch?v=ECVqUU4uCY8",
+    "publisher": "Věda 24 – ČT24 (YouTube)",
+    "title": "Yuval Noah Harari – Hyde Park Civilizace 인터뷰 영상(영어 원음, 2026-10-17 미국 태평양 시간 게시)",
+    "kind": "primary",
+    "accessed_at": "2026-11-04",
+    "checked_in": "collect-2026-11-04",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-04"
+    }
   }
 ]
