@@ -1,0 +1,414 @@
+{
+  "generated_at": "2026-11-05T13:10:00+09:00",
+  "collector": "daily-collect (루틴 실행, 2026-11-04 오후~11-05 보도 대상 + 이전 누락분) — nalm 승인 반영(2026-11-05)",
+  "notes": [
+    "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+    "진영 변경·계보선 변경 제안 없음. 편집 판단 필요: 연결 인물 없는 사건 3건(중국 발개위, 미 초지능 태스크포스, 국회 금지 AI 토론회) 수록 여부와 진영 분류",
+    "검토했으나 제외: 올트먼 X 게시물 후속 보도(EconoTimes·Economic Times·Moneycontrol, 11-04 사건과 같음), 젠슨 황 카자흐스탄 대담(10/23 발언 재게시), OpenAI ‘속도 제한’(11/9 레임덕 회기 전이라 실제 공개 없음, Semafor 11/3 회의적 반응은 배경), 인도 IT부 AI 훈련 프레임워크 초안(10/29, 관련 약함), EU AI법 과징금 절차 초안(관련 약함), 아모데이 음악 저작권 청구 일부 기각(무관), Fortune 앤트로픽 IPO 자금 구조 분석(관련 약함), 그렉 브록먼 WSJ 나파 세션(52명 밖·발언 보도 미확인), 400인 과학자 AI 보안 서한(10/13, 기간 밖), 하정우·김대식(속도 논쟁 관련 새 발언 없음)",
+    "기존 미확인 항목: 새 원문 근거 못 찾음(워싱턴포스트 10-29는 여전히 접속 실패, 그 외 원문 확인 경로 없음)",
+    "인물 소속·직함 변화는 찾지 못함"
+  ],
+  "items": [
+    {
+      "id": "p-2026-11-05-001",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-mt-co-kr-89d472",
+        "url": "https://www.mt.co.kr/world/2026/11/05/2026110510573132718",
+        "publisher": "머니투데이",
+        "title": "\"AI 생물학 무기, 코로나보다 위험\"…빌 게이츠, 美에 규제 촉구 (2026-11-05)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-05",
+        "checked_in": "collect-2026-11-05"
+      },
+      "evidence": [
+        {
+          "url": "https://www.mt.co.kr/world/2026/11/05/2026110510573132718",
+          "publisher": "머니투데이",
+          "published_at": "2026-11-05",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "2차 보도: FT 서밋 발언을 옮긴 한국어 기사, 인용은 한국어 번역"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-05"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-05-002",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-news-cn-ad86fc",
+        "url": "https://www.news.cn/20261103/f12570eb387d41b2887cf567721aa5da/c.html",
+        "publisher": "신화망(新华网)",
+        "title": "深化拓展“人工智能+”行动 推动海洋经济高质量发展——国家发展改革委新闻发布会聚焦培育壮大新动能 (2026-11-03)",
+        "kind": "primary",
+        "accessed_at": "2026-11-05",
+        "checked_in": "collect-2026-11-05"
+      },
+      "evidence": [
+        {
+          "url": "https://www.news.cn/20261103/f12570eb387d41b2887cf567721aa5da/c.html",
+          "publisher": "신화망(新华网)",
+          "published_at": "2026-11-03",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-05"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-05-003",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-cnfin-com-f38577",
+        "url": "https://www.cnfin.com/hg-lb/detail/20261103/4490167_1.html",
+        "publisher": "신화차이징(中国金融信息网)",
+        "title": "国家发展改革委：要建立覆盖人工智能全生命周期的安全标准和伦理准则 (2026-11-03)",
+        "kind": "primary",
+        "accessed_at": "2026-11-05",
+        "checked_in": "collect-2026-11-05"
+      },
+      "evidence": [
+        {
+          "url": "https://www.cnfin.com/hg-lb/detail/20261103/4490167_1.html",
+          "publisher": "신화차이징(中国金融信息网)",
+          "published_at": "2026-11-03",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-05"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-05-004",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-straitstimes-com-1f496f",
+        "url": "https://www.straitstimes.com/world/united-states/us-pentagon-chief-tech-officer-says-government-will-detail-laws-that-apply-to-ai-labs-in-november",
+        "publisher": "The Straits Times (Reuters)",
+        "title": "US Pentagon chief tech officer says government will detail laws that apply to AI labs in November (2026-11-05)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-05",
+        "checked_in": "collect-2026-11-05"
+      },
+      "evidence": [
+        {
+          "url": "https://www.straitstimes.com/world/united-states/us-pentagon-chief-tech-officer-says-government-will-detail-laws-that-apply-to-ai-labs-in-november",
+          "publisher": "The Straits Times (Reuters)",
+          "published_at": "2026-11-05",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "로이터 기사 전재"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-05"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-05-005",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-news1-kr-3a166e",
+        "url": "https://www.news1.kr/it-science/internet-platform/6343102",
+        "publisher": "뉴스1",
+        "title": "시민사회 \"금지 AI 규제 마련해야\"…정부 \"산업계 위축 우려\" (2026-11-04)",
+        "kind": "primary",
+        "accessed_at": "2026-11-05",
+        "checked_in": "collect-2026-11-05"
+      },
+      "evidence": [
+        {
+          "url": "https://www.news1.kr/it-science/internet-platform/6343102",
+          "publisher": "뉴스1",
+          "published_at": "2026-11-04",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-05"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-05-006",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-11-04-gates-ft-summit-bioweapons",
+        "date_start": "2026-11-04",
+        "date_end": null,
+        "date_label": "2026.11.04",
+        "title": "게이츠, FT ‘미래의 AI 서밋’서 “AI 생물무기 피해, 코로나보다 훨씬 클 수 있다”… 트럼프 행정부 자율규제 비판",
+        "summary": "빌 게이츠는 파이낸셜타임스가 연 ‘미래의 AI 서밋’에서 AI를 이용한 생물무기·사이버 공격을 가장 시급한 위험으로 꼽고, 기업 자율규제로는 해결할 수 없으며 미국 정부가 안전장치 평가 기준과 제3자 감독을 마련해야 한다고 말했습니다.",
+        "camp": "safety",
+        "people_ids": [
+          "bill-gates"
+        ],
+        "background": "게이츠는 8월 로이터 인터뷰와 블로그에서 핵 사찰·항공 표준을 본뜬 국제 AI 규제 틀을 제안했고, 10월 ABC 인터뷰 등에서도 위험을 경고해 왔습니다.",
+        "confirmed": "머니투데이(11월 5일)에 따르면 게이츠는 4일(현지 시간) FT 서밋에서 ‘AI가 연루된 생물학적 보안 사고가 나면 피해가 코로나19 팬데믹보다 훨씬 클 수 있다’고 했고, 일부 오픈 모델은 안전장치와 감시 기능을 제거할 수 있어 위험이 크다고 지적했습니다. ‘미국이 참여하지 않으면 행동에 나서도 별 의미가 없다’며 트럼프 행정부에 모델 안전장치·감독 수준을 평가할 기준 마련을 촉구했고, ‘여러 기업이 관여하는 순간 이 문제를 해결할 유일한 주체는 정부’라고 했습니다. 또 AI 모델 자체의 통제 불능 문제가 머지않아 심각한 우려가 될 것이며 곧 나올 차기 모델에서 나타날 수 있다고 했습니다. FT 서밋 연사 명단(ai.live.ft.com)에 게이츠가 올라 있습니다.",
+        "unknown": "FT 원문 기사와 인터뷰 영상은 접속이 막혀 직접 확인하지 못했고, 발언은 한국어 번역 보도로만 확인했습니다. 영어 원 발언 문구는 확인되지 않았습니다.",
+        "verification": "unverified",
+        "source_ids": [
+          "src-mt-co-kr-89d472"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.mt.co.kr/world/2026/11/05/2026110510573132718",
+          "publisher": "머니투데이",
+          "published_at": "2026-11-05",
+          "quote": "AI가 연루된 생물학적 보안 사고가 발생하면 그 피해 규모는 코로나19 팬데믹 때보다 훨씬 클 수 있다",
+          "quote_kind": "paraphrase",
+          "opened": true
+        },
+        {
+          "url": "https://www.mt.co.kr/world/2026/11/05/2026110510573132718",
+          "publisher": "머니투데이",
+          "published_at": "2026-11-05",
+          "quote": "여러 기업이 (규제에) 관여하는 순간, 이 문제를 해결할 수 있는 유일한 주체는 정부가 된다",
+          "quote_kind": "paraphrase",
+          "opened": true
+        },
+        {
+          "url": "https://www.ft.com/content/8ede113c-1e4a-49a6-8199-3936b7d58340",
+          "publisher": "Financial Times",
+          "published_at": "2026-11-04",
+          "quote": "제목: Bill Gates: AI bioweapons ‘could be worse than Covid’ (검색 결과로만 확인, 본문 차단)",
+          "quote_kind": "n/a",
+          "opened": false
+        },
+        {
+          "url": "https://ai.live.ft.com/page/5310179/speakers",
+          "publisher": "FT Live",
+          "published_at": "2026-11",
+          "quote": "연사 명단에 Bill Gates 포함",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "원문(FT) 미열람, 한국어 2차 보도 기반",
+        "인용은 한국어 번역(영어 원문 아님)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-05"
+      },
+      "note": "기본 상태 미확인. FT 원문이나 영상을 열 수 있게 되면 검증됨 승격 가능 / 편집 판단(nalm): 승인, 미확인으로. 안전 진영, 게이츠(bill-gates) 연결"
+    },
+    {
+      "id": "p-2026-11-05-007",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-11-03-china-ndrc-ai-law-safety-standards",
+        "date_start": "2026-11-03",
+        "date_end": null,
+        "date_label": "2026.11.03",
+        "title": "중국 발개위 “AI 기본법 성격 입법 서두르고 전 생애주기 안전 표준 만든다”",
+        "summary": "중국 국가발전개혁위원회는 15차 5개년 계획 기간에 AI 기초적·종합적 입법을 서두르고, AI 연구개발부터 배포까지 전 생애주기를 아우르는 안전 표준과 윤리 준칙을 만들겠다고 밝혔습니다. 분야별 ‘규제 샌드박스’와 새 직업의 국가 직업 분류 편입도 함께 내놨습니다.",
+        "camp": "middle",
+        "people_ids": [],
+        "background": "미국은 트럼프 행정부가 기업 자율규제를 선호하는 가운데, 중국이 국가 차원의 안전 규칙 정비를 공식화했습니다.",
+        "confirmed": "신화통신(11월 3일)에 따르면 발개위 창신·첨단기술발전사 왕뤄멍 부사장은 기자회견에서 ‘전 사회에 AI의 기회와 위험이 함께 있다는 폭넓은 공감대가 있다’며 15차 5개년 기간에 AI 기초적·종합적 입법을 서두르고, 전 생애주기 안전 표준과 윤리 준칙을 세우며, 분야별 AI 규제 샌드박스를 지원하겠다고 했습니다. 신화차이징은 데이터·컴퓨팅 파워·알고리즘 등 공통 요소와 주요 응용 분야 입법을 보완하고, AI가 빠르게 바뀌는 점을 고려해 제도를 주기적으로 평가·조정하겠다는 발언을 전했습니다.",
+        "unknown": "법안·표준 초안, 입법 일정, 담당 부처는 공개되지 않았습니다. 블룸버그 등이 전한 ‘통제력 상실 방지’ 취지와 위험·사고 공개 의무 관련 세부 발언은 원문 보도에서 직접 확인하지 못했습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-news-cn-ad86fc",
+          "src-cnfin-com-f38577"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.news.cn/20261103/f12570eb387d41b2887cf567721aa5da/c.html",
+          "publisher": "신화망",
+          "published_at": "2026-11-03",
+          "quote": "将加快推进人工智能基础性综合性立法，建立覆盖人工智能全生命周期的安全标准和伦理准则，支持建设面向不同领域的人工智能“监管沙盒”",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.cnfin.com/hg-lb/detail/20261103/4490167_1.html",
+          "publisher": "신화차이징",
+          "published_at": "2026-11-03",
+          "quote": "将对制度实施情况开展周期性评估，及时动态调整不适用的制度内容",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "편집 판단 필요: 52명과 연결 인물 없는 사건(정부 정책)을 수록할지",
+        "편집 판단 필요: 진영 분류(중간 제안)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-05"
+      },
+      "note": "11/4 회차에서 검토 기록 없음(누락분). 연결 인물 없이 수록하는 기존 방식(10-29 RAISE 법 2.0 등) 따름 / 편집 판단(nalm): 승인, 중간 진영. 인물 연결 없음"
+    },
+    {
+      "id": "p-2026-11-05-008",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-11-04-us-superintelligence-task-force-lab-rules",
+        "date_start": "2026-11-04",
+        "date_end": null,
+        "date_label": "2026.11.04",
+        "title": "미 ‘초지능 태스크포스’ 부의장 “AI 연구소 적용 법규 1~2주 내 공개… 안 하면 의원 535명이 산업 죽일 규제 쓸 것”",
+        "summary": "미 국방부 최고기술책임자이자 정부 ‘초지능 태스크포스’ 부의장인 에밀 마이클은 미국 AI 연구소에 적용되는 법규 전반을 11월 중 공개하겠다며, 명확한 틀이 없으면 의회가 산업을 죽일 수 있는 규제를 만들 것이라고 말했습니다.",
+        "camp": "optimist",
+        "people_ids": [],
+        "background": "트럼프 행정부는 9월 주요 AI 기업들과 자율 안전 협약을 맺었고, OpenAI는 11월 9일 레임덕 회기부터 ‘속도 제한’ 입법 추진을 예고했습니다.",
+        "confirmed": "로이터(스트레이츠타임스 전재, 11월 5일)에 따르면 마이클은 4일 캘리포니아 나파에서 열린 월스트리트저널 기술 콘퍼런스에서 태스크포스가 규제 지형을 ‘앞으로 1~2주 안에’ 공개하겠다고 했고, ‘미국인이 이 기업들이 옳은 일을 할 거라고 믿게 하는 틀을 만들려는 것’이며 ‘그렇지 않으면 535명의 의원이 산업을 죽일 수 있는 규제를 쓰게 될 것’이라고 말했습니다. 추가 세부 내용은 밝히지 않았습니다.",
+        "unknown": "공개될 내용이 새 규제인지 기존 법규 정리인지, 정확한 공개 날짜는 알려지지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-straitstimes-com-1f496f"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.straitstimes.com/world/united-states/us-pentagon-chief-tech-officer-says-government-will-detail-laws-that-apply-to-ai-labs-in-november",
+          "publisher": "The Straits Times (Reuters)",
+          "published_at": "2026-11-05",
+          "quote": "Or else I think what you get is 535 legislators writing a piece of regulation that could kill the industry.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.straitstimes.com/world/united-states/us-pentagon-chief-tech-officer-says-government-will-detail-laws-that-apply-to-ai-labs-in-november",
+          "publisher": "The Straits Times (Reuters)",
+          "published_at": "2026-11-05",
+          "quote": "in the next week or two",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "편집 판단 필요: 연결 인물 없는 사건 수록 여부",
+        "편집 판단 필요: 진영 분류(낙관·가속 제안 — 의회 규제 경계 발언 기준)",
+        "로이터 원문 대신 전재본 확인"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-05"
+      },
+      "note": "11월 중 실제 공개되면 후속 사건 후보 / 편집 판단(nalm): 승인, 낙관·가속 진영. 인물 연결 없음(사이트 인물 디렉터리에 없음)"
+    },
+    {
+      "id": "p-2026-11-05-009",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "factcheck_ids": [],
+        "id": "2026-11-04-korea-banned-ai-basic-act-forum",
+        "date_start": "2026-11-04",
+        "date_end": null,
+        "date_label": "2026.11.04",
+        "title": "국회 토론회서 “AI 기본법에 ‘금지 AI’ 넣어야”… 과기정통부 “취지 공감하나 산업 위축 우려”",
+        "summary": "참여연대와 김선민 의원(조국혁신당)이 연 토론회에서 시민사회는 EU AI법처럼 기본권을 침해하는 AI의 개발·이용을 원천 금지하는 조항을 AI 기본법에 넣자고 제안했고, 과학기술정보통신부는 개념이 모호하고 산업계가 위축될 수 있다며 신중론을 폈습니다.",
+        "camp": "safety",
+        "people_ids": [],
+        "background": "올해 1월 22일 시행된 AI 기본법은 ‘고영향 AI’ 사업자 책임만 두고 금지 조항은 없으며, 정부는 최소 1년 이상 규제 유예를 적용했습니다. 정부는 12월 중 유예 연장 여부를 발표할 예정입니다.",
+        "confirmed": "뉴스1(11월 4일)에 따르면 김선민 의원은 ‘금지 규정은 혁신을 가로막는 벽이 아닌 기업에도 넘지 말아야 할 선을 미리 알려 주는 가드레일’이라고 했고, 유승익 참여연대 AI TF 위원은 사회적 평점, 무단 안면 인식 DB 구축, 실시간 원격 생체 식별, 직장·학교 감정 인식, 사람 통제 없는 자율 살상 무기 등을 금지 대상으로 제안했습니다. 과기정통부 심지섭 사무관은 ‘사회적 합의가 이뤄지고 개념이 구체화된다면 금지 AI 규정이 필요하다고 본다’면서도 현재는 개별법으로 대응하는 게 맞다고 했습니다. 뉴스1은 토론회가 ‘AI 개발 속도 조절론이 제기되는 가운데’ 열렸다고 전했습니다.",
+        "unknown": "개정안이 실제 법안으로 발의될지는 알려지지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-news1-kr-3a166e"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.news1.kr/it-science/internet-platform/6343102",
+          "publisher": "뉴스1",
+          "published_at": "2026-11-04",
+          "quote": "금지 규정은 혁신을 가로막는 벽이 아닌 기업에도 넘지 말아야 할 선을 미리 알려 주는 가드레일",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.news1.kr/it-science/internet-platform/6343102",
+          "publisher": "뉴스1",
+          "published_at": "2026-11-04",
+          "quote": "사회적 합의가 이뤄지고, 개념이 구체화된다면 금지 AI 규정이 필요하다고 본다",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "편집 판단 필요: 52명 무관·속도 논쟁과 간접 관련(기본권 중심 규제) — 한국 맥락으로 수록할지",
+        "편집 판단 필요: 진영 분류"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-05"
+      },
+      "note": "한국 관련 사건. 관련성이 약하다고 보면 제외 권장 / 편집 판단(nalm): 승인, 안전 진영. 인물 연결 없음"
+    }
+  ]
+}

@@ -4274,5 +4274,75 @@
       "by": "nalm",
       "at": "2026-11-04"
     }
+  },
+  {
+    "id": "src-mt-co-kr-89d472",
+    "url": "https://www.mt.co.kr/world/2026/11/05/2026110510573132718",
+    "publisher": "머니투데이",
+    "title": "\"AI 생물학 무기, 코로나보다 위험\"…빌 게이츠, 美에 규제 촉구 (2026-11-05)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-05",
+    "checked_in": "collect-2026-11-05",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-05"
+    }
+  },
+  {
+    "id": "src-news-cn-ad86fc",
+    "url": "https://www.news.cn/20261103/f12570eb387d41b2887cf567721aa5da/c.html",
+    "publisher": "신화망(新华网)",
+    "title": "深化拓展“人工智能+”行动 推动海洋经济高质量发展——国家发展改革委新闻发布会聚焦培育壮大新动能 (2026-11-03)",
+    "kind": "primary",
+    "accessed_at": "2026-11-05",
+    "checked_in": "collect-2026-11-05",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-05"
+    }
+  },
+  {
+    "id": "src-cnfin-com-f38577",
+    "url": "https://www.cnfin.com/hg-lb/detail/20261103/4490167_1.html",
+    "publisher": "신화차이징(中国金融信息网)",
+    "title": "国家发展改革委：要建立覆盖人工智能全生命周期的安全标准和伦理准则 (2026-11-03)",
+    "kind": "primary",
+    "accessed_at": "2026-11-05",
+    "checked_in": "collect-2026-11-05",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-05"
+    }
+  },
+  {
+    "id": "src-straitstimes-com-1f496f",
+    "url": "https://www.straitstimes.com/world/united-states/us-pentagon-chief-tech-officer-says-government-will-detail-laws-that-apply-to-ai-labs-in-november",
+    "publisher": "The Straits Times (Reuters)",
+    "title": "US Pentagon chief tech officer says government will detail laws that apply to AI labs in November (2026-11-05)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-05",
+    "checked_in": "collect-2026-11-05",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-05"
+    }
+  },
+  {
+    "id": "src-news1-kr-3a166e",
+    "url": "https://www.news1.kr/it-science/internet-platform/6343102",
+    "publisher": "뉴스1",
+    "title": "시민사회 \"금지 AI 규제 마련해야\"…정부 \"산업계 위축 우려\" (2026-11-04)",
+    "kind": "primary",
+    "accessed_at": "2026-11-05",
+    "checked_in": "collect-2026-11-05",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-05"
+    }
   }
 ]
