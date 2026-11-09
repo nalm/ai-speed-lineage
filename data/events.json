@@ -2964,6 +2964,29 @@
     }
   },
   {
+    "id": "2026-11-04-ansari-day-one-pause-asi-ban",
+    "date_start": "2026-11-04",
+    "date_end": null,
+    "date_label": "2026.11.04 (미국 기준, 서울 11.05)",
+    "title": "중간선거 직후 안사리 하원의원 “민주당 첫날 의제는 첨단 AI 개발 중단과 초지능 금지”",
+    "summary": "민주당 야사민 안사리 하원의원은 X에 ‘첨단 AI 개발 중단, 통제 불능 산업 규제, 인공 초지능 금지’를 민주당 첫날 최우선 의제로 삼아야 한다고 썼습니다. 9월 발의된 초지능 금지법(ASI 금지법)의 공동 발의자입니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "그레그 카사르 하원의원과 버니 샌더스 상원의원이 9월 발의한 초지능 금지 법안은 연방 규제 기관이 안전 규칙을 정할 때까지 첨단 AI 개발을 멈추게 하는 내용이며 아직 상임위 단계입니다(2차 보도 기준).",
+    "confirmed": "@RepYassAnsari 게시물(2026-11-04 18:54 UTC, 서울 11-05 03:54)의 원문을 직접 확인했습니다. 조회수 약 2천만 회입니다(11-09 기준 X API 수치).",
+    "unknown": "머스크의 ‘It’s a Brave New World’ 인용, 카사르의 지지 글, 법안 번호(H.R.10538·S.5493)는 2차 보도로만 봤고 원문은 확인하지 못했습니다. 52명 인물 중 직접 연결되는 사람이 없습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-x-com-7f5bce"
+    ],
+    "factcheck_ids": [],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-09"
+    }
+  },
+  {
     "factcheck_ids": [],
     "id": "2026-11-05-yudkowsky-sdf-seoul",
     "date_start": "2026-11-05",
@@ -3036,6 +3059,81 @@
       "state": "approved",
       "by": "nalm",
       "at": "2026-11-06"
+    }
+  },
+  {
+    "id": "2026-11-05-hinton-ipaper-hurtling",
+    "date_start": "2026-11-05",
+    "date_end": null,
+    "date_label": "2026.11.05",
+    "title": "힌턴, i 페이퍼 인터뷰서 “모든 게 통제 불능으로 치닫고 있다”… “킬 스위치는 해법 아냐”, 올트먼·머스크·저커버그 비판",
+    "summary": "제프리 힌턴은 영국 i 페이퍼 인터뷰에서 국가·기업 간 경쟁이 인류의 미래를 걸고 있다며, 초지능이 나오면 설득으로 사람이 전원을 끄지 못하게 할 수 있어 ‘킬 스위치’는 대안이 아니라고 말했습니다.",
+    "camp": "safety",
+    "people_ids": [
+      "geoffrey-hinton",
+      "sam-altman"
+    ],
+    "background": "힌턴은 11월 3일 가디언 인터뷰에서도 ‘AI를 개발하지 않는 편이 나았을 수도’라고 말했습니다. 이번 인터뷰는 런던 다큐멘터리 「AI: Probably Nothing To Worry About」 시사회 계기로 나왔습니다.",
+    "confirmed": "i 페이퍼(11월 5일 게재)에 따르면 힌턴은 ‘통제 불능으로 치닫고 있다’는 질문에 ‘아마 실제로 그렇기 때문’이라고 답했고, 초지능 도래 시점을 ‘예전엔 10~20년, 지금은 10년’이라고 했습니다. 미국 5개 기업 의존이 ‘올트먼, 머스크, 저커버그 같은 인물들의 성격 때문에 특히 위험하다’고 했고, AI 개발자에게 법적 책임을 물어야 한다고 했습니다.",
+    "unknown": "인터뷰 녹취 원문 전체나 영상은 확인하지 못했습니다. 2026-11-03 가디언 인터뷰와 같은 런던 행사 계기로 보이나, 편집 판단으로 별도 사건으로 수록했습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-inews-co-uk-17c1e2"
+    ],
+    "factcheck_ids": [],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-09"
+    }
+  },
+  {
+    "id": "2026-11-06-hassabis-masters-of-scale-closed-loop",
+    "date_start": "2026-11-06",
+    "date_end": null,
+    "date_label": "2026.11.06 (10월 녹화)",
+    "title": "허사비스, 리드 호프먼 대담서 “사람 검토 없는 ‘닫힌 루프’ 자기개선이 가장 위험한 단계”… 업계 자율기구(SRO)·제3자 감사 촉구",
+    "summary": "데미스 허사비스는 Masters of Scale 대담에서 AI가 사람 검토 없이 스스로를 개선하는 단계가 AGI로 가는 매우 위험한 길이라며, 경쟁 속에서도 샌드박스 강화·감시·제3자 평가와 정부 감독을 받는 업계 표준 기구가 필요하다고 말했습니다.",
+    "camp": "middle",
+    "people_ids": [
+      "demis-hassabis",
+      "reid-hoffman"
+    ],
+    "background": "허사비스는 여름 에세이에서 정부 감독을 받는 업계 자율 표준 기구를 제안한 바 있습니다(대담 중 본인 언급).",
+    "confirmed": "Masters of Scale 에피소드(11월 6일 공개, 2026년 10월 샌프란시스코 Presidio Theatre 서밋 녹화)에서 허사비스는 현재는 사람이 루프 안에 있는 초기 RSI 단계지만 다음 단계인 ‘closed-loop RSI’가 가장 위험하다고 했고, ‘강도 높은 경쟁 압력’이 있다고 인정했습니다. 지금 궤도로는 ‘기름 유출’ 같은 사고가 날 것이라며 더 단단한 샌드박스·감시 체계, 제3자 감사, 연구소 간 상호 레드팀을 제안했습니다. 업계 서한(accord)은 ‘충분하지 않지만 시작’이라고 평가했습니다.",
+    "unknown": "정확한 녹화 날짜는 페이지에 없고 ‘2026년 10월’로만 적혀 있습니다. 녹취록은 자동 생성본이라 문구가 일부 다를 수 있습니다.",
+    "verification": "verified",
+    "source_ids": [
+      "src-mastersofscale-com-71414b"
+    ],
+    "factcheck_ids": [],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-09"
+    }
+  },
+  {
+    "id": "2026-11-08-caissi-white-house-reporting",
+    "date_start": "2026-11-08",
+    "date_end": null,
+    "date_label": "2026.11.08",
+    "title": "AP “미 연방 AI 안전 평가 기관 CAISSI, 백악관에 비공식 보고 요청받아”… 독립성 우려",
+    "summary": "AP 보도를 인용한 기사에 따르면 상무부 산하 CAISSI(초지능 혁신·표준 센터) 직원들이 백악관 한 부서에 비공식 보고하라는 요청을 받았고, 안전 평가가 정치화될 수 있다는 우려가 나왔습니다.",
+    "camp": "safety",
+    "people_ids": [],
+    "background": "CAISSI는 미국 AI 표준·혁신 센터에서 이름을 바꾼 기관으로, 이 사이트의 10월 23일 무렵 사건에도 등장합니다.",
+    "confirmed": "Unite.AI(11월 8일)는 AP 보도를 인용해 전직 관리 2명이 익명으로 요청 사실을 설명했고, 어느 부서인지는 밝혀지지 않았으며, 센터장 자리가 공석이라고 전했습니다. 아모데이·올트먼이 독립 평가 기관을 지지해 왔지만 회사가 평가 접근을 제한할 수 있다는 지적도 담았습니다.",
+    "unknown": "AP 원문은 접속 차단(Cloudflare)으로 직접 열지 못했습니다. Unite.AI 기사는 AI 연구 에이전트 명의로 작성돼 신뢰도가 낮습니다.",
+    "verification": "unverified",
+    "source_ids": [
+      "src-unite-ai-b29153"
+    ],
+    "factcheck_ids": [],
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-09"
     }
   }
 ]

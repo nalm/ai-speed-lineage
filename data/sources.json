@@ -4386,5 +4386,61 @@
       "by": "nalm",
       "at": "2026-11-06"
     }
+  },
+  {
+    "id": "src-inews-co-uk-17c1e2",
+    "url": "https://inews.co.uk/news/godfather-ai-warns-humanity-hurtling-out-of-control-4875624",
+    "publisher": "The i Paper",
+    "title": "Godfather of AI warns humanity: It’s all hurtling out of control (2026-11-05)",
+    "kind": "primary",
+    "accessed_at": "2026-11-09",
+    "checked_in": "collect-2026-11-09",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-09"
+    }
+  },
+  {
+    "id": "src-mastersofscale-com-71414b",
+    "url": "https://mastersofscale.com/demis-hassabis-society-is-not-ready-for-the-ai-future/",
+    "publisher": "Masters of Scale",
+    "title": "Demis Hassabis: Society is “not ready” for the AI future (2026-11-06)",
+    "kind": "primary",
+    "accessed_at": "2026-11-09",
+    "checked_in": "collect-2026-11-09",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-09"
+    }
+  },
+  {
+    "id": "src-x-com-7f5bce",
+    "url": "https://x.com/RepYassAnsari/status/2118054336077127797",
+    "publisher": "X (@RepYassAnsari)",
+    "title": "Rep. Yassamin Ansari 게시물 (2026-11-04 UTC)",
+    "kind": "primary",
+    "accessed_at": "2026-11-09",
+    "checked_in": "collect-2026-11-09",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-09"
+    }
+  },
+  {
+    "id": "src-unite-ai-b29153",
+    "url": "https://www.unite.ai/ko/white-house-request-raises-us-ai-safety-center-independence-concerns/",
+    "publisher": "Unite.AI (AP 보도 인용)",
+    "title": "백악관의 요청으로 미국 AI 안전센터의 독립성 우려 커져 (2026-11-08)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-09",
+    "checked_in": "collect-2026-11-09",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-09"
+    }
   }
 ]
