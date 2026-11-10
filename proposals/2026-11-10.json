@@ -1,0 +1,391 @@
+{
+  "generated_at": "2026-11-10T13:00:00+09:00",
+  "collector": "daily-collect (2026-11-09 오후~11-10 보도 대상)",
+  "notes": [
+    "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+    "편집 판단 필요: 파리 호소(진영 중간·연결 인물 4명), 러셀(앤드리슨 연결), 하정우(아모데이·허사비스 연결), CAISSI 검증됨 승격. 진영·계보선 변경 제안 없음",
+    "검토했으나 제외: 앤트로픽 S-1/A '극적 가속' 문구(11-02 사건에 이미 있음), Sentinel 주간 정리(2차 요약), 트럼프 CBS 인터뷰(사이트 인물 아님·원문 미열람), OpenAI Control Room(인물·논쟁 연결 약함), 젠슨 황 사생활 보도(속도 논쟁과 무관·검증 불가), 가디언 수니타 베르마 칼럼(사이트 인물 아님), 르몽드 파리 호소 기사(접속 차단)",
+    "기존 미확인 항목: 새 근거는 CAISSI 건만 찾음. 인물 소속·직함 변화 못 찾음(하정우 직함은 현행과 같음)"
+  ],
+  "items": [
+    {
+      "id": "p-2026-11-10-001",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-pm-gc-ca-8d595f",
+        "url": "https://www.pm.gc.ca/en/news/statements/2026/11/09/joint-declaration-paris-call-ai-safety-and-security",
+        "publisher": "Prime Minister of Canada",
+        "title": "Joint declaration on Paris call for AI safety and security (2026-11-09)",
+        "kind": "primary",
+        "accessed_at": "2026-11-10",
+        "checked_in": "collect-2026-11-10"
+      },
+      "evidence": [
+        {
+          "url": "https://www.pm.gc.ca/en/news/statements/2026/11/09/joint-declaration-paris-call-ai-safety-and-security",
+          "publisher": "Prime Minister of Canada",
+          "published_at": "2026-11-09",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-10"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-10-002",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-yahoo-com-550b2f",
+        "url": "https://www.yahoo.com/news/world/articles/macron-pushes-tighter-ai-safety-234846865.html",
+        "publisher": "dpa (Yahoo News)",
+        "title": "Macron pushes for tighter AI safety rules at international talks (2026-11-09)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-10",
+        "checked_in": "collect-2026-11-10"
+      },
+      "evidence": [
+        {
+          "url": "https://www.yahoo.com/news/world/articles/macron-pushes-tighter-ai-safety-234846865.html",
+          "publisher": "dpa (Yahoo News)",
+          "published_at": "2026-11-09",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-10"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-10-003",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-eualive-net-162b5d",
+        "url": "https://eualive.net/interview-we-are-building-the-ai-asteroid-that-may-destroy-humanity/",
+        "publisher": "EUalive (FocusEurope.pl)",
+        "title": "Interview: We are building the AI asteroid that may destroy humanity (2026-11-09)",
+        "kind": "primary",
+        "accessed_at": "2026-11-10",
+        "checked_in": "collect-2026-11-10"
+      },
+      "evidence": [
+        {
+          "url": "https://eualive.net/interview-we-are-building-the-ai-asteroid-that-may-destroy-humanity/",
+          "publisher": "EUalive (FocusEurope.pl)",
+          "published_at": "2026-11-09",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-10"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-10-004",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-imnews-imbc-com-7b0101",
+        "url": "https://imnews.imbc.com/replay/2026/nw1400/article/6864269_36974.html",
+        "publisher": "MBC 뉴스외전",
+        "title": "[외전인터뷰] \"AI 똑똑해서 위험하다는 건 과장\" \"AI 범죄는 AI로 방어해야\" (2026-11-09)",
+        "kind": "primary",
+        "accessed_at": "2026-11-10",
+        "checked_in": "collect-2026-11-10"
+      },
+      "evidence": [
+        {
+          "url": "https://imnews.imbc.com/replay/2026/nw1400/article/6864269_36974.html",
+          "publisher": "MBC 뉴스외전",
+          "published_at": "2026-11-09",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-10"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-10-005",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-euronews-com-2cac3b",
+        "url": "https://www.euronews.com/2026/11/09/washingtons-ai-safety-watchdog-left-leaderless-as-it-is-drawn-closer-to-white-house",
+        "publisher": "Euronews",
+        "title": "Washington's AI safety watchdog left leaderless as it is drawn closer to White House (2026-11-09)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-10",
+        "checked_in": "collect-2026-11-10"
+      },
+      "evidence": [
+        {
+          "url": "https://www.euronews.com/2026/11/09/washingtons-ai-safety-watchdog-left-leaderless-as-it-is-drawn-closer-to-white-house",
+          "publisher": "Euronews",
+          "published_at": "2026-11-09",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-10"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-10-006",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-09-paris-call-ai-safety",
+        "date_start": "2026-11-09",
+        "date_end": null,
+        "date_label": "2026.11.09",
+        "title": "마크롱 주재 화상회의서 ‘AI 안전·보안을 위한 파리 호소’ 서명… OpenAI·Anthropic·Microsoft와 벤지오의 LawZero 참여",
+        "summary": "에마뉘엘 마크롱 프랑스 대통령이 각국 정상·연구자·AI 연구소 대표 약 50명을 화상으로 모아 프런티어 모델 공동 평가 틀, 독립 평가, 사고 조기 경보 체계를 약속하는 공동 선언을 냈습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "yoshua-bengio",
+          "sam-altman",
+          "dario-amodei",
+          "brad-smith"
+        ],
+        "background": "선언은 서울 AI 정상회의의 프런티어 안전 약속, 9월 23일 유엔 안보리 AI 회의, ‘프런티어 AI 모델 통제 호소’를 앞선 협력 기반으로 꼽습니다.",
+        "confirmed": "캐나다 총리실이 공개한 선언문에 따르면 바레인·캐나다·핀란드·프랑스·노르웨이·네덜란드 정부, Anthropic·Cohere·Hugging Face·Microsoft·Mistral AI·OpenAI 등 기업, LawZero(요슈아 벤지오) 등 시민사회가 서명했고 추가 서명에 열려 있습니다. 개발사는 모델 능력·한계·알려진 위험을 공개하고, 학습·내부 사용 중에도 모델을 멈출 수 있는 안전장치(일시 중지·종료 포함)를 갖추기로 했습니다. dpa에 따르면 올트먼·아모데이·브래드 스미스가 회의에 참석했습니다.",
+        "unknown": "올트먼·아모데이·스미스가 개인으로 서명했는지는 선언문에 없고 회사 이름만 있습니다. 회의 참여국은 엘리제궁 발표(dpa)로 8개국이지만 서명국은 6개국으로, 차이의 이유는 확인하지 못했습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-pm-gc-ca-8d595f",
+          "src-yahoo-com-550b2f"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.pm.gc.ca/en/news/statements/2026/11/09/joint-declaration-paris-call-ai-safety-and-security",
+          "publisher": "Prime Minister of Canada",
+          "published_at": "2026-11-09",
+          "quote": "Developers also commit to implement fail-safe mechanisms to shut down model operations within their control, including during training and internal use (e.g. restrictions, pauses or shutdowns)",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.yahoo.com/news/world/articles/macron-pushes-tighter-ai-safety-234846865.html",
+          "publisher": "dpa (Yahoo News)",
+          "published_at": "2026-11-09",
+          "quote": "Technology executives included OpenAI's Sam Altman, Anthropic's Dario Amodei and Microsoft's Brad Smith.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-10"
+      },
+      "note": "편집 판단(nalm): 승인. 중간 진영·검증됨. 벤지오·올트먼(sam-altman)·아모데이·브래드 스미스 연결. 선언문은 회사 서명이며 개인 서명은 확인되지 않음(참석은 dpa)"
+    },
+    {
+      "id": "p-2026-11-10-007",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-09-russell-focuseurope-ban-superintelligence",
+        "date_start": "2026-11-09",
+        "date_end": null,
+        "date_label": "2026.11.09",
+        "title": "스튜어트 러셀 “우리가 스스로 소행성을 만드는 중… 안전 입증 전까지 통제 불가능한 초지능 금지법 필요”",
+        "summary": "스튜어트 러셀은 폴란드 FocusEurope.pl 인터뷰(영어판 EUalive 게재)에서 기업이 멈추지 않으면 법으로 멈춰야 한다며, 일정 능력 이상의 AI는 안전을 입증하기 전까지 만들 수 없게 하는 법을 주장했습니다.",
+        "camp": "safety",
+        "people_ids": [
+          "stuart-russell",
+          "marc-andreessen"
+        ],
+        "background": "러셀은 10월 사이버 능력 AI 공개서한 등 이 사이트의 안전 진영 사건에 여러 번 등장합니다.",
+        "confirmed": "러셀은 코카인 음료 규제에 빗대 ‘멈추지 않으면 감옥에 간다고 말할 수 있다’고 했고, 미국인 90% 이상이 통제 불가능한 초지능 금지법을 지지할 것이라고 말했습니다. 피터 틸·마크 앤드리슨 등이 트럼프에게 큰돈을 주고 AI 규제 완화를 요구한 뒤 이 문제가 당파 쟁점이 됐다고 주장했습니다.",
+        "unknown": "폴란드어 원 인터뷰의 게재일과 원문 표현은 확인하지 않았고, 영어 번역본 기준입니다. 앤드리슨 관련 대목은 러셀의 주장이며 별도로 검증하지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-eualive-net-162b5d"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://eualive.net/interview-we-are-building-the-ai-asteroid-that-may-destroy-humanity/",
+          "publisher": "EUalive",
+          "published_at": "2026-11-09",
+          "quote": "We should simply stop building it. If the companies won’t stop, then we stop the companies.",
+          "quote_kind": "verbatim(영어 번역본)",
+          "opened": true
+        },
+        {
+          "url": "https://eualive.net/interview-we-are-building-the-ai-asteroid-that-may-destroy-humanity/",
+          "publisher": "EUalive",
+          "published_at": "2026-11-09",
+          "quote": "passing a law that says you may not build AI systems exceeding a certain level of capability until you prove they are safe",
+          "quote_kind": "verbatim(영어 번역본)",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "새 사건"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-10"
+      },
+      "note": "편집 판단(nalm): 승인. 안전 진영·검증됨. 러셀·앤드리슨(marc-andreessen) 연결"
+    },
+    {
+      "id": "p-2026-11-10-008",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-09-ha-jung-woo-mbc-speed-debate",
+        "date_start": "2026-11-09",
+        "date_end": null,
+        "date_label": "2026.11.09",
+        "title": "하정우 국가AI전략위 부위원장 “AI가 똑똑해서 위험하다는 말 다 믿기 어려워… 사다리 걷어차기 해석도 일리”",
+        "summary": "하정우 부위원장은 MBC 뉴스외전 인터뷰에서 미국 프런티어 기업들의 속도조절론에 대해 여러 해석이 다 일리가 있다며, 한국은 그 페이스에 맞추기보다 역량을 최대한 키우면서 안전성과 책임을 함께 챙겨야 한다고 말했습니다.",
+        "camp": "optimist",
+        "people_ids": [
+          "ha-jung-woo",
+          "dario-amodei",
+          "demis-hassabis"
+        ],
+        "background": "하정우 부위원장은 10월 1일 위원회 ‘속도조절론’ 세미나에서도 개발 속도를 늦추는 데 신중한 입장을 밝혔습니다(이 사이트 연표).",
+        "confirmed": "MBC 녹취에 따르면 그는 아모데이·허사비스 등 미국 프런티어 기업들이 공공 기관을 만들자고 하면 ‘힘 있는 기업들끼리’ 하는 것이 돼 사다리 걷어차기 얘기가 나오는 것도 맞는 것 같다고 했고, IPO를 앞두고 인프라 투자 부담을 줄이려는 것이라는 분석도 소개했습니다. AI 해킹은 AI로 방어해야 하며 기술·제도·교육이 함께 필요하다고 말했습니다.",
+        "unknown": "MBC는 녹취 텍스트가 실제 방송과 다를 수 있다고 밝혔습니다. 방송 영상과 대조하지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-imnews-imbc-com-7b0101"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://imnews.imbc.com/replay/2026/nw1400/article/6864269_36974.html",
+          "publisher": "MBC 뉴스외전",
+          "published_at": "2026-11-09",
+          "quote": "특정한 정말 인공지능이 너무 똑똑해져서 위험하기 때문에 조절해야 된다를 다 믿기는 어렵고요",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://imnews.imbc.com/replay/2026/nw1400/article/6864269_36974.html",
+          "publisher": "MBC 뉴스외전",
+          "published_at": "2026-11-09",
+          "quote": "우리나라 입장에서 보면 그들의 속도 조절에 페이스를 맞추는 게 중요한 게 아니라 우리가 할 수 있는 최대한 능력치를 가해서 능력을 키우면서 함께 안전성, 위험성이라든가 책임감도 함께 챙기는 형태로 진행하는 게 중요하다",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-10"
+      },
+      "note": "편집 판단(nalm): 승인. 낙관 진영·검증됨. 하정우·아모데이·허사비스 연결. MBC 녹취가 실제 방송과 다를 수 있다는 단서는 유지"
+    },
+    {
+      "id": "p-2026-11-10-009",
+      "op": "update",
+      "target": "events",
+      "target_id": "2026-11-08-caissi-white-house-reporting",
+      "kind": "수정·상태 변경",
+      "before": {
+        "confirmed": "Unite.AI(11월 8일)는 AP 보도를 인용해 전직 관리 2명이 익명으로 요청 사실을 설명했고, 어느 부서인지는 밝혀지지 않았으며, 센터장 자리가 공석이라고 전했습니다. 아모데이·올트먼이 독립 평가 기관을 지지해 왔지만 회사가 평가 접근을 제한할 수 있다는 지적도 담았습니다.",
+        "unknown": "AP 원문은 접속 차단(Cloudflare)으로 직접 열지 못했습니다. Unite.AI 기사는 AI 연구 에이전트 명의로 작성돼 신뢰도가 낮습니다.",
+        "verification": "unverified",
+        "source_ids": [
+          "src-unite-ai-b29153"
+        ]
+      },
+      "after": {
+        "confirmed": "Unite.AI(11월 8일)는 AP 보도를 인용해 전직 관리 2명이 익명으로 요청 사실을 설명했고, 어느 부서인지는 밝혀지지 않았으며, 센터장 자리가 공석이라고 전했습니다. 아모데이·올트먼이 독립 평가 기관을 지지해 왔지만 회사가 평가 접근을 제한할 수 있다는 지적도 담았습니다. 유로뉴스(11월 9일)도 AP를 인용해 같은 내용을 전하며, 센터가 상임 센터장 없이 안전 연구 공개를 멈췄고, 4월 콜린 번스가 나흘 만에 물러난 뒤 후임 크리스 폴도 석 달 만에 사임해 NIST 원장 아르빈드 라만이 직무대행을 맡고 있다고 보도했습니다. 백악관은 질의에 답하지 않았습니다.",
+        "unknown": "AP 원문은 직접 열지 못했고, 유로뉴스·Unite.AI 두 2차 보도로 확인했습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-unite-ai-b29153",
+          "src-euronews-com-2cac3b"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.euronews.com/2026/11/09/washingtons-ai-safety-watchdog-left-leaderless-as-it-is-drawn-closer-to-white-house",
+          "publisher": "Euronews",
+          "published_at": "2026-11-09",
+          "quote": "staff at the Center for Advancing Innovation and Standards for Super Intelligence (CAISSI), part of the Commerce Department, have recently been asked to report informally to a White House office.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "검증됨 승격",
+        "AP 원문 미열람, 독립 2차 출처 2건"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-10"
+      },
+      "note": "편집 판단(nalm): 승인. 기존 2026-11-08 사건에 유로뉴스 출처를 더하고 확인된 사실을 보강하며 미확인→검증됨으로 승격. AP 원문은 열지 못했고, AP를 인용한 독립 2차 보도 2건으로 확인"
+    }
+  ]
+}
