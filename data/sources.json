@@ -4512,5 +4512,103 @@
       "by": "nalm",
       "at": "2026-11-10"
     }
+  },
+  {
+    "id": "src-government-nl-71917b",
+    "url": "https://www.government.nl/documents/2026/11/10/paris-declaration-on-ai-safety-and-security",
+    "publisher": "Government of the Netherlands",
+    "title": "Paris Declaration on AI safety and security (2026-11-10)",
+    "kind": "primary",
+    "accessed_at": "2026-11-11",
+    "checked_in": "collect-2026-11-11",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-11"
+    }
+  },
+  {
+    "id": "src-elysee-fr-339f18",
+    "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/09/paris-call-for-ai-safety-and-security",
+    "publisher": "Élysée",
+    "title": "Paris Call for AI safety and security (2026-11-09)",
+    "kind": "primary",
+    "accessed_at": "2026-11-11",
+    "checked_in": "collect-2026-11-11",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-11"
+    }
+  },
+  {
+    "id": "src-wired-com-df8566",
+    "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+    "publisher": "WIRED",
+    "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are (2026-11-10)",
+    "kind": "primary",
+    "accessed_at": "2026-11-11",
+    "checked_in": "collect-2026-11-11",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-11"
+    }
+  },
+  {
+    "id": "src-youtube-com-0f43ad",
+    "url": "https://www.youtube.com/watch?v=ZfC98aM9C8Y",
+    "publisher": "LBC (YouTube)",
+    "title": "The 'Godfather of AI' predicts humanity's chance of extinction (2026-11-10)",
+    "kind": "primary",
+    "accessed_at": "2026-11-11",
+    "checked_in": "collect-2026-11-11",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-11"
+    }
+  },
+  {
+    "id": "src-pm-gov-au-0875bd",
+    "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+    "publisher": "Prime Minister of Australia",
+    "title": "New Australian AI safety and security protections (2026-11-10)",
+    "kind": "primary",
+    "accessed_at": "2026-11-11",
+    "checked_in": "collect-2026-11-11",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-11"
+    }
+  },
+  {
+    "id": "src-governor-ny-gov-064ef5",
+    "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+    "publisher": "Governor of New York",
+    "title": "Governor Hochul Declares NY Will Lead the Nation in AI Science and Safety; Launches New Research Institute (2026-11-10)",
+    "kind": "primary",
+    "accessed_at": "2026-11-11",
+    "checked_in": "collect-2026-11-11",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-11"
+    }
+  },
+  {
+    "id": "src-mt-co-kr-0a9f1b",
+    "url": "https://www.mt.co.kr/tech/2026/11/11/2026111108551710011",
+    "publisher": "머니투데이",
+    "title": "상장 앞둔 앤트로픽 CEO \"10년 내 암·알츠하이머 정복\" (2026-11-11)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-11",
+    "checked_in": "collect-2026-11-11",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-11"
+    }
   }
 ]

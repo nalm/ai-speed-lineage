@@ -1,0 +1,543 @@
+{
+  "generated_at": "2026-11-11T13:00:00+09:00",
+  "collector": "daily-collect (2026-11-10~11-11 보도 대상)",
+  "notes": [
+    "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+    "편집 판단 필요: 벤지오 WIRED(올트먼·아모데이 연결 여부), 호주·뉴욕(진영 중간·연결 인물 없음), 아모데이 야후 파이낸스(관련성). 진영·계보선 변경 제안 없음",
+    "기존 항목 정정: 파리 호소 서명국 수(6개국→게시본마다 다르고 계속 증가)",
+    "검토했으나 제외: 젠슨 황 스캔들의 정책 영향 분석(Axios·Fortune, 의혹 단계·사이트 기존 판단과 같이 보류), 마크롱 '아동 위협 AI 금지' Les Echos 인터뷰(사이트 인물 아님), OpenAI Control Room(11-10에 이미 제외), Firstpost G20 기사(9월 기사)",
+    "기존 미확인 항목: 새 근거 못 찾음. 인물 소속·직함 변화 못 찾음"
+  ],
+  "items": [
+    {
+      "id": "p-2026-11-11-001",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-government-nl-71917b",
+        "url": "https://www.government.nl/documents/2026/11/10/paris-declaration-on-ai-safety-and-security",
+        "publisher": "Government of the Netherlands",
+        "title": "Paris Declaration on AI safety and security (2026-11-10)",
+        "kind": "primary",
+        "accessed_at": "2026-11-11",
+        "checked_in": "collect-2026-11-11"
+      },
+      "evidence": [
+        {
+          "url": "https://www.government.nl/documents/2026/11/10/paris-declaration-on-ai-safety-and-security",
+          "publisher": "Government of the Netherlands",
+          "published_at": "2026-11-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-11-002",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-elysee-fr-339f18",
+        "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/09/paris-call-for-ai-safety-and-security",
+        "publisher": "Élysée",
+        "title": "Paris Call for AI safety and security (2026-11-09)",
+        "kind": "primary",
+        "accessed_at": "2026-11-11",
+        "checked_in": "collect-2026-11-11"
+      },
+      "evidence": [
+        {
+          "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/09/paris-call-for-ai-safety-and-security",
+          "publisher": "Élysée",
+          "published_at": "2026-11-09",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-11-003",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-wired-com-df8566",
+        "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+        "publisher": "WIRED",
+        "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are (2026-11-10)",
+        "kind": "primary",
+        "accessed_at": "2026-11-11",
+        "checked_in": "collect-2026-11-11"
+      },
+      "evidence": [
+        {
+          "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+          "publisher": "WIRED",
+          "published_at": "2026-11-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-11-004",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-youtube-com-0f43ad",
+        "url": "https://www.youtube.com/watch?v=ZfC98aM9C8Y",
+        "publisher": "LBC (YouTube)",
+        "title": "The 'Godfather of AI' predicts humanity's chance of extinction (2026-11-10)",
+        "kind": "primary",
+        "accessed_at": "2026-11-11",
+        "checked_in": "collect-2026-11-11"
+      },
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=ZfC98aM9C8Y",
+          "publisher": "LBC (YouTube)",
+          "published_at": "2026-11-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-11-005",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-pm-gov-au-0875bd",
+        "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+        "publisher": "Prime Minister of Australia",
+        "title": "New Australian AI safety and security protections (2026-11-10)",
+        "kind": "primary",
+        "accessed_at": "2026-11-11",
+        "checked_in": "collect-2026-11-11"
+      },
+      "evidence": [
+        {
+          "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+          "publisher": "Prime Minister of Australia",
+          "published_at": "2026-11-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-11-006",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-governor-ny-gov-064ef5",
+        "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+        "publisher": "Governor of New York",
+        "title": "Governor Hochul Declares NY Will Lead the Nation in AI Science and Safety; Launches New Research Institute (2026-11-10)",
+        "kind": "primary",
+        "accessed_at": "2026-11-11",
+        "checked_in": "collect-2026-11-11"
+      },
+      "evidence": [
+        {
+          "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+          "publisher": "Governor of New York",
+          "published_at": "2026-11-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-11-007",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-mt-co-kr-0a9f1b",
+        "url": "https://www.mt.co.kr/tech/2026/11/11/2026111108551710011",
+        "publisher": "머니투데이",
+        "title": "상장 앞둔 앤트로픽 CEO \"10년 내 암·알츠하이머 정복\" (2026-11-11)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-11",
+        "checked_in": "collect-2026-11-11"
+      },
+      "evidence": [
+        {
+          "url": "https://www.mt.co.kr/tech/2026/11/11/2026111108551710011",
+          "publisher": "머니투데이",
+          "published_at": "2026-11-11",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-11-008",
+      "op": "update",
+      "target": "events",
+      "target_id": "2026-11-09-paris-call-ai-safety",
+      "kind": "수정",
+      "before": {
+        "confirmed": "캐나다 총리실이 공개한 선언문에 따르면 바레인·캐나다·핀란드·프랑스·노르웨이·네덜란드 정부, Anthropic·Cohere·Hugging Face·Microsoft·Mistral AI·OpenAI 등 기업, LawZero(요슈아 벤지오) 등 시민사회가 서명했고 추가 서명에 열려 있습니다. 개발사는 모델 능력·한계·알려진 위험을 공개하고, 학습·내부 사용 중에도 모델을 멈출 수 있는 안전장치(일시 중지·종료 포함)를 갖추기로 했습니다. dpa에 따르면 올트먼·아모데이·브래드 스미스가 회의에 참석했습니다.",
+        "unknown": "올트먼·아모데이·스미스가 개인으로 서명했는지는 선언문에 없고 회사 이름만 있습니다. 회의 참여국은 엘리제궁 발표(dpa)로 8개국이지만 서명국은 6개국으로, 차이의 이유는 확인하지 못했습니다.",
+        "source_ids": [
+          "src-pm-gc-ca-8d595f",
+          "src-yahoo-com-550b2f"
+        ]
+      },
+      "after": {
+        "confirmed": "선언문은 서명이 계속 늘고 있습니다. 엘리제궁 게시본(‘추가 서명에 열려 있고 갱신 중’)에는 오스트리아·바레인·캐나다·크로아티아·키프로스·에스토니아·핀란드·프랑스·아일랜드·케냐·라트비아·리히텐슈타인·룩셈부르크·네덜란드·노르웨이·포르투갈 등 16개국 정부, Anthropic·Black Forest Labs·Cohere·Domyn·Hugging Face·Microsoft·Mistral AI·OpenAI·Sakana AI·Synthesia 등 10개 기업, LawZero(요슈아 벤지오)·SaferAI 등 시민사회 7곳이 올라 있습니다. 개발사는 모델 능력·한계·알려진 위험을 공개하고, 학습·내부 사용 중에도 모델을 멈출 수 있는 안전장치(일시 중지·종료 포함)를 갖추기로 했습니다. dpa에 따르면 올트먼·아모데이·브래드 스미스가 회의에 참석했습니다.",
+        "unknown": "올트먼·아모데이·스미스가 개인으로 서명했는지는 선언문에 없고 회사 이름만 있습니다. 정부별 게시본의 서명국 명단이 서로 다릅니다. 네덜란드 정부 게시본(11월 10일)에는 일본·영국·시에라리온이 있지만 엘리제궁 게시본에는 없고, 엘리제궁 게시본의 오스트리아·아일랜드 등은 네덜란드 게시본에 없습니다. 최종 서명국 수는 확인하지 못했습니다.",
+        "source_ids": [
+          "src-pm-gc-ca-8d595f",
+          "src-yahoo-com-550b2f",
+          "src-elysee-fr-339f18",
+          "src-government-nl-71917b"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/09/paris-call-for-ai-safety-and-security",
+          "publisher": "Élysée",
+          "published_at": "2026-11-09",
+          "quote": "The statement remains open to new endorsements and is being updated.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.government.nl/documents/2026/11/10/paris-declaration-on-ai-safety-and-security",
+          "publisher": "Government of the Netherlands",
+          "published_at": "2026-11-10",
+          "quote": "Heads of States and Governments: Bahrain, Canada, Finland, France, Japan, Norway, the Netherlands (Kingdom of the), Sierra Leone, United Kingdom",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "기존 항목 정정"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인. 기존 2026-11-09 파리 호소 사건을 수정(중복 없이). 고정된 ‘서명국 6개국’ 서술을 삭제하고, 게시본마다 서명 명단이 다름(엘리제궁 갱신본 16개국·기업 10·시민사회 7, 네덜란드 게시본 9개국에 일본·영국·시에라리온, 캐나다 총리실 초기본)을 명시. 엘리제궁·네덜란드 출처 추가. 진영·인물 연결 변경 없음"
+    },
+    {
+      "id": "p-2026-11-11-009",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-10-bengio-wired-pause-optimistic",
+        "date_start": "2026-11-10",
+        "date_end": null,
+        "date_label": "2026.11.10",
+        "title": "벤지오, WIRED 전문가 10인 인터뷰서 “일시 중지·감속·상한 같은 것에 훨씬 더 낙관적… 회사 안에 두려움이 충분하다”",
+        "summary": "WIRED가 AI 안전 전문가 10명에게 가장 큰 위험을 물은 기획에서 요슈아 벤지오는 ‘일시 중지가 가장 파국적인 결과를 피할 최선의 방법’이라며, 기업들이 ‘속도 조절(pacing)’이라는 말로 모호하게 표현하고 있다고 지적했습니다.",
+        "camp": "safety",
+        "people_ids": [
+          "yoshua-bengio",
+          "sam-altman",
+          "dario-amodei"
+        ],
+        "background": "벤지오는 11월 9일 파리 호소에 LawZero로 서명했습니다. WIRED 패널 다수는 일시 중지가 오래가지 못할 것이라며 회의적이었다고 기사는 정리했습니다.",
+        "confirmed": "WIRED(로런 구드, 11월 10일) 기사에서 벤지오는 위험을 정렬 실패 AI, 악용, 권력 집중, 의도치 않은 결과로 나누고 ‘미·중 경쟁과 기업 간 경쟁은 지배 게임’이라고 했습니다. ‘샘, 다리오, 마크 등이 일시 중지에 협력하겠느냐’는 질문에 ‘그들은 일시 중지라 부르지 않고 속도 조절을 말한다’고 답하고, 더 큰 사고가 사업에도 타격이 될 것이라는 기업 내부의 두려움을 낙관의 근거로 들었습니다.",
+        "unknown": "기사 본문의 질문에 나온 ‘마크’가 누구인지는 기사에 명시되지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-wired-com-df8566"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+          "publisher": "WIRED",
+          "published_at": "2026-11-10",
+          "quote": "Let me just say that I’m much more optimistic now about something like a pause or slowdown or cap on advancement. I think there’s enough fear inside the companies.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인. 안전 진영·검증됨. 벤지오·올트먼(sam-altman)·아모데이 연결"
+    },
+    {
+      "id": "p-2026-11-11-010",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-10-hinton-lbc-extinction-odds",
+        "date_start": "2026-11-10",
+        "date_end": null,
+        "date_label": "2026.11.10",
+        "title": "힌턴, LBC 인터뷰서 “AI로 인류가 살아남지 못할 확률 10~20%… 기업 자율규제는 터무니없어, FDA 수준 규제 필요”(요약 기준)",
+        "summary": "영국 LBC가 공개한 12분 인터뷰에서 제프리 힌턴은 초지능까지 남은 시간을 10년 미만으로 줄여 잡고, 인류 멸종 확률을 ‘직감’으로 10~20%라고 말한 것으로 정리됐습니다.",
+        "camp": "safety",
+        "people_ids": [
+          "geoffrey-hinton"
+        ],
+        "background": "힌턴은 11월 5일 i 페이퍼 인터뷰에서도 ‘모든 게 통제 불능으로 치닫고 있다’고 말했습니다.",
+        "confirmed": "LBC 공식 유튜브 채널에 ‘The 'Godfather of AI' predicts humanity's chance of extinction’ 영상이 11월 10일(서울 기준) 올라온 것은 확인했습니다.",
+        "unknown": "발언 내용(10~20%, 개발 중단 불가론, 자율규제 비판, FDA 수준 규제 요구)은 영상 원문이 아니라 제3자 요약 페이지로만 확인했습니다. 자막 수집이 막혀 정확한 문구는 확인하지 못했습니다.",
+        "verification": "unverified",
+        "source_ids": [
+          "src-youtube-com-0f43ad"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=ZfC98aM9C8Y",
+          "publisher": "LBC (YouTube)",
+          "published_at": "2026-11-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        },
+        {
+          "url": "https://blumify.io/t/youtube/ZfC98aM9C8Y/we-have-a-20-chance-of-extinction-the-godfather-of-ai",
+          "publisher": "Blumify(제3자 요약)",
+          "published_at": "2026-11-10",
+          "quote": "Hinton estimates an 80-90% chance of surviving and a 10-20% chance of not surviving, stressing this is a gut feeling, not sound statistics.",
+          "quote_kind": "paraphrase",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "새 사건",
+        "원문 미확인"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인, 미확인으로(내용은 제3자 요약으로만 확인). 안전 진영. 힌턴 연결"
+    },
+    {
+      "id": "p-2026-11-11-011",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-10-australia-frontier-ai-regulator",
+        "date_start": "2026-11-10",
+        "date_end": null,
+        "date_label": "2026.11.10",
+        "title": "호주, 프런티어 AI 기업에 독립 평가·사고 신속 보고 의무화… AI 안전 전담 규제기관 신설 추진",
+        "summary": "앨버니지 정부가 호주에서 사업하려는 모든 프런티어 AI 기업에 의무적 안전·보안 조치를 ‘호주 AI 표준’ 법에 담고, 상당한 제재 권한을 가진 새 규제기관이 집행하게 하겠다고 발표했습니다.",
+        "camp": "middle",
+        "people_ids": [],
+        "background": "호주 총리실은 주요 국제 회의를 앞두고 안전 접근법을 먼저 발표한다고 밝혔습니다. 같은 날 뉴욕주도 RAISE 법 등록 창구를 열었습니다.",
+        "confirmed": "총리실 발표에 따르면 기업은 개발·배포 전 단계 보안 통제, 심각한 위험 식별·관리, 모델의 독립 평가 허용, 사고의 신속한 정부 통보, 안전·보안 체계 공개를 해야 합니다. 새 규제기관은 호주 AI안전연구소와 협력합니다. 발표는 ‘이탈한(rogue) AI 에이전트’ 위험의 조기 경보를 목적으로 들었습니다.",
+        "unknown": "적용 대상 기준, 시행일, 제재 규모, 보고 기한은 발표에 없고 추후 공개한다고 했습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-pm-gov-au-0875bd"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+          "publisher": "Prime Minister of Australia",
+          "published_at": "2026-11-10",
+          "quote": "The Government will propose these protections be enforced by a new targeted regulator for AI safety, which will work with the Australian AI Safety Institute",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인. 중간 진영·검증됨. 연결 인물 없이 수록"
+    },
+    {
+      "id": "p-2026-11-11-012",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-10-ny-raise-portal-nycairr",
+        "date_start": "2026-11-10",
+        "date_end": null,
+        "date_label": "2026.11.10",
+        "title": "뉴욕주, RAISE 법 등록 창구 열고 주립 AI 독립 시험센터 출범… 호컬 “AI 기업 말만 믿기엔 위험이 너무 크다”",
+        "summary": "뉴욕주가 대형 프런티어 AI 개발사의 RAISE 법 등록 포털을 열고(기한 2027년 1월 1일), 빙엄턴대에 프런티어 AI를 독립적으로 시험할 ‘뉴욕 AI 책임·연구 센터’를 출범시켰습니다.",
+        "camp": "middle",
+        "people_ids": [],
+        "background": "10월 29일에는 RAISE 법을 강화하는 ‘RAISE 2’ 법안(S.10731)이 발의됐습니다.",
+        "confirmed": "주지사실 발표에 따르면 DIGIT가 등록 포털을 열었고, 1월부터 대형 개발사는 안전 체계를 공개하고 모든 프런티어 개발사는 중대 안전 사고 보고와 투명성 보고서 공개 의무를 집니다. 중대 사고는 72시간 안에 보고해야 합니다. 센터는 80명 이상 연구자가 Empire AI 연산 자원으로 프런티어 모델을 시험하고, DIGIT와 함께 개발사 안전 체계를 검토해 요건 강화를 권고합니다.",
+        "unknown": "벌금 규모(첫 위반 100만 달러, 이후 300만 달러)는 TechCrunch 보도에만 있고 주지사실 발표에는 없습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-governor-ny-gov-064ef5"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+          "publisher": "Governor of New York",
+          "published_at": "2026-11-10",
+          "quote": "The stakes are too high to simply take AI companies at their word.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "publisher": "TechCrunch",
+          "published_at": "2026-11-10",
+          "quote": "Penalties can be as high as $1 million for one violation and $3 million for subsequent violations.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인. 중간 진영·검증됨. 연결 인물 없이 수록"
+    },
+    {
+      "id": "p-2026-11-11-013",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-11-amodei-yahoo-finance-miracles",
+        "date_start": "2026-11-11",
+        "date_end": null,
+        "date_label": "2026.11.11",
+        "title": "아모데이, 상장 앞두고 야후 파이낸스 인터뷰 “암·알츠하이머, 10년 안에 과거의 유물 될 것… 위험 다루는 기업이 정당성 얻어”",
+        "summary": "앤트로픽 상장(공모가 18일 확정 예정)을 앞두고 다리오 아모데이가 AI가 의학 발전을 가속해 ‘기적의 시대’를 열 수 있다면서도 기술이 잘못될 수 있는 모든 방식을 신중히 다뤄야 한다고 말했습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "dario-amodei"
+        ],
+        "background": "앤트로픽은 11월 10일 수정 증권신고서에서 공모가 범위를 주당 70~78달러로 제시했습니다(머니투데이·Fortune 보도).",
+        "confirmed": "머니투데이 보도에 따르면 아모데이는 11일 공개된 야후 파이낸스 인터뷰에서 ‘암, 알츠하이머, 심장질환, 정신질환은 10년도 안 돼 과거의 유물이 될 것’이라고 했고, ‘위험을 제대로 다루는 기업이 사회가 사업을 운영할 정당성을 부여하는 기업이 될 것’이라고 했습니다.",
+        "unknown": "야후 파이낸스 인터뷰 원문(영상·기사)은 직접 열지 못했고 한국어 번역 보도로만 확인했습니다.",
+        "verification": "unverified",
+        "source_ids": [
+          "src-mt-co-kr-0a9f1b"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.mt.co.kr/tech/2026/11/11/2026111108551710011",
+          "publisher": "머니투데이",
+          "published_at": "2026-11-11",
+          "quote": "오늘날 우리가 암, 알츠하이머, 심장질환, 정신질환 같은 것들을 바라본다면 이들은 10년도 안 돼 과거의 유물이 될 것이라고 생각한다",
+          "quote_kind": "paraphrase",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "새 사건",
+        "원문 미확인"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-11"
+      },
+      "note": "편집 판단(nalm): 승인, 미확인으로(야후 파이낸스 원문은 열지 못했고 머니투데이 번역·의역으로만 확인). 중간 진영. 아모데이 연결"
+    }
+  ]
+}
