@@ -4610,5 +4610,61 @@
       "by": "nalm",
       "at": "2026-11-11"
     }
+  },
+  {
+    "id": "src-metr-org-505afe",
+    "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+    "publisher": "METR",
+    "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026 (2026-11-05)",
+    "kind": "primary",
+    "accessed_at": "2026-11-12",
+    "checked_in": "collect-2026-11-12",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-12"
+    }
+  },
+  {
+    "id": "src-businessinsider-com-05e9c0",
+    "url": "https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11",
+    "publisher": "Business Insider",
+    "title": "Dario Amodei says AI will cure cancer and Alzheimer's in a decade. Doctors aren't buying it. (2026-11-11)",
+    "kind": "primary",
+    "accessed_at": "2026-11-12",
+    "checked_in": "collect-2026-11-12",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-12"
+    }
+  },
+  {
+    "id": "src-govdelivery-com-562267",
+    "url": "https://content.govdelivery.com/accounts/USTREAS/bulletins/432661c",
+    "publisher": "U.S. Department of the Treasury",
+    "title": "Remarks from Secretary of the Treasury Scott Bessent at the National Committee on U.S.-China Relations Gala (2026-11-10)",
+    "kind": "primary",
+    "accessed_at": "2026-11-12",
+    "checked_in": "collect-2026-11-12",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-12"
+    }
+  },
+  {
+    "id": "src-cnbc-com-8181e9",
+    "url": "https://www.cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html",
+    "publisher": "CNBC",
+    "title": "U.S., China should 'harbor no illusions' about their differences: Bessent (2026-11-11)",
+    "kind": "primary",
+    "accessed_at": "2026-11-12",
+    "checked_in": "collect-2026-11-12",
+    "review": {
+      "state": "approved",
+      "by": "nalm",
+      "at": "2026-11-12"
+    }
   }
 ]

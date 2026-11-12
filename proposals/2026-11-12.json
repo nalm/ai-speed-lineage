@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-11-12T13:00:00+09:00",
+  "collector": "daily-collect (2026-11-11~11-12 보도 대상)",
+  "notes": [
+    "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+    "편집 판단 필요: 아모데이 사건의 발언 장소·날짜 정정(야후 파이낸스→IPO 로드쇼 영상, 11-11→11-10), 베센트 미·중 SI 대화(연결 인물 없음·진영 중간). 진영·계보선 변경 제안 없음",
+    "기존 미확인 항목 근거 확보: METR 앤트로픽 평가(원문 확인), 아모데이 발언(Business Insider 원문 인용)",
+    "검토했으나 제외: 파리 호소 후속 보도(CeSIA 반응·디코더 등, 기존 사건과 중복), 버클리 ‘하드웨어 일시중지’ 연구(GSPP 기사 11-02, 러셀 참여는 2차 요약에서만 확인), AI Futures Project 타임라인 갱신(사이트 인물 아님), 게리 마커스 ‘앤트로픽 IPO 반대’(11-10, 재무 분석 위주로 속도 논쟁과 관련 약함), 바티칸 타이그 주교 웹서밋 발언(사이트 인물 아님·2차 출처), 법무법인 세종 세미나(사이트 인물 아님)",
+    "인물 소속·직함 변화 못 찾음. 힌턴 LBC(미확인) 영상 원문 문구는 이번에도 확인 못 함"
+  ],
+  "items": [
+    {
+      "id": "p-2026-11-12-001",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-metr-org-505afe",
+        "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+        "publisher": "METR",
+        "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026 (2026-11-05)",
+        "kind": "primary",
+        "accessed_at": "2026-11-12",
+        "checked_in": "collect-2026-11-12"
+      },
+      "evidence": [
+        {
+          "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+          "publisher": "METR",
+          "published_at": "2026-11-05",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-12"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-12-002",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-businessinsider-com-05e9c0",
+        "url": "https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11",
+        "publisher": "Business Insider",
+        "title": "Dario Amodei says AI will cure cancer and Alzheimer's in a decade. Doctors aren't buying it. (2026-11-11)",
+        "kind": "primary",
+        "accessed_at": "2026-11-12",
+        "checked_in": "collect-2026-11-12"
+      },
+      "evidence": [
+        {
+          "url": "https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11",
+          "publisher": "Business Insider",
+          "published_at": "2026-11-11",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-12"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-12-003",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-govdelivery-com-562267",
+        "url": "https://content.govdelivery.com/accounts/USTREAS/bulletins/432661c",
+        "publisher": "U.S. Department of the Treasury",
+        "title": "Remarks from Secretary of the Treasury Scott Bessent at the National Committee on U.S.-China Relations Gala (2026-11-10)",
+        "kind": "primary",
+        "accessed_at": "2026-11-12",
+        "checked_in": "collect-2026-11-12"
+      },
+      "evidence": [
+        {
+          "url": "https://content.govdelivery.com/accounts/USTREAS/bulletins/432661c",
+          "publisher": "U.S. Department of the Treasury",
+          "published_at": "2026-11-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-12"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-12-004",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-cnbc-com-8181e9",
+        "url": "https://www.cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html",
+        "publisher": "CNBC",
+        "title": "U.S., China should 'harbor no illusions' about their differences: Bessent (2026-11-11)",
+        "kind": "primary",
+        "accessed_at": "2026-11-12",
+        "checked_in": "collect-2026-11-12"
+      },
+      "evidence": [
+        {
+          "url": "https://www.cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html",
+          "publisher": "CNBC",
+          "published_at": "2026-11-11",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-12"
+      },
+      "note": "편집 판단(nalm): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-12-005",
+      "op": "update",
+      "target": "events",
+      "target_id": "2026-11-05-metr-anthropic-acceleration",
+      "kind": "검증 상태 변경(미확인→검증됨)+수정",
+      "before": {
+        "confirmed": "로이터(11월 5일)에 따르면 METR는 ‘2026년 10월 기준 앤트로픽은 잘 정의된 과제에서 모델 능력을 2024년 3월~2025년 10월의 약 2배 속도로 향상시키고 있을 가능성이 높다’며 불확실성이 커 실제 값은 1.5~2.5배일 수 있다고 했습니다. 학습 연산량 확대 때문은 아니라고 확신한다고 했고, AI가 아직 학습의 가장 중요한 단계에 완전 자율로 크게 기여하지는 못한다고 덧붙였습니다.",
+        "unknown": "METR 보고서 원문은 직접 열어 보지 못했습니다(AP 기사도 접속 시간 초과). 앤트로픽 공식 반응은 보도 시점에 없었습니다.",
+        "verification": "unverified",
+        "source_ids": [
+          "src-streetinsider-com-27f03a"
+        ]
+      },
+      "after": {
+        "confirmed": "METR 보고서 원문(11월 5일)에 따르면 METR는 8월 12일~10월 29일 앤트로픽 내부에서 고접근 평가를 했고, ‘2026년 10월 기준 앤트로픽은 잘 정의된 과제에서 모델 능력을 2024년 3월~2025년 10월의 약 2배 속도로 향상시키고 있을 가능성이 높다’며 실제 값이 1.3배나 3배에 가깝더라도 놀랍지 않을 만큼 불확실성이 크다고 했습니다. 벤치마크 지표(AECI) 기준 상승 속도는 2025년 10월 이전의 1.9배(95% 신뢰구간 1.5~2.8배)이고, 학습 연산량 확대 때문은 아니라고 확신한다고 했습니다. 현재 가속의 대부분(약 80%로 추정)은 AI 활용 때문으로 봤고, AI가 아직 학습의 가장 중요한 단계에 완전 자율로 크게 기여하지는 못한다고 했습니다.",
+        "unknown": "앤트로픽이 METR가 가장 중요하게 본 근거의 대부분을 비공개 처리(redaction)해, 보고서 스스로 ‘근거의 투명성은 달성하지 못했다’고 밝혔습니다. 앤트로픽의 공식 반응은 확인하지 못했습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-streetinsider-com-27f03a",
+          "src-metr-org-505afe"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+          "publisher": "METR",
+          "published_at": "2026-11-05",
+          "quote": "As of October 2026, Anthropic is likely improving the capabilities of their models on well-specified tasks at around twice the rate they did between March 2024 and October 2025. This estimate is given with high uncertainty; we would not be surprised if the true acceleration was closer to 1.3x or 3x the historical rate.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "기존 항목 정정"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-12"
+      },
+      "note": "편집 판단(nalm): 승인. 기존 2026-11-05 METR 앤트로픽 평가 사건을 수정(중복 없이). 미확인→검증됨. 수치는 원문 기준으로 정정(종합 1.3~3배, AECI 1.9배·95% CI 1.5~2.8배, 가속의 약 80%가 AI 활용). 핵심 근거 대부분은 비공개라는 단서 유지"
+    },
+    {
+      "id": "p-2026-11-12-006",
+      "op": "update",
+      "target": "events",
+      "target_id": "2026-11-11-amodei-yahoo-finance-miracles",
+      "kind": "수정+검증 상태 변경(미확인→검증됨)",
+      "before": {
+        "date_start": "2026-11-11",
+        "date_label": "2026.11.11",
+        "title": "아모데이, 상장 앞두고 야후 파이낸스 인터뷰 “암·알츠하이머, 10년 안에 과거의 유물 될 것… 위험 다루는 기업이 정당성 얻어”",
+        "summary": "앤트로픽 상장(공모가 18일 확정 예정)을 앞두고 다리오 아모데이가 AI가 의학 발전을 가속해 ‘기적의 시대’를 열 수 있다면서도 기술이 잘못될 수 있는 모든 방식을 신중히 다뤄야 한다고 말했습니다.",
+        "confirmed": "머니투데이 보도에 따르면 아모데이는 11일 공개된 야후 파이낸스 인터뷰에서 ‘암, 알츠하이머, 심장질환, 정신질환은 10년도 안 돼 과거의 유물이 될 것’이라고 했고, ‘위험을 제대로 다루는 기업이 사회가 사업을 운영할 정당성을 부여하는 기업이 될 것’이라고 했습니다.",
+        "unknown": "야후 파이낸스 인터뷰 원문(영상·기사)은 직접 열지 못했고 한국어 번역 보도로만 확인했습니다.",
+        "verification": "unverified",
+        "source_ids": [
+          "src-mt-co-kr-0a9f1b"
+        ]
+      },
+      "after": {
+        "date_start": "2026-11-10",
+        "date_label": "2026.11.10",
+        "title": "아모데이, 상장 로드쇼 영상서 “암·알츠하이머, 10년 안에 과거의 유물 될 것… 위험을 제대로 다루는 기업이 사회의 신뢰 얻어”… 의료계 반발",
+        "summary": "앤트로픽이 11월 10일(현지) 공개한 42분짜리 IPO 로드쇼 영상에서 다리오 아모데이가 AI로 ‘기적의 시대’를 열 수 있다면서도 기술이 잘못될 수 있는 모든 방식을 신중히 다뤄야 한다고 말했습니다. 독일 전 보건장관 카를 라우터바흐 등은 ‘10년 안에는 불가능하다’고 반박했습니다.",
+        "confirmed": "Business Insider(11월 11일)에 따르면 아모데이는 회사가 화요일 공개한 42분 로드쇼 영상에서 ‘암, 알츠하이머, 심장질환, 정신질환은 10년도 안 돼 과거의 유물이 될 것’이라고 했고 ‘제대로 하면 기적의 시대를 만들 수 있다’고 했습니다. 라우터바흐 전 장관은 X에 ‘AI가 도움은 되겠지만 10년 안에는 불가능하다’고 썼습니다. 머니투데이도 같은 발언을 보도했습니다.",
+        "unknown": "영상 원본(ipo.anthropic.com)은 직접 재생해 확인하지 못했고, 발언 문구는 Business Insider 인용으로 확인했습니다. 기존에 출처로 적은 ‘야후 파이낸스 인터뷰’가 로드쇼 영상을 전한 것인지 별도 인터뷰인지는 확인하지 못했습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-mt-co-kr-0a9f1b",
+          "src-businessinsider-com-05e9c0"
+        ]
+      },
+      "evidence": [
+        {
+          "url": "https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11",
+          "publisher": "Business Insider",
+          "published_at": "2026-11-11",
+          "quote": "In a 42-minute IPO roadshow video the company released on Tuesday, Amodei made the audacious prediction that \"cancer, Alzheimer's, heart disease, mental illness — these will be relics of the past in, I think, less than a decade.\"",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "기존 항목 정정",
+        "편집 판단 필요"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-12"
+      },
+      "note": "편집 판단(nalm): 승인. 기존 아모데이 사건을 수정(중복 없이). 미확인→검증됨. 출처는 앤트로픽 IPO 로드쇼 영상(Business Insider 인용). 날짜 11/11→11/10. 라우터바흐 등 의료계 반발 추가. 진영은 중간 유지"
+    },
+    {
+      "id": "p-2026-11-12-007",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-10-bessent-us-china-si-dialogue",
+        "date_start": "2026-11-10",
+        "date_end": null,
+        "date_label": "2026.11.10",
+        "title": "베센트 미 재무장관 “중국과 ‘초지능’ 대화 신설… 출시 전 모델 시험 관행 교환·심각한 사고 직통 통보”, 개발 속도 제한 약속은 없어",
+        "summary": "스콧 베센트 미 재무장관이 뉴욕 미중관계전국위원회 만찬 연설에서 트럼프 대통령 지시로 중국과 초지능(SI) 대화를 시작했다고 밝혔습니다. 18~19일 APEC 계기 미·중 정상회담을 앞둔 발표입니다.",
+        "camp": "middle",
+        "people_ids": [],
+        "background": "미·중은 9월 시진핑 주석 방미 때 AI 대화와 사고 대응 소통 채널 출범에 합의한 바 있다고 CNBC가 전했습니다.",
+        "confirmed": "미 재무부가 공개한 연설문(11월 10일, 사전 배포본)에서 베센트는 ‘공동의 위험에 대비하고 두 체제 간 오해를 막기 위한 SI 대화’를 시작했고, 출시 전 첨단 모델 평가·시험 모범 관행과 ‘인간의 판단이 기술을 확고히 통제하게 하는’ 관행을 교환할 예정이며, SI 모델 관련 심각한 사고를 서로 신속히 알리는 직통 채널을 만들고 있다고 했습니다. CNBC는 베센트가 기술 발전을 제한하겠다는 약속은 하지 않았다고 보도했습니다.",
+        "unknown": "중국 정부의 공식 확인·발표는 찾지 못했습니다. 대화의 참여 기관·일정 등 세부 내용은 연설문에 없습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-govdelivery-com-562267",
+          "src-cnbc-com-8181e9"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://content.govdelivery.com/accounts/USTREAS/bulletins/432661c",
+          "publisher": "U.S. Department of the Treasury",
+          "published_at": "2026-11-10",
+          "quote": "So, at President Trump’s direction, we have begun that important work by establishing a new dialogue with China on SI, designed to guard against shared risks and prevent a misunderstanding between our two systems.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html",
+          "publisher": "CNBC",
+          "published_at": "2026-11-11",
+          "quote": "Bessent, however, stopped short of making any commitment to limit advancement of the technology",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건",
+        "편집 판단 필요"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "nalm",
+        "at": "2026-11-12"
+      },
+      "note": "편집 판단(nalm): 승인. 새 사건. 중간 진영·검증됨. 연결 인물 없이 수록(베센트·트럼프는 인물 목록 밖)"
+    }
+  ]
+}
