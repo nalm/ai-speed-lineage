@@ -4666,5 +4666,145 @@
       "by": "nalm",
       "at": "2026-11-12"
     }
+  },
+  {
+    "id": "src-citizen-org-312f0d",
+    "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+    "publisher": "Public Citizen",
+    "title": "Coalition of Nonprofits Files Landmark Lawsuit to Stop Development of Advanced AI Systems at Anthropic, Google, Meta, OpenAI, and SpaceXSI (2026-11-12)",
+    "kind": "primary",
+    "accessed_at": "2026-11-13",
+    "checked_in": "collect-2026-11-13",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    }
+  },
+  {
+    "id": "src-courthousenews-com-6a8142",
+    "url": "https://www.courthousenews.com/wp-content/uploads/2026/11/Irreplaceable-et-al-v.-Anthropic-et-al.pdf",
+    "publisher": "Courthouse News Service (소장 원문)",
+    "title": "Irreplaceable Education Fund et al. v. Anthropic PBC et al., Complaint for Injunctive Relief (S.F. Superior Court, 2026-11-12)",
+    "kind": "primary",
+    "accessed_at": "2026-11-13",
+    "checked_in": "collect-2026-11-13",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    }
+  },
+  {
+    "id": "src-courthousenews-com-883e95",
+    "url": "https://www.courthousenews.com/san-francisco-court-asked-to-freeze-ai-development-stave-off-catastrophic-harm/",
+    "publisher": "Courthouse News Service",
+    "title": "San Francisco court asked to freeze AI development, stave off catastrophic harm (2026-11-12)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-13",
+    "checked_in": "collect-2026-11-13",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    }
+  },
+  {
+    "id": "src-investing-com-c28633",
+    "url": "https://www.investing.com/news/stock-market-news/openai-google-anthropic-hit-with-lawsuit-seeking-halt-to-frontier-ai-development-5022948",
+    "publisher": "Reuters (Investing.com 전재)",
+    "title": "OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development (2026-11-12)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-13",
+    "checked_in": "collect-2026-11-13",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    }
+  },
+  {
+    "id": "src-sec-gov-c6e1b6",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "publisher": "U.S. SEC (Anthropic S-1/A 수정 2호)",
+    "title": "Anthropic, PBC — Amendment No. 2 to Form S-1 (2026-11-10)",
+    "kind": "primary",
+    "accessed_at": "2026-11-13",
+    "checked_in": "collect-2026-11-13",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    }
+  },
+  {
+    "id": "src-thenextweb-com-5e61df",
+    "url": "https://thenextweb.com/news/anthropic-ai-research-threshold-metr-ipo-filing",
+    "publisher": "The Next Web",
+    "title": "Anthropic says it has met its own threshold for AI-accelerated research (2026-11-12)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-13",
+    "checked_in": "collect-2026-11-13",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    }
+  },
+  {
+    "id": "src-aisfoundation-ai-b4fd34",
+    "url": "https://aisfoundation.ai/hinton-lectures-2026",
+    "publisher": "AI Safety Foundation",
+    "title": "The Hinton Lectures 2026 — November 9–11, Toronto",
+    "kind": "primary",
+    "accessed_at": "2026-11-13",
+    "checked_in": "collect-2026-11-13",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    }
+  },
+  {
+    "id": "src-gizmodo-com-04d7fd",
+    "url": "https://gizmodo.com/openai-board-member-tells-audience-an-ai-accident-is-the-most-likely-thing-to-kill-them-2000838491",
+    "publisher": "Gizmodo",
+    "title": "OpenAI Board Member Tells Audience an AI Accident Is the Most Likely Thing to Kill Them (2026-11-12)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-13",
+    "checked_in": "collect-2026-11-13",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    }
+  },
+  {
+    "id": "src-unilad-com-b174e0",
+    "url": "https://www.unilad.com/technology/expert-stark-warning-that-ai-will-take-over-the-world-in-3-years-414354-20261113",
+    "publisher": "UNILAD",
+    "title": "Expert issues stark warning that AI will ‘take over the world in 3 years’ (2026-11-13)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-13",
+    "checked_in": "collect-2026-11-13",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    }
+  },
+  {
+    "id": "src-singjupost-com-8c927f",
+    "url": "https://singjupost.com/paul-christiano-ai-alignment-whats-working-and-whats-not-the-hinton-lectures-2026-transcript/",
+    "publisher": "The Singju Post (강연 녹취)",
+    "title": "Paul Christiano: AI Alignment – What’s Working and What’s Not – The Hinton Lectures 2026 (Transcript) (2026-11-10)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-13",
+    "checked_in": "collect-2026-11-13",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    }
   }
 ]

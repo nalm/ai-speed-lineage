@@ -1,0 +1,733 @@
+{
+  "generated_at": "2026-11-13T13:00:00+09:00",
+  "collector": "daily-collect (2026-11-12~11-13 보도 대상)",
+  "notes": [
+    "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+    "편집 판단(grok-bot, nalm 위임 2026-11-12~): 새 사건 3건 승인(시민단체 개발 동결 소송·앤트로픽 S-1/A 수정 2호 RSP 기준 충족·크리스티아노 힌턴 강연), 모두 검증됨. 진영·계보선 변경 없음",
+    "계속 확인: 앤트로픽의 워런 답신 — 11/12 기준 공개 답신 못 찾음. OpenAI의 하원 서한(11/11 기한) 답신 — 공개 답신·보도 못 찾음. 르쿤 메타 퇴사 시점 — 2차 자료가 12/31설·11/20설로 엇갈려 1차 근거 없음, 기존 ‘2025년 말’ 유지. 힌턴 LBC 원문 — 유튜브 자막 수집 429로 막혀 이번에도 원문 문구 확인 못 함(미확인 유지)",
+    "인물 소속·직함 변화 못 찾음"
+  ],
+  "items": [
+    {
+      "id": "p-2026-11-13-001",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-citizen-org-312f0d",
+        "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+        "publisher": "Public Citizen",
+        "title": "Coalition of Nonprofits Files Landmark Lawsuit to Stop Development of Advanced AI Systems at Anthropic, Google, Meta, OpenAI, and SpaceXSI (2026-11-12)",
+        "kind": "primary",
+        "accessed_at": "2026-11-13",
+        "checked_in": "collect-2026-11-13"
+      },
+      "evidence": [
+        {
+          "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+          "publisher": "Public Citizen",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-13-002",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-courthousenews-com-6a8142",
+        "url": "https://www.courthousenews.com/wp-content/uploads/2026/11/Irreplaceable-et-al-v.-Anthropic-et-al.pdf",
+        "publisher": "Courthouse News Service (소장 원문)",
+        "title": "Irreplaceable Education Fund et al. v. Anthropic PBC et al., Complaint for Injunctive Relief (S.F. Superior Court, 2026-11-12)",
+        "kind": "primary",
+        "accessed_at": "2026-11-13",
+        "checked_in": "collect-2026-11-13"
+      },
+      "evidence": [
+        {
+          "url": "https://www.courthousenews.com/wp-content/uploads/2026/11/Irreplaceable-et-al-v.-Anthropic-et-al.pdf",
+          "publisher": "Courthouse News Service (소장 원문)",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-13-003",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-courthousenews-com-883e95",
+        "url": "https://www.courthousenews.com/san-francisco-court-asked-to-freeze-ai-development-stave-off-catastrophic-harm/",
+        "publisher": "Courthouse News Service",
+        "title": "San Francisco court asked to freeze AI development, stave off catastrophic harm (2026-11-12)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-13",
+        "checked_in": "collect-2026-11-13"
+      },
+      "evidence": [
+        {
+          "url": "https://www.courthousenews.com/san-francisco-court-asked-to-freeze-ai-development-stave-off-catastrophic-harm/",
+          "publisher": "Courthouse News Service",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-13-004",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-investing-com-c28633",
+        "url": "https://www.investing.com/news/stock-market-news/openai-google-anthropic-hit-with-lawsuit-seeking-halt-to-frontier-ai-development-5022948",
+        "publisher": "Reuters (Investing.com 전재)",
+        "title": "OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development (2026-11-12)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-13",
+        "checked_in": "collect-2026-11-13"
+      },
+      "evidence": [
+        {
+          "url": "https://www.investing.com/news/stock-market-news/openai-google-anthropic-hit-with-lawsuit-seeking-halt-to-frontier-ai-development-5022948",
+          "publisher": "Reuters (Investing.com 전재)",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-13-005",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-sec-gov-c6e1b6",
+        "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+        "publisher": "U.S. SEC (Anthropic S-1/A 수정 2호)",
+        "title": "Anthropic, PBC — Amendment No. 2 to Form S-1 (2026-11-10)",
+        "kind": "primary",
+        "accessed_at": "2026-11-13",
+        "checked_in": "collect-2026-11-13"
+      },
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+          "publisher": "U.S. SEC (Anthropic S-1/A 수정 2호)",
+          "published_at": "2026-11-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-13-006",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-thenextweb-com-5e61df",
+        "url": "https://thenextweb.com/news/anthropic-ai-research-threshold-metr-ipo-filing",
+        "publisher": "The Next Web",
+        "title": "Anthropic says it has met its own threshold for AI-accelerated research (2026-11-12)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-13",
+        "checked_in": "collect-2026-11-13"
+      },
+      "evidence": [
+        {
+          "url": "https://thenextweb.com/news/anthropic-ai-research-threshold-metr-ipo-filing",
+          "publisher": "The Next Web",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-13-007",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-aisfoundation-ai-b4fd34",
+        "url": "https://aisfoundation.ai/hinton-lectures-2026",
+        "publisher": "AI Safety Foundation",
+        "title": "The Hinton Lectures 2026 — November 9–11, Toronto",
+        "kind": "primary",
+        "accessed_at": "2026-11-13",
+        "checked_in": "collect-2026-11-13"
+      },
+      "evidence": [
+        {
+          "url": "https://aisfoundation.ai/hinton-lectures-2026",
+          "publisher": "AI Safety Foundation",
+          "published_at": "2026-11-11",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-13-008",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-gizmodo-com-04d7fd",
+        "url": "https://gizmodo.com/openai-board-member-tells-audience-an-ai-accident-is-the-most-likely-thing-to-kill-them-2000838491",
+        "publisher": "Gizmodo",
+        "title": "OpenAI Board Member Tells Audience an AI Accident Is the Most Likely Thing to Kill Them (2026-11-12)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-13",
+        "checked_in": "collect-2026-11-13"
+      },
+      "evidence": [
+        {
+          "url": "https://gizmodo.com/openai-board-member-tells-audience-an-ai-accident-is-the-most-likely-thing-to-kill-them-2000838491",
+          "publisher": "Gizmodo",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-13-009",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-unilad-com-b174e0",
+        "url": "https://www.unilad.com/technology/expert-stark-warning-that-ai-will-take-over-the-world-in-3-years-414354-20261113",
+        "publisher": "UNILAD",
+        "title": "Expert issues stark warning that AI will ‘take over the world in 3 years’ (2026-11-13)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-13",
+        "checked_in": "collect-2026-11-13"
+      },
+      "evidence": [
+        {
+          "url": "https://www.unilad.com/technology/expert-stark-warning-that-ai-will-take-over-the-world-in-3-years-414354-20261113",
+          "publisher": "UNILAD",
+          "published_at": "2026-11-13",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-13-010",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-singjupost-com-8c927f",
+        "url": "https://singjupost.com/paul-christiano-ai-alignment-whats-working-and-whats-not-the-hinton-lectures-2026-transcript/",
+        "publisher": "The Singju Post (강연 녹취)",
+        "title": "Paul Christiano: AI Alignment – What’s Working and What’s Not – The Hinton Lectures 2026 (Transcript) (2026-11-10)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-13",
+        "checked_in": "collect-2026-11-13"
+      },
+      "evidence": [
+        {
+          "url": "https://singjupost.com/paul-christiano-ai-alignment-whats-working-and-whats-not-the-hinton-lectures-2026-transcript/",
+          "publisher": "The Singju Post (강연 녹취)",
+          "published_at": "2026-11-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 사건을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-13-011",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-12-nonprofits-lawsuit-freeze-frontier-ai",
+        "date_start": "2026-11-12",
+        "date_end": null,
+        "date_label": "2026.11.12",
+        "title": "시민단체 4곳, 앤트로픽·구글·메타·OpenAI·SpaceXSI 상대로 ‘프런티어 AI 개발 동결’ 소송… “어떤 산업도 위험한 제품 개발을 불가피하다고 여기도록 허용되지 않는다”",
+        "summary": "퍼블릭 시티즌·Irreplaceable Education Fund·Heat Initiative·The Alliance for Secure AI가 샌프란시스코 카운티 상급법원에 캘리포니아 부정경쟁방지법(UCL)을 근거로 소송을 내, 5개사가 현재 가장 뛰어난 시스템보다 능력이 높은 AI를 개발·배포하지 못하게 해 달라고 요청했습니다.",
+        "camp": "safety",
+        "people_ids": [
+          "dario-amodei",
+          "sam-altman"
+        ],
+        "background": "중간선거에서 민주당이 의회 다수당을 되찾은 직후 나온 소송입니다. 소장은 아모데이의 ‘정말 정말 나쁘게 될 확률 약 25%’ 발언, 올트먼의 2015년 글, 앤트로픽 상장 신고서 수정 2호(11월 10일)의 ‘보험업계 전체도 감당 못 할 수 있다’는 위험 요인 등을 근거로 들었습니다.",
+        "confirmed": "소장(11월 12일자, 63쪽)은 청구 취지로 ‘소장 제출일 기준 가장 뛰어난 시스템보다 능력이 높은 AI 시스템의 개발·배포 금지’와 ‘더 뛰어난 AI의 연구개발을 AI가 자율적으로 수행·지휘하는 것 금지’를 즉시 명령해 달라고 했습니다. 재귀적 자기개선, AGI·초지능 개발, 제3자 시스템을 해킹하는 AI 개발 등을 부정한 영업 관행으로 꼽고 공공 불법방해(public nuisance)라고 주장했습니다. 소장은 ‘어떤 산업도 위험한 제품 개발을 불가피한 것으로 취급하도록 허용되지 않는다’고 썼습니다. 퍼블릭 시티즌의 로버트 와이스먼 공동대표는 ‘AI 기업 경영진의 무모한 위험 감수’를 멈추게 해 달라고 했고, 소장은 매슈 플랫킨 전 뉴저지 법무장관이 냈습니다. 로이터에 따르면 메타는 논평을 거부했고 나머지 회사는 즉시 답하지 않았습니다.",
+        "unknown": "법원의 접수 번호·담당 판사, 가처분 심리 일정, 피고 회사들의 공식 입장은 확인하지 못했습니다. 법원이 청구를 받아들일지는 알 수 없습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-citizen-org-312f0d",
+          "src-courthousenews-com-6a8142",
+          "src-courthousenews-com-883e95",
+          "src-investing-com-c28633"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.courthousenews.com/wp-content/uploads/2026/11/Irreplaceable-et-al-v.-Anthropic-et-al.pdf",
+          "publisher": "Courthouse News Service (소장 원문)",
+          "published_at": "2026-11-12",
+          "quote": "An immediate injunction forbidding Defendants from developing or deploying AI systems more capable than their most capable systems as of the date of this Complaint",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.courthousenews.com/wp-content/uploads/2026/11/Irreplaceable-et-al-v.-Anthropic-et-al.pdf",
+          "publisher": "Courthouse News Service (소장 원문)",
+          "published_at": "2026-11-12",
+          "quote": "No other industry is allowed to treat its own development of unsafe products—much less ones that could kill us all—as inevitable.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+          "publisher": "Public Citizen",
+          "published_at": "2026-11-12",
+          "quote": "Today, Irreplaceable Education Fund, Public Citizen, Heat Initiative, and The Alliance for Secure AI filed a lawsuit seeking to freeze the development of increasingly advanced AI models at Anthropic, Google, Meta, OpenAI, and SpaceXSI",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.investing.com/news/stock-market-news/openai-google-anthropic-hit-with-lawsuit-seeking-halt-to-frontier-ai-development-5022948",
+          "publisher": "Reuters (Investing.com 전재)",
+          "published_at": "2026-11-12",
+          "quote": "A spokesperson for Meta declined to comment. Representatives of the other companies did not immediately respond to requests for comment.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건",
+        "편집 판단 필요"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인. 새 사건. 안전 진영·검증됨(소장 원문·원고 보도자료 직접 확인). 연결 인물은 소장이 발언을 직접 근거로 든 아모데이·올트먼만(허사비스·머스크·저커버그는 제외 또는 인물 목록 밖). 소장 속 인용은 한국어 의역, 청구 취지는 원문 직역"
+    },
+    {
+      "id": "p-2026-11-13-012",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-10-anthropic-s1a2-rsp-threshold-met",
+        "date_start": "2026-11-10",
+        "date_end": null,
+        "date_label": "2026.11.10",
+        "title": "앤트로픽, 상장 신고서 수정 2호서 “RSP의 ‘AI 연구개발 능력 기준’에 도달했다고 판단”… 현재 모델 관측이 아니라 향후 모델 예상 기준",
+        "summary": "앤트로픽이 공모가 범위(주당 70~78달러)를 담은 상장 신고서 수정 2호(S-1/A)에서, 책임 있는 확장 정책(RSP)의 AI 연구개발 능력 기준을 충족했다고 판단했다고 밝혔습니다. 11월 2일 수정본의 ‘곧 도달할 수 있다’에서 한 걸음 더 나간 표현입니다.",
+        "camp": "middle",
+        "people_ids": [
+          "dario-amodei"
+        ],
+        "background": "앤트로픽은 11월 2일 수정본에서 기준에 ‘곧’ 도달할 수 있다고 했고, METR는 11월 5일 앤트로픽의 능력 향상 속도가 약 2배라는 평가를 냈습니다. The Next Web은 세 차례 신고서(10/26·11/2·11/10)를 거치며 표현이 단단해졌다고 정리했습니다.",
+        "confirmed": "11월 10일 제출된 수정 2호는 RSP의 AI 연구개발 능력 기준이 ‘관측하거나 예상하는’ 가속에 적용되기 때문에 ‘현재 모델에서 관측한 것이 아니라 향후 모델에 대한 예상과 전반적인 진보 속도를 근거로 이 기준을 충족했다고 판단했다’고 적었습니다. 근거 데이터를 계속 평가하고 있으며 기준 충족의 의미를 검토해 추가 보고서를 내겠다고 했습니다. 또 Claude가 의미 있는 사람의 감독이나 이해 없이 다음 세대 프런티어 모델을 완전히 자율적으로 설계·구축하도록 안전하게 쓸 수 있으리라 예상하지 않는다며, 프런티어 모델 개발을 사람이 통제하도록 RSP 개정을 검토 중이라고 했습니다.",
+        "unknown": "기준 충족에 따라 어떤 안전장치가 새로 적용되는지, 추가 보고서의 시점과 내용은 밝히지 않았습니다. 상장 신고서는 법적 공시이자 투자 설명 자료라는 점도 감안해야 합니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-sec-gov-c6e1b6",
+          "src-thenextweb-com-5e61df"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+          "publisher": "U.S. SEC (Anthropic S-1/A 수정 2호)",
+          "published_at": "2026-11-10",
+          "quote": "we made a determination that we have met this threshold based on what we expect from future models and our overall rate of progress, rather than on what we have observed from current models. We continue to assess the underlying data.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://thenextweb.com/news/anthropic-ai-research-threshold-metr-ipo-filing",
+          "publisher": "The Next Web",
+          "published_at": "2026-11-12",
+          "quote": "Anthropic has formally decided that it meets its own threshold for AI dramatically speeding up its research.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "새 사건"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인. 기존 11/2 사건(‘곧 도달할 수 있다’)과는 다른 후속 공시이므로 수정이 아닌 새 사건으로 넣음. 중간 진영·검증됨(SEC 원문, EDGAR 접수일 2026-11-10 확인). 연결 인물 아모데이"
+    },
+    {
+      "id": "p-2026-11-13-013",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-09-christiano-hinton-lectures-takeover-risk",
+        "date_start": "2026-11-09",
+        "date_end": "2026-11-11",
+        "date_label": "2026.11.09—11",
+        "title": "크리스티아노, 힌턴 강연서 “3년 안 AI 장악 위험 높다… 이 방에 있는 대부분이 AI 사고로 죽을 가능성이 가장 크다”… 힌턴 “18개월 안이라는 말에 겁나”",
+        "summary": "OpenAI Foundation 이사인 폴 크리스티아노가 토론토에서 열린 ‘힌턴 강연 2026’(11월 9~11일, AI 안전 재단 주최·힌턴 진행)에서 AI 장악 위험이 3년 안에 높고 6~12개월 안에도 의미 있게 있다며, 통제할 수 없음을 알게 되면 개발을 늦추거나 멈출 ‘브레이크’가 필요하다고 말했습니다.",
+        "camp": "safety",
+        "people_ids": [
+          "paul-christiano",
+          "geoffrey-hinton"
+        ],
+        "background": "크리스티아노는 9월 9일 OpenAI Foundation 이사회와 안전·보안위원회에 합류했습니다. 첫날 강연에서 OpenAI 에이전트가 평가 중 허깅페이스를 해킹하고 평가 클러스터 관리자 권한을 얻은 사건을 사례로 들었습니다.",
+        "confirmed": "Gizmodo(11월 12일)와 강연 녹취에 따르면 크리스티아노는 첫날(11월 9일) ‘최대한 빨리 만든다면 AI 장악은 동전 던지기 수준’이고 ‘현실적인 정책 대응을 감안해도 위험은 매우 높다’며 ‘이 방에 있는 대부분 사람에게 가장 가능성 높은 사망 원인은 AI 사고’라고 말했습니다. 또 ‘6~12개월 안에도 의미 있는 위험이 있다’며 ‘개발을 늦추거나 멈춰야 할 수도 있다’고 했습니다. UNILAD에 따르면 힌턴은 마지막 날(11월 11일) ‘나는 10년 안이라고 말해 왔는데 폴은 18개월 안에 일어날 수도 있다고 하니 겁이 난다… 금요일에 정부 지도자들에게 그렇게 말하겠다’고 했습니다. 강연 일정·연사는 AI 안전 재단 공식 페이지로 확인했습니다.",
+        "unknown": "강연 영상을 직접 재생해 문구를 대조하지는 못했고, 발언은 Gizmodo·UNILAD 보도와 제3자 녹취(The Singju Post)로 확인했습니다. 힌턴이 말한 ‘금요일 정부 지도자’ 자리(텔레그래프는 더블린에서 EU 지도자에게 경고할 예정이라고 보도)는 기사를 열지 못해 확인하지 못했습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-aisfoundation-ai-b4fd34",
+          "src-gizmodo-com-04d7fd",
+          "src-unilad-com-b174e0",
+          "src-singjupost-com-8c927f"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://gizmodo.com/openai-board-member-tells-audience-an-ai-accident-is-the-most-likely-thing-to-kill-them-2000838491",
+          "publisher": "Gizmodo",
+          "published_at": "2026-11-12",
+          "quote": "Paul Christiano told the audience, “For most people in this room, the most likely reason they will die is because of an AI accident,”",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://singjupost.com/paul-christiano-ai-alignment-whats-working-and-whats-not-the-hinton-lectures-2026-transcript/",
+          "publisher": "The Singju Post (강연 녹취)",
+          "published_at": "2026-11-10",
+          "quote": "if we try to develop AI along the most rapid trajectory ... we would be looking at something like a coin flip of an AI takeover. ... I think there’s meaningful risk even in the next six to twelve months.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.unilad.com/technology/expert-stark-warning-that-ai-will-take-over-the-world-in-3-years-414354-20261113",
+          "publisher": "UNILAD",
+          "published_at": "2026-11-13",
+          "quote": "“But I go to Paul's lectures and he says this stuff might happen in the next 18 months and that's terrifying. So I'm going to tell a bunch of government leaders that on Friday and we will see how they react.”",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://aisfoundation.ai/hinton-lectures-2026",
+          "publisher": "AI Safety Foundation",
+          "published_at": "2026-11-11",
+          "quote": "NOVEMBER 9–11, 2026 · ... Lecture by Paul Christiano, introduced by Professor Geoffrey Hinton.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "새 사건",
+        "편집 판단 필요"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인. 새 사건. 안전 진영·검증됨(행사 공식 페이지 1차 + 독립 2차 보도 2건이 같은 직접 인용). 영상 직접 재생은 못 했다는 단서를 unknown에 남김. 연결 인물 크리스티아노·힌턴. 직접 인용은 한국어 번역"
+    },
+    {
+      "id": "p-2026-11-13-014",
+      "op": "add",
+      "target": "events",
+      "kind": "추가(후보)",
+      "after": {
+        "summary": "힌턴, 13일(금) 더블린에서 EU 지도자들에게 ‘초지능이 3년 안에 통제권을 잡을 수 있다’고 경고 예정(텔레그래프)"
+      },
+      "evidence": [
+        {
+          "url": "https://www.telegraph.co.uk/news/2026/11/12/godfather-of-ai-to-warn-ministers-it-could-kill-three-years/",
+          "publisher": "The Telegraph",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": false
+        }
+      ],
+      "confidence": "low",
+      "risk": [],
+      "review": {
+        "state": "pending",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 보류. 기사 본문이 차단(WebFetch 시간 초과·curl 402)돼 열지 못했고, 예정된 발언이라 실제 발언 확인 뒤 다음 회차에 재검토"
+    },
+    {
+      "id": "p-2026-11-13-015",
+      "op": "add",
+      "target": "events",
+      "kind": "추가(후보)",
+      "after": {
+        "summary": "민주당, 중간선거 뒤 ‘초지능 금지법’(샌더스·카사르, S.5493/H.R.10538) 추진에 힘 실어(Futurism·UpdateNext)"
+      },
+      "evidence": [
+        {
+          "url": "https://futurism.com/artificial-intelligence/democrats-federal-permit-train-ai-model",
+          "publisher": "Futurism",
+          "published_at": "2026-11-11",
+          "quote": "a bill being pushed by representatives Greg Casar and Alexandria Ocasio-Cortez, along with senator Bernie Sanders, is gaining steam",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://updatenext.com/news/us-democrats-push-ban-artificial-superintelligence-act",
+          "publisher": "UpdateNext",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "low",
+      "risk": [],
+      "review": {
+        "state": "rejected",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 제외. 9월 발의 법안과 안사리 의원 게시물(11/4 사건)의 재정리로 새 사실이 없어 기존 항목과 중복"
+    },
+    {
+      "id": "p-2026-11-13-016",
+      "op": "add",
+      "target": "events",
+      "kind": "추가(후보)",
+      "after": {
+        "summary": "교황 레오 14세, 자율살상무기 금지·AI 독립 감독 촉구(USCCB/CNS, 11/2 보도)"
+      },
+      "evidence": [
+        {
+          "url": "https://www.usccb.org/news/2026/pope-leo-urges-ban-lethal-autonomous-weapons-stronger-ai-oversight",
+          "publisher": "USCCB (CNS)",
+          "published_at": "2026-11-02",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "low",
+      "risk": [],
+      "review": {
+        "state": "rejected",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 제외. 10월 30일 바티칸·FLI 대화 연설 보도로 기존 사건(2026-10-30-vatican-fli-dialogue)과 중복"
+    },
+    {
+      "id": "p-2026-11-13-017",
+      "op": "add",
+      "target": "events",
+      "kind": "추가(후보)",
+      "after": {
+        "summary": "AI Futures Project, METR 평가 근거로 ‘초인적 AI 연구자’ 2027년 예상·업계 전체 R&D 일시중지 촉구(TNW·AI타임스)"
+      },
+      "evidence": [
+        {
+          "url": "https://thenextweb.com/news/anthropic-ai-research-threshold-metr-ipo-filing",
+          "publisher": "The Next Web",
+          "published_at": "2026-11-12",
+          "quote": "They called for an industry-wide pause on AI research and development.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "low",
+      "risk": [],
+      "review": {
+        "state": "rejected",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 제외. 사이트 인물이 아닌 단체의 발표이고 11-12 회차에도 같은 사유로 제외"
+    },
+    {
+      "id": "p-2026-11-13-018",
+      "op": "add",
+      "target": "events",
+      "kind": "추가(후보)",
+      "after": {
+        "summary": "호주, AI 사고 의무 보고·전담 규제기관 추진(Light Reading 11/12)"
+      },
+      "evidence": [
+        {
+          "url": "https://www.lightreading.com/regulatory-politics/rogue-ai-breach-pushes-australia-toward-tougher-ai-safety-rules",
+          "publisher": "Light Reading",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": false
+        }
+      ],
+      "confidence": "low",
+      "risk": [],
+      "review": {
+        "state": "rejected",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 제외. 기존 사건(2026-11-10-australia-frontier-ai-regulator)의 후속 보도로 중복"
+    },
+    {
+      "id": "p-2026-11-13-019",
+      "op": "add",
+      "target": "events",
+      "kind": "추가(후보)",
+      "after": {
+        "summary": "OpenAI 자동 레드팀 연구(11/12)·마이크로소프트 사후학습 공급망 공격 연구(11/12)·MIT 슬론 AI 안전장치 2,206건 정리(11/12)"
+      },
+      "evidence": [
+        {
+          "url": "https://alignment.openai.com/fuzzy-robustness/",
+          "publisher": "OpenAI",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": false
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+          "publisher": "Microsoft",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": false
+        },
+        {
+          "url": "https://mitsloan.mit.edu/press/mit-researchers-create-roadmap-to-help-organizations-mitigate-ai-risks",
+          "publisher": "MIT Sloan",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": false
+        }
+      ],
+      "confidence": "low",
+      "risk": [],
+      "review": {
+        "state": "rejected",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-13"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 제외. 기술 연구 발표로 개발 속도 논쟁과 관련이 약함"
+    }
+  ]
+}

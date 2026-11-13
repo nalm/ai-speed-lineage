@@ -1,0 +1,166 @@
+[
+  {
+    "id": "p-2026-11-13-015",
+    "op": "add",
+    "target": "events",
+    "kind": "추가(후보)",
+    "after": {
+      "summary": "민주당, 중간선거 뒤 ‘초지능 금지법’(샌더스·카사르, S.5493/H.R.10538) 추진에 힘 실어(Futurism·UpdateNext)"
+    },
+    "evidence": [
+      {
+        "url": "https://futurism.com/artificial-intelligence/democrats-federal-permit-train-ai-model",
+        "publisher": "Futurism",
+        "published_at": "2026-11-11",
+        "quote": "a bill being pushed by representatives Greg Casar and Alexandria Ocasio-Cortez, along with senator Bernie Sanders, is gaining steam",
+        "quote_kind": "verbatim",
+        "opened": true
+      },
+      {
+        "url": "https://updatenext.com/news/us-democrats-push-ban-artificial-superintelligence-act",
+        "publisher": "UpdateNext",
+        "published_at": "2026-11-12",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "low",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 9월 발의 법안과 안사리 의원 게시물(11/4 사건)의 재정리로 새 사실이 없어 기존 항목과 중복",
+    "from": "2026-11-13.json"
+  },
+  {
+    "id": "p-2026-11-13-016",
+    "op": "add",
+    "target": "events",
+    "kind": "추가(후보)",
+    "after": {
+      "summary": "교황 레오 14세, 자율살상무기 금지·AI 독립 감독 촉구(USCCB/CNS, 11/2 보도)"
+    },
+    "evidence": [
+      {
+        "url": "https://www.usccb.org/news/2026/pope-leo-urges-ban-lethal-autonomous-weapons-stronger-ai-oversight",
+        "publisher": "USCCB (CNS)",
+        "published_at": "2026-11-02",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "low",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 10월 30일 바티칸·FLI 대화 연설 보도로 기존 사건(2026-10-30-vatican-fli-dialogue)과 중복",
+    "from": "2026-11-13.json"
+  },
+  {
+    "id": "p-2026-11-13-017",
+    "op": "add",
+    "target": "events",
+    "kind": "추가(후보)",
+    "after": {
+      "summary": "AI Futures Project, METR 평가 근거로 ‘초인적 AI 연구자’ 2027년 예상·업계 전체 R&D 일시중지 촉구(TNW·AI타임스)"
+    },
+    "evidence": [
+      {
+        "url": "https://thenextweb.com/news/anthropic-ai-research-threshold-metr-ipo-filing",
+        "publisher": "The Next Web",
+        "published_at": "2026-11-12",
+        "quote": "They called for an industry-wide pause on AI research and development.",
+        "quote_kind": "verbatim",
+        "opened": true
+      }
+    ],
+    "confidence": "low",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 사이트 인물이 아닌 단체의 발표이고 11-12 회차에도 같은 사유로 제외",
+    "from": "2026-11-13.json"
+  },
+  {
+    "id": "p-2026-11-13-018",
+    "op": "add",
+    "target": "events",
+    "kind": "추가(후보)",
+    "after": {
+      "summary": "호주, AI 사고 의무 보고·전담 규제기관 추진(Light Reading 11/12)"
+    },
+    "evidence": [
+      {
+        "url": "https://www.lightreading.com/regulatory-politics/rogue-ai-breach-pushes-australia-toward-tougher-ai-safety-rules",
+        "publisher": "Light Reading",
+        "published_at": "2026-11-12",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": false
+      }
+    ],
+    "confidence": "low",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 기존 사건(2026-11-10-australia-frontier-ai-regulator)의 후속 보도로 중복",
+    "from": "2026-11-13.json"
+  },
+  {
+    "id": "p-2026-11-13-019",
+    "op": "add",
+    "target": "events",
+    "kind": "추가(후보)",
+    "after": {
+      "summary": "OpenAI 자동 레드팀 연구(11/12)·마이크로소프트 사후학습 공급망 공격 연구(11/12)·MIT 슬론 AI 안전장치 2,206건 정리(11/12)"
+    },
+    "evidence": [
+      {
+        "url": "https://alignment.openai.com/fuzzy-robustness/",
+        "publisher": "OpenAI",
+        "published_at": "2026-11-12",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": false
+      },
+      {
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+        "publisher": "Microsoft",
+        "published_at": "2026-11-12",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": false
+      },
+      {
+        "url": "https://mitsloan.mit.edu/press/mit-researchers-create-roadmap-to-help-organizations-mitigate-ai-risks",
+        "publisher": "MIT Sloan",
+        "published_at": "2026-11-12",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": false
+      }
+    ],
+    "confidence": "low",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-13"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 기술 연구 발표로 개발 속도 논쟁과 관련이 약함",
+    "from": "2026-11-13.json"
+  }
+]
