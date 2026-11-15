@@ -12,6 +12,11 @@ const person = Object.fromEntries(D.people.map(p => [p.id, p]));
 const source = Object.fromEntries(D.sources.map(s => [s.id, s]));
 const node = Object.fromEntries(D.lineage.nodes.map(n => [n.id, n]));
 const preview = !D.meta.last_approved_at;
+const cfAnalyticsToken = process.env.CF_ANALYTICS_TOKEN_AI || "";
+// 공개 페이지 비콘 토큰. 값은 로그에 남기지 않는다.
+const cfBeacon = cfAnalyticsToken
+  ? `\n  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='${JSON.stringify({ token: cfAnalyticsToken })}'></script>`
+  : "";
 const NUM = ["", "한", "두", "세", "네", "다섯", "여섯", "일곱", "여덟", "아홉", "열"];
 const lanesSorted = [...D.lineage.lanes].sort((a, b) => a.order - b.order);
 const laneNumber = (l) => lanesSorted.findIndex(x => x.id === l.id) + 1;
@@ -322,7 +327,7 @@ ${domains}
 ${updates}
 ${footer}
   </main>
-  <script src="assets/app.js" defer></script>
+  <script src="assets/app.js" defer></script>${cfBeacon}
 </body>
 </html>
 `;
@@ -338,4 +343,6 @@ for (const p of withPhoto) fs.copyFileSync(path.join(APP_DIR, p.portrait.path), 
 for (const f of fs.readdirSync(path.join(APP_DIR, "data"))) fs.copyFileSync(path.join(APP_DIR, "data", f), path.join(DIST_DIR, "data", f));
 fs.writeFileSync(path.join(DIST_DIR, "build-stats.json"), JSON.stringify({ built_at: new Date().toISOString(), data_as_of: D.meta.data_as_of, preview, ...S }, null, 2));
 console.log(`· 연표: 최신순, 처음 ${recentEvents.length}건(${recentDates.join(", ")}) + 더보기 ${olderEvents.length}건`);
+if (cfBeacon) console.log("· Cloudflare Web Analytics 비콘 포함");
+else console.log("· Cloudflare Web Analytics 비콘 생략(CF_ANALYTICS_TOKEN_AI 없음)");
 console.log(`✓ 빌드 완료 → dist/index.html (${(html.length / 1024).toFixed(0)} KB) · 인물 ${S.people} · 관점 ${S.perspectives} · 사건 ${S.events} · 관계선 ${S.edges}`);
