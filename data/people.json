@@ -24,15 +24,16 @@
       "src-technologyreview-com-2f120d",
       "src-techcrunch-com-119da8",
       "src-koreaherald-com-9f8634",
-      "src-chosun-com-fd0a9a"
+      "src-chosun-com-fd0a9a",
+      "src-linkedin-com-ec0392"
     ],
     "factcheck_ids": [
       "P01"
     ],
     "review": {
       "state": "approved",
-      "by": "nalm",
-      "at": "2026-10-20"
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-16"
     }
   },
   {
@@ -209,7 +210,7 @@
     "camp": "optimist",
     "field": null,
     "country": null,
-    "role": "NVIDIA CEO",
+    "role": "전 NVIDIA CEO(2026년 11월 11일 사임)",
     "stance": "AI 팩토리와 주권 AI를 통한 인프라 확장을 옹호하며 최대한 빠른 개발을 주장",
     "moment": "2026년 9월 CBS 인터뷰에서 2030년 AI 멸종 확률을 ‘0%’로 보고 공포 조장을 비판",
     "portrait": {
@@ -221,15 +222,17 @@
     },
     "verification": "verified",
     "source_ids": [
-      "src-cbsnews-com-3a027d"
+      "src-cbsnews-com-3a027d",
+      "src-nvidianews-nvidia-com-b8785a",
+      "src-sec-gov-14e1a7"
     ],
     "factcheck_ids": [
       "P07"
     ],
     "review": {
-      "state": "pending",
-      "by": "nalm",
-      "at": null
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-16"
     }
   },
   {

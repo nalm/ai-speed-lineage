@@ -4806,5 +4806,103 @@
       "by": "grok-bot(nalm 위임)",
       "at": "2026-11-13"
     }
+  },
+  {
+    "id": "src-pbs-org-53c297",
+    "url": "https://www.pbs.org/video/geoffrey-hinton-biumi2/",
+    "publisher": "PBS (Firing Line 공개 대본)",
+    "title": "Firing Line with Margaret Hoover: Geoffrey Hinton (2026-11-13)",
+    "kind": "primary",
+    "accessed_at": "2026-11-16",
+    "checked_in": "collect-2026-11-16",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-16"
+    }
+  },
+  {
+    "id": "src-hindustantimes-com-bbbdd7",
+    "url": "https://www.hindustantimes.com/videos/htls/stuart-russell-on-ai-safety-impact-on-humanity-and-what-us-china-india-should-do-htls-2026-101794649470473.html",
+    "publisher": "Hindustan Times (HTLS 주최사 영상)",
+    "title": "Stuart Russell on AI safety, impact on humanity and what US, China & India should do | HTLS 2026 (2026-11-14)",
+    "kind": "primary",
+    "accessed_at": "2026-11-16",
+    "checked_in": "collect-2026-11-16",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-16"
+    }
+  },
+  {
+    "id": "src-hindustantimes-com-24ad5c",
+    "url": "https://www.hindustantimes.com/india-news/at-htls-stuart-russell-says-ai-that-learns-from-humans-is-picking-up-our-survival-instinct-101794641912873.html",
+    "publisher": "Hindustan Times",
+    "title": "AI is learning to protect itself and could resist being switched off: Stuart Russell (2026-11-14)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-16",
+    "checked_in": "collect-2026-11-16",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-16"
+    }
+  },
+  {
+    "id": "src-nvidianews-nvidia-com-b8785a",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "publisher": "NVIDIA Newsroom",
+    "title": "NVIDIA Announces CEO Transition (2026-11-12)",
+    "kind": "primary",
+    "accessed_at": "2026-11-16",
+    "checked_in": "collect-2026-11-16",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-16"
+    }
+  },
+  {
+    "id": "src-sec-gov-14e1a7",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+    "publisher": "SEC EDGAR (NVIDIA Form 8-K)",
+    "title": "NVIDIA Corp. Form 8-K, Item 5.02 (사건일 2026-11-11, 제출 2026-11-12)",
+    "kind": "primary",
+    "accessed_at": "2026-11-16",
+    "checked_in": "collect-2026-11-16",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-16"
+    }
+  },
+  {
+    "id": "src-globalplayer-com-ec2515",
+    "url": "https://www.globalplayer.com/videos/2JsSfQhXdxt/",
+    "publisher": "LBC (Global Player)",
+    "title": "The 'Godfather of AI' predicts humanity's chances of extinction (2026-11-09)",
+    "kind": "primary",
+    "accessed_at": "2026-11-16",
+    "checked_in": "collect-2026-11-16",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-16"
+    }
+  },
+  {
+    "id": "src-linkedin-com-ec0392",
+    "url": "https://www.linkedin.com/posts/yann-lecun_as-many-of-you-have-heard-through-rumors-activity-7397020300451749888-2lhA",
+    "publisher": "Yann LeCun (LinkedIn)",
+    "title": "Yann LeCun: “I am planning to leave Meta after 12 years…” (2025-11-19)",
+    "kind": "primary",
+    "accessed_at": "2026-11-16",
+    "checked_in": "collect-2026-11-16",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-16"
+    }
   }
 ]
