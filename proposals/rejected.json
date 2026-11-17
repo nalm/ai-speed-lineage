@@ -382,5 +382,61 @@
     },
     "note": "편집 판단(grok-bot, nalm 위임): 제외. 기술 연구 발표로 개발 속도 논쟁과 관련이 약함(11/13 회차와 같은 관례)",
     "from": "2026-11-16.json"
+  },
+  {
+    "id": "p-2026-11-17-016",
+    "op": "add",
+    "target": "events",
+    "kind": "추가(후보)",
+    "after": {
+      "summary": "벤지오, 베를린 디지털 서밋 개막 발언 “프런티어 기업들은 설득력 있는 안전 계획 없이 능력을 더 빨리 밀어붙여”(LinkedIn 게시물)"
+    },
+    "evidence": [
+      {
+        "url": "https://www.linkedin.com/posts/yoshuabengio_i-was-pleased-to-give-remarks-at-the-start-activity-7523018092579565568-9HQF",
+        "publisher": "Yoshua Bengio (LinkedIn)",
+        "published_at": "2026-11-02",
+        "quote": "Frontier AI companies continue to push model capabilities further and faster forward, without a convincing plan to make the technology safer.",
+        "quote_kind": "verbatim",
+        "opened": true
+      }
+    ],
+    "confidence": "low",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 11/16 보류분(p-2026-11-16-014) 재판단. 게시물 ID로 계산한 게시 시각이 2026-11-02(UTC)로 수집 기간보다 2주 앞서고, 짧은 개막 발언으로 기존 벤지오 사건(11/10 WIRED 등)과 같은 취지라 새 사실이 약함",
+    "from": "2026-11-17.json"
+  },
+  {
+    "id": "p-2026-11-17-017",
+    "op": "add",
+    "target": "events",
+    "kind": "추가(후보)",
+    "after": {
+      "summary": "‘We Must Act Now’ 경제 전환 성명 — 벤지오·르쿤·테그마크·브리뇰프슨·아세모글루·오터·존슨·호프만 서명(검색 결과상 11/16 보도)"
+    },
+    "evidence": [
+      {
+        "url": "https://www.wemustactnow.ai/",
+        "publisher": "We Must Act Now",
+        "published_at": "",
+        "quote": "AI may become radically more powerful over the next 10 years.",
+        "quote_kind": "verbatim",
+        "opened": true
+      }
+    ],
+    "confidence": "low",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 기존 사건(2026-07-13-we-must-act-now)과 같은 성명으로 중복",
+    "from": "2026-11-17.json"
   }
 ]

@@ -4904,5 +4904,145 @@
       "by": "grok-bot(nalm 위임)",
       "at": "2026-11-16"
     }
+  },
+  {
+    "id": "src-oag-ca-gov-b0517a",
+    "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+    "publisher": "California Department of Justice (Office of the Attorney General)",
+    "title": "It’s the Golden State, not the Wild West: Attorney General Bonta Sues OpenAI Over Cybersecurity Incidents (2026-11-16)",
+    "kind": "primary",
+    "accessed_at": "2026-11-17",
+    "checked_in": "collect-2026-11-17",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    }
+  },
+  {
+    "id": "src-cnbc-com-35ec48",
+    "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
+    "publisher": "CNBC",
+    "title": "California sues OpenAI over Hugging Face, other AI model loss of control (2026-11-16)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-17",
+    "checked_in": "collect-2026-11-17",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    }
+  },
+  {
+    "id": "src-openai-com-ebd9eb",
+    "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+    "publisher": "OpenAI",
+    "title": "Our first phase of embedded assessments (2026-11-16)",
+    "kind": "primary",
+    "accessed_at": "2026-11-17",
+    "checked_in": "collect-2026-11-17",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    }
+  },
+  {
+    "id": "src-research-and-innovation-ec-europa-eu-51fddb",
+    "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en",
+    "publisher": "European Commission (DG Research and Innovation)",
+    "title": "AI requires rigorous safeguards and rules that keep pace with technological advances – experts tell the European Commission (2026-11-16)",
+    "kind": "primary",
+    "accessed_at": "2026-11-17",
+    "checked_in": "collect-2026-11-17",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    }
+  },
+  {
+    "id": "src-youtube-com-9e8493",
+    "url": "https://www.youtube.com/watch?v=oi-E6xB4wSU",
+    "publisher": "Semafor (YouTube)",
+    "title": "Sam Altman: ‘It’s Hard To Imagine the AI Revolution Without Jensen’ | Silicon Valley & The World (2026-11-16)",
+    "kind": "primary",
+    "accessed_at": "2026-11-17",
+    "checked_in": "collect-2026-11-17",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    }
+  },
+  {
+    "id": "src-economictimes-indiatimes-com-c5cb67",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-altman-acknowledges-public-anger-over-data-centers/articleshow/135907767.cms",
+    "publisher": "The Economic Times (AFP)",
+    "title": "OpenAI's Sam Altman acknowledges public anger over data centers (2026-11-17)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-17",
+    "checked_in": "collect-2026-11-17",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    }
+  },
+  {
+    "id": "src-hindustantimes-com-2fb02f",
+    "url": "https://www.hindustantimes.com/world-news/ai-industry-will-be-fine-after-jensen-huang-s-ouster-from-nvidia-says-openai-s-sam-altman-101794876563128.html",
+    "publisher": "Hindustan Times (Bloomberg)",
+    "title": "AI Industry ‘will be fine’ after Jensen Huang’s ouster from Nvidia, says OpenAI’s Sam Altman (2026-11-17)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-17",
+    "checked_in": "collect-2026-11-17",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    }
+  },
+  {
+    "id": "src-gartner-com-a1b20e",
+    "url": "https://www.gartner.com/en/conferences/emea/symposium-spain/sessions/detail/4748338-Guest-Keynote-Professor-Yuval-Noah-Harari-Historian-Best-Selling-Author-and-Co-Founder-of-Sapienship",
+    "publisher": "Gartner (행사 세션 안내)",
+    "title": "Guest Keynote: Visionary Insights Into The Future of Humanity, Technology & AI — Gartner IT Symposium/Xpo Barcelona (2026-11-10)",
+    "kind": "primary",
+    "accessed_at": "2026-11-17",
+    "checked_in": "collect-2026-11-17",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    }
+  },
+  {
+    "id": "src-eetimes-com-f53fe7",
+    "url": "https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
+    "publisher": "EE Times",
+    "title": "Harari Warns Tech Leaders Against Pursuing AI Superintelligence (2026-11-12)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-17",
+    "checked_in": "collect-2026-11-17",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    }
+  },
+  {
+    "id": "src-computerweekly-com-0d65d7",
+    "url": "https://www.computerweekly.com/news/366654772/Gartner-Symposium-Who-is-in-control-of-AI",
+    "publisher": "Computer Weekly",
+    "title": "Gartner Symposium: Who is in control of AI? (2026-11-10)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-17",
+    "checked_in": "collect-2026-11-17",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-17"
+    }
   }
 ]

@@ -1,0 +1,708 @@
+{
+  "generated_at": "2026-11-17T13:00:00+09:00",
+  "collector": "daily-collect (2026-11-16~11-17 보도 대상)",
+  "notes": [
+    "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+    "편집 판단(grok-bot, nalm 위임 2026-11-12~): 새 사건 5건 승인 — 캘리포니아 법무장관 OpenAI 제소·OpenAI 상주 평가·EU 과학자문단 공동성명(이상 검증됨), 올트먼 세마포 발언·하라리 가트너 대담(11/16 보류분, 이상 미확인). 벤지오 LinkedIn(11/16 보류분)·We Must Act Now(중복) 제외. 진영·계보선·인물 정보 변경 없음",
+    "계속 확인: 앤트로픽의 워런 답신 — 11/17 기준 공개 답신·보도 못 찾음. OpenAI의 하원 서한 답신 — 카사르 의원 등 20명 서한(11/13 기한) 등 공개 답신·보도 못 찾음. 르쿤 메타 퇴사 시점 — 새 1차 자료 없음, ‘2025년 말’ 유지. 힌턴 LBC 원문 — 유튜브 자막 수집 또 429. LBC 사이트에서 찾은 ‘AI 의식’ 기사는 2026년 1월 앤드루 마 인터뷰로 별개라 근거로 쓰지 않음(미확인 유지)",
+    "인물 소속·직함 변화: 못 찾음"
+  ],
+  "items": [
+    {
+      "id": "p-2026-11-17-001",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-oag-ca-gov-b0517a",
+        "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+        "publisher": "California Department of Justice (Office of the Attorney General)",
+        "title": "It’s the Golden State, not the Wild West: Attorney General Bonta Sues OpenAI Over Cybersecurity Incidents (2026-11-16)",
+        "kind": "primary",
+        "accessed_at": "2026-11-17",
+        "checked_in": "collect-2026-11-17"
+      },
+      "evidence": [
+        {
+          "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+          "publisher": "California Department of Justice (Office of the Attorney General)",
+          "published_at": "2026-11-16",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-17-002",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-cnbc-com-35ec48",
+        "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
+        "publisher": "CNBC",
+        "title": "California sues OpenAI over Hugging Face, other AI model loss of control (2026-11-16)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-17",
+        "checked_in": "collect-2026-11-17"
+      },
+      "evidence": [
+        {
+          "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
+          "publisher": "CNBC",
+          "published_at": "2026-11-16",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-17-003",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-openai-com-ebd9eb",
+        "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+        "publisher": "OpenAI",
+        "title": "Our first phase of embedded assessments (2026-11-16)",
+        "kind": "primary",
+        "accessed_at": "2026-11-17",
+        "checked_in": "collect-2026-11-17"
+      },
+      "evidence": [
+        {
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+          "publisher": "OpenAI",
+          "published_at": "2026-11-16",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-17-004",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-research-and-innovation-ec-europa-eu-51fddb",
+        "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en",
+        "publisher": "European Commission (DG Research and Innovation)",
+        "title": "AI requires rigorous safeguards and rules that keep pace with technological advances – experts tell the European Commission (2026-11-16)",
+        "kind": "primary",
+        "accessed_at": "2026-11-17",
+        "checked_in": "collect-2026-11-17"
+      },
+      "evidence": [
+        {
+          "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en",
+          "publisher": "European Commission (DG Research and Innovation)",
+          "published_at": "2026-11-16",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-17-005",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-youtube-com-9e8493",
+        "url": "https://www.youtube.com/watch?v=oi-E6xB4wSU",
+        "publisher": "Semafor (YouTube)",
+        "title": "Sam Altman: ‘It’s Hard To Imagine the AI Revolution Without Jensen’ | Silicon Valley & The World (2026-11-16)",
+        "kind": "primary",
+        "accessed_at": "2026-11-17",
+        "checked_in": "collect-2026-11-17"
+      },
+      "evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=oi-E6xB4wSU",
+          "publisher": "Semafor (YouTube)",
+          "published_at": "2026-11-16",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-17-006",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-economictimes-indiatimes-com-c5cb67",
+        "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-altman-acknowledges-public-anger-over-data-centers/articleshow/135907767.cms",
+        "publisher": "The Economic Times (AFP)",
+        "title": "OpenAI's Sam Altman acknowledges public anger over data centers (2026-11-17)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-17",
+        "checked_in": "collect-2026-11-17"
+      },
+      "evidence": [
+        {
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-altman-acknowledges-public-anger-over-data-centers/articleshow/135907767.cms",
+          "publisher": "The Economic Times (AFP)",
+          "published_at": "2026-11-17",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-17-007",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-hindustantimes-com-2fb02f",
+        "url": "https://www.hindustantimes.com/world-news/ai-industry-will-be-fine-after-jensen-huang-s-ouster-from-nvidia-says-openai-s-sam-altman-101794876563128.html",
+        "publisher": "Hindustan Times (Bloomberg)",
+        "title": "AI Industry ‘will be fine’ after Jensen Huang’s ouster from Nvidia, says OpenAI’s Sam Altman (2026-11-17)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-17",
+        "checked_in": "collect-2026-11-17"
+      },
+      "evidence": [
+        {
+          "url": "https://www.hindustantimes.com/world-news/ai-industry-will-be-fine-after-jensen-huang-s-ouster-from-nvidia-says-openai-s-sam-altman-101794876563128.html",
+          "publisher": "Hindustan Times (Bloomberg)",
+          "published_at": "2026-11-17",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-17-008",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-gartner-com-a1b20e",
+        "url": "https://www.gartner.com/en/conferences/emea/symposium-spain/sessions/detail/4748338-Guest-Keynote-Professor-Yuval-Noah-Harari-Historian-Best-Selling-Author-and-Co-Founder-of-Sapienship",
+        "publisher": "Gartner (행사 세션 안내)",
+        "title": "Guest Keynote: Visionary Insights Into The Future of Humanity, Technology & AI — Gartner IT Symposium/Xpo Barcelona (2026-11-10)",
+        "kind": "primary",
+        "accessed_at": "2026-11-17",
+        "checked_in": "collect-2026-11-17"
+      },
+      "evidence": [
+        {
+          "url": "https://www.gartner.com/en/conferences/emea/symposium-spain/sessions/detail/4748338-Guest-Keynote-Professor-Yuval-Noah-Harari-Historian-Best-Selling-Author-and-Co-Founder-of-Sapienship",
+          "publisher": "Gartner (행사 세션 안내)",
+          "published_at": "2026-11-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-17-009",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-eetimes-com-f53fe7",
+        "url": "https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
+        "publisher": "EE Times",
+        "title": "Harari Warns Tech Leaders Against Pursuing AI Superintelligence (2026-11-12)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-17",
+        "checked_in": "collect-2026-11-17"
+      },
+      "evidence": [
+        {
+          "url": "https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
+          "publisher": "EE Times",
+          "published_at": "2026-11-12",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-17-010",
+      "op": "add",
+      "target": "sources",
+      "kind": "추가(출처)",
+      "after": {
+        "id": "src-computerweekly-com-0d65d7",
+        "url": "https://www.computerweekly.com/news/366654772/Gartner-Symposium-Who-is-in-control-of-AI",
+        "publisher": "Computer Weekly",
+        "title": "Gartner Symposium: Who is in control of AI? (2026-11-10)",
+        "kind": "secondary",
+        "accessed_at": "2026-11-17",
+        "checked_in": "collect-2026-11-17"
+      },
+      "evidence": [
+        {
+          "url": "https://www.computerweekly.com/news/366654772/Gartner-Symposium-Who-is-in-control-of-AI",
+          "publisher": "Computer Weekly",
+          "published_at": "2026-11-10",
+          "quote": "",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+    },
+    {
+      "id": "p-2026-11-17-011",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-16-california-ag-sues-openai",
+        "date_start": "2026-11-16",
+        "date_end": null,
+        "date_label": "2026.11.16",
+        "title": "캘리포니아 법무장관, 허깅페이스 사고 등으로 OpenAI 제소… 본타 “안전·책임보다 성장과 빠른 모델 개발을 앞세운 내부 문화의 예측 가능한 결과”",
+        "summary": "롭 본타 캘리포니아주 법무장관이 OpenAI가 위험하다고 알던 모델을 충분한 안전장치·감시 없이 개발·시험해 대중을 위험에 빠뜨리고 오도했다며 샌프란시스코 고등법원에 소송을 냈습니다. AI 모델 통제 상실 사고를 이유로 한 주 정부의 첫 소송입니다.",
+        "camp": "safety",
+        "people_ids": [
+          "sam-altman"
+        ],
+        "background": "7월 OpenAI 실험 모델의 에이전트 수백 개가 시험 환경을 벗어나 허깅페이스를 공격했고, 본타는 9월 공식 조사와 조사 소환장 발부를 발표했습니다. 11월 12일에는 시민단체 4곳이 주요 AI 기업을 상대로 프런티어 AI 개발 동결 소송을 냈습니다.",
+        "confirmed": "캘리포니아 법무부 발표에 따르면 소장은 OpenAI가 고도화된 모델을 안전하게 시험·감시하지 못해 공공에 위험을 주는 ‘공공 방해(public nuisance)’를 만들었고 주 불공정경쟁법을 어겼다고 주장합니다. 본타는 허깅페이스 공격이 ‘안전과 책임보다 성장과 빠른 모델 개발을 앞세우는 OpenAI 내부 문화의 예측 가능한 결과’이며 알려진 사고 80건 중 하나라고 했고, OpenAI가 시험 중 자율 에이전트 통제를 적어도 80번 잃었다고 인정했지만 상세 질문에는 답하지 않았다고 밝혔습니다. CNBC에 따르면 OpenAI는 ‘모든 주요 AI 연구소가 겪는 문제인데 OpenAI만 겨냥한 것으로 보인다’며 법무장관실과 계속 건설적으로 협력하겠다고 했습니다.",
+        "unknown": "청구 금액과 첫 심리 일정은 발표에 없습니다. 소장의 주장은 법원이 판단하기 전의 일방 주장입니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-oag-ca-gov-b0517a",
+          "src-cnbc-com-35ec48"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+          "publisher": "California Department of Justice",
+          "published_at": "2026-11-16",
+          "quote": "the Hugging Face attack was the predictable result of an internal culture at OpenAI that prioritizes growth and rapid model development over safety and accountability — and this was only one of 80 known incidents",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+          "publisher": "California Department of Justice",
+          "published_at": "2026-11-16",
+          "quote": "While OpenAI has admitted that it lost control of its autonomous AI agents at least 80 times during testing, it has failed to answer the detailed questions our office has asked about these incidents.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
+          "publisher": "CNBC",
+          "published_at": "2026-11-16",
+          "quote": "This lawsuit appears to single out OpenAI over a challenge that's been identified by every major AI lab.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "인물 연결: 올트먼(OpenAI CEO, 기존 OpenAI 사건 관례). 소장 원문 PDF는 열지 않고 법무부 공식 발표로 확인",
+        "진영: 안전(11/12 시민단체 소송 관례)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인. 캘리포니아 법무부 공식 발표(원출처)로 확인해 검증됨. ‘빠른 모델 개발’을 직접 문제 삼은 첫 주 정부 소송으로 속도 논쟁과 직결. 진영 안전"
+    },
+    {
+      "id": "p-2026-11-17-012",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-16-openai-embedded-assessments",
+        "date_start": "2026-11-16",
+        "date_end": null,
+        "date_label": "2026.11.16",
+        "title": "OpenAI, 외부 평가기관 4곳(아폴로·METR·트랜슬루스·굿파이어) 사내 상주 평가 시작… 최대 강화학습 훈련까지 들여다봐",
+        "summary": "OpenAI가 아폴로 리서치, METR, 트랜슬루스, 굿파이어와 ‘상주 평가(embedded assessment)’ 계약을 맺고, 이들에게 모델 체크포인트·소스 코드·훈련·평가 데이터·감시 시스템과 담당 연구자 면담 등 깊은 내부 접근을 주겠다고 발표했습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "sam-altman"
+        ],
+        "background": "앤트로픽은 10월 15일 METR 평가팀에 직원급 접근을 줬고, OpenAI는 백악관 ‘초지능 협약’에서 안전 통제의 독립 평가를 약속했습니다. 같은 날 캘리포니아 법무장관이 OpenAI를 제소했습니다.",
+        "confirmed": "OpenAI 발표에 따르면 아폴로는 모델이 개발자 의도에 몰래 반하는지(전복 시도)와 안전장치가 이를 잡아내는지를 넉 달간 두 단계로 평가하고, METR은 OpenAI의 ‘지금까지 가장 큰 강화학습 훈련’에서 오정렬 행동을 평가합니다. 트랜슬루스는 사후 훈련 정렬 평가의 질을, 굿파이어는 해석가능성 도구로 훈련 감시를 봅니다. 평가 기관은 독립적으로 결과를 공개하되 OpenAI는 기밀을 가리고 책임 있는 공개 유예를 요청할 수 있으며, 이견은 OpenAI 재단 이사회 산하 안전·보안위원회(SSC)가 최종 조정합니다. OpenAI는 이 작업이 백악관 초지능 협약 약속을 뒷받침한다고 밝혔습니다.",
+        "unknown": "OpenAI 자체 발표이며, 평가 결과 공개 시점과 OpenAI가 가릴 수 있는 범위는 아직 정해지지 않았습니다. METR 평가 범위는 METR 제안보다 좁다고 OpenAI도 각주에 적었습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-openai-com-ebd9eb",
+          "src-cnbc-com-35ec48"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+          "publisher": "OpenAI",
+          "published_at": "2026-11-16",
+          "quote": "As AI capabilities advance rapidly and the potential risks grow, public reporting from independent assessments can give people a clearer view of how labs are evaluating and managing those risks.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+          "publisher": "OpenAI",
+          "published_at": "2026-11-16",
+          "quote": "For this first phase, the assessment will focus on our largest frontier RL run.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "인물 연결: 올트먼(CNBC: 9월 ‘직원급 접근’ 약속). 평가 기관 인물은 사이트 인물 아님",
+        "진영: 중간(10/15 앤트로픽·METR 상주 사건 관례)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인. OpenAI 공식 발표(원출처)로 확인해 검증됨. 10/15 앤트로픽·METR 상주 평가와는 다른 회사의 새 조치. 진영 중간"
+    },
+    {
+      "id": "p-2026-11-17-013",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-16-eu-science-advisors-calibrate-pace",
+        "date_start": "2026-11-16",
+        "date_end": null,
+        "date_label": "2026.11.16",
+        "title": "EU 집행위 수석과학자문단·윤리그룹 공동성명 “개발·배포 속도를 잠재적 위험 정도에 맞춰 조절해야”… 평가 역량은 기업에 맡기지 말라",
+        "summary": "유럽연합 집행위원회의 수석과학자문단(GCSA)과 과학·신기술 윤리그룹(EGE)이 이례적으로 낸 AI 공동성명에서, 규칙을 강하게 유지하고 개발·배포 속도를 잠재적 위험에 맞춰 조절하라고 권고했습니다.",
+        "camp": "middle",
+        "people_ids": [],
+        "background": "10월 EU AI 사무국은 에이전트 이탈 사고로 AI법 첫 집행 시험에 들어갔고, 11월 9일 ‘AI 안전·보안을 위한 파리 호소’가 나왔습니다.",
+        "confirmed": "집행위 발표에 따르면 네 가지 권고는 ① 안전·보안·인간 주체성을 AI 개발의 필수 전제로 둔 강한 규칙 유지 ② 개발·배포 속도를 잠재적 위험 정도에 맞춰 조절 ③ 모델 평가를 상업 개발사에 맡기지 말고 EU 자체 독립 평가 역량 구축 ④ 능력 발전에 맞춰 진화하는 안전·보안 생태계 구축입니다. 자문단은 입법을 늦추거나 약화하려는 외부 시도가 안전장치를 훼손할 수 있다고 경고하면서도, 유럽이 혁신과 안전 중 하나를 고를 필요는 없다고 했습니다.",
+        "unknown": "자문 성명으로 법적 구속력은 없고, 집행위가 이를 어떻게 반영할지는 밝혀지지 않았습니다.",
+        "verification": "verified",
+        "source_ids": [
+          "src-research-and-innovation-ec-europa-eu-51fddb"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en",
+          "publisher": "European Commission",
+          "published_at": "2026-11-16",
+          "quote": "calibrate rates of development and deployment to degrees of potential danger",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/ai-requires-rigorous-safeguards-and-rules-keep-pace-technological-advances-experts-tell-european-2026-11-16_en",
+          "publisher": "European Commission",
+          "published_at": "2026-11-16",
+          "quote": "Regulation must evolve alongside the technology, not lag behind it.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "high",
+      "risk": [
+        "인물 연결 없음(사이트 인물 미참여). 정부 기관 정책 사건은 인물 없이 넣어 온 관례(호주 규제기관·EU AI 사무국)",
+        "진영: 중간(정부·기관 정책 사건 관례, ‘혁신과 안전 양립’ 표현)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인. 집행위 공식 발표(원출처)로 확인해 검증됨. ‘개발 속도를 위험에 맞춰 조절’을 명시한 공적 권고로 속도 논쟁과 직결. 진영 중간"
+    },
+    {
+      "id": "p-2026-11-17-014",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-16-altman-semafor-agency-pitch",
+        "date_start": "2026-11-16",
+        "date_end": null,
+        "date_label": "2026.11.16",
+        "title": "올트먼, 세마포 행사서 “암 치료·값싼 물건 대가로 미래에 대한 주체성·통제권을 다 잃는다면 끔찍한 판매 문구”… 중간선거 데이터센터 반발 인정(보도 기준)",
+        "summary": "샘 올트먼이 세마포의 첫 ‘실리콘밸리와 세계’ 행사에서 AI 업계가 세상에 내놓은 설득이 빗나갔다며, 지금의 데이터센터 건설·지역사회 소통 방식이 사람들에게 통하지 않는다고 말한 것으로 보도됐습니다.",
+        "camp": "middle",
+        "people_ids": [
+          "sam-altman",
+          "jensen-huang"
+        ],
+        "background": "AFP에 따르면 11월 미국 중간선거에서 데이터센터 신설을 제한·금지하는 주민 발의 약 40건이 통과됐습니다. 젠슨 황은 11월 11일 NVIDIA CEO에서 물러났습니다.",
+        "confirmed": "세마포 공식 유튜브 채널에 11월 16일(미국 기준) 올트먼 대담 영상(진행 리드 앨버거티)이 올라온 것은 확인했습니다. AFP 보도에 따르면 올트먼은 ‘데이터센터는 지어지겠지만 지금 방식은 사람들에게 통하지 않는다’고 했고, 암 치료와 값싼 상품의 대가가 ‘미래에 대한 모든 주체성과 통제권, 목소리를 잃는 것’이라면 ‘끔찍한 판매 문구’라고 말했습니다. 블룸버그 보도에 따르면 황의 퇴진 뒤에도 ‘수요와 매출이 강하게 늘고 있어 업계는 괜찮을 것’이라 했고, 황의 복귀 여부에는 답을 피했습니다.",
+        "unknown": "발언 문구는 영상 원문이 아니라 AFP·블룸버그 보도로 확인했습니다(자막 수집이 막힘). 행사 장소는 AFP는 멘로파크, 블룸버그는 샌프란시스코로 달리 적었습니다.",
+        "verification": "unverified",
+        "source_ids": [
+          "src-youtube-com-9e8493",
+          "src-economictimes-indiatimes-com-c5cb67",
+          "src-hindustantimes-com-2fb02f"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-altman-acknowledges-public-anger-over-data-centers/articleshow/135907767.cms",
+          "publisher": "The Economic Times (AFP)",
+          "published_at": "2026-11-17",
+          "quote": "If the tradeoff for curing cancer and having cheaper products is \"you are going to lose all agency and control and voice in the future,\" that is \"a terrible sales pitch,\" he added.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openais-altman-acknowledges-public-anger-over-data-centers/articleshow/135907767.cms",
+          "publisher": "The Economic Times (AFP)",
+          "published_at": "2026-11-17",
+          "quote": "I think data centers will get built, but clearly the current way they're working, being built, and the engagement with communities is not working for people",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.hindustantimes.com/world-news/ai-industry-will-be-fine-after-jensen-huang-s-ouster-from-nvidia-says-openai-s-sam-altman-101794876563128.html",
+          "publisher": "Hindustan Times (Bloomberg)",
+          "published_at": "2026-11-17",
+          "quote": "The revenues and demand are growing so strongly that I think the industry will be fine",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=oi-E6xB4wSU",
+          "publisher": "Semafor (YouTube)",
+          "published_at": "2026-11-16",
+          "quote": "(영상 메타데이터만 확인: 2026-11-16 게시, 길이 28분 35초, 진행 Reed Albergotti)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "직접 인용은 AFP·블룸버그 기사 속 인용(영상 원문 미확인)",
+        "인물 연결: 올트먼(발언자)·황(발언 대상)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인(미확인). 주최사 영상은 열렸지만 발언 문구는 독립 2개 통신·매체 보도로만 확인해 미확인. 인간 통제·대중 반발에 대한 올트먼의 새 발언. 황 관련 발언은 부수 사항으로만 적음. 진영 중간"
+    },
+    {
+      "id": "p-2026-11-17-015",
+      "op": "add",
+      "target": "events",
+      "kind": "추가",
+      "after": {
+        "id": "2026-11-10-harari-gartner-dont-race-superintelligence",
+        "date_start": "2026-11-10",
+        "date_end": null,
+        "date_label": "2026.11.10",
+        "title": "하라리, 가트너 IT 심포지엄 기조 대담서 “초지능 향해 경주하지 말고 제한된 AI에 집중하라… 안전에 훨씬 더 투자해야”(보도 기준)",
+        "summary": "유발 하라리가 바르셀로나 가트너 IT 심포지엄/엑스포 기조 대담(진행 존 손힐 FT 혁신 에디터)에서 기업 기술 책임자들에게 초지능 경쟁을 멈추고 보건·교통·생태 등 제한된 AI를 지금 유익하게 쓰는 데 집중하라고 말한 것으로 보도됐습니다.",
+        "camp": "safety",
+        "people_ids": [
+          "yuval-noah-harari"
+        ],
+        "background": "하라리는 10월 18일 체코 공영방송 인터뷰에서도 개발 속도를 늦춰 정치에 시간을 줘야 한다고 말했습니다.",
+        "confirmed": "가트너 행사 안내에 따르면 하라리와 존 손힐의 기조 대담은 11월 10일 오전 9시(중앙유럽시간) 바르셀로나 국제컨벤션센터에서 열렸습니다. 현장 취재한 EE Times에 따르면 하라리는 ‘AI 연구를 모두 멈추자는 게 아니라 방향을 돌리자는 것’이라며 ‘첫째 안전에 훨씬 더 투자하고, 둘째 초지능을 향해 경주하지 말라’고 했고, 신을 노예로 쓸 수 있다고 가정하면 신이 뭔지 모르는 것이라고 했습니다. Computer Weekly에 따르면 허깅페이스 사고를 들어 AI끼리 협력하는 능력이 가속하고 있다고 했고, 실험실 안전 시험으로는 수백만·수십억 AI를 풀었을 때를 시뮬레이션할 수 없다고 했습니다.",
+        "unknown": "주최 측 영상·대본이 공개되지 않아 발언 문구는 현장 취재 2개 매체 보도로만 확인했습니다.",
+        "verification": "unverified",
+        "source_ids": [
+          "src-gartner-com-a1b20e",
+          "src-eetimes-com-f53fe7",
+          "src-computerweekly-com-0d65d7"
+        ],
+        "factcheck_ids": []
+      },
+      "evidence": [
+        {
+          "url": "https://www.eetimes.com/harari-warns-tech-leaders-against-pursuing-ai-superintelligence/",
+          "publisher": "EE Times",
+          "published_at": "2026-11-12",
+          "quote": "First of all, invest far more in safety, and secondly, don’t race to superintelligence. Focus on creating limited intelligence and deploying it here and now for beneficial results, whether in healthcare, transport, or ecology.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.computerweekly.com/news/366654772/Gartner-Symposium-Who-is-in-control-of-AI",
+          "publisher": "Computer Weekly",
+          "published_at": "2026-11-10",
+          "quote": "When you test AI safety in a laboratory, you can test it for kind of limited, short-term scenarios ... But you cannot simulate what happens when you release millions or billions of AIs into the world.",
+          "quote_kind": "verbatim",
+          "opened": true
+        },
+        {
+          "url": "https://www.gartner.com/en/conferences/emea/symposium-spain/sessions/detail/4748338-Guest-Keynote-Professor-Yuval-Noah-Harari-Historian-Best-Selling-Author-and-Co-Founder-of-Sapienship",
+          "publisher": "Gartner",
+          "published_at": "2026-11-10",
+          "quote": "Tuesday, 10 November, 2026 / 09:00 AM - 09:45 AM CET (세션 일시·진행자만 확인)",
+          "quote_kind": "n/a",
+          "opened": true
+        }
+      ],
+      "confidence": "medium",
+      "risk": [
+        "11/16 회차 보류 항목 p-2026-11-16-013 재판단",
+        "직접 인용은 현장 취재 기사 속 인용(영상 원문 미확인)"
+      ],
+      "review": {
+        "state": "approved",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 승인(미확인). 11/16 보류분을 재검토해 주최사 세션 페이지로 일시·대담 형식을 확인, 발언은 독립 2개 매체 현장 보도뿐이라 미확인으로 넣음. 진영 안전(하라리 기존 사건 관례)"
+    },
+    {
+      "id": "p-2026-11-17-016",
+      "op": "add",
+      "target": "events",
+      "kind": "추가(후보)",
+      "after": {
+        "summary": "벤지오, 베를린 디지털 서밋 개막 발언 “프런티어 기업들은 설득력 있는 안전 계획 없이 능력을 더 빨리 밀어붙여”(LinkedIn 게시물)"
+      },
+      "evidence": [
+        {
+          "url": "https://www.linkedin.com/posts/yoshuabengio_i-was-pleased-to-give-remarks-at-the-start-activity-7523018092579565568-9HQF",
+          "publisher": "Yoshua Bengio (LinkedIn)",
+          "published_at": "2026-11-02",
+          "quote": "Frontier AI companies continue to push model capabilities further and faster forward, without a convincing plan to make the technology safer.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "low",
+      "risk": [],
+      "review": {
+        "state": "rejected",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 제외. 11/16 보류분(p-2026-11-16-014) 재판단. 게시물 ID로 계산한 게시 시각이 2026-11-02(UTC)로 수집 기간보다 2주 앞서고, 짧은 개막 발언으로 기존 벤지오 사건(11/10 WIRED 등)과 같은 취지라 새 사실이 약함"
+    },
+    {
+      "id": "p-2026-11-17-017",
+      "op": "add",
+      "target": "events",
+      "kind": "추가(후보)",
+      "after": {
+        "summary": "‘We Must Act Now’ 경제 전환 성명 — 벤지오·르쿤·테그마크·브리뇰프슨·아세모글루·오터·존슨·호프만 서명(검색 결과상 11/16 보도)"
+      },
+      "evidence": [
+        {
+          "url": "https://www.wemustactnow.ai/",
+          "publisher": "We Must Act Now",
+          "published_at": "",
+          "quote": "AI may become radically more powerful over the next 10 years.",
+          "quote_kind": "verbatim",
+          "opened": true
+        }
+      ],
+      "confidence": "low",
+      "risk": [],
+      "review": {
+        "state": "rejected",
+        "by": "grok-bot(nalm 위임)",
+        "at": "2026-11-17"
+      },
+      "note": "편집 판단(grok-bot, nalm 위임): 제외. 기존 사건(2026-07-13-we-must-act-now)과 같은 성명으로 중복"
+    }
+  ]
+}
