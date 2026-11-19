@@ -5044,5 +5044,131 @@
       "by": "grok-bot(nalm 위임)",
       "at": "2026-11-17"
     }
+  },
+  {
+    "id": "src-openai-com-551ec7",
+    "url": "https://openai.com/index/managing-frontier-ai-risk/",
+    "publisher": "OpenAI",
+    "title": "Managing frontier AI risk: From training to deployment (2026-11-18)",
+    "kind": "primary",
+    "accessed_at": "2026-11-19",
+    "checked_in": "collect-2026-11-19",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    }
+  },
+  {
+    "id": "src-gov-ca-gov-9e7425",
+    "url": "https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight/",
+    "publisher": "Governor of California",
+    "title": "Governor Newsom’s nation-leading AI safety framework is getting even stronger as California releases next steps on mandatory safety standards and oversight (2026-11-18)",
+    "kind": "primary",
+    "accessed_at": "2026-11-19",
+    "checked_in": "collect-2026-11-19",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    }
+  },
+  {
+    "id": "src-committees-parliament-uk-ff4e64",
+    "url": "https://committees.parliament.uk/committee/365/business-innovation-science-and-trade-committee/news/219006/close-ai-safety-gaps-to-secure-britains-400-billion-ai-growth-opportunity-mps-urge/",
+    "publisher": "UK Parliament (Business, Innovation, Science and Trade Committee)",
+    "title": "Close AI safety gaps to secure Britain’s £400 billion AI growth opportunity, MPs urge (2026-11-18)",
+    "kind": "primary",
+    "accessed_at": "2026-11-19",
+    "checked_in": "collect-2026-11-19",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    }
+  },
+  {
+    "id": "src-theregister-com-3cd71e",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/18/uk-mps-want-ai-watchdog-with-power-to-pull-the-plug-on-dangerous-models/5310567",
+    "publisher": "The Register",
+    "title": "UK MPs want AI watchdog with power to pull the plug on dangerous models (2026-11-18)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-19",
+    "checked_in": "collect-2026-11-19",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    }
+  },
+  {
+    "id": "src-misanthropicstatement-com-2e5f67",
+    "url": "https://misanthropicstatement.com/",
+    "publisher": "The MisAnthropic Statement",
+    "title": "The MisAnthropic Statement (2026-11-18)",
+    "kind": "primary",
+    "accessed_at": "2026-11-19",
+    "checked_in": "collect-2026-11-19",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    }
+  },
+  {
+    "id": "src-safe-ai-de6ea8",
+    "url": "https://safe.ai/news/anthropic-is-not-a-safe-ai-company",
+    "publisher": "Center for AI Safety",
+    "title": "Anthropic is Not a Safe AI Company (2026-11-18)",
+    "kind": "primary",
+    "accessed_at": "2026-11-19",
+    "checked_in": "collect-2026-11-19",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    }
+  },
+  {
+    "id": "src-anthropic-com-909b75",
+    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+    "publisher": "Anthropic",
+    "title": "Anthropic prices initial public offering (2026-11-18)",
+    "kind": "primary",
+    "accessed_at": "2026-11-19",
+    "checked_in": "collect-2026-11-19",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    }
+  },
+  {
+    "id": "src-newsroom-amd-com-e606cd",
+    "url": "https://newsroom.amd.com/news/amd-completes-acquisition-world-labs/",
+    "publisher": "AMD Newsroom",
+    "title": "AMD Completes Acquisition of World Labs (2026-11-16)",
+    "kind": "primary",
+    "accessed_at": "2026-11-19",
+    "checked_in": "collect-2026-11-19",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    }
+  },
+  {
+    "id": "src-npr-org-a1aa55",
+    "url": "https://www.npr.org/2026/11/18/nx-s1-6044223/openai-embedded-evaluators-program-critics",
+    "publisher": "NPR",
+    "title": "OpenAI announces new AI safety program; researchers worry it won't be enough (2026-11-18)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-19",
+    "checked_in": "collect-2026-11-19",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    }
   }
 ]

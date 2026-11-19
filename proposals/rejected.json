@@ -438,5 +438,89 @@
     },
     "note": "편집 판단(grok-bot, nalm 위임): 제외. 기존 사건(2026-07-13-we-must-act-now)과 같은 성명으로 중복",
     "from": "2026-11-17.json"
+  },
+  {
+    "id": "p-2026-11-19-018",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "뉴욕주 법무장관, AI 안전·표준·집행·투명성(ASSET) 전담 부서 신설"
+    },
+    "evidence": [
+      {
+        "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-announces-creation-ai-safety-standards-enforcement-and",
+        "publisher": "New York State Attorney General",
+        "published_at": "2026-11-17",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": false
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. RAISE 법 집행 조직 신설로 기존 뉴욕주 RAISE 사건들과 겹치고 개발 속도 논쟁과의 관련이 약하며 사이트 인물 연결이 없음",
+    "from": "2026-11-19.json"
+  },
+  {
+    "id": "p-2026-11-19-019",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "비즈니스스탠더드 ‘아모데이에서 올트먼까지, 기술 리더들이 두려워하는 AI 악용’"
+    },
+    "evidence": [
+      {
+        "url": "https://www.business-standard.com/technology/artificial-intelligence/dario-amodei-to-sam-altman-what-tech-leaders-fear-about-ai-misuse-126111800337_1.html",
+        "publisher": "Business Standard",
+        "published_at": "2026-11-18",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": false
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 9월 에세이·안보리 연설 등 기존 발언의 재정리로 새 사실이 없음",
+    "from": "2026-11-19.json"
+  },
+  {
+    "id": "p-2026-11-19-020",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "앤트로픽 사상 최대 IPO(공모가 83달러, 11/19 나스닥 상장)"
+    },
+    "evidence": [
+      {
+        "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+        "publisher": "Anthropic",
+        "published_at": "2026-11-18",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 재무 사건으로는 속도 논쟁과 관련이 약해 별도 사건으로 만들지 않고 미스앤트로픽 성명 사건 배경에 넣음",
+    "from": "2026-11-19.json"
   }
 ]

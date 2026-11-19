@@ -1077,9 +1077,9 @@
     "camp": "middle",
     "field": null,
     "country": null,
-    "role": "스탠퍼드 HAI 공동소장 · World Labs CEO",
+    "role": "AMD 수석부사장(EVP)·최고과학자 · 스탠퍼드 HAI 공동소장",
     "stance": "낙관·비관 서사 대신 구체적 응용의 위해와 인간적 성과를 평가",
-    "moment": "AMD의 World Labs 인수는 2026년 말 완료 예정",
+    "moment": "AMD가 2026년 11월 16일 World Labs 인수를 마치고 리를 수석부사장 겸 최고과학자로 임명(리사 수 CEO 직속)",
     "portrait": {
       "path": "assets/portraits/fei-fei-li.jpg",
       "author": "ITU Pictures",
@@ -1091,15 +1091,16 @@
     "source_ids": [
       "src-ir-amd-com-29d921",
       "src-worldlabs-ai-a7a3b6",
-      "src-cnbc-com-dd8828"
+      "src-cnbc-com-dd8828",
+      "src-newsroom-amd-com-e606cd"
     ],
     "factcheck_ids": [
       "P33"
     ],
     "review": {
-      "state": "pending",
-      "by": "nalm",
-      "at": null
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-19"
     }
   },
   {
