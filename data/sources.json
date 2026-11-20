@@ -5170,5 +5170,215 @@
       "by": "grok-bot(nalm 위임)",
       "at": "2026-11-19"
     }
+  },
+  {
+    "id": "src-youtube-com-abd719",
+    "url": "https://www.youtube.com/watch?v=J5EA7QeBm8k",
+    "publisher": "The New York Times (YouTube)",
+    "title": "Why Sam Altman and Greg Brockman Say Humans Must Stay in Control of AI — DealBook Summit 2026 (2026-11-18)",
+    "kind": "primary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-techcrunch-com-3439be",
+    "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+    "publisher": "TechCrunch",
+    "title": "Sam Altman warns against a future where AI, not humans, calls the shots (2026-11-18)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-deadline-com-5d81fa",
+    "url": "https://deadline.com/2026/11/sam-altman-artificial-openai-safety-1237228014/",
+    "publisher": "Deadline",
+    "title": "Sam Altman On ‘Artificial’ Movie About Him — Not Among “Ten Weirdest Things In My Life” Right Now (2026-11-18)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-youtube-com-fc28a4",
+    "url": "https://www.youtube.com/watch?v=FgAtTAgBT2Q",
+    "publisher": "Nasdaq (YouTube)",
+    "title": "Anthropic IPO: Co-Founder & CEO Dario Amodei speaks at the Nasdaq opening bell (2026-11-19)",
+    "kind": "primary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-techcrunch-com-b80c1a",
+    "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+    "publisher": "TechCrunch",
+    "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development (2026-11-19)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-kqed-org-e2097b",
+    "url": "https://www.kqed.org/news/12110643/four-arrests-in-san-francisco-protest-outside-anthropic-headquarters-after-ipo",
+    "publisher": "KQED",
+    "title": "4 Arrests in San Francisco Protest Outside Anthropic Headquarters After IPO (2026-11-19)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-businessinsider-com-bb6b66",
+    "url": "https://www.businessinsider.com/jacob-coxon-ban-rsi-protest-anthropic-ipo-day-2026-11",
+    "publisher": "Business Insider",
+    "title": "Jacob Coxon speaks out in an IPO day protest at Anthropic's office (2026-11-19)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-yna-co-kr-ae0980",
+    "url": "https://www.yna.co.kr/view/AKR20261120050000091",
+    "publisher": "연합뉴스",
+    "title": "앤트로픽 상장한 날 'AI 개발중단' 시위도…\"가장 해로운 회사\" (2026-11-20)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-sarajacobs-house-gov-843167",
+    "url": "https://sarajacobs.house.gov/news/press-releases/jacobs-maloy-beyer-release-outline-for-sweeping-bipartisan-ai-safety-legislation",
+    "publisher": "U.S. Rep. Sara Jacobs",
+    "title": "Jacobs, Maloy, Beyer Release Outline For Sweeping, Bipartisan AI Safety Legislation (2026-11-19)",
+    "kind": "primary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-whitesides-house-gov-3f6712",
+    "url": "https://whitesides.house.gov/2026/11/19/reps-whitesides-moran-and-beyer-launch-first-congressional-caucus-focused-on-ai-safety-and-innovation/",
+    "publisher": "U.S. Rep. George Whitesides",
+    "title": "Reps. Whitesides, Moran, and Beyer Launch First Congressional Caucus Focused on AI Safety and Innovation (2026-11-19)",
+    "kind": "primary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-therecord-media-8dfce1",
+    "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+    "publisher": "The Record (Recorded Future News)",
+    "title": "Lawmakers launch new AI safety caucus amid rising security concerns (2026-11-19)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-mfa-gov-cn-9da2cf",
+    "url": "https://www.mfa.gov.cn/eng/xw/zyxw/202611/t20261119_12063139.html",
+    "publisher": "Ministry of Foreign Affairs of the PRC",
+    "title": "President Xi Jinping Meets with U.S. President Donald J. Trump (2026-11-19)",
+    "kind": "primary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-en-yna-co-kr-b07f13",
+    "url": "https://en.yna.co.kr/view/AEN20261119004900315",
+    "publisher": "Yonhap News Agency",
+    "title": "Trump stresses caution in managing AI risks at APEC summit (2026-11-19)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-euronews-com-a0175a",
+    "url": "https://www.euronews.com/2026/11/19/us-president-trump-rejects-global-ai-regulation-as-chinas-xi-calls-for-cooperation-on-safe",
+    "publisher": "Euronews",
+    "title": "US President Trump rejects global AI regulation as China's Xi calls for cooperation on safety (2026-11-19)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
+  },
+  {
+    "id": "src-forth-news-89bab7",
+    "url": "https://www.forth.news/lists/ussen-warren/ChB5gdQuoFYhkqpBvTp52",
+    "publisher": "Forth (워런 의원실 보도자료 게재본)",
+    "title": "Warren Statement Ahead of Anthropic IPO (2026-11-18)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-20",
+    "checked_in": "collect-2026-11-20",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    }
   }
 ]

@@ -522,5 +522,145 @@
     },
     "note": "편집 판단(grok-bot, nalm 위임): 제외. 재무 사건으로는 속도 논쟁과 관련이 약해 별도 사건으로 만들지 않고 미스앤트로픽 성명 사건 배경에 넣음",
     "from": "2026-11-19.json"
+  },
+  {
+    "id": "p-2026-11-20-022",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "앤트로픽, 상장 직전 RSP 일부 발동·추가 안전통제(한국경제, FT 인용 11/20)"
+    },
+    "evidence": [
+      {
+        "url": "https://www.hankyung.com/article/202611208992i",
+        "publisher": "한국경제",
+        "published_at": "2026-11-20",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 상장 신고서 수정 2호의 RSP 기준 도달 판단을 다룬 기존 사건(2026-11-10-anthropic-s1a2-rsp-threshold-met)과 중복",
+    "from": "2026-11-20.json"
+  },
+  {
+    "id": "p-2026-11-20-023",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "DeepMind Institute 에세이 ‘What comes after AGI?’ — AGI에서 초지능으로 가는 네 경로(11/19)"
+    },
+    "evidence": [
+      {
+        "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+        "publisher": "DeepMind Institute",
+        "published_at": "2026-11-19",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 연구자 개인 에세이로 개발 속도에 대한 정책 주장이 아니고, 사이트 인물(허사비스)이 저자로 참여하지 않음",
+    "from": "2026-11-20.json"
+  },
+  {
+    "id": "p-2026-11-20-024",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "나델라, 이그나이트 원탁서 ‘경제 차원에선 AGI-pilled… 모델 하나가 독점하면 끝’(The Verge 11/17)"
+    },
+    "evidence": [
+      {
+        "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+        "publisher": "The Verge",
+        "published_at": "2026-11-17",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 경제력 집중·확산 논의가 중심이라 개발 속도 논쟁과 관련이 약하고, 수집 기간(11/19~20) 이전 발언",
+    "from": "2026-11-20.json"
+  },
+  {
+    "id": "p-2026-11-20-025",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "하정우, ‘자율주행 AI 판단 한 번 틀리면 사고… 안전 검증 강화해야’(뉴스1 11/19)"
+    },
+    "evidence": [
+      {
+        "url": "https://www.news1.kr/industry/auto-industry/6359660",
+        "publisher": "뉴스1",
+        "published_at": "2026-11-19",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 자율주행 산업 안전 검증 이야기로 AI 개발 속도 논쟁과 관련이 약함(본문 대부분 열리지 않음)",
+    "from": "2026-11-20.json"
+  },
+  {
+    "id": "p-2026-11-20-026",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "메릴랜드·일리노이 등 5개 주 재정 책임자, 상장 앞둔 앤트로픽에 위험 관리·지배구조·출시 지연 영향 공개 요구 서한(Axios 11/18)"
+    },
+    "evidence": [
+      {
+        "url": "https://www.axios.com/2026/11/18/anthropic-ipo-democrats-treasurers-letter",
+        "publisher": "Axios",
+        "published_at": "2026-11-18",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": false
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-20"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 상장 지배구조·재무 공시 요구가 중심이고 기사 본문을 직접 열지 못함. 워런 사건 보강으로 상장 전 압박은 반영",
+    "from": "2026-11-20.json"
   }
 ]
