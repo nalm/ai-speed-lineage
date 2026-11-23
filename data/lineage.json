@@ -195,6 +195,14 @@
       "sub": "독립 평가 인프라"
     },
     {
+      "id": "n-dan-hendrycks",
+      "lane": "evaluation-critique",
+      "order": 5,
+      "person_id": "dan-hendrycks",
+      "label": "헨드릭스",
+      "sub": "CAIS · 프론티어 훈련 중단"
+    },
+    {
       "id": "n-marc-andreessen",
       "lane": "acceleration",
       "order": 2,
@@ -225,6 +233,14 @@
       "person_id": "liu-shengyu",
       "label": "류성위",
       "sub": "중국 오픈소스 가속"
+    },
+    {
+      "id": "n-alexandr-wang",
+      "lane": "acceleration",
+      "order": 5,
+      "person_id": "alexandr-wang",
+      "label": "왕",
+      "sub": "Meta 초지능 · 통제 경고"
     }
   ],
   "edges": [

@@ -1,5 +1,49 @@
 [
   {
+    "id": "2026-11-23-people",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    },
+    "approved_at": "2026-11-23",
+    "period": "인물 추가 (2026-11-23 승인)",
+    "headline": "이번 재검증에서 달라진 점",
+    "note": "nalm의 요청으로 알렉산더 왕과 댄 헨드릭스를 인물로 새로 넣었습니다. 인물은 52명에서 54명이 되었고, 새 사건 2건(모두 검증됨)과 출처 6건을 더했으며, 기존 미스앤트로픽 성명 사건에 헨드릭스를 연결했습니다. 진영 분류 기준은 바꾸지 않았습니다.",
+    "items": [
+      {
+        "title": "인물 2명 추가",
+        "text": "알렉산더 왕(Meta 최고AI책임자·Meta Superintelligence Labs 책임자·Scale AI 창업자)은 초지능 랩을 이끌면서도 제약 없는 재귀적 자기개선과 사회 ‘이양’을 경고해 중간 진영, 계보는 ‘가속 인프라’에 두었습니다. 댄 헨드릭스(Center for AI Safety 대표·연구 디렉터, 전 xAI·Scale AI·Meta 자문)는 프론티어 훈련 중단과 앤트로픽 비판을 이어 와 안전 진영, 계보는 ‘평가·구조 비판’에 두었습니다. 두 사람 모두 Wikimedia Commons의 자유 라이선스 사진을 썼습니다(왕은 Meta 제공 CC BY-SA 4.0, 헨드릭스는 TechCrunch CC BY 4.0).",
+        "refs": [],
+        "source_ids": [
+          "src-meta-com-d95a8b",
+          "src-safe-ai-de29d8"
+        ]
+      },
+      {
+        "title": "새 사건 2건",
+        "text": "왕이 11월 22일 X 글에서 제약 없는 재귀적 자기개선의 통제가 상상하기 어렵고, 사회를 AI에 이양해서는 안 된다고 한 일(중간·왕 연결, 검증됨)과, 헨드릭스가 11월 18일 딜북 AGI 패널에서 프론티어 훈련을 멈추는 ‘더 무딘 개입’을 주장하고 앤트로픽을 무모하다고 한 일(안전·헨드릭스·아모데이 연결, 검증됨)을 넣었습니다. 딜북 발언은 11/23 회차에서 인물이 없어 제외했던 항목을, 뉴욕타임스 공식 영상 자막으로 다시 확인해 수록했습니다.",
+        "refs": [],
+        "source_ids": [
+          "src-x-com-7428ae",
+          "src-x-com-7735b5",
+          "src-youtube-com-c130a8",
+          "src-thenextweb-com-c4b348"
+        ]
+      },
+      {
+        "title": "기존 사건 연결",
+        "text": "11월 18일 미스앤트로픽 성명 사건에 헨드릭스를 연결했습니다. 성명 본문과 CAIS 해설에 이미 인용·조직자로 나와 있었습니다.",
+        "refs": [],
+        "source_ids": [
+          "src-misanthropicstatement-com-2e5f67",
+          "src-safe-ai-de6ea8"
+        ]
+      }
+    ],
+    "source_ids": []
+  },
+  {
     "id": "2026-11-23-update",
     "review": {
       "state": "approved",

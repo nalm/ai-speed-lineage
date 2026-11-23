@@ -5492,5 +5492,89 @@
       "by": "grok-bot(nalm 위임)",
       "at": "2026-11-23"
     }
+  },
+  {
+    "id": "src-meta-com-d95a8b",
+    "url": "https://www.meta.com/about/leadership/alexandr-wang/",
+    "publisher": "Meta",
+    "title": "Alexandr Wang, Chief AI Officer (Meta 리더십 소개)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "edit-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-x-com-7428ae",
+    "url": "https://x.com/alexandr_wang/status/2124636606959345776",
+    "publisher": "Alexandr Wang (X)",
+    "title": "왕 X 글: ‘Superintelligence is Arriving’ (2026-11-22)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "edit-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-x-com-7735b5",
+    "url": "https://x.com/alexandr_wang/status/2124719968499777546",
+    "publisher": "Alexandr Wang (X)",
+    "title": "왕 X 후속 글: Muse 출시 연기·SI Accords·RSI보다 사람 대상 연산 (2026-11-23)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "edit-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-safe-ai-de29d8",
+    "url": "https://safe.ai/team/dan-hendrycks",
+    "publisher": "Center for AI Safety",
+    "title": "Dan Hendrycks, Executive & Research Director",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "edit-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-youtube-com-c130a8",
+    "url": "https://www.youtube.com/watch?v=NXW-vPOc3SM",
+    "publisher": "The New York Times (YouTube)",
+    "title": "DealBook Summit 2026 — AI and the A.G.I. Horizon 패널 영상",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "edit-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-thenextweb-com-c4b348",
+    "url": "https://thenextweb.com/news/dealbook-agi-panel-hendrycks-pause-frontier-ai-hodak-surveillance",
+    "publisher": "The Next Web",
+    "title": "Dan Hendrycks calls for a pause on frontier AI, Max Hodak pushes back (2026-11-21)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "edit-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
   }
 ]

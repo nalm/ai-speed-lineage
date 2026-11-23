@@ -732,6 +732,38 @@
     }
   },
   {
+    "id": "dan-hendrycks",
+    "ko": "댄 헨드릭스",
+    "en": "Dan Hendrycks",
+    "short": "헨드릭스",
+    "aliases": [],
+    "camp": "safety",
+    "field": null,
+    "country": null,
+    "role": "Center for AI Safety 대표·연구 디렉터 · 전 xAI·Scale AI·Meta 자문",
+    "stance": "좁은 기술 규제 대신 프론티어 훈련을 멈추는 더 강한 개입을 주장하며, 앤트로픽을 안전 계획이 없는 무모한 경주로 비판",
+    "moment": "2026년 11월 18일 딜북 서밋 AGI 패널에서 프론티어 훈련 중단을 주장하고 앤트로픽에 “무모하고 안전 계획이 없다”고 함",
+    "portrait": {
+      "path": "assets/portraits/dan-hendrycks.jpg",
+      "author": "TechCrunch",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Dan_Hendrycks_2025.jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-safe-ai-de29d8",
+      "src-youtube-com-c130a8"
+    ],
+    "factcheck_ids": [],
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
     "id": "jacob-coxon",
     "ko": "제이콥 콕슨",
     "en": "Jacob Coxon",
@@ -1101,6 +1133,38 @@
       "state": "approved",
       "by": "grok-bot(nalm 위임)",
       "at": "2026-11-19"
+    }
+  },
+  {
+    "id": "alexandr-wang",
+    "ko": "알렉산더 왕",
+    "en": "Alexandr Wang",
+    "short": "왕",
+    "aliases": [],
+    "camp": "middle",
+    "field": null,
+    "country": null,
+    "role": "Meta 최고AI책임자(CAIO) · Meta Superintelligence Labs 책임자 · Scale AI 창업자",
+    "stance": "초지능 개발을 이끌면서도, 제약 없는 재귀적 자기개선과 사회를 AI에 ‘이양’하는 기본 경로를 거부하며 업계가 다른 선택을 해야 한다고 주장",
+    "moment": "2026년 11월 22일 X 글 ‘Superintelligence is Arriving’에서 “제약 없는 재귀적 자기개선을 인류가 통제하는 세계는 상상하기 어렵다”고 씀",
+    "portrait": {
+      "path": "assets/portraits/alexandr-wang.jpg",
+      "author": "Meta Platforms, Inc.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "crop": "정사각형 크롭",
+      "commons_url": "https://commons.wikimedia.org/wiki/File:Alexandr_Wang,_Chief_A.I._Officer,_Meta.jpg"
+    },
+    "verification": "verified",
+    "source_ids": [
+      "src-meta-com-d95a8b",
+      "src-x-com-7428ae"
+    ],
+    "factcheck_ids": [],
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
     }
   },
   {
