@@ -5380,5 +5380,117 @@
       "by": "grok-bot(nalm 위임)",
       "at": "2026-11-20"
     }
+  },
+  {
+    "id": "src-openai-com-b0ef78",
+    "url": "https://openai.com/index/perplexity-and-intelligence/",
+    "publisher": "OpenAI",
+    "title": "Perplexity and Intelligence — Jakub Pachocki (2026-11-22)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-x-com-51b096",
+    "url": "https://x.com/sama/status/2124551594691932405",
+    "publisher": "Sam Altman (X)",
+    "title": "올트먼 X 게시물: ‘This is the most important thing OpenAI has published in awhile’ (2026-11-22)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-investing-com-e49774",
+    "url": "https://www.investing.com/news/stock-market-news/openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric-5044174",
+    "publisher": "Reuters (Investing.com 게재)",
+    "title": "OpenAI scientist proposes industry AI limits tied to model intelligence metric (2026-11-22)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-techcrunch-com-716c53",
+    "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+    "publisher": "TechCrunch",
+    "title": "OpenAI’s chief scientist has thoughts on how to limit AI development (2026-11-22)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-corriere-it-3257df",
+    "url": "https://www.corriere.it/economia/innovazione/26_novembre_22/yoshua-bengio-intervista-ai-53d3bd4b-7d47-4fb2-9d91-6e4b6c714xlk.shtml",
+    "publisher": "Corriere della Sera",
+    "title": "Yoshua Bengio: «Non credo che adesso l’umanità sia pronta per l’AI. Ma c’è tempo per cambiare strada» (2026-11-22)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-possible-fm-670939",
+    "url": "https://www.possible.fm/podcasts/riffs062/",
+    "publisher": "Possible (리드 호프만 팟캐스트)",
+    "title": "AI guardrails, data center demands, and the fight for jobs | Reid Hoffman — 녹취록 (2026-11-18)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-youtube-com-35c177",
+    "url": "https://www.youtube.com/watch?v=0xnIgWKmkBc",
+    "publisher": "Reid Hoffman (YouTube)",
+    "title": "Reid Hoffman live: AI jobs, data centers & pacing AI (2026-11-18)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
+  },
+  {
+    "id": "src-npr-org-82ffb6",
+    "url": "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
+    "publisher": "NPR",
+    "title": "Critics say Anthropic’s IPO could test its safety commitment (2026-11-21)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    }
   }
 ]

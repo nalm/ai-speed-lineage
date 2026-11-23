@@ -662,5 +662,117 @@
     },
     "note": "편집 판단(grok-bot, nalm 위임): 제외. 상장 지배구조·재무 공시 요구가 중심이고 기사 본문을 직접 열지 못함. 워런 사건 보강으로 상장 전 압박은 반영",
     "from": "2026-11-20.json"
+  },
+  {
+    "id": "p-2026-11-23-014",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "메타 알렉산더 왕, X 아티클 ‘Superintelligence is Arriving’ — ‘제약 없는 재귀적 자기개선을 사람이 통제하는 세계는 상상하기 어렵다’(11/22)"
+    },
+    "evidence": [
+      {
+        "url": "https://finance.yahoo.com/technology/ai/articles/blockbuster-anthropic-ipo-openai-wants-031510105.html",
+        "publisher": "Yahoo Finance (Stocktwits)",
+        "published_at": "2026-11-22",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 왕은 사이트 52명에 없고, X 아티클 본문을 직접 열지 못해(API가 제목만 반환) 2차 보도로만 확인",
+    "from": "2026-11-23.json"
+  },
+  {
+    "id": "p-2026-11-23-015",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "전미주지사협회(NGA) 초당파 위원회, 주·연방 AI 거버넌스 원칙 발표 — ‘혁신과 공공 보호 함께’, ‘신뢰할 근거에 맞춘 안전장치’(11/22)"
+    },
+    "evidence": [
+      {
+        "url": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/",
+        "publisher": "National Governors Association",
+        "published_at": "2026-11-22",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 주·연방 역할 분담 중심의 일반 원칙으로 개발 속도 논쟁과 관련이 약하고, 사이트 인물 연결 없음",
+    "from": "2026-11-23.json"
+  },
+  {
+    "id": "p-2026-11-23-016",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "헨드릭스(CAIS), 딜북 AGI 패널서 ‘앤트로픽은 무모하고 안전 계획이 없다’·최대 훈련 무기한 중단 주장(11/18 패널, AI Weekly 11/22 정리)"
+    },
+    "evidence": [
+      {
+        "url": "https://aiweekly.co/alerts/hendrycks-calls-anthropic-reckless-on-dealbook-agi-panel",
+        "publisher": "AI Weekly",
+        "published_at": "2026-11-22",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 헨드릭스는 사이트 52명에 없고, 앤트로픽 비판은 기존 미스앤트로픽 성명 사건(11/18)과 겹치며 원영상·원보도(The Next Web) 미확인",
+    "from": "2026-11-23.json"
+  },
+  {
+    "id": "p-2026-11-23-017",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "OpenAI, 하원 민주당 카사르·마쓰이 의원에 ‘자동 종료 기능 개발 중’ 답신(Quartz/Reuters, 2026-09-03)"
+    },
+    "evidence": [
+      {
+        "url": "https://qz.com/openai-automated-shutdown-tools-hugging-face-hack-090326",
+        "publisher": "Quartz",
+        "published_at": "2026-09-03",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-23"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 8월 서한에 대한 9월 답신으로, 계속 확인 중인 10/29 카사르 등 20명 서한(‘최상위 모델 중단 유지’)에 대한 답신이 아님. 수집 기간 밖",
+    "from": "2026-11-23.json"
   }
 ]

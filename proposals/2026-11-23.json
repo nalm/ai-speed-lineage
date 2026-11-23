@@ -1,0 +1,662 @@
+{
+ "generated_at": "2026-11-23T13:00:00+09:00",
+ "collector": "daily-collect (2026-11-20~11-23 보도 대상)",
+ "notes": [
+  "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+  "편집 판단(grok-bot, nalm 위임 2026-11-12~): 새 사건 3건 승인(파호츠키 공동 상한 제안·올트먼 지지, 벤지오 코리에레 인터뷰, 호프만 ‘속도 조절은 멈춤이 아니다’ — 모두 검증됨), 아모데이 나스닥 연설 사건 NPR 보강(미확인 유지). BR/ARTE 다큐 보류. 알렉산더 왕·NGA 원칙·헨드릭스 패널·OpenAI 9월 답신 제외",
+  "계속 확인: 앤트로픽의 워런 답신 — 공개 답신 못 찾음(검색상 11/6 이후 새 자료 없음). OpenAI의 하원 서한(10/29 카사르 등) 답신 — 공개 답신 못 찾음(검색에 걸린 ‘자동 종료 기능’ 답신은 8월 서한에 대한 9월 답신). 르쿤 메타 퇴사 시점 — 새 1차 자료 없음(세마포 11/17 ‘2025년 메타 퇴사’), ‘2025년 말’ 유지. 힌턴 LBC 원문 — 유튜브 자막 수집 또 429, LBC 누리집 검색 결과는 2025년 1월 다른 인터뷰라 미확인 유지",
+  "인물 소속·직함 변화: 이번 회차 확인된 것 없음",
+  "아모데이 나스닥 연설: 원영상 자막 수집 또 429. NPR(11/21)이 같은 문구를 인용해 독립 2차 출처는 늘었지만 원출처 미확인이라 미확인 유지"
+ ],
+ "items": [
+  {
+   "id": "p-2026-11-23-001",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-openai-com-b0ef78",
+    "url": "https://openai.com/index/perplexity-and-intelligence/",
+    "publisher": "OpenAI",
+    "title": "Perplexity and Intelligence — Jakub Pachocki (2026-11-22)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23"
+   },
+   "evidence": [
+    {
+     "url": "https://openai.com/index/perplexity-and-intelligence/",
+     "publisher": "OpenAI",
+     "published_at": "2026-11-22",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-23-002",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-x-com-51b096",
+    "url": "https://x.com/sama/status/2124551594691932405",
+    "publisher": "Sam Altman (X)",
+    "title": "올트먼 X 게시물: ‘This is the most important thing OpenAI has published in awhile’ (2026-11-22)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23"
+   },
+   "evidence": [
+    {
+     "url": "https://x.com/sama/status/2124551594691932405",
+     "publisher": "Sam Altman (X)",
+     "published_at": "2026-11-22",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-23-003",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-investing-com-e49774",
+    "url": "https://www.investing.com/news/stock-market-news/openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric-5044174",
+    "publisher": "Reuters (Investing.com 게재)",
+    "title": "OpenAI scientist proposes industry AI limits tied to model intelligence metric (2026-11-22)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23"
+   },
+   "evidence": [
+    {
+     "url": "https://www.investing.com/news/stock-market-news/openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric-5044174",
+     "publisher": "Reuters (Investing.com 게재)",
+     "published_at": "2026-11-22",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-23-004",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-techcrunch-com-716c53",
+    "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+    "publisher": "TechCrunch",
+    "title": "OpenAI’s chief scientist has thoughts on how to limit AI development (2026-11-22)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23"
+   },
+   "evidence": [
+    {
+     "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+     "publisher": "TechCrunch",
+     "published_at": "2026-11-22",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-23-005",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-corriere-it-3257df",
+    "url": "https://www.corriere.it/economia/innovazione/26_novembre_22/yoshua-bengio-intervista-ai-53d3bd4b-7d47-4fb2-9d91-6e4b6c714xlk.shtml",
+    "publisher": "Corriere della Sera",
+    "title": "Yoshua Bengio: «Non credo che adesso l’umanità sia pronta per l’AI. Ma c’è tempo per cambiare strada» (2026-11-22)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23"
+   },
+   "evidence": [
+    {
+     "url": "https://www.corriere.it/economia/innovazione/26_novembre_22/yoshua-bengio-intervista-ai-53d3bd4b-7d47-4fb2-9d91-6e4b6c714xlk.shtml",
+     "publisher": "Corriere della Sera",
+     "published_at": "2026-11-22",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-23-006",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-possible-fm-670939",
+    "url": "https://www.possible.fm/podcasts/riffs062/",
+    "publisher": "Possible (리드 호프만 팟캐스트)",
+    "title": "AI guardrails, data center demands, and the fight for jobs | Reid Hoffman — 녹취록 (2026-11-18)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23"
+   },
+   "evidence": [
+    {
+     "url": "https://www.possible.fm/podcasts/riffs062/",
+     "publisher": "Possible (리드 호프만 팟캐스트)",
+     "published_at": "2026-11-18",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-23-007",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-youtube-com-35c177",
+    "url": "https://www.youtube.com/watch?v=0xnIgWKmkBc",
+    "publisher": "Reid Hoffman (YouTube)",
+    "title": "Reid Hoffman live: AI jobs, data centers & pacing AI (2026-11-18)",
+    "kind": "primary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23"
+   },
+   "evidence": [
+    {
+     "url": "https://www.youtube.com/watch?v=0xnIgWKmkBc",
+     "publisher": "Reid Hoffman (YouTube)",
+     "published_at": "2026-11-18",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-23-008",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-npr-org-82ffb6",
+    "url": "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
+    "publisher": "NPR",
+    "title": "Critics say Anthropic’s IPO could test its safety commitment (2026-11-21)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-23",
+    "checked_in": "collect-2026-11-23"
+   },
+   "evidence": [
+    {
+     "url": "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
+     "publisher": "NPR",
+     "published_at": "2026-11-21",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-23-009",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "id": "2026-11-18-hoffman-possible-pacing-not-pausing",
+    "date_start": "2026-11-18",
+    "date_end": null,
+    "date_label": "2026.11.18",
+    "title": "호프만, 팟캐스트 ‘리드 리프스’서 “속도 조절은 멈춤이 아니다, 꼭 늦추는 것도 아니다… 가속·감속 아닌 ‘조향’”… 재귀적 자기개선은 해석가능성·정렬과 나란히",
+    "summary": "리드 호프만은 마스터스 오브 스케일 서밋 무대에서 녹화해 11월 18일 공개한 팟캐스트 ‘리드 리프스’에서, 아모데이·올트먼이 말하는 ‘속도 조절(pacing)’을 멈춤이 아니라 방향을 잡는 ‘조향’으로 봐야 한다고 말했습니다.",
+    "camp": "optimist",
+    "people_ids": [
+     "reid-hoffman",
+     "dario-amodei",
+     "sam-altman"
+    ],
+    "background": "아모데이는 9월 12일 ‘We Must Pace the Frontier’에서 감속을 제안했습니다. 11월 6일에는 호프만이 진행한 대담에서 허사비스가 ‘사람 검토 없는 닫힌 루프 자기개선’을 가장 위험한 단계로 꼽았습니다.",
+    "confirmed": "팟캐스트 공식 녹취록에 따르면 호프만은 ‘속도 조절은 멈춤이 아니다. 꼭 늦추는 것도 아니다’라며 가속·감속 대신 ‘조향’이라는 비유를 쓴다고 했습니다. 재귀적 자기개선(RSI)에 대해서는 ‘그 과정에서 정렬을 보장하는 법을 모른다’는 불안이 있다며, 해석가능성과 정렬 수단을 함께 가속해야 하고 무엇이 중요한지 알려면 RSI를 어느 정도 해 봐야 한다고 말했습니다. 허깅페이스 사고에 대해서는 인터넷과의 물리적 차단 같은 더 단단한 안전장치가 필요함을 보여 줬다고 했고, 해석가능성·정렬용 AI와 자기개선용 AI에 연산을 얼마나 나눌지가 ‘조향 지향의 속도 조절’을 만든다고 했습니다.",
+    "unknown": "진행자는 서밋 녹화가 ‘지난달’이었다고만 밝혀 정확한 녹화 날짜는 확인하지 못했습니다. 녹취록은 AI 도움으로 만들고 가볍게 다듬은 것이라고 밝혀져 있습니다.",
+    "verification": "verified",
+    "source_ids": [
+     "src-possible-fm-670939",
+     "src-youtube-com-35c177"
+    ],
+    "factcheck_ids": []
+   },
+   "evidence": [
+    {
+     "url": "https://www.possible.fm/podcasts/riffs062/",
+     "publisher": "Possible",
+     "published_at": "2026-11-18",
+     "quote": "Part of what pacing is—pacing is not pausing. Pacing is not even necessarily slowing down",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://www.possible.fm/podcasts/riffs062/",
+     "publisher": "Possible",
+     "published_at": "2026-11-18",
+     "quote": "the actual metaphor in this that I like to use, versus acceleration and deceleration, is steering",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://www.possible.fm/podcasts/riffs062/",
+     "publisher": "Possible",
+     "published_at": "2026-11-18",
+     "quote": "Last month, Reid and I brought the show to the Masters of Scale Summit in San Francisco",
+     "quote_kind": "verbatim(진행자 측 녹취록, 녹화 시점 근거)",
+     "opened": true
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=0xnIgWKmkBc",
+     "publisher": "Reid Hoffman (YouTube)",
+     "published_at": "2026-11-18",
+     "quote": "Reid digs into steering the AI frontier rather than slowing it",
+     "quote_kind": "verbatim(영상 설명)",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "11/18 공개분으로 지난 회차 수집에서 빠진 것",
+    "녹화는 10월(진행자 ‘지난달’ 표현), 공개는 11/18 — 사건 날짜는 공개일 기준",
+    "아모데이·올트먼은 질문 속 언급 대상으로 연결"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인. 호프만 본인 채널 영상과 팟캐스트 공식 녹취록(원출처)으로 확인해 검증됨. 속도 조절 논쟁에 대한 직접 발언. 진영 낙관(호프만 관례)"
+  },
+  {
+   "id": "p-2026-11-23-010",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "id": "2026-11-22-openai-pachocki-perplexity-limits",
+    "date_start": "2026-11-22",
+    "date_end": null,
+    "date_label": "2026.11.22",
+    "title": "OpenAI 수석과학자 파호츠키 “퍼플렉시티 기준 ‘공동 개발 상한’ 두자… 감시 능력이 이정표 닿기 전엔 넘지 말아야”, 올트먼 “최근 OpenAI가 낸 가장 중요한 글”",
+    "summary": "야쿠프 파호츠키 OpenAI 수석과학자는 공식 블로그 글에서 사전학습 진척을 재는 공통 지표로 퍼플렉시티(교차 엔트로피 손실)를 제안하고, 개발사들이 AI 행동을 이해·감시하는 능력이 구체적 이정표에 이를 때까지 넘지 않기로 약속하는 공동 상한을 두자고 했습니다. 올트먼은 X에서 이 제안을 지지했습니다.",
+    "camp": "middle",
+    "people_ids": [
+     "sam-altman"
+    ],
+    "background": "아모데이는 9월 12일 ‘We Must Pace the Frontier’에서 공통 안전 기준과 ‘통제되지 않은 AI 진보 속도의 한도’를 제안했습니다. OpenAI는 11월 18일 ‘모델 개발·출시 속도를 조절 중’이라는 공식 문서를 냈고, 올트먼은 같은 날 딜북 서밋에서 ‘안개 속 경주는 나쁘다’고 말했습니다.",
+    "confirmed": "파호츠키는 내부 평가 데이터 기준 OpenAI 모델의 로그 퍼플렉시티가 GPT‑3.5 약 0.99, GPT‑4 약 0.91이었고 0.8 아래로 내려오면서 사이버보안·수학에서 ‘변혁적 능력’이 나타났다고 공개했습니다. 경쟁사에 위치가 드러나는 부담보다 업계 공동 안전 조치를 세우는 일이 더 급하다고 했고, 이르면 2027년 사전학습 알고리즘 연구에서 AI가 기여하는 ‘눈사태’ 같은 진전이 올 수 있으며 정렬·감시 진전은 그만큼 빠르지 않을 것 같다고 썼습니다. 이어 ‘퍼플렉시티와 다른 측정치에 기반해, AI 행동을 이해하고 감시하는 능력이 구체적 이정표(예: 사고 사슬 감시의 후속 기술)에 이를 때까지 개발사들이 넘지 않기로 약속하는 공동 상한’을 제안했습니다. 올트먼은 X에 ‘최근 OpenAI가 낸 것 중 가장 중요한 글’이라며 ‘분야 전체가 공동 상한에 합의하길 바란다. 매우 현명하고 안전과 통제를 지키는 데 도움이 될 것’이라고 썼습니다.",
+    "unknown": "상한을 어느 수치로 정할지, 누가 어떻게 지킴을 확인할지는 제시되지 않았습니다. 퍼플렉시티 수치는 OpenAI 내부 코드베이스 데이터 기준이라 다른 회사 모델과 바로 비교할 수 없다고 글 스스로 밝혔습니다. 다른 개발사의 공식 반응은 확인하지 못했습니다.",
+    "verification": "verified",
+    "source_ids": [
+     "src-openai-com-b0ef78",
+     "src-x-com-51b096",
+     "src-investing-com-e49774",
+     "src-techcrunch-com-716c53"
+    ],
+    "factcheck_ids": []
+   },
+   "evidence": [
+    {
+     "url": "https://openai.com/index/perplexity-and-intelligence/",
+     "publisher": "OpenAI",
+     "published_at": "2026-11-22",
+     "quote": "I further propose common limits, based on perplexity and other measurements, that developers are committed to not crossing until our ability to understand and monitor AI behavior achieves a certain concrete milestone (such as the development of a successor to CoT monitors).",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://openai.com/index/perplexity-and-intelligence/",
+     "publisher": "OpenAI",
+     "published_at": "2026-11-22",
+     "quote": "as soon as 2027 we could conceivably see a similar avalanche of fundamental pretraining advancements",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://x.com/sama/status/2124551594691932405",
+     "publisher": "Sam Altman (X)",
+     "published_at": "2026-11-22",
+     "quote": "This is the most important thing OpenAI has published in awhile. We are providing a lot of transparency into our pretraining progress and hope we can agree as a frield to common limits. I think that would be very wise and help ensure safety and control.",
+     "quote_kind": "verbatim(원문 오타 ‘frield’ 그대로)",
+     "opened": true
+    },
+    {
+     "url": "https://www.investing.com/news/stock-market-news/openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric-5044174",
+     "publisher": "Reuters",
+     "published_at": "2026-11-22",
+     "quote": "OpenAI’s chief scientist said on Sunday in a proposal backed by CEO Sam Altman",
+     "quote_kind": "verbatim",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "파호츠키는 사이트 인물이 아님 — 올트먼만 연결",
+    "X 게시 시각 11/22 17:12 UTC(서울 11/23 02:12), 블로그 날짜 11/22 기준으로 표기"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인. OpenAI 공식 블로그와 올트먼 X 게시물(원출처)을 직접 열어 확인해 검증됨. 개발 속도 상한 제안으로 속도 논쟁과 직결. 진영 중간(OpenAI·올트먼 관례)"
+  },
+  {
+   "id": "p-2026-11-23-011",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "id": "2026-11-22-bengio-corriere-race-all-lose",
+    "date_start": "2026-11-22",
+    "date_end": null,
+    "date_label": "2026.11.22",
+    "title": "벤지오, 코리에레 델라 세라 인터뷰서 “AI 개발은 경주가 돼선 안 돼… 누가 이겨도 모두 질 수 있는 게임”, “인류는 아직 AI를 맞을 준비가 안 됐다”",
+    "summary": "요슈아 벤지오는 이탈리아 일간지 코리에레 델라 세라 인터뷰에서 각국 정부가 AI 개발을 ‘무슨 대가를 치르더라도 이겨야 할 경주’처럼 다룬다며, 이는 모두가 질 수 있는 경주라고 경고했습니다.",
+    "camp": "safety",
+    "people_ids": [
+     "yoshua-bengio",
+     "geoffrey-hinton"
+    ],
+    "background": "벤지오는 11월 10일 WIRED 인터뷰에서 ‘일시 중지·감속·상한 같은 것에 훨씬 더 낙관적’이라고 말했습니다. 힌턴은 11월 3일 가디언 인터뷰에서 ‘AI를 개발하지 않는 편이 나았을 수도 있다’고 했습니다.",
+    "confirmed": "인터뷰(이탈리아어 게재)에 따르면 벤지오는 ‘어떤 정부들은 AI 개발에 반드시 이겨야 할 경주처럼 참여하지만, 모두가 질 수 있는 경주라는 점을 놓치고 있다. 누군가 이기더라도 나쁜 초지능이나 누군가의 파괴적 사용 때문에 모두 질 수 있다’며 ‘아무도 하고 싶어 해선 안 되는 게임이고, 게임을 바꿔야 한다’고 말했습니다. 힌턴의 가디언 발언에는 ‘제프리에 동의한다. 인류는 AI를 맞을 준비가 안 됐다’고 했고, 정부가 대규모로 해를 끼칠 수 있는 제품을 만들지 말라고 기업에 요구해야 하며 ‘지금 시작해야 한다’고 했습니다. 미국에는 사실상 규제가 없다고 했고, 미·중이 차세대 모델 훈련에 쓰는 연산량을 서로 검증하는 방식이면 합의가 가능하다고 했습니다. 모델이 감시 체계를 속이는 데 점점 능숙해지고 있다는 우려도 밝혔습니다.",
+    "unknown": "인터뷰 날짜와 장소는 밝혀지지 않았고, 발언은 이탈리아어로 옮긴 문장이라 원어(영어) 문구와 다를 수 있습니다.",
+    "verification": "verified",
+    "source_ids": [
+     "src-corriere-it-3257df"
+    ],
+    "factcheck_ids": []
+   },
+   "evidence": [
+    {
+     "url": "https://www.corriere.it/economia/innovazione/26_novembre_22/yoshua-bengio-intervista-ai-53d3bd4b-7d47-4fb2-9d91-6e4b6c714xlk.shtml",
+     "publisher": "Corriere della Sera",
+     "published_at": "2026-11-22",
+     "quote": "Ci sono governi che partecipano allo sviluppo dell’intelligenza artificiale come se fosse una gara da vincere a tutti i costi. Ma perdono di vista il fatto che è una gara in cui rischiamo di perdere tutti.",
+     "quote_kind": "verbatim(이탈리아어 번역 인용)",
+     "opened": true
+    },
+    {
+     "url": "https://www.corriere.it/economia/innovazione/26_novembre_22/yoshua-bengio-intervista-ai-53d3bd4b-7d47-4fb2-9d91-6e4b6c714xlk.shtml",
+     "publisher": "Corriere della Sera",
+     "published_at": "2026-11-22",
+     "quote": "Sono d'accordo con Geoffrey. Non credo che l'umanità sia pronta per l'IA.",
+     "quote_kind": "verbatim(이탈리아어 번역 인용)",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "인터뷰를 실은 매체 원문(원출처)이지만 이탈리아어 번역 인용",
+    "힌턴은 벤지오가 동의한 발언의 당사자로 연결",
+    "입장 반복 성격이 있으나 ‘경주’에 대한 직접 발언이라 별도 사건으로 둠"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인. 인터뷰 게재 원문을 직접 열어 확인해 검증됨(이탈리아어 인용을 의역). 진영 안전(벤지오 관례)"
+  },
+  {
+   "id": "p-2026-11-23-012",
+   "op": "update",
+   "target": "events",
+   "target_id": "2026-11-19-amodei-nasdaq-pace-pledge",
+   "kind": "수정(독립 보도 보강, 검증 상태 유지)",
+   "before": {
+    "unknown": "연설 문구는 나스닥 공식 영상을 직접 확인하지 못하고 TechCrunch 전문과 영상 자막 기반 제3자 녹취로 대조했습니다. 속도 조절의 구체적 기준·절차는 연설에서 밝히지 않았습니다."
+   },
+   "after": {
+    "unknown": "연설 문구는 나스닥 공식 영상을 직접 확인하지 못하고 TechCrunch 전문, 영상 자막 기반 제3자 녹취, NPR 보도(11/21)의 같은 인용으로 대조했습니다. 속도 조절의 구체적 기준·절차는 연설에서 밝히지 않았습니다. NPR이 인용한 법학자들은 상장사가 된 뒤에는 주가에 불리한 출시 지연 같은 안전 결정이 흐려질 수 있고, 창업자 7명 전원과 의결권 주주 과반이 동의하면 장기이익신탁(LTBT)을 해산할 수 있다고 지적했습니다."
+   },
+   "source_ids": [
+    "src-npr-org-82ffb6"
+   ],
+   "evidence": [
+    {
+     "url": "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
+     "publisher": "NPR",
+     "published_at": "2026-11-21",
+     "quote": "\"To state it unequivocally, we will pace the training and deployment of AI systems, taking as long as is necessary to have confidence that they are safe and will remain under human control. We will not bend to either business nor political pressure,\" he said.",
+     "quote_kind": "verbatim(보도 인용)",
+     "opened": true
+    },
+    {
+     "url": "https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety",
+     "publisher": "NPR",
+     "published_at": "2026-11-21",
+     "quote": "The trust can, however, be dissolved. Doing so would require the approval of all seven co-founders, as well as a majority vote among shareholders with voting rights.",
+     "quote_kind": "verbatim",
+     "opened": true
+    }
+   ],
+   "confidence": "medium",
+   "risk": [
+    "나스닥 원영상 자막은 이번에도 429로 수집 실패 — 독립 2차 출처가 늘었지만 원출처 미확인이라 미확인 유지"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인(보강만). NPR 원문을 직접 열어 같은 인용 확인. 원영상 미확인이라 검증 상태는 미확인 유지"
+  },
+  {
+   "id": "p-2026-11-23-013",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "title": "BR/ARTE 다큐 ‘KI – 인류의 마지막 발명?’ — 힌턴 ‘르쿤은 위험을 터무니없이 과소평가’, ‘인류 역사가 하루라면 마지막 1초’, 벤지오·러셀 출연(ARTE 11/17 공개, ARD 11/23 방송)"
+   },
+   "evidence": [
+    {
+     "url": "https://www.focus.de/kultur/kino-tv/ard-doku-wenn-die-geschichte-der-menschheit-ein-tag-ist-sind-wir-wohl-in-der-letzten-sekunde_8ec845cf-932a-4fa4-871c-e53f255016af.html",
+     "publisher": "FOCUS online (teleschau)",
+     "published_at": "2026-11-20",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "medium",
+   "risk": [],
+   "review": {
+    "state": "pending",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 보류. 다큐 공개·출연 사실은 ARTE 보도자료(presseportal, 10/7)로 확인했으나, 발언은 독일어 리뷰 기사로만 확인했고 촬영 시점을 알 수 없음. ARD 미디어테크 원영상 확인 후 재판단"
+  },
+  {
+   "id": "p-2026-11-23-014",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "title": "메타 알렉산더 왕, X 아티클 ‘Superintelligence is Arriving’ — ‘제약 없는 재귀적 자기개선을 사람이 통제하는 세계는 상상하기 어렵다’(11/22)"
+   },
+   "evidence": [
+    {
+     "url": "https://finance.yahoo.com/technology/ai/articles/blockbuster-anthropic-ipo-openai-wants-031510105.html",
+     "publisher": "Yahoo Finance (Stocktwits)",
+     "published_at": "2026-11-22",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "medium",
+   "risk": [],
+   "review": {
+    "state": "rejected",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 제외. 왕은 사이트 52명에 없고, X 아티클 본문을 직접 열지 못해(API가 제목만 반환) 2차 보도로만 확인"
+  },
+  {
+   "id": "p-2026-11-23-015",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "title": "전미주지사협회(NGA) 초당파 위원회, 주·연방 AI 거버넌스 원칙 발표 — ‘혁신과 공공 보호 함께’, ‘신뢰할 근거에 맞춘 안전장치’(11/22)"
+   },
+   "evidence": [
+    {
+     "url": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/",
+     "publisher": "National Governors Association",
+     "published_at": "2026-11-22",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "medium",
+   "risk": [],
+   "review": {
+    "state": "rejected",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 제외. 주·연방 역할 분담 중심의 일반 원칙으로 개발 속도 논쟁과 관련이 약하고, 사이트 인물 연결 없음"
+  },
+  {
+   "id": "p-2026-11-23-016",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "title": "헨드릭스(CAIS), 딜북 AGI 패널서 ‘앤트로픽은 무모하고 안전 계획이 없다’·최대 훈련 무기한 중단 주장(11/18 패널, AI Weekly 11/22 정리)"
+   },
+   "evidence": [
+    {
+     "url": "https://aiweekly.co/alerts/hendrycks-calls-anthropic-reckless-on-dealbook-agi-panel",
+     "publisher": "AI Weekly",
+     "published_at": "2026-11-22",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "medium",
+   "risk": [],
+   "review": {
+    "state": "rejected",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 제외. 헨드릭스는 사이트 52명에 없고, 앤트로픽 비판은 기존 미스앤트로픽 성명 사건(11/18)과 겹치며 원영상·원보도(The Next Web) 미확인"
+  },
+  {
+   "id": "p-2026-11-23-017",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "title": "OpenAI, 하원 민주당 카사르·마쓰이 의원에 ‘자동 종료 기능 개발 중’ 답신(Quartz/Reuters, 2026-09-03)"
+   },
+   "evidence": [
+    {
+     "url": "https://qz.com/openai-automated-shutdown-tools-hugging-face-hack-090326",
+     "publisher": "Quartz",
+     "published_at": "2026-09-03",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "medium",
+   "risk": [],
+   "review": {
+    "state": "rejected",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-23"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 제외. 8월 서한에 대한 9월 답신으로, 계속 확인 중인 10/29 카사르 등 20명 서한(‘최상위 모델 중단 유지’)에 대한 답신이 아님. 수집 기간 밖"
+  }
+ ]
+}
