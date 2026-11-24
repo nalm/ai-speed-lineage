@@ -5576,5 +5576,117 @@
       "by": "grok-bot(nalm 위임)",
       "at": "2026-11-23"
     }
+  },
+  {
+    "id": "src-deploymentsafety-openai-com-ebc27c",
+    "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+    "publisher": "OpenAI (Deployment Safety Hub)",
+    "title": "GPT-6.2 System Card — GPT-6.2 Astra·Sol (2026-11-17)",
+    "kind": "primary",
+    "accessed_at": "2026-11-24",
+    "checked_in": "collect-2026-11-24",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-24"
+    }
+  },
+  {
+    "id": "src-deploymentsafety-openai-com-b773b1",
+    "url": "https://deploymentsafety.openai.com/gpt-6-2-chatgpt/safeguards",
+    "publisher": "OpenAI (Deployment Safety Hub)",
+    "title": "GPT-6.2 in ChatGPT System Card (2026-11-23)",
+    "kind": "primary",
+    "accessed_at": "2026-11-24",
+    "checked_in": "collect-2026-11-24",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-24"
+    }
+  },
+  {
+    "id": "src-finance-yahoo-com-79f5df",
+    "url": "https://finance.yahoo.com/video/ai-industry-still-needs-extremely-223000085.html",
+    "publisher": "Yahoo Finance",
+    "title": "AI industry still needs to be ‘extremely careful,’ Microsoft exec says — 무스타파 술레이만 인터뷰 영상·녹취 (2026-11-17)",
+    "kind": "primary",
+    "accessed_at": "2026-11-24",
+    "checked_in": "collect-2026-11-24",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-24"
+    }
+  },
+  {
+    "id": "src-youtube-com-16ad33",
+    "url": "https://www.youtube.com/watch?v=J9WpNdQYYoo",
+    "publisher": "Novara Media (YouTube)",
+    "title": "MIT Physicist EXPOSES Anthropic’s Plan For Total Domination — 맥스 테그마크 인터뷰 (2026-11-20)",
+    "kind": "primary",
+    "accessed_at": "2026-11-24",
+    "checked_in": "collect-2026-11-24",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-24"
+    }
+  },
+  {
+    "id": "src-singjupost-com-e3b2d4",
+    "url": "https://singjupost.com/transcript-mit-physicist-max-tegmark-interview-on-novara-media/",
+    "publisher": "The Singju Post",
+    "title": "Transcript: MIT Physicist Max Tegmark Interview on Novara Media (2026-11-22)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-24",
+    "checked_in": "collect-2026-11-24",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-24"
+    }
+  },
+  {
+    "id": "src-officechai-com-524a36",
+    "url": "https://officechai.com/ai/after-having-a-couple-of-drinks-anthropic-employees-hint-at-overthrowing-the-us-govt-taking-over-the-world-mit-physicist-max-tegmark/",
+    "publisher": "OfficeChai",
+    "title": "After Having A Couple Of Drinks, Anthropic Employees Hint At Overthrowing The US Govt… : Max Tegmark (2026-11-23)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-24",
+    "checked_in": "collect-2026-11-24",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-24"
+    }
+  },
+  {
+    "id": "src-news-un-org-ef256d",
+    "url": "https://news.un.org/en/story/2026/11/1168861",
+    "publisher": "UN News",
+    "title": "UN chief urges talks on global AI safety framework, warns of historic shift in power (2026-11-23)",
+    "kind": "primary",
+    "accessed_at": "2026-11-24",
+    "checked_in": "collect-2026-11-24",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-24"
+    }
+  },
+  {
+    "id": "src-aljazeera-com-e862c1",
+    "url": "https://www.aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year",
+    "publisher": "Al Jazeera",
+    "title": "UN chief calls for world to agree on AI oversight within a year (2026-11-24)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-24",
+    "checked_in": "collect-2026-11-24",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-24"
+    }
   }
 ]

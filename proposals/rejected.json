@@ -774,5 +774,63 @@
     },
     "note": "편집 판단(grok-bot, nalm 위임): 제외. 8월 서한에 대한 9월 답신으로, 계속 확인 중인 10/29 카사르 등 20명 서한(‘최상위 모델 중단 유지’)에 대한 답신이 아님. 수집 기간 밖",
     "from": "2026-11-23.json"
+  },
+  {
+    "id": "p-2026-11-24-014",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "노에리, 오픈웨이트 모델 ‘자기개선 루프’ 첫 결과 공개(11/23)"
+    },
+    "evidence": [
+      {
+        "url": "https://noeri.ai/blog/a-new-frontier-of-self-improving-ais/",
+        "publisher": "Noeri",
+        "published_at": "2026-11-23",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "medium",
+    "risk": [],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-24"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 스타트업 제품 발표로 속도 논쟁과 관련이 약하고 사이트 인물 연결 없음",
+    "from": "2026-11-24.json"
+  },
+  {
+    "id": "p-2026-11-24-015",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "앤트로픽, ‘엔터프라이즈 프런티어 세이프가드’ 무보존(ZDR) 베타 공개"
+    },
+    "evidence": [
+      {
+        "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+        "publisher": "Anthropic",
+        "published_at": "2026-11",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "low",
+    "risk": [
+      "검색 요약만 보고 본문 게시일 미확인"
+    ],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-24"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 기업 고객용 오남용 감시 기능으로 개발 속도 논쟁과 관련이 약함",
+    "from": "2026-11-24.json"
   }
 ]
