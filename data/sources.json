@@ -5688,5 +5688,89 @@
       "by": "grok-bot(nalm 위임)",
       "at": "2026-11-24"
     }
+  },
+  {
+    "id": "src-nvidianews-nvidia-com-be9c8f",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+    "publisher": "NVIDIA Newsroom",
+    "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director (2026-11-23)",
+    "kind": "primary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-25"
+    }
+  },
+  {
+    "id": "src-channel4news-substack-com-3da6fd",
+    "url": "https://channel4news.substack.com/p/godfather-of-artificial-intelligence",
+    "publisher": "Channel 4 News (InDepth)",
+    "title": "‘Godfather’ of artificial intelligence warns an AI ‘Chernobyl’ is coming — 시오반 케네디, 제프리 힌턴 인터뷰 (2026-11-20)",
+    "kind": "primary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-25"
+    }
+  },
+  {
+    "id": "src-inss-re-kr-12e0e6",
+    "url": "https://inss.re.kr/publication/bbs/js_view.do?nttId=41038082",
+    "publisher": "국가안보전략연구원(INSS)",
+    "title": "전략보고 417호 ‘AI 속도조절’ 논의 현황과 대응 방안(윤정현) (2026-11-23)",
+    "kind": "primary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-25"
+    }
+  },
+  {
+    "id": "src-zdnet-co-kr-dfbe35",
+    "url": "https://zdnet.co.kr/view?no=20261123220125",
+    "publisher": "지디넷코리아",
+    "title": "INSS “한국, AI 속도조절 영향력 부족” (2026-11-23)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-25"
+    }
+  },
+  {
+    "id": "src-axios-com-f5aad6",
+    "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+    "publisher": "Axios",
+    "title": "Scoop — AI employees sound alarm: models too powerful to ever release (2026-11-24)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-25"
+    }
+  },
+  {
+    "id": "src-gizmodo-com-947892",
+    "url": "https://gizmodo.com/openai-and-anthropic-employees-are-reportedly-clashing-with-company-leaders-over-ai-safety-2000844953",
+    "publisher": "Gizmodo",
+    "title": "OpenAI and Anthropic Employees Are Reportedly Clashing With Company Leaders Over AI Safety (2026-11-24)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-25"
+    }
   }
 ]

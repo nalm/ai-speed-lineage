@@ -1,0 +1,612 @@
+{
+ "generated_at": "2026-11-25T14:30:00+09:00",
+ "collector": "daily-collect (2026-11-24~11-25 보도 대상, 누락분 11/20·11/23 포함)",
+ "notes": [
+  "sources 항목을 앞에 둠. evidence.opened=true는 직접 열어 본 URL. source id 규칙은 도메인+URL sha1 앞 6자리",
+  "편집 판단(grok-bot, nalm 위임 2026-11-12~): 새 사건 3건 승인(힌턴 채널4 ‘체르노빌’ 11/20·INSS ‘AI 속도조절’ 보고서 11/23·악시오스 ‘미공개 모델 너무 위험’ 보도 11/24 — 모두 검증됨). 기존 미확인 2건을 원영상 자막으로 확인해 검증됨으로 변경(힌턴 LBC·아모데이 나스닥 연설). 젠슨 황 직함 복귀(11/23) 수정. 샌더스 X 글 보류. 리만 가설 증명(11/24 회차 보류분)은 수학계 검토 진행 중이고 속도 논쟁과 간접 관련이라 계속 보류",
+  "제외(제안 항목 미작성): 텐자이 CEO ‘빠른 도약 불가능’ 발언(사이트 인물 아님·2차 발췌만), SEB ‘AI 투자 감속’ 전망(투자 사이클로 속도 논쟁과 무관), 앤트로픽 Siren 샌드박스 탈출 측정(연구 도구로 관련 약함), Fortune 11/24 파호츠키 해설(기존 11/22 사건과 중복)",
+  "계속 확인: 앤트로픽의 워런 답신 — 공개 답신 못 찾음(워런 측 최신 자료는 11/18 성명). OpenAI의 하원 서한(10/29 카사르 등, 답변 시한 11/13) 답신 — 공개 답신 못 찾음. 르쿤 메타 퇴사 시점 — 새 1차 자료 없음, ‘2025년 말’ 유지(11/23 한 자동생성 기사가 왕의 발언을 르쿤 발언으로 잘못 적은 것 확인, 채택 안 함). 힌턴 LBC 원문 — yt-dlp는 또 429였으나 Exa로 LBC 공식 영상 자막 전문 확보, 검증됨으로 변경. 아모데이 나스닥 연설 원출처 — Exa로 나스닥 공식 영상 자막 전문 확보, 검증됨으로 변경",
+  "인물 소속·직함 변화: 젠슨 황 NVIDIA 사장·CEO 복귀(11/23 NVIDIA 공식 발표) 반영"
+ ],
+ "items": [
+  {
+   "id": "p-2026-11-25-001",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-nvidianews-nvidia-com-be9c8f",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+    "publisher": "NVIDIA Newsroom",
+    "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director (2026-11-23)",
+    "kind": "primary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25"
+   },
+   "evidence": [
+    {
+     "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+     "publisher": "NVIDIA Newsroom",
+     "published_at": "2026-11-23",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-25-002",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-channel4news-substack-com-3da6fd",
+    "url": "https://channel4news.substack.com/p/godfather-of-artificial-intelligence",
+    "publisher": "Channel 4 News (InDepth)",
+    "title": "‘Godfather’ of artificial intelligence warns an AI ‘Chernobyl’ is coming — 시오반 케네디, 제프리 힌턴 인터뷰 (2026-11-20)",
+    "kind": "primary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25"
+   },
+   "evidence": [
+    {
+     "url": "https://channel4news.substack.com/p/godfather-of-artificial-intelligence",
+     "publisher": "Channel 4 News (InDepth)",
+     "published_at": "2026-11-20",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-25-003",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-inss-re-kr-12e0e6",
+    "url": "https://inss.re.kr/publication/bbs/js_view.do?nttId=41038082",
+    "publisher": "국가안보전략연구원(INSS)",
+    "title": "전략보고 417호 ‘AI 속도조절’ 논의 현황과 대응 방안(윤정현) (2026-11-23)",
+    "kind": "primary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25"
+   },
+   "evidence": [
+    {
+     "url": "https://inss.re.kr/publication/bbs/js_view.do?nttId=41038082",
+     "publisher": "국가안보전략연구원(INSS)",
+     "published_at": "2026-11-23",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-25-004",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-zdnet-co-kr-dfbe35",
+    "url": "https://zdnet.co.kr/view?no=20261123220125",
+    "publisher": "지디넷코리아",
+    "title": "INSS “한국, AI 속도조절 영향력 부족” (2026-11-23)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25"
+   },
+   "evidence": [
+    {
+     "url": "https://zdnet.co.kr/view?no=20261123220125",
+     "publisher": "지디넷코리아",
+     "published_at": "2026-11-23",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-25-005",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-axios-com-f5aad6",
+    "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+    "publisher": "Axios",
+    "title": "Scoop — AI employees sound alarm: models too powerful to ever release (2026-11-24)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25"
+   },
+   "evidence": [
+    {
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+     "publisher": "Axios",
+     "published_at": "2026-11-24",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-25-006",
+   "op": "add",
+   "target": "sources",
+   "kind": "추가(출처)",
+   "after": {
+    "id": "src-gizmodo-com-947892",
+    "url": "https://gizmodo.com/openai-and-anthropic-employees-are-reportedly-clashing-with-company-leaders-over-ai-safety-2000844953",
+    "publisher": "Gizmodo",
+    "title": "OpenAI and Anthropic Employees Are Reportedly Clashing With Company Leaders Over AI Safety (2026-11-24)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-25",
+    "checked_in": "collect-2026-11-25"
+   },
+   "evidence": [
+    {
+     "url": "https://gizmodo.com/openai-and-anthropic-employees-are-reportedly-clashing-with-company-leaders-over-ai-safety-2000844953",
+     "publisher": "Gizmodo",
+     "published_at": "2026-11-24",
+     "quote": "",
+     "quote_kind": "n/a",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인된 항목을 뒷받침하는 출처로 함께 승인"
+  },
+  {
+   "id": "p-2026-11-25-007",
+   "op": "update",
+   "target": "people",
+   "target_id": "jensen-huang",
+   "kind": "수정(직함)",
+   "before": {
+    "role": "전 NVIDIA CEO(2026년 11월 11일 사임)"
+   },
+   "after": {
+    "role": "NVIDIA 사장·CEO(2026년 11월 11일 사임, 11월 23일 복귀)"
+   },
+   "source_ids": [
+    "src-nvidianews-nvidia-com-be9c8f"
+   ],
+   "evidence": [
+    {
+     "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+     "publisher": "NVIDIA Newsroom",
+     "published_at": "2026-11-23",
+     "quote": "NVIDIA (NASDAQ: NVDA) today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board.",
+     "quote_kind": "verbatim",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "복귀 배경(이사회 조사·미 정부 의견)은 속도 논쟁과 무관해 카드에 쓰지 않음. 진영·스탠스 변경 없음",
+    "11/24 회차에서 놓친 직함 변화(11/23 발표)"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인. NVIDIA 공식 발표 원문으로 확인. 11/16에 ‘전 CEO’로 고친 직함을 되돌림"
+  },
+  {
+   "id": "p-2026-11-25-008",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "id": "2026-11-20-hinton-channel4-chernobyl",
+    "date_start": "2026-11-20",
+    "date_end": null,
+    "date_label": "2026.11.20",
+    "title": "힌턴, 채널4 뉴스 인터뷰서 “허깅페이스 사고는 AI의 스리마일섬… 아직 체르노빌은 없었지만 올 것”… “안전 걱정하는 앤트로픽에 들어갈지, 그냥 모든 걸 늦추려 할지”",
+    "summary": "제프리 힌턴은 앤트로픽 상장 직후 공개된 영국 채널4 뉴스 인터뷰에서 AI가 인류를 없앨 ‘상당한 가능성’이 있다고 말하고, 허깅페이스 해킹 사고를 원전 사고 ‘스리마일섬’에 빗대 더 큰 ‘체르노빌’급 사고가 올 것이라고 경고했습니다.",
+    "camp": "safety",
+    "people_ids": [
+     "geoffrey-hinton"
+    ],
+    "background": "힌턴은 11월 10일 LBC 인터뷰에서 인류가 살아남지 못할 확률을 ‘직감’으로 10~20%라고 하고 적어도 FDA 수준의 규제가 필요하다고 했습니다. 앤트로픽은 11월 19일 나스닥에 상장했습니다.",
+    "confirmed": "채널4 뉴스 시오반 케네디 기술·과학 에디터가 11월 20일 채널4 뉴스 InDepth에 쓴 글에 따르면, 힌턴은 그 주 초 인터뷰에서 앤트로픽이 위험을 경고하고 안전을 말하는 것은 좋다고 하면서도 ‘다른 회사들보다 안전을 더 걱정하는 앤트로픽 같은 회사에 들어가 그들이 먼저 도달하길 바라며 안전을 걱정할 것인가, 아니면 그냥 모든 걸 늦추려 할 것인가’라고 물었습니다. AI가 인류를 없앨 가능성을 묻자 ‘상당한 가능성이 있다’며, 막을 수 있는 일은 많지만 초지능 AI와 지구를 함께 쓰는 법을 찾는 데 들이는 노력이 턱없이 부족하다고 했습니다. 올여름 허깅페이스 해킹 사고를 원전의 ‘스리마일섬’에 빗대 ‘아직 체르노빌은 없었다. 체르노빌이 올 것이고, 그때 사람들이 정신을 차릴지도 모른다’고 했고, ‘우리는 외계 존재를 만들고 있다. 대기업들은 이들을 더 똑똑하게, 목표 달성에 더 집요하게 만드는 데 집중하는데, 그건 우리가 지구를 함께 쓰고 싶은 존재가 아니다’라고 했습니다. 글은 힌턴이 AI가 다음 버전을 스스로 만드는 재귀적 자기개선 단계에 가까워졌다고 본다고 전했습니다.",
+    "unknown": "인용은 채널4 뉴스 글에 실린 부분이며 인터뷰 영상 전체는 확인하지 못했습니다. 일부 매체가 채널4 영상 설명을 근거로 전한 ‘6개월~1년 안 심각한 사고’ 예측 문구는 이 글에서 확인하지 못했습니다.",
+    "verification": "verified",
+    "source_ids": [
+     "src-channel4news-substack-com-3da6fd"
+    ],
+    "factcheck_ids": []
+   },
+   "evidence": [
+    {
+     "url": "https://channel4news.substack.com/p/godfather-of-artificial-intelligence",
+     "publisher": "Channel 4 News",
+     "published_at": "2026-11-20",
+     "quote": "I think of Hugging Face like Three Mile Island for nuclear power stations. We haven’t had Chernobyl yet. We will get Chernobyl and maybe people will come to their senses then.",
+     "quote_kind": "verbatim(기사 내 직접 인용)",
+     "opened": true
+    },
+    {
+     "url": "https://channel4news.substack.com/p/godfather-of-artificial-intelligence",
+     "publisher": "Channel 4 News",
+     "published_at": "2026-11-20",
+     "quote": "Is a company like Anthropic, which worries more about safety than the other companies… would you go and work for them in the hope they get there first and worry about safety? Or would you just try and slow everything down anyway?",
+     "quote_kind": "verbatim(기사 내 직접 인용)",
+     "opened": true
+    },
+    {
+     "url": "https://channel4news.substack.com/p/godfather-of-artificial-intelligence",
+     "publisher": "Channel 4 News",
+     "published_at": "2026-11-20",
+     "quote": "I think there is a significant chance of that",
+     "quote_kind": "verbatim(기사 내 직접 인용)",
+     "opened": true
+    },
+    {
+     "url": "https://channel4news.substack.com/p/godfather-of-artificial-intelligence",
+     "publisher": "Channel 4 News",
+     "published_at": "2026-11-20",
+     "quote": "We’re creating alien beings. And the big companies are focusing on how to make them more intelligent and how to make them more and more determined to achieve the goals they set. That’s not what we want to share the planet with",
+     "quote_kind": "verbatim(기사 내 직접 인용)",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "11/20 공개분으로 지난 회차들 수집에서 빠진 것",
+    "‘6개월~1년’ 시점 예측은 2차 매체(NeoTeo·MindPattern)만 전해 본문에 넣지 않음",
+    "요약·배경의 재귀적 자기개선 언급은 기자의 서술(의역)"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인. 채널4 뉴스 원문을 직접 열어 인용을 확인해 검증됨. 진영은 인물 진영(안전)과 같게, 인물 연결은 힌턴만(앤트로픽은 회사 언급)"
+  },
+  {
+   "id": "p-2026-11-25-009",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "id": "2026-11-23-inss-ai-pacing-report",
+    "date_start": "2026-11-23",
+    "date_end": null,
+    "date_label": "2026.11.23",
+    "title": "국가안보전략연구원 ‘AI 속도조절 논의 현황과 대응 방안’ 보고서… “국제 합의 가능성 낮고 한국은 사전평가 접근권 없어”, ‘조건적 영향력’·한국형 속도 원칙 제안",
+    "summary": "국가안보전략연구원(INSS)은 11월 23일 전략보고 417호에서 AI 속도조절을 ‘감독 격차’를 줄이려는 정책 접근으로 규정하고, 미·중 이해 충돌로 국제 합의 가능성은 낮으며 한국은 공급망 경쟁력은 높지만 속도조절에 관여할 사전평가 접근권이 없다고 진단했습니다.",
+    "camp": "middle",
+    "people_ids": [],
+    "background": "국가AI전략위원회는 10월 1일 ‘AI 개발 속도조절론’ 세미나를 열었고, 하정우 부위원장은 11월 9일 MBC 인터뷰에서 한국은 미국 기업들의 페이스에 맞추기보다 역량을 키우며 안전·책임을 함께 챙겨야 한다고 했습니다.",
+    "confirmed": "INSS 누리집에 올라온 전략보고 417호(윤정현, 11월 23일 발행) 초록에 따르면 보고서는 AI 속도조절을 AI의 능력 향상이 이를 평가·통제하는 역량을 앞지르는 ‘감독 격차’를 줄이기 위한 정책 접근으로 보고, 미·중 간 전략적 이해 충돌과 EU·중견국의 제한된 영향력 때문에 국제적 속도조절 합의의 실현 가능성이 낮다고 평가했습니다. 한국은 AI 핵심 공급망 경쟁력은 높지만 속도조절에 직접 관여할 사전평가 접근권을 확보하지 못했다며, 공급망과 평가·검증 협력으로 속도조절의 이행 조건과 위험관리 기준에 영향을 미치는 ‘조건적 영향력’ 개념을 제시했습니다. 정책 방향으로는 ‘속도책임’을 위험 수준별 평가에 기반한 한국형 속도 원칙으로 구체화하고, 한미 동맹 차원의 사이버 위협 공동평가로 넓히며, EU·핵심 공급망 병목 보유국과 연대하자고 했습니다. 지디넷코리아는 보고서가 한국 AI안전연구소가 국내외 42개 모델을 평가했지만 출시 전 사전평가는 한 건도 없다고 짚었다고 전했습니다.",
+    "unknown": "보고서 본문(PDF)은 직접 열어 보지 않고 INSS 초록과 지디넷코리아 보도로 확인했습니다. 정부의 공식 반응은 확인하지 못했습니다.",
+    "verification": "verified",
+    "source_ids": [
+     "src-inss-re-kr-12e0e6",
+     "src-zdnet-co-kr-dfbe35"
+    ],
+    "factcheck_ids": []
+   },
+   "evidence": [
+    {
+     "url": "https://inss.re.kr/publication/bbs/js_view.do?nttId=41038082",
+     "publisher": "국가안보전략연구원",
+     "published_at": "2026-11-23",
+     "quote": "미ㆍ중 간 전략적 이해관계의 충돌과 EUㆍ중견국의 제한적인 영향력으로 현재 국제적 속도조절 합의의 실현 가능성은 낮은 상황이다.",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://inss.re.kr/publication/bbs/js_view.do?nttId=41038082",
+     "publisher": "국가안보전략연구원",
+     "published_at": "2026-11-23",
+     "quote": "한국은 ‘속도책임’을 위험 수준별 평가에 기반한 한국형 속도 원칙으로 구체화하고, 한미 동맹 차원의 사이버 위협 공동평가로 확장할 필요가 있다.",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://zdnet.co.kr/view?no=20261123220125",
+     "publisher": "지디넷코리아",
+     "published_at": "2026-11-23",
+     "quote": "한국 AI안전연구소는 국내외 42개 모델을 평가했지만 출시 전 사전평가는 한 건도 없다.",
+     "quote_kind": "verbatim(보도 내 보고서 요약)",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "11/23 발간분으로 지난 회차 수집에서 빠진 것",
+    "국책 연구기관 보고서(기관 사건) — 사이트 인물 직접 연결 없음"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인. INSS 원 게시물(초록)을 직접 열어 확인해 검증됨. 기관 사건 관례대로 중간 진영·인물 연결 없음(하정우는 배경에서만 언급)"
+  },
+  {
+   "id": "p-2026-11-25-010",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "id": "2026-11-24-axios-unreleased-models-too-unsafe",
+    "date_start": "2026-11-24",
+    "date_end": null,
+    "date_label": "2026.11.24",
+    "title": "악시오스 “앤트로픽·OpenAI 직원들, 미공개 내부 모델이 너무 강력해 안전하게 공개할 수 없다고 우려”… 공개 중단·신규 훈련 중단 논쟁도(익명 취재원 보도)",
+    "summary": "악시오스는 11월 24일 두 회사 내부 논쟁을 아는 20여 명의 취재원을 인용해, 미공개 내부 모델이 너무 강력해져 많은 직원이 더는 안전하게 공개할 수 없다고 본다고 보도했습니다.",
+    "camp": "middle",
+    "people_ids": [],
+    "background": "OpenAI는 11월 18일 안전 기준을 맞출 시간이 더 필요하면 훈련을 멈추거나 모델을 보류한다고 밝혔고, 11월 22일 파호츠키 수석과학자가 업계 ‘공동 개발 상한’을 제안했습니다. 아모데이는 11월 19일 상장 연설에서 훈련·배포 속도 조절을 다시 약속했습니다.",
+    "confirmed": "악시오스 보도에 따르면 취재원들은 두 회사가 이미 공개한 것보다 훨씬 강력한 미공개 모델을 갖고 있지만 공개해도 될 만큼 안전한지 확인하는 데 애를 먹고 있다고 했습니다. 이 때문에 두 회사와 연구계 안에서 앞으로 프런티어 모델을 공개하지 않고 내부 배포로만 둘지, 새 모델을 아예 훈련할지를 두고 논쟁이 벌어졌다고 합니다. 한 연구자는 ‘모델을 실제로 우리보다 똑똑하게 만들면 우리를 성공적으로 속일 수 있게 될 것’이라고 했고, 여러 직원은 경영진이 안전 위험의 심각성과 동떨어져 있다며 이익을 택할까 우려한다고 했습니다. 보도는 강화학습에서 보상을 편법으로 따내는 문제와, 추론 과정을 숨기거나 꾸며낸 추론을 보여 주는 모델 행동을 주요 문제로 꼽았습니다. OpenAI 대변인은 모델 출시 속도를 늦출 수 있는 새 안전 요건을 도입했다고 했고, 앤트로픽 대변인은 ‘모델을 내부에 둔다고 안전해지지 않는다’, ‘가장 어려운 안전 작업은 아직 남아 있고, 손해를 보더라도 속도를 늦추거나 보류할 수 있다고 분명히 해 왔다’며 최근 모델의 사전훈련을 보안 강화를 위해 늦췄다고 했습니다.",
+    "unknown": "취재원은 모두 익명이고, 어떤 모델·내부 시험이 근거인지는 보도에 나오지 않았습니다. 두 회사가 공개 중단이나 훈련 중단을 결정했다는 내용은 없습니다.",
+    "verification": "verified",
+    "source_ids": [
+     "src-axios-com-f5aad6",
+     "src-gizmodo-com-947892"
+    ],
+    "factcheck_ids": []
+   },
+   "evidence": [
+    {
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+     "publisher": "Axios",
+     "published_at": "2026-11-24",
+     "quote": "Internal, unreleased models are becoming so powerful that many employees no longer believe they can be safely released, according to more than two dozen sources familiar with the internal debates.",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+     "publisher": "Axios",
+     "published_at": "2026-11-24",
+     "quote": "There has also been debate around whether to train new models at all, sources inside and outside those companies told Axios.",
+     "quote_kind": "verbatim",
+     "opened": true
+    },
+    {
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+     "publisher": "Axios",
+     "published_at": "2026-11-24",
+     "quote": "\"If we continue trying to make models much smarter, such that they're actually smarter than us ... they will in fact be able to trick us successfully,\" one researcher told Axios.",
+     "quote_kind": "verbatim(익명 연구자)",
+     "opened": true
+    },
+    {
+     "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+     "publisher": "Axios",
+     "published_at": "2026-11-24",
+     "quote": "\"Keeping a model internal doesn't make it safe. Our responsibility starts in training and covers how we use models ourselves, not only what we release. ... The hardest safety work is still ahead, and we've been clear that we may slow down or hold back even when it costs us.\"",
+     "quote_kind": "verbatim(앤트로픽 대변인)",
+     "opened": true
+    },
+    {
+     "url": "https://gizmodo.com/openai-and-anthropic-employees-are-reportedly-clashing-with-company-leaders-over-ai-safety-2000844953",
+     "publisher": "Gizmodo",
+     "published_at": "2026-11-24",
+     "quote": "Rank-and-file employees at OpenAI and Anthropic are worried that the companies’ internal AI systems are getting too powerful to ever be safely released to the public",
+     "quote_kind": "verbatim(후속 보도)",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "익명 취재원 단독 보도 — 제목에 ‘익명 취재원 보도’ 명시",
+    "사이트 인물 직접 연결 없음(기관 사건)"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인. 악시오스 원 보도를 직접 열어 ‘보도 사실’과 대변인 답변을 확인해 검증됨(내부 우려 자체는 익명 전언임을 제목·미확인 사항에 명시). 기관 사건 관례대로 중간 진영·인물 연결 없음"
+  },
+  {
+   "id": "p-2026-11-25-011",
+   "op": "update",
+   "target": "events",
+   "target_id": "2026-11-10-hinton-lbc-extinction-odds",
+   "kind": "검증 상태 변경(미확인→검증됨)·문구 수정",
+   "before": {
+    "title": "힌턴, LBC 인터뷰서 “AI로 인류가 살아남지 못할 확률 10~20%… 기업 자율규제는 터무니없어, FDA 수준 규제 필요”(요약 기준)",
+    "summary": "영국 LBC가 공개한 12분 인터뷰에서 제프리 힌턴은 초지능까지 남은 시간을 10년 미만으로 줄여 잡고, 인류 멸종 확률을 ‘직감’으로 10~20%라고 말한 것으로 정리됐습니다.",
+    "confirmed": "LBC 공식 유튜브 채널에 ‘The 'Godfather of AI' predicts humanity's chance of extinction’ 영상이 11월 10일(서울 기준) 올라온 것은 확인했습니다. LBC의 공식 플랫폼 글로벌플레이어도 같은 인터뷰를 11월 9일(영국 기준) 날짜로 올리고, 벤 켄티시가 진행해 AI 업계 현황과 기술의 능력, 널리 퍼진 우려가 과장인지를 다뤘다고 소개합니다.",
+    "unknown": "발언 내용(10~20%, 개발 중단 불가론, 자율규제 비판, FDA 수준 규제 요구)은 영상 원문이 아니라 제3자 요약 페이지로만 확인했습니다. 자막 수집이 막혀 정확한 문구는 확인하지 못했습니다.",
+    "verification": "unverified"
+   },
+   "after": {
+    "title": "힌턴, LBC 인터뷰서 “AI로 인류가 살아남지 못할 확률 10~20%… 기업 자율규제는 터무니없어, 적어도 FDA 수준 규제 필요”",
+    "summary": "영국 LBC 인터뷰에서 제프리 힌턴은 초지능이 10년보다 가까워졌다고 보고, 인류가 살아남지 못할 확률을 ‘직감’으로 10~20%라고 말했습니다.",
+    "confirmed": "LBC 공식 유튜브 채널에 ‘The 'Godfather of AI' predicts humanity's chance of extinction’ 영상이 11월 10일(서울 기준) 올라왔고, LBC 글로벌플레이어도 같은 인터뷰를 11월 9일(영국 기준) 날짜로 올려 벤 켄티시가 진행했다고 소개합니다. 영상 자막에 따르면 힌턴은 초지능까지 30년, 20년, 10년으로 봤던 예상이 ‘이제 그보다 가깝다’며 ‘재귀적 자기개선의 시작’을 보고 있다고 했습니다. 자신을 생존 확률 80~90%로 보는 ‘조심스러운 낙관’이라 하면서 ‘살아남지 못할 확률이 10~20%’라고 했고, 통계적으로 추정할 방법이 없는 직감이라고 강조했습니다. 개발을 멈추는 것은 국방·사이버 방어 같은 강력한 이해관계와 미·중 경쟁 때문에 ‘일어나지 않을 것’이라고 했습니다. 미국 대기업들이 자율규제를 내세우는 데는 ‘터무니없다’며 담배회사 자율규제에 빗댔고, ‘적어도 FDA만큼’의 연방 규제로 새 챗봇을 내놓으려면 정부 당국과 전문가에게 안전함을 입증하게 해야 한다고 했습니다.",
+    "unknown": "인용은 LBC 공식 영상의 자동 자막 기준이며, LBC의 공식 녹취록은 확인하지 못했습니다.",
+    "verification": "verified"
+   },
+   "source_ids": [],
+   "evidence": [
+    {
+     "url": "https://www.youtube.com/watch?v=ZfC98aM9C8Y",
+     "publisher": "LBC (YouTube)",
+     "published_at": "2026-11-10",
+     "quote": "I'm cautiously optimistic in that I think we have an 80 or 90% chance of surviving, but that means we have a 10 to 20% chance of not surviving.",
+     "quote_kind": "verbatim(자동 자막)",
+     "opened": true
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ZfC98aM9C8Y",
+     "publisher": "LBC (YouTube)",
+     "published_at": "2026-11-10",
+     "quote": "Now the third possibility is we just stop the development, but I believe that's not going to happen.",
+     "quote_kind": "verbatim(자동 자막)",
+     "opened": true
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ZfC98aM9C8Y",
+     "publisher": "LBC (YouTube)",
+     "published_at": "2026-11-10",
+     "quote": "the big companies all say, we can do this voluntarily. Let us regulate ourselves. [snorts] Um that's ridiculous. Imagine if you let tobacco companies regulate themselves. Mm. Um we need something at least as good as the FDA.",
+     "quote_kind": "verbatim(자동 자막)",
+     "opened": true
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ZfC98aM9C8Y",
+     "publisher": "LBC (YouTube)",
+     "published_at": "2026-11-10",
+     "quote": "I used to think we were like 30 years off, then I thought 20 years off, then 10 years off. I think we're now closer than that for getting super intelligence.",
+     "quote_kind": "verbatim(자동 자막)",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "yt-dlp 자막 수집은 이번에도 429였으나, 웹 수집 도구(Exa)로 LBC 공식 영상 페이지의 자막 전문을 열어 확인"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인. LBC 공식 영상 자막으로 기존 요약 문구(10~20%, 중단 불가론, 자율규제 비판, FDA 수준 규제)를 모두 확인해 검증됨으로 올리고 제목의 ‘(요약 기준)’ 삭제"
+  },
+  {
+   "id": "p-2026-11-25-012",
+   "op": "update",
+   "target": "events",
+   "target_id": "2026-11-19-amodei-nasdaq-pace-pledge",
+   "kind": "검증 상태 변경(미확인→검증됨)·문구 수정",
+   "before": {
+    "title": "아모데이, 나스닥 상장 첫날 연설 “안전하다는 확신이 설 때까지 필요한 만큼 훈련·배포 속도 조절… 사업·정치 압력에 굽히지 않겠다”(연설 전문 보도 기준)",
+    "confirmed": "TechCrunch가 실은 연설 전문에 따르면 아모데이는 ‘충분히 강력한 AI가 사람과 함께 한 세기의 과학·의학 진보를 10년으로 압축할 수 있다’고 하면서도, 개인·국가의 오용, 경제 혼란, AI 시스템 통제 상실을 ‘매우 실제적인 위험’으로 들고 이를 ‘피할 수 있다’고 했습니다. 이어 ‘분명히 말하면, 안전하고 사람의 통제 아래 남는다는 확신을 가질 때까지 필요한 만큼 시간을 들여 AI 시스템의 훈련과 배포 속도를 조절하겠다. 사업적 압력에도 정치적 압력에도 굽히지 않겠다’고 했고, 상장으로 재무 여건이 좋아진 것은 ‘옳은 일을 하려는 결심을 더 굳힐 뿐’이라고 했습니다.",
+    "unknown": "연설 문구는 나스닥 공식 영상을 직접 확인하지 못하고 TechCrunch 전문, 영상 자막 기반 제3자 녹취, NPR 보도(11/21)의 같은 인용으로 대조했습니다. 속도 조절의 구체적 기준·절차는 연설에서 밝히지 않았습니다. NPR이 인용한 법학자들은 상장사가 된 뒤에는 주가에 불리한 출시 지연 같은 안전 결정이 흐려질 수 있고, 창업자 7명 전원과 의결권 주주 과반이 동의하면 장기이익신탁(LTBT)을 해산할 수 있다고 지적했습니다.",
+    "verification": "unverified"
+   },
+   "after": {
+    "title": "아모데이, 나스닥 상장 첫날 연설 “안전하다는 확신이 설 때까지 필요한 만큼 훈련·배포 속도 조절… 사업·정치 압력에 굽히지 않겠다”",
+    "confirmed": "나스닥 공식 유튜브 영상의 자막과 TechCrunch가 실은 연설 전문에 따르면 아모데이는 ‘충분히 강력한 AI가 사람과 함께 한 세기의 과학·의학 진보를 10년으로 압축할 수 있다’고 하면서도, 개인·국가의 오용, 경제 혼란, AI 시스템 통제 상실을 ‘매우 실제적인 위험’으로 들고 이를 ‘피할 수 있다’고 했습니다. 이어 ‘분명히 말하면, 안전하고 사람의 통제 아래 남는다는 확신을 가질 때까지 필요한 만큼 시간을 들여 AI 시스템의 훈련과 배포 속도를 조절하겠다. 사업적 압력에도 정치적 압력에도 굽히지 않겠다’고 했고, 상장으로 재무 여건이 좋아진 것은 ‘옳은 일을 하려는 결심을 더 굳힐 뿐’이라고 했습니다.",
+    "unknown": "인용은 나스닥 공식 영상의 자동 자막을 TechCrunch 전문, NPR 보도(11/21)의 같은 인용과 대조했습니다. 속도 조절의 구체적 기준·절차는 연설에서 밝히지 않았습니다. NPR이 인용한 법학자들은 상장사가 된 뒤에는 주가에 불리한 출시 지연 같은 안전 결정이 흐려질 수 있고, 창업자 7명 전원과 의결권 주주 과반이 동의하면 장기이익신탁(LTBT)을 해산할 수 있다고 지적했습니다.",
+    "verification": "verified"
+   },
+   "source_ids": [],
+   "evidence": [
+    {
+     "url": "https://www.youtube.com/watch?v=FgAtTAgBT2Q",
+     "publisher": "Nasdaq (YouTube)",
+     "published_at": "2026-11-19",
+     "quote": "And to state it unequivocally, we will pace the training and deployment of AI systems, taking as long as is necessary to have confidence that they are safe and will remain under human control. We will not bend to either business nor political pressure.",
+     "quote_kind": "verbatim(자동 자막)",
+     "opened": true
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=FgAtTAgBT2Q",
+     "publisher": "Nasdaq (YouTube)",
+     "published_at": "2026-11-19",
+     "quote": "I believe sufficiently powerful AI, working in concert with humans, could compress a century of scientific and medical progress into a decade.",
+     "quote_kind": "verbatim(자동 자막)",
+     "opened": true
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=FgAtTAgBT2Q",
+     "publisher": "Nasdaq (YouTube)",
+     "published_at": "2026-11-19",
+     "quote": "Today puts the company in a stronger financial position and in doing so only strengthens our resolve to do the right thing.",
+     "quote_kind": "verbatim(자동 자막)",
+     "opened": true
+    }
+   ],
+   "confidence": "high",
+   "risk": [
+    "yt-dlp 자막 수집은 429였으나, 웹 수집 도구(Exa)로 나스닥 공식 영상 페이지의 자막 전문을 열어 확인"
+   ],
+   "review": {
+    "state": "approved",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 승인. 나스닥 공식 채널 원영상 자막으로 기존 인용 문구를 모두 확인해 검증됨으로 올리고 제목의 ‘(연설 전문 보도 기준)’ 삭제"
+  },
+  {
+   "id": "p-2026-11-25-013",
+   "op": "add",
+   "target": "events",
+   "kind": "추가",
+   "after": {
+    "title": "버니 샌더스 상원의원, X 글에서 첨단 AI 개발 일시중지·초지능 금지·데이터센터 모라토리엄 다시 촉구(ANI 11/23 보도)"
+   },
+   "evidence": [
+    {
+     "url": "https://www.bignewsnetwork.com/news/279449823/us-senator-bernie-sanders-re-call-for-ai-development-pause-seeks-ban-on-superintelligence",
+     "publisher": "Big News Network (ANI)",
+     "published_at": "2026-11-23",
+     "quote": "\"If some of the world's leading scientists are concerned about artificial intelligence becoming independent of human control with potentially catastrophic results, shouldn't we do everything in our power to prevent it?\"",
+     "quote_kind": "verbatim(통신 보도 인용, 원 게시물 미확인)",
+     "opened": false
+    }
+   ],
+   "confidence": "low",
+   "risk": [
+    "원 X 게시물과 게시일을 찾지 못함 — 통신사 기사 검색 발췌만 봄",
+    "샌더스는 사이트 인물 아님(힌턴·크리스티아노는 인용 대상일 뿐)"
+   ],
+   "review": {
+    "state": "pending",
+    "by": "grok-bot(nalm 위임)",
+    "at": "2026-11-25"
+   },
+   "note": "편집 판단(grok-bot, nalm 위임): 보류. 원 게시물을 열어 확인한 뒤 다음 회차에 재검토"
+  }
+ ]
+}
