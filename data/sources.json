@@ -5772,5 +5772,131 @@
       "by": "grok-bot(nalm 위임)",
       "at": "2026-11-25"
     }
+  },
+  {
+    "id": "src-youtube-com-8328b3",
+    "url": "https://www.youtube.com/watch?v=gDW9An30_c0",
+    "publisher": "a16z (YouTube)",
+    "title": "Why Nick Bostrom Thinks Superintelligence Could End Aging — The a16z Show, 닉 보스트롬 인터뷰 (2026-11-19)",
+    "kind": "primary",
+    "accessed_at": "2026-11-26",
+    "checked_in": "collect-2026-11-26",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-26"
+    }
+  },
+  {
+    "id": "src-garymarcus-substack-com-b79944",
+    "url": "https://garymarcus.substack.com/p/breaking-employees-at-openai-and",
+    "publisher": "Marcus on AI (Substack)",
+    "title": "BREAKING: Employees at OpenAI and Anthropic are panicking (2026-11-24)",
+    "kind": "primary",
+    "accessed_at": "2026-11-26",
+    "checked_in": "collect-2026-11-26",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-26"
+    }
+  },
+  {
+    "id": "src-x-com-026173",
+    "url": "https://x.com/BernieSanders/status/2124568144677159414",
+    "publisher": "Bernie Sanders (X)",
+    "title": "샌더스 X 글: ‘PAUSE ADVANCED AI DEVELOPMENT BEFORE IT’S TOO LATE’ (2026-11-22)",
+    "kind": "primary",
+    "accessed_at": "2026-11-26",
+    "checked_in": "collect-2026-11-26",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-26"
+    }
+  },
+  {
+    "id": "src-x-com-85ab6c",
+    "url": "https://x.com/BernieSanders/status/2125636780636680692",
+    "publisher": "Bernie Sanders (X)",
+    "title": "샌더스 X 글: ‘Congress must act and pause advanced AI development NOW’ (2026-11-25)",
+    "kind": "primary",
+    "accessed_at": "2026-11-26",
+    "checked_in": "collect-2026-11-26",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-26"
+    }
+  },
+  {
+    "id": "src-axios-com-a8b01b",
+    "url": "https://www.axios.com/2026/11/25/democrats-ai-safety-restrictions-openai-anthropic-axios",
+    "publisher": "Axios",
+    "title": "Democrats sound alarm on AI, call for action after Axios reporting (2026-11-25)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-26",
+    "checked_in": "collect-2026-11-26",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-26"
+    }
+  },
+  {
+    "id": "src-axios-com-ace489",
+    "url": "https://www.axios.com/2026/11/25/anthropic-ai-human-control-debate-free-will",
+    "publisher": "Axios",
+    "title": "Scoop — AI leaders clash over surrendering human free will (2026-11-25)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-26",
+    "checked_in": "collect-2026-11-26",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-26"
+    }
+  },
+  {
+    "id": "src-x-com-3f67fc",
+    "url": "https://x.com/DarioAmodei/status/2125656399392690605",
+    "publisher": "Dario Amodei (X)",
+    "title": "아모데이 X 글: ‘No, I do not believe that we should “surrender human free will” to AI systems’ (2026-11-25)",
+    "kind": "primary",
+    "accessed_at": "2026-11-26",
+    "checked_in": "collect-2026-11-26",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-26"
+    }
+  },
+  {
+    "id": "src-techcrunch-com-00d3c7",
+    "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+    "publisher": "TechCrunch",
+    "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’ (2026-11-25)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-26",
+    "checked_in": "collect-2026-11-26",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-26"
+    }
+  },
+  {
+    "id": "src-x-com-caea7f",
+    "url": "https://x.com/tegmark/status/2125723038100451442",
+    "publisher": "Max Tegmark (X)",
+    "title": "테그마크 X 글: 아모데이 글 인용 ‘RSI가 낳을 AI를 사람이 계속 통제할 구체적 계획을 공개하라’ (2026-11-25)",
+    "kind": "primary",
+    "accessed_at": "2026-11-26",
+    "checked_in": "collect-2026-11-26",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-26"
+    }
   }
 ]
