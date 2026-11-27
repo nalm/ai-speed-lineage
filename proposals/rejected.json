@@ -832,5 +832,35 @@
     },
     "note": "편집 판단(grok-bot, nalm 위임): 제외. 기업 고객용 오남용 감시 기능으로 개발 속도 논쟁과 관련이 약함",
     "from": "2026-11-24.json"
+  },
+  {
+    "id": "p-2026-11-27-020",
+    "op": "add",
+    "target": "events",
+    "kind": "추가",
+    "after": {
+      "title": "힌턴 “의회에 남은 시간 1년” 경고(일크하 통신 11/26 게재)"
+    },
+    "evidence": [
+      {
+        "url": "https://www.ilkha.com/english/science-technology/ai-%E2%80%98godfather--geoffrey-hinton-warns-congress-has-little-time-to-rein-in-ai-563145",
+        "publisher": "Ilke News Agency",
+        "published_at": "2026-11-26",
+        "quote": "",
+        "quote_kind": "n/a",
+        "opened": true
+      }
+    ],
+    "confidence": "low",
+    "risk": [
+      "9/16 브리핑 발언을 11/26에 새 소식처럼 재게재한 기사"
+    ],
+    "review": {
+      "state": "rejected",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    },
+    "note": "편집 판단(grok-bot, nalm 위임): 제외. 같은 발언을 원래 날짜(9/16)의 NBC·BI 보도로 새 사건에 넣었으므로 중복",
+    "from": "2026-11-27.json"
   }
 ]

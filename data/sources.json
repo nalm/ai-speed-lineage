@@ -5898,5 +5898,159 @@
       "by": "grok-bot(nalm 위임)",
       "at": "2026-11-26"
     }
+  },
+  {
+    "id": "src-openai-com-0750cb",
+    "url": "https://openai.com/index/ai-policy-window/",
+    "publisher": "OpenAI",
+    "title": "The AI policy window is open. We need to act. — 크리스 리헤인 글로벌 대외정책 총괄 (2026-09-09)",
+    "kind": "primary",
+    "accessed_at": "2026-11-27",
+    "checked_in": "collect-2026-11-27",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    }
+  },
+  {
+    "id": "src-openai-com-59e10f",
+    "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+    "publisher": "OpenAI",
+    "title": "Research acceleration: The view inside OpenAI (2026-09-06)",
+    "kind": "primary",
+    "accessed_at": "2026-11-27",
+    "checked_in": "collect-2026-11-27",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    }
+  },
+  {
+    "id": "src-businessinsider-com-c0fb60",
+    "url": "https://www.businessinsider.com/godfather-of-ai-geoffrey-hinton-warning-congress-ai-regulation-bill-2026-9",
+    "publisher": "Business Insider",
+    "title": "The ‘Godfather of AI’ says the US government has one year to try to regulate AI before it gets ‘out of control’ (2026-09-18)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-27",
+    "checked_in": "collect-2026-11-27",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    }
+  },
+  {
+    "id": "src-anthropic-com-2601cd",
+    "url": "https://www.anthropic.com/responsible-scaling-policy/roadmap",
+    "publisher": "Anthropic",
+    "title": "Anthropic’s Frontier Safety Roadmap — 2026년 10월 19일 갱신(정책 목표 2개 추가)",
+    "kind": "primary",
+    "accessed_at": "2026-11-27",
+    "checked_in": "collect-2026-11-27",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    }
+  },
+  {
+    "id": "src-leanprover-community-github-io-de6a6b",
+    "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+    "publisher": "Lean FRO · Mathlib Initiative",
+    "title": "Lean verification of the Riemann Hypothesis — 공동 성명 (2026-11-21)",
+    "kind": "primary",
+    "accessed_at": "2026-11-27",
+    "checked_in": "collect-2026-11-27",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    }
+  },
+  {
+    "id": "src-bbc-com-1ed214",
+    "url": "https://www.bbc.com/news/articles/c6pqr2g7w059o",
+    "publisher": "BBC News",
+    "title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest (2026-11-20)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-27",
+    "checked_in": "collect-2026-11-27",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    }
+  },
+  {
+    "id": "src-x-com-6e17f4",
+    "url": "https://x.com/ylecun/status/2124550037912920090",
+    "publisher": "Yann LeCun (X)",
+    "title": "르쿤 X 글: ‘Dario’s spiel since GPT-2 has always been about hyping the dangers…’ (2026-11-22)",
+    "kind": "primary",
+    "accessed_at": "2026-11-27",
+    "checked_in": "collect-2026-11-27",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    }
+  },
+  {
+    "id": "src-theregister-com-a27ddc",
+    "url": "https://www.theregister.com/ai-and-ml/2026/11/24/ai-godfather-yann-lecun-torches-anthropic-ceo-over-ai-gatekeeping/5311986",
+    "publisher": "The Register",
+    "title": "AI godfather Yann LeCun torches Anthropic CEO over AI gatekeeping (2026-11-24)",
+    "kind": "secondary",
+    "accessed_at": "2026-11-27",
+    "checked_in": "collect-2026-11-27",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    }
+  },
+  {
+    "id": "src-gottheimer-house-gov-f96a69",
+    "url": "https://gottheimer.house.gov/posts/release-gottheimer-introduces-bipartisan-federal-legislation-to-make-ai-development-safer-and-more-transparent",
+    "publisher": "U.S. Rep. Josh Gottheimer",
+    "title": "RELEASE: Gottheimer Introduces Bipartisan Federal Legislation to Make AI Development Safer and More Transparent (2026-11-24)",
+    "kind": "primary",
+    "accessed_at": "2026-11-27",
+    "checked_in": "collect-2026-11-27",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    }
+  },
+  {
+    "id": "src-congress-gov-c41927",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/11157/text",
+    "publisher": "Congress.gov",
+    "title": "H.R.11157 — RSI Safety Act of 2026, 발의 원문 (2026-11-24)",
+    "kind": "primary",
+    "accessed_at": "2026-11-27",
+    "checked_in": "collect-2026-11-27",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    }
+  },
+  {
+    "id": "src-cbsnews-com-515a18",
+    "url": "https://www.cbsnews.com/news/ai-yoshua-bengio-warns-dangers-artificial-intelligence/",
+    "publisher": "CBS News",
+    "title": "“We’re racing towards huge dangers,” AI pioneer Yoshua Bengio says — 벤지오 인터뷰 (2026-11-24)",
+    "kind": "primary",
+    "accessed_at": "2026-11-27",
+    "checked_in": "collect-2026-11-27",
+    "review": {
+      "state": "approved",
+      "by": "grok-bot(nalm 위임)",
+      "at": "2026-11-27"
+    }
   }
 ]
